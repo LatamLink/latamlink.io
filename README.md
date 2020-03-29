@@ -14,9 +14,15 @@
 </p>
 
 ## Descripción 
-Documentacion técnica para el testnet LatamLink [docs.latamlink.io](http://docs.latamlink.io)
+Documentación técnica para el testnet LatamLink [docs.latamlink.io](http://docs.latamlink.io)
 
-## Contribuyendo
+Este sitio web es creado usando [https://docusaurus.io/](Docusaurus), una herramienta para mantener documentación técnica de proyectos de código libre. 
+
+docs.latamlink.io esta alojado en GitHub y se publica mediante el siguiente comando:
+
+`GIT_USER=LatamLink CURRENT_BRANCH=master USE_SSH=true npm run publish-gh-pages`
+
+## Como Contribuir
 
 Utilizamos un tablero de estilo Kanban para priorizar el trabajo. [Ir al tablero del proyecto](https://github.com/EOS-Jungle-Testnet/LatamLink/documentacion/projects/1).
 
@@ -26,7 +32,7 @@ Los principales canales de comunicación son [github issues](https://github.com/
 
 Pautas para contribuyentes. [https://developers.eoscostarica.io/docs/open-source-guidelines](https://developers.eoscostarica.io/docs/open-source-guidelines).
 
-Informe errores grandes y pequeños [abriendo un "issue"](https://github.com/LatamLink/documentacion/issues).
+Informe cualquier idea o errores grandes y pequeños [abriendo un "issue"](https://github.com/LatamLink/documentacion/issues).
 
 
 ## Licencia
