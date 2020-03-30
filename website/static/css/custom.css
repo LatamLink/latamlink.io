@@ -6,6 +6,49 @@
  */
  
 /* your custom css */
+.fixedHeaderContainer {
+	background: #f4f4f4 !important;
+	height: 100px !important;
+	padding-top: 30px !important;
+	padding-bottom: 20px !important;
+	margin-bottom: 20px !important;
+	/*border-bottom: solid 20px #FFF !important;*/
+
+}
+
+.fixedHeaderContainer a  {
+	color: #19af54 !important;
+	background: #f4f4f4 !important;
+}
+
+
+.fixedHeaderContainer a:hover  {
+	color: #5bb517 !important;
+	background: #f4f4f4 !important;
+}
+
+h2.headerTitleWithLogo {
+	display: none !important; 
+}
+
+img.logo {
+	height:80px !important;
+}
+
+.toc {
+	padding: 60px 0 !important;
+}
+
+.mainContainer {
+		padding: 60px 0 !important;
+}
+
+.onPageNav {
+		padding: 30px 0 !important;
+}
+.nav-footer .sitemap .nav-home {
+	width: 200px !important;
+}
 
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
 }

@@ -48,13 +48,13 @@ const siteConfig = {
   users,
 
   /* path to images for header/footer */
-  headerIcon: 'img/favicon.ico',
-  footerIcon: 'img/favicon.ico',
+  headerIcon: 'img/latamlink_logo-h-full-color-overwhite.svg',
+  footerIcon: 'img/footerlogo.png',
   favicon: 'img/favicon.ico',
 
   /* Colors for website */
   colors: {
-    primaryColor: '#19b054',
+    primaryColor: '#19af54',
     secondaryColor: '#000',
   },
 
