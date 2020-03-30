@@ -1,21 +1,29 @@
 {
   "docs": {
-    "Documentación": [
+    "LatamLink": [
+      "protocolo-eosio",
+      "topologia-red",
+      "recursos",
+      "interoperabilidad",
+      "privacidad"
+    ],
+    "Tutoriales": [
     	"como-iniciar",
     	"llaves-privadas",
-    	"explorador-bloques",
-    	"monitor",
-    	"api",
-    	"cli",
-    	"respaldos",
-    	"portal-aprendizaje",
-    	"boilerplate",
-    	"recursos-adicionales"
-    ]
-  },
-  "docs-other": {
-    "Recursos Adicionales": [
-      "recursos-adicionales"
+      "hola-mundo"
+    ],
+    "Herramientas": [
+      "explorador-bloques",
+      "monitor",
+      "api",
+      "cli",
+      "eos-js",
+      "respaldos",
+      "portal-aprendizaje",
+      "boilerplate"
+    ],
+    "Recursos": [
+      "portal-aprendizaje"
     ]
   }
 }
