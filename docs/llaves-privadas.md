@@ -3,7 +3,7 @@ id: llaves-privadas
 title: Manejo de Llaves Privadas
 ---
 
-## Crear cuenta en un blockchain público
+## Crear cuenta en el blockchain público
 En la terminal, vamos a ejecutar el comando `cleos` para generar las llaves criptográficas requeridas para crear una cuenta . Para crear una cuenta en el testnet de LatamLink. Además, vamos a requerir un block explorer para verificar las acciones ejecutadas. Para eso, vamos a usar Bloks.io que es muy popular entre la comunidad EOS.
 
 
