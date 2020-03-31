@@ -7,24 +7,23 @@
  
 /* your custom css */
 .fixedHeaderContainer {
-	background: #f4f4f4 !important;
-	height: 100px !important;
-	padding-top: 30px !important;
+	background: #f8f9fa !important;
+	height: 76px !important;
+	padding-top: 20px !important;
 	padding-bottom: 20px !important;
 	margin-bottom: 20px !important;
-	/*border-bottom: solid 20px #FFF !important;*/
+	box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
 
 }
 
 .fixedHeaderContainer a  {
 	color: #19af54 !important;
-	background: #f4f4f4 !important;
+	background: #f8f9fa !important;
 }
 
 
 .fixedHeaderContainer a:hover  {
 	color: #5bb517 !important;
-	background: #f4f4f4 !important;
 }
 
 h2.headerTitleWithLogo {
@@ -32,7 +31,7 @@ h2.headerTitleWithLogo {
 }
 
 img.logo {
-	height:80px !important;
+	height:60px !important;
 }
 
 .toc {
@@ -48,6 +47,14 @@ img.logo {
 }
 .nav-footer .sitemap .nav-home {
 	width: 200px !important;
+}
+
+.nav-home  {
+	padding-right: 20px !important;
+}
+
+.nav-home img {
+
 }
 
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {

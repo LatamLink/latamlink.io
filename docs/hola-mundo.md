@@ -24,6 +24,9 @@ Luego de ejecutar la compra, se puede verificar que ahora se tienen 86 KiB de RA
 
 En el block explorer de Bloks.io, se puede buscar la información de esa cuenta. Adicionalmente, se pueden revisar las acciones tomadas, incluyendo las transacciones de compra de RAM, los tokens del Faucet y el historial completo de movimientos.
 
+
+## Crear un Contrato
+
 Para continuar, vamos a crear un contrato sencillo dentro de un nuevo directorio, el cual llamamos “holacontrato”. Como en EOS se requieren recursos, estos deberán estar asociados a los tokens de una cuenta, por lo que se debe poner el mismo nombre del contrato anteriormente creado.
 
 Para editar el contrato, puede usarse un editor de texto. Para este ejemplo se utilizó Sublime Text.
@@ -39,18 +42,21 @@ Como no especificamos una, el sistema nos da un mensaje de que no existe una cl�
 
 Una vez ejecutado el comando para set contract, el sistema lee la información en el contrato para luego publicarlo.
 
+## Publicar el Contrato
 
-Una vez listo el contrato, vamos a publicar en la cuenta de Jungle Testnet. Para publicar nuestro contrato, debemos usar el comando usado en cleos y el API endpoint usado anteriormente en Jungle Testnet para subir el contrato a la ubicación que queremos con un permiso activo para poder firmar con la billetera creada.
+Una vez listo el contrato, vamos a publicar en la cuenta de LatamLink Testnet. Para publicar nuestro contrato, debemos usar el comando usado en cleos y el API endpoint usado anteriormente en LatamLink Testnet para subir el contrato a la ubicación que queremos con un permiso activo para poder firmar con la billetera creada.
 
 De vuelta al block explorer (Bloks.io), podemos verificar que la cuenta es dueña de un contrato que expone la acción “Hola” y que contiene la información abi en la que se especifican en estructura JSON las acciones dentro del contrato y componentes asociados.
 
 
-Una vez que el contrato esté listo, podemos ejecutar una acción en el contrato. Con cleos existe un comando para especificar el endpoint dentro de Jungle Testnet y así ejecutar la acción “Hola”. Para este ejemplo, ponemos como input: “eoscostarica”. El output de la acción será el texto “Hola eoscostarica”.
+Una vez que el contrato esté listo, podemos ejecutar una acción en el contrato. Con cleos existe un comando para especificar el endpoint dentro de LatamLink Testnet y así ejecutar la acción “Hola”. Para este ejemplo, ponemos como input: “eoscostarica”. El output de la acción será el texto “Hola eoscostarica”.
 
-Podemos verificar en Bloks.io las acciones ejecutadas.
+Podemos verificar en el explorador de bloques las acciones ejecutadas.
 
 Es necesario esperar unos segundos para completar la irreversibilidad del bloque, ya que los block producers deben hacer la validación del bloque de datos para esto.
 
-Finalmente, esta es una muestra de cómo se puede interactuar con una blockchain. Existen herramientas de Javascript, librería eosjs que podría implementarse para ejecutar acciones de una manera más programática para integrar con dApps, poder persistir datos, o incluso ejecutar lógica de negocios en la blockchain con este mismo patrón.
+Finalmente, esta es una muestra de cómo se puede interactuar con una blockchain. Existen herramientas de Javascript, librería [EOS JS](eos-js.md) que podría implementarse para ejecutar acciones de una manera más programática para integrar con dApps, poder persistir datos, o incluso ejecutar lógica de negocios en la blockchain con este mismo patrón.
 
+
+## Video-Tutorial
 <iframe width="560" height="315" src="https://www.youtube.com/embed/nMivNMvS09Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
