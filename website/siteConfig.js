@@ -71,7 +71,7 @@ const siteConfig = {
     ]
   },
   */
-
+  editUrl: 'https://github.com/LatamLink/documentacion/edit/master/docs/',
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
   copyright: `Copyright © ${new Date().getFullYear()} LatamLink`,
 
@@ -88,6 +88,7 @@ const siteConfig = {
   // No .html extensions for paths.
   cleanUrl: true,
 
+  twitterUsername: "EOSCostaRica",
   // Open Graph and Twitter card images.
   ogImage: 'img/undraw_online.svg',
   twitterImage: 'img/undraw_tweetstorm.svg',
@@ -104,7 +105,7 @@ const siteConfig = {
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
-  //   repoUrl: 'https://github.com/facebook/test-site',
+    repoUrl: 'https://github.com/LatamLink',
 };
 
 module.exports = siteConfig;

@@ -9,7 +9,10 @@ sidebar_label: APIs
 Diferentes API endpoints para interactuar con el testnet.
 
 
+
 ## Endpoints 
+
+	 https://latamlink.eosio.cr
 
 ### HTTP RPC 
 
