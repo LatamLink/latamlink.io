@@ -42,6 +42,7 @@ const siteConfig = {
     {doc: 'api', label: 'APIs'},
     {page: 'ayuda', label: 'Ayuda'},
     {blog: true, label: 'Blog'},
+    {search: true}
   ],
 
   // If you have users set above, you add it here:
@@ -78,6 +79,11 @@ const siteConfig = {
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
     theme: 'default',
+  },
+  algolia: {
+    apiKey: 'my-api-key',
+    indexName: 'my-index-name',
+    algoliaOptions: {} // Optional, if provided by Algolia
   },
 
   // Add custom scripts here that would be placed in <script> tags.

@@ -18,9 +18,22 @@ Documentación técnica para el testnet LatamLink [docs.latamlink.io](https://do
 
 Este sitio web es creado usando [https://docusaurus.io/](Docusaurus), una herramienta para mantener documentación técnica de proyectos de código libre. 
 
+### Editar Contenido
 La documentación se genera a partir de archivos en formato markdown ubicados dentro de la sub-carpeta `/docs`. Ver mas información [aquí](https://github.com/LatamLink/documentacion/tree/master/website).
 
-[docs.latamlink.io](https://docs.latamlink.io) esta alojado en GitHub y se publica mediante el siguiente comando:
+### Ambiente Local
+Para correr el sitio web en un ambiente local de desarrollo se requiere correr los siguientes comandos: 
+
+`cd website` 
+
+`yarn start` 
+
+### Publicar
+[docs.latamlink.io](https://docs.latamlink.io) esta alojado en GitHub y se publica mediante el siguientes comandos:
+
+`cd website`
+
+`yarn build`
 
 `GIT_USER=LatamLink CURRENT_BRANCH=master USE_SSH=true npm run publish-gh-pages`
 
