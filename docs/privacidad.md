@@ -4,4 +4,4 @@ title: Privacidad
 sidebar_label: Privacidad
 ---
 
-Privacidad de transacciones.
+Privacidad de transacciones. Zero Knowledge Proof (ZKP)

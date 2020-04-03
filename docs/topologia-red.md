@@ -34,3 +34,22 @@ Proveen acceso a los bloques de los producers , se conectan directamente a los p
 La red de consumo utiliza la red de acceso para escritura y lectura del blockchain. Se compone de todas  las aplicaciones y usuarios que interactúan con el blockchain. Las interacciones de usuarios y aplicaciones se realiza mediante proveedores de firmas digitales o wallets y librerías como EOSJS.
 
 ![Topología Red de Consumo](/img/diagramas/red-consumo.png)
+
+
+## Notas LAC-Chain
+
+
+### Optimización de Rutas / Conexiones 
+La meta es gestionar la topología de red de forma dinámica usando contratos inteligentes.
+
+En la [topología actual de de LACChain](https://github.com/lacchain/besu-network/blob/master/TOPOLOGY_AND_ARCHITECTURE.md), los nodos "boot" se pueden conectar a todos los nodos de la red (boot, validador y escritor). En la actualidad, todos los nodos "boot" están conectados a todos los nodos. Esto no es muy escalable ni eficiente. Además, los nodos no están restringidos por la red para conectarse solo a los nodos que corresponden (es decir, escritor con boot, o validador con validador y boot), ni tienen la información sobre qué tipo de nodo es cada uno. Necesitamos proporcionarles esa información fuera de la cadena.
+
+
+### Infraestructura Cloud
+
+Es de interes de LAC-Chain utilizar implementaciones automáticas en varias nubes utilizando herramientas como terraform.
+- Aprovechar las herramientas en la nube para mejorar las capacidades de la red.
+- Explorar el uso de bóvedas de claves en la nube.
+- Trabajar con socios para proporcionar servicios en la nube en LACChain en una base SAAS.
+
+

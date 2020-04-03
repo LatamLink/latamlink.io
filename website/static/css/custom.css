@@ -21,7 +21,6 @@
 	background: #f8f9fa !important;
 }
 
-
 .fixedHeaderContainer a:hover  {
 	color: #5bb517 !important;
 }
@@ -39,11 +38,11 @@ img.logo {
 }
 
 .mainContainer {
-		padding: 60px 0 !important;
+	padding: 60px 0 !important;
 }
 
 .onPageNav {
-		padding: 30px 0 !important;
+	padding: 30px 0 !important;
 }
 .nav-footer .sitemap .nav-home {
 	width: 200px !important;

@@ -4,12 +4,17 @@ title: Asignación de recursos
 sidebar_label: Recursos
 ---
 
-La cuenta “system” tendrá recursos ilimitados. La autoridad podrá determinar la cantidad de cada recurso que se asignará a las demás cuentas dentro de la blockchain.
+LACChain no tiene y no tendrá tarifas de transacción. Sin embargo, para limitar el uso de la red a sus límites técnicos y evitar ataques de denegación de servicio, es necesario establecer un mecanismo para solicitar y asignar recursos de red.
 
-Adicionalmente, estas cuentas podrán utilizar los siguientes recursos en la red:
+
+Las cuentas podrán utilizar los siguientes recursos en la red:
  - CPU
  - RAM
  - NET
+
+
+ La cuenta “system” tendrá recursos ilimitados. La autoridad podrá determinar la cantidad de cada recurso que se asignará a las demás cuentas dentro de la blockchain.
+
 
 Los recursos son establecidos de forma directa mediante una transacción firmada por la cuenta “system.” Esta autorización se deberá obtener mediante un proceso multifirmas de las cuentas de los productores de bloques elegidos. Asimismo, se podrá usar una función conocida como “delegate function” sin necesidad de usar funciones de “EOS staking”. 
 

@@ -1,11 +1,14 @@
 {
   "docs": {
     "Testnet": [
-      "protocolo-eosio",
+      "eosio",
+      "protocolo-consenso",
       "topologia-red",
       "recursos",
+      "rendimiento",
       "interoperabilidad",
-      "privacidad"
+      "privacidad",
+      "legal"
     ],
     "Guías": [
     	"como-iniciar",
@@ -15,15 +18,19 @@
     "Herramientas": [
       "explorador-bloques",
       "monitor",
+      "gestion-red",
       "api",
       "cli",
       "eos-js",
       "respaldos",
       "portal-aprendizaje",
-      "boilerplate"
+      "boilerplate",
+      "roadmap"
     ],
     "Recursos": [
-      "portal-aprendizaje"
+      "portal-aprendizaje",
+      "otros-recursos",
+      "glosario"
     ]
   }
 }

@@ -4,7 +4,7 @@ title: Interoperabilidad
 sidebar_label: Interoperabilidad
 ---
 
-La interoperabilidad entre distintos protocoles blockain se puede lograr de dos formas:
+La interoperabilidad entre distintos protocoles blockchain se puede lograr de dos formas:
 
  **Trusted Peers:** Esta modalidad es mas sencilla de implementar, utilizando una capa de confianza para determinar que ocurre en cada cadena. 
  
@@ -15,3 +15,5 @@ La interoperabilidad entre distintos protocoles blockain se puede lograr de dos 
 ## Interoperabilidad  Ethereum ⇔ EOSIO 
 
 ## EVM sobre EOSIO
+
+Interoperatividad de monitores de red ? Oraculos de performance?

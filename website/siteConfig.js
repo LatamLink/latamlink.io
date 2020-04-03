@@ -38,10 +38,11 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    { doc: "como-iniciar", label: "Docs" },
-    { doc: "api", label: "APIs" },
-    { page: "ayuda", label: "Ayuda" },
-    { blog: true, label: "Blog" }
+    {doc: 'como-iniciar', label: 'Docs'},
+    {doc: 'api', label: 'APIs'},
+    {page: 'ayuda', label: 'Ayuda'},
+    {blog: true, label: 'Blog'},
+    {search: true}
   ],
 
   // If you have users set above, you add it here:
@@ -82,6 +83,12 @@ const siteConfig = {
   separateCss: [
     "css/static_website.css"
   ],
+  algolia: {
+    apiKey: 'my-api-key',
+    indexName: 'my-index-name',
+    algoliaOptions: {} // Optional, if provided by Algolia
+  },
+
   // Add custom scripts here that would be placed in <script> tags.
   scripts: ["https://buttons.github.io/buttons.js"],
 
