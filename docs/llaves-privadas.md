@@ -1,6 +1,7 @@
 ---
 id: llaves-privadas
 title: Manejo de Llaves Privadas
+sidebar_label: Llaves Privadas
 ---
 
 ## Crear cuenta en el blockchain público

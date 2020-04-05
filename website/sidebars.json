@@ -23,13 +23,12 @@
       "cli",
       "eos-js",
       "respaldos",
-      "portal-aprendizaje",
       "boilerplate",
       "roadmap"
     ],
     "Recursos": [
-      "portal-aprendizaje",
       "otros-recursos",
+      "redes-eosio",
       "glosario"
     ]
   }

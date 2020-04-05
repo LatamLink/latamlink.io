@@ -6,6 +6,19 @@
  */
  
 /* your custom css */
+
+img[src*='#left'] {
+    float: left;
+}
+img[src*='#right'] {
+    float: right;
+}
+img[src*='#center'] {
+    display: block;
+    margin: auto;
+}
+
+
 .fixedHeaderContainer {
 	background: #f8f9fa !important;
 	height: 76px !important;
