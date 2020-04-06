@@ -12,10 +12,10 @@ Algunas de las características innovadoras de EOSIO incluyen:
 [![EOSIO Github](/img/eosio-logo.png#right)](https://github.com/eosio)
 - **Baja latencia** en confirmación de bloques nuevos  *(0.5 segundos)*
 - Finalidad **tolerante a fallas bizantinas BFT**
-- **Nombres de cuentas legibles por humanos** (por ejemplo: `latamlink12`)
+- **Nombres de cuentas legibles por humanos** *(e.g. :* `latamlink12`*)*
 - **Permisos ACL** basados en roles jerárquicos
 - Contratos actualizables **escritos en C++** facilitan el uso a programadores.
-- Soporte para llaves protegidas por **hardware biométrico** *(por ejemplo, Apple Secure Enclave)*
+- Soporte para llaves protegidas por **hardware biométrico** *(e.g. : Apple Secure Enclave)*
 - Diseñado para la **comunicación Inter-Blockchain**
 
 Otra característica importante de una red blockchain basada en el protocolo EOSIO tiene una arquitectura flexible, en la cual gran parte de las reglas de operación se definen a través de los **contratos del sistema**. 
