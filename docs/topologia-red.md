@@ -1,7 +1,9 @@
 ---
 id: topologia-red
 title: Topología de Red
+sidebar_label: Topología de Red
 ---
+
 
 <img src="/img/diagramas/topologia-red.png" alt="Topologia de Red LatamLink" width="450"/>
 
@@ -35,10 +37,6 @@ La red de consumo utiliza la red de acceso para escritura y lectura del blockcha
 
 ![Topología Red de Consumo](/img/diagramas/red-consumo.png)
 
-
-## Notas LAC-Chain
-
-
 ### Optimización de Rutas / Conexiones 
 La meta es gestionar la topología de red de forma dinámica usando contratos inteligentes.
 
@@ -51,5 +49,3 @@ Es de interes de LAC-Chain utilizar implementaciones automáticas en varias nube
 - Aprovechar las herramientas en la nube para mejorar las capacidades de la red.
 - Explorar el uso de bóvedas de claves en la nube.
 - Trabajar con socios para proporcionar servicios en la nube en LACChain en una base SAAS.
-
-

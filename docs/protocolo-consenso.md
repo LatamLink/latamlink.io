@@ -1,53 +1,43 @@
 ---
 id: protocolo-consenso
 title: Mecanismo de Consenso
-sidebar_label: Protocolo de Consenso
+sidebar_label: Mecanismo de Consenso
 ---
 
-Defina un número fijo adecuado de nodos de validación activos y habilite una rotación basada en contratos inteligentes de tal manera que:
+El mecanismo de consenso asegura que cada nuevo bloque que se agrega al Blockchain sea la única versión de la verdad acordada por todos los nodos en la red. Por lo tanto, un algoritmo de consenso tiene como objetivo encontrar un acuerdo común que sea una aceptado por toda la red.
+
+En el caso de LatamLink existe un grupo de nodos que poseen la autoridad de validar transacciones y escribir estas transacciones dentro de bloques nuevos. A estos nodos los denominaremos **Productores de Bloques**. 
+
+## Proof of Authority (POA)
+
+El grupo de productores de bloques poseen la autoridad de escribir a la cadena de bloques porque fueron otorgados este privilegio por parte de la  autoridad superior, el comité permisionador, quien sera la máxima autoridad y quien determina cuales serán los nodos productores de bloques. 
+
+Cualquiera que cumpla con un mínimo de requisitos técnicos puede aplicar para ser escritor o validador.
+
+## Productores de Bloques Activos
+
+Se define un número fijo adecuado de nodos activos (EOSIO permite 125 max)
+
+Los nodos productores de bloques pertenecen a un grupo que comparte la responsabilidad de validar y escribir todas las acciones en la red.
+
+Son capaces de reconocer las firmas de los nodos escritores y verificar que las transacciones hayan sido transmitidas a la red por nodos escritores autorizados en el contrato inteligente para su autorización. 
+
+Este grupo se organiza en un lista en orden alfabético.
+
+Los bloques nuevos son producidos por el primer nodo  en la lista durante un periodo de 6 segundos (12 bloques) y luego pasa el siguiente nodo a producir los siguientes 12 bloques y así sucesivamente. 
+
+### Rotación de nodos activos
+
+- Se habilita una rotación basada en contratos inteligentes (random) sin poder predecir quienes sean (entropia externa)
+
+- Los nodos también se rotan periódicamente en función de la descentralización y el rendimiento. Semanal?
+
 - Los nodos activos y de respaldo pueden cambiarse automáticamente cuando se detectan fallas de funcionamiento.
-- Los nodos también se rotan periódicamente en función de la descentralización y el rendimiento.
-- Ser capaz de reconocer las firmas de los nodos escritores y verificar que las transacciones hayan sido transmitidas a la red por nodos escritores autorizados en el contrato inteligente para su autorización. 
 
 
-## Trazabilidad de nodos broadcasters de transacciones (Full Nodes)
-Los nodos sean capaces de reconocer a través de que nodo a entrado la transacciones a la red 
+### Irreversabilidad de Bloques
 
-verificar que la transacción fue emitida por un nodo que esté permisionado . 
-
-Esta trazabilidad posiblemente requiera modificar la estructura de la transacción para incluir la firma del nodo.
-
-(actualmente esto no se permite en BESU IBFT 2) (problema de bloque vacios)
-
-No se puede verificar quien es el nodo validador que puede escribir.
-
-- Quien maneja esa lista? 
-
-
-Hoy en día, no se puede rastrear qué nodo de escritor generó esa transacción, por lo que no es posible hacerlos legalmente responsables de ella.
-
-## Comite Permisionador
-
-Evalua entidades que quieren ser validadores (BID)
-
-Eventualmemte habra un vehiculo legal , quien verfica identodad y firma contratos con productores de bloques. 
-
-
-Cualquiera que cumpla con un minimo de requisitos tecnicos puede ingresar
-Los validadores no deciden quien entra es el comite permisionador
-
-Puede aplicar para ser escritor o validador - mantiene la lista de peers confiados.
-
-
-
-
-
-## Rotación de nodos validadores
-
-- definir un numero optimo de nodos validadores 
-- por ejemplo 21 activos y backups
-- definir validadores por aleatoriedad (Randomly assigned schedule) semanal
-- sin poder predecir quienes sean (entropia externa)
+Los bloques no se consideran irreversibles en la cadena de hasta que hayan sido validadas por 2/3 +1 de los productores activos. De tal manera que si un productor del grupo inserta una transacción invalida los nodos siguientes validaran las transacciones y no serán incluidas sin que 2/3 +1 hayn validado ese bloques. 
 
 
 ## Productores de Respaldo 
@@ -59,32 +49,41 @@ automatico o manual ?
 -  oracle smart contracts
 -  comite permisionador
 
-Se puedan rotar los nodos validadores (definir numero optimo de validadores)
-Nodos backup / 
+Se require definir numero optimo de nodos backup. 
 
 
-herramientas de monitoreo
+## Trazabilidad de nodos
+Los nodos sean capaces de reconocer a través de que nodo ha entrado la transacciones a la red , broadcasters de transacciones (Full Nodes)
 
-Producir informacion descrentralizada y confiable sobre cada nodo?
+verificar que la transacción fue emitida por un nodo que esté permisionado . 
 
+Esta trazabilidad posiblemente requiera modificar la estructura de la transacción para incluir la firma del nodo.
 
-	- a que entidad pertenece 
-	- ubicacion de nodos
-	- performance del nodo
-	- datos publicos
-	- oracle distribuido que provee datos de performance a smart contract
-	- datos podrian venir de validadores (todo tienen el mismo peso ) , sin embargo el comite permisionadore se reserva el derecho discrecional de eliminar un productor.
+(actualmente esto no se permite en BESU IBFT 2) (problema de bloque vacios)
 
-- comité permisionador que tengo el menor intrveencion posible  . sin embrago para una red publica permisionada ser requiere de 
+No se puede verificar quien es el nodo validador que puede escribir.
 
+- Quien maneja esa lista? 
 
-
-## Modificaciones a Contratos de Sistema EOSIO
-
-Se dispondrá de una modificación en el sistema de validación de contratos o “system contract validations” (este es un fork de los contratos de la empresa block.one). Por ejemplo ver los siguientes [contratos de sistema](https://github.com/theblockstalk/eosio-contracts/tree/governance/governance/POA/include) modificados POA para EOSIO.
+Hoy en día, no se puede rastrear qué nodo de escritor generó esa transacción, por lo que no es posible hacerlos legalmente responsables de ella.
 
 
-Además, se eliminará el uso de tokens y de votos característicos del protocolo EOSIO. Es decir, al momento de girar recursos, no será necesario disponer de ningún token. Esta funcionalidad no necesariamente se eliminará, sino que se utilizará una función de “assert false” para deshabilitar las funciones ya que la plataforma no soporta estas funciones.
+
+## Comite Permisionador
+
+Evalua entidades que quieren ser validadores (BID)
+
+Eventualmemte habrá un vehículo legal , quien verifica identidad y firma contratos con productores de bloques. 
+
+Esta  autoridad central podrá ser derivada de un conjunto de actores mediante aprobaciones multifirmas (multisig) te tal manera que se requieran del consenso del grupo mediante la aprobación de la mayoría simple, es decir, que se junten los votos de la mitad de los actores más uno adicional como mínimo.
+
+- comité permisionador que tengo el menor intervención posible  . sin embrago para una red publica permisionada ser requiere 
+
+## Contratos de Sistema
+
+Se dispondrá el mecanismo de validación para LAC-Chain mediante contratos de sistema personalizados. Para esto nos basaremos en los contratos de sistema nativos de EOSIO.  cambio es un cambio de DPOS a POA de LAC-Chain
+
+Este cambio implica deshabilitar el uso de tokens y de votos característicos del protocolo DPOS. Es decir, al momento de girar recursos, no será necesario disponer de ningún token. Esta funcionalidad no necesariamente se eliminará, sino que se utilizará una función de “assert false” para deshabilitar las funciones ya que la plataforma no soporta estas funciones.
 
 Funciones deshabilitadas:
 
@@ -96,19 +95,3 @@ Funciones deshabilitadas:
  - Namebiding
  - Rex
 
-## Cuenta privilegiada "system"
-
-Se fijará una cuenta compuesta por el grupo de productores de bloques que represente la autoridad máxima de la red. Esta cuenta podrá ejecutar cualquier acción en la red y poseer acceso ilimitado a los recursos. Es decir, se podrá iniciar una cadena de bloques con un solo nodo (bios node) que puede agregar otros nodos a la tabla de productores de bloques. Este nodo podrá determinar cuáles cuentas pueden compartir la responsabilidad de producir bloques nuevos en la cadena.
-
-Asimismo, se utilizará un contrato multifirma (o “multisig”) con parámetros variables que requerirá el consentimiento de la mayoría de los productores en la tabla. Esta cuenta privilegiada se denominará la cuenta “system”.
-
-Se propone una función multisig para agregar un block producer. Para añadir otro productor de bloques, solo se requiere una firma. Sin embargo, luego requerirán dos firmas. Después, tres firmas, y así seguidamente.
-
-
-| # Productores | Firmas Requeridas |
-|---|---|
-| 1 | 1/1 |
-| 2 | 2/2 |
-| 3 | 2/3 |
-| 4 | 3/4 |
-| 5 | 3/5 |

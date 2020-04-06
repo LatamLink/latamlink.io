@@ -1,9 +1,9 @@
 ---
-id: bolierplate
-title: Other Document
+id: boilerplate
+title: Dapp Boilerplate
+sidebar_label: dAPP Boilerplate
 ---
 
-## Dapp dev boilerplate
+## Dapp Boilerplate
 
-Boilerplate para crear Dapps en un ambiente local.
-
+Un marco de desarrollo "Full Stack" para acelerar el desarollo de aplicaciones de blockchain.

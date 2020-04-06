@@ -3,6 +3,7 @@ id: interoperabilidad
 title: Interoperabilidad
 sidebar_label: Interoperabilidad
 ---
+LAC-Chain es independiente de la tecnología, por lo que queremos poder integrar distintos protocolos blockchain que están siendo utilizados en LAC-Chain.
 
 La interoperabilidad entre distintos protocoles blockchain se puede lograr de dos formas:
 

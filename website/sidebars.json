@@ -16,20 +16,19 @@
       "hola-mundo"
     ],
     "Herramientas": [
-      "explorador-bloques",
-      "monitor",
+      "monitoreo",
       "gestion-red",
+      "explorador-bloques",
       "api",
       "cli",
       "eos-js",
       "respaldos",
-      "portal-aprendizaje",
-      "boilerplate",
+      "boilerplate  ",
       "roadmap"
     ],
     "Recursos": [
-      "portal-aprendizaje",
       "otros-recursos",
+      "redes-eosio",
       "glosario"
     ]
   }
