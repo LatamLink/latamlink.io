@@ -4,18 +4,15 @@ title: Mecanismo de Consenso
 sidebar_label: Mecanismo de Consenso
 ---
 
-El mecanismo de consenso, en esencia, asegura que cada nuevo bloque que se agrega al Blockchain sea la única versión de la verdad acordada por todos los nodos en la red. Por lo tanto, un algoritmo de consenso tiene como objetivo encontrar un acuerdo común que sea una aceptado por toda la red.
+El mecanismo de consenso asegura que cada nuevo bloque que se agrega al Blockchain sea la única versión de la verdad acordada por todos los nodos en la red. Por lo tanto, un algoritmo de consenso tiene como objetivo encontrar un acuerdo común que sea una aceptado por toda la red.
 
 En el caso de LatamLink existe un grupo de nodos que poseen la autoridad de validar transacciones y escribir estas transacciones dentro de bloques nuevos. A estos nodos los denominaremos **Productores de Bloques**. 
 
 ## Proof of Authority (POA)
 
-El grupo de productores de bloques poseen la autoridad de escribir a la cadena de bloques porque fueron otorgados este privilegio por parte de la  autoridad superior , el comité permisionador, quien sera la máxima autoridad y quien determina cuales serán los nodos productores de bloques. 
+El grupo de productores de bloques poseen la autoridad de escribir a la cadena de bloques porque fueron otorgados este privilegio por parte de la  autoridad superior, el comité permisionador, quien sera la máxima autoridad y quien determina cuales serán los nodos productores de bloques. 
 
-Cualquiera que cumpla con un minimo de requisitos tecnicos puede ingresar
-Los validadores no deciden quien entra es el comite permisionador
-
-Puede aplicar para ser escritor o validador - mantiene la lista de peers confiados.
+Cualquiera que cumpla con un mínimo de requisitos técnicos puede aplicar para ser escritor o validador.
 
 ## Productores de Bloques Activos
 
@@ -76,11 +73,11 @@ Hoy en día, no se puede rastrear qué nodo de escritor generó esa transacción
 
 Evalua entidades que quieren ser validadores (BID)
 
-Eventualmemte habra un vehiculo legal , quien verfica identodad y firma contratos con productores de bloques. 
+Eventualmemte habrá un vehículo legal , quien verifica identidad y firma contratos con productores de bloques. 
 
 Esta  autoridad central podrá ser derivada de un conjunto de actores mediante aprobaciones multifirmas (multisig) te tal manera que se requieran del consenso del grupo mediante la aprobación de la mayoría simple, es decir, que se junten los votos de la mitad de los actores más uno adicional como mínimo.
 
-- comité permisionador que tengo el menor intrveencion posible  . sin embrago para una red publica permisionada ser requiere 
+- comité permisionador que tengo el menor intervención posible  . sin embrago para una red publica permisionada ser requiere 
 
 ## Contratos de Sistema
 

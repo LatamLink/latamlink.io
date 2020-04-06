@@ -5,7 +5,7 @@ sidebar_label: Protocolo EOSIO
 ---
 
 
-**EOSIO** es un software de código abierto que permite lanzar redes blockhain altamente configurables sobre las cuales desarrolladores y emprendedores pueden correr aplicaciones blockchain de alto rendimiento. [EOSIO](https://eos.io) fue creado en el 2018 y es mantenido por la empresa [Block One](https://block.one).  La primera red pública lanzada sobre EOSIO se llama **EOS**, tambien referida como "mainnet". EOS es una de múltiples redes blockchain públicas actualmente utilizado EOSIO. Puede ver la siguiente [lista de redes EOSIO](redes-eosio.md). También existen múltiples redes privadas que actualmente utilizan EOSIO.
+**EOSIO** es software de código abierto que permite lanzar redes blockhain altamente configurables sobre las cuales desarrolladores y emprendedores pueden correr aplicaciones blockchain de alto rendimiento. [EOSIO](https://eos.io) fue creado en el 2018 y es mantenido por la empresa [Block One](https://block.one).  La primera red pública lanzada sobre EOSIO se llama **EOS**, tambien referida como "mainnet". EOS es una de múltiples redes blockchain públicas actualmente utilizado EOSIO. Puede ver la siguiente [lista de redes EOSIO](redes-eosio.md). También existen múltiples redes privadas que actualmente utilizan EOSIO.
 
 [![EOSIO Github](/img/eosio-logo.png#center)](https://github.com/eosio)
 

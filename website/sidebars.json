@@ -16,14 +16,14 @@
       "hola-mundo"
     ],
     "Herramientas": [
-      "explorador-bloques",
-      "monitor",
+      "monitoreo",
       "gestion-red",
+      "explorador-bloques",
       "api",
       "cli",
       "eos-js",
       "respaldos",
-      "boilerplate",
+      "boilerplate  ",
       "roadmap"
     ],
     "Recursos": [

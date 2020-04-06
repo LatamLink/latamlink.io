@@ -4,10 +4,7 @@ title: Recursos para aprender EOSIO
 sidebar_label: Portal de Aprendizaje
 ---
 
-
-Visite [learn.eoscostarica.io](https://learn.eoscostarica.io)
-
-Si está interesado en aprender más sobre el ecosistema EOSIO, le recomendamos hechar un vistazo a los siguientes recursos:
+Si está interesado en aprender más sobre el ecosistema EOSIO, le recomendamos los siguientes recursos:
 
 - [Portal de Aprendizaje EOS Costa Rica ](https://learn.eoscostarica.io)
 - [Como Aprender a desarrollar en EOSIO](https://medium.com/@theblockstalk/learning-eosio-development-telos-eos-and-other-blockchains-94d384a8b09f)

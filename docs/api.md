@@ -8,6 +8,7 @@ sidebar_label: APIs
 
 Diferentes API endpoints para interactuar con el testnet.
 
+[API Specification](https://developers.eos.io/manuals/eos/latest/nodeos/plugins/chain_api_plugin/api-reference/index)
 
 
 ## Endpoints 
