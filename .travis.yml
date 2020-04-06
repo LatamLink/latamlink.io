@@ -1,14 +1,14 @@
 # .travis.yml
 language: node_js
 node_js:
-  - "8"
+  - '8'
 branches:
   only:
-    - gh-
+    - master
 cache:
   yarn: true
 script:
   - git config --global user.name "${GH_NAME}"
   - git config --global user.email "${GH_EMAIL}"
   - echo "machine github.com login ${GH_NAME} password ${GH_TOKEN}" > ~/.netrc
-  - cd website && yarn install && yarn build && GIT_USER=LatamLink CURRENT_BRANCH=master USE_SSH=true yarn run publish-gh-pages
+  - cd website && yarn install && yarn build && GIT_USER="${GH_NAME}" yarn run publish-gh-pages
