@@ -16,7 +16,10 @@ Cualquiera que cumpla con un mínimo de requisitos técnicos puede aplicar para 
 
 ## Productores de Bloques Activos
 
-Se define un número fijo adecuado de nodos activos (EOSIO permite 125 max)
+Se define un número fijo adecuado de nodos activos 
+
+- Hasta **125 productores de bloque activos**, especificado mediante  `max_producers` en [config.hpp](https://github.com/EOSIO/eos/blob/master/libraries/chain/include/eosio/chain/config.hpp#L106)
+
 
 Los nodos productores de bloques pertenecen a un grupo que comparte la responsabilidad de validar y escribir todas las acciones en la red.
 
