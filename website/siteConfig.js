@@ -84,8 +84,8 @@ const siteConfig = {
     "css/static_website.css"
   ],
   algolia: {
-    apiKey: 'my-api-key',
-    indexName: 'my-index-name',
+    apiKey: 'f7e83f64ca037b5315b5ccd56f79910c',
+    indexName: 'latamlink',
     algoliaOptions: {} // Optional, if provided by Algolia
   },
 
