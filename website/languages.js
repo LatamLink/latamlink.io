@@ -11,12 +11,12 @@ const languages = [
     tag: "en",
   },
   {
-    enabled: true,
+    enabled: false,
     name: "Español",
     tag: "es-ES",
   },
   {
-    enabled: true,
+    enabled: false,
     name: "Português (Brasil)",
     tag: "pt-BR",
   },
