@@ -23,14 +23,14 @@ const users = [
 const siteConfig = {
   title: "LatamLink Testnet", // Title for your website.
   tagline: "Documentación Técnica",
-  url: "http://latamlink.io/", // Your website URL
+  url: "https://latamlink.io/", // Your website URL
   baseUrl: "/", // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
 
   // Used for publishing and more
-  projectName: "documentacion",
+  projectName: "latamlink.io",
   organizationName: "LatamLink",
 
   // For no header links in the top nav bar -> headerLinks: [],
