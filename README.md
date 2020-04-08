@@ -14,12 +14,12 @@
 </p>
 
 ## Descripción 
-Documentación técnica para el testnet LatamLink [docs.latamlink.io](https://docs.latamlink.io)
+Documentación técnica para el testnet LatamLink [latamlink.io](https://latamlink.io)
 
 Este sitio web es creado usando [https://docusaurus.io/](Docusaurus), una herramienta para mantener documentación técnica de proyectos de código libre. 
 
 ### Editar Contenido
-La documentación se genera a partir de archivos en formato markdown ubicados dentro de la sub-carpeta `/docs`. Ver mas información [aquí](https://github.com/LatamLink/documentacion/tree/master/website).
+La documentación se genera a partir de archivos en formato markdown ubicados dentro de la sub-carpeta `/docs`. Ver mas información [aquí](https://github.com/LatamLink/latamlink.io/tree/master/website).
 
 ### Ambiente Local
 Para correr el sitio web en un ambiente local de desarrollo se requiere correr los siguientes comandos: 
@@ -29,7 +29,7 @@ Para correr el sitio web en un ambiente local de desarrollo se requiere correr l
 `yarn start` 
 
 ### Publicar
-[docs.latamlink.io](https://docs.latamlink.io) esta alojado en GitHub y se publica mediante el siguientes comandos:
+[latamlink.io](https://latamlink.io) esta alojado en GitHub y se publica mediante el siguientes comandos:
 
 `cd website`
 
@@ -39,7 +39,7 @@ Para correr el sitio web en un ambiente local de desarrollo se requiere correr l
 
 ## Como Contribuir
 
-Utilizamos un tablero de estilo Kanban para priorizar el trabajo. [Ir al tablero del proyecto](https://github.com/EOS-Jungle-Testnet/LatamLink/documentacion/projects/1).
+Utilizamos un tablero de estilo Kanban para priorizar el trabajo. [Ir al tablero del proyecto](https://github.com/LatamLink/documentacion/projects/1).
 
 
 Los principales canales de comunicación son [github issues](https://github.com/LatamLink/documentacion/issues) y el [canal de Telegram](https://t.me/latamlink). Siéntase libre mandar todas las preguntas que pueda tener.
