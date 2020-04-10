@@ -4,6 +4,7 @@
       "eosio",
       "protocolo-consenso",
       "topologia-red",
+      "monitoreo",
       "recursos",
       "rendimiento",
       "cuentas-permisos",
@@ -20,7 +21,7 @@
 
     ],
     "Herramientas": [
-      "monitoreo",
+      "monitor",
       "gestion-red",
       "explorador-bloques",
       "api",

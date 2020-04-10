@@ -21,17 +21,16 @@ Contratos inteligentes para monitoreo.
 
 - oracle distribuido que provee datos de performance a smart contract
 - datos podrían venir de validadores (todo tienen el mismo peso )
-- el comité permisionadore se reserva el derecho discrecional de eliminar un productor.
+- el comité permisionador se reserva el derecho discrecional de eliminar un productor.
 
 ### Información sobre nodos
 - a que entidad pertenece 
 - ubicación de nodos
-- performance del nodo
+- metricas de rendimiento y disponibilidad del nodo
 - datos públicos
 	
 
 ### Monitoreo en la Nube
-
 
 Además de aprovechar los servicios en la nube existentes para el monitoreo.
 
@@ -43,7 +42,7 @@ Adicionalmente se explorarán herramientas de Blockchain Analytics y Data Scienc
 
 ## Monitor de Red
 
-Se proponer crear un monitor de red nativo como herramienta para lograr este objetivo. 
+Se proponer crear un [monitor de red](monitor.md) nativo como herramienta para lograr este objetivo. 
  
 
 

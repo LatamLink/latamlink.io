@@ -22,10 +22,10 @@ sidebar_label: Roadmap
 - Block explorer
 - Cloud Integrations and Infrastructure Tools
 
-### Pre MainNet (September 30, 2020)
+## Pre MainNet (September 30, 2020)
 - Privacy layer leveraged as native
 
-### MainNet (December 31, 2020)
+## MainNet (December 31, 2020)
 - Quantum Safe
 - InterBlockchain Comunication
 - Activity Legally Supervised
