@@ -39,15 +39,15 @@ Para correr el sitio web en un ambiente local de desarrollo se requiere correr l
 
 ## Como Contribuir
 
-Utilizamos un tablero de estilo Kanban para priorizar el trabajo. [Ir al tablero del proyecto](https://github.com/LatamLink/documentacion/projects/1).
+Utilizamos un tablero de estilo Kanban para priorizar el trabajo. [Ir al tablero del proyecto](https://github.com/LatamLink/projects/1).
 
 
-Los principales canales de comunicación son [github issues](https://github.com/LatamLink/documentacion/issues) y el [canal de Telegram](https://t.me/latamlink). Siéntase libre mandar todas las preguntas que pueda tener.
+Los principales canales de comunicación son [github issues](https://github.com/LatamLink/latamlink.io/issues) y el [canal de Telegram](https://t.me/latamlink). Siéntase libre mandar todas las preguntas que pueda tener.
 
 
 Pautas para contribuyentes. [https://developers.eoscostarica.io/docs/open-source-guidelines](https://developers.eoscostarica.io/docs/open-source-guidelines).
 
-Informe cualquier idea o errores grandes y pequeños [abriendo un "issue"](https://github.com/LatamLink/documentacion/issues).
+Informe cualquier idea o errores grandes y pequeños [abriendo un "issue"](https://github.com/LatamLink/latamlink.io/issues).
 
 
 ## Licencia

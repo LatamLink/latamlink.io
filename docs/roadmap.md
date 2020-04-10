@@ -4,30 +4,29 @@ title: Roadmap de Proyecto
 sidebar_label: Roadmap
 ---
 
-- Project Board - Costa Rica
+## TestNet (April 30,2020)
+- Initial EOSIO v2.0.4  Network Setup with core network (Active + Standby BPs)
+- Access Network Nodes ( API / Full / Seed  Nodes)
+- EOSIO Native System Contracts
+- Documentation to deploy nodes
+- Smart Contract Installation support for testing and demos
+- Network Resource Management 
+- Account permision Management
 
-- Booteo de Chain - Argentina
+## Pro TestNet (June 30, 2020)
+- LACChain POA System Contracts
+- Smart Contract based rotation of core nodes
+- App for managing network
+- Node's Activity Monitored
+- Dashboard for nodes
+- Block explorer
+- Cloud Integrations and Infrastructure Tools
 
-- modificación de protocolo de consenso 
-	- definir y validar con BID
+### Pre MainNet (September 30, 2020)
+- Privacy layer leveraged as native
 
-- Monitor de Red
-	- perfomance metrics
-	- backend API service (oracle)
-
-- Metodos para gestion comite permisionador
-	- validar BPs nuevos
-		- KYC / hardware
-	- generar lista de llaves publicas de trusted peers
-	- gestionar schedule
-	- account blacklisting 
-	- asignación de recursos `setalimits`
-	- aprobación de cuentas nuevas?
-	- modificación al TX para incluir firmas del BP  
-
-- GUI para gestion comite permisionador
-
-- Block Explorer
-
- Fechas :
+### MainNet (December 31, 2020)
+- Quantum Safe
+- InterBlockchain Comunication
+- Activity Legally Supervised
 
