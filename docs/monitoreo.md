@@ -9,7 +9,8 @@ El principal objetivo es producir información descentralizada y confiable sobre
 
 ## Monitoreo on-chain
 
-Contratos inteligentes para monitoreo.
+- Contratos inteligentes para monitoreo EOSIO.
+- Investigar capacidad de monitorear otra redes blockchian, por ejemplo ethereum.
 
 ### Ejemplos de contratos de monitoreo:
 
