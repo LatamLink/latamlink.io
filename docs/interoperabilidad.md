@@ -17,4 +17,11 @@ La interoperabilidad entre distintos protocoles blockchain se puede lograr de do
 
 ## EVM sobre EOSIO
 
-Interoperatividad de monitores de red ? Oraculos de performance?
+Block.one anunció un desafío de un contrato inteligente, ofreciendo un premio de 200,000 dólares a quien lo resuelva.
+
+"En este desafío, los participantes deben crear un Contrato Inteligente EOSIO que pueda almacenar e invocar Contratos Inteligentes EVM (Solidity) en un ambiente virtual parecido al de Ethereum", se detalla en un anuncio del 3 de febrero en DevPost de EOSIO.
+
+### Soluciones EVM sobre EOSIO Existentes:
+
+https://github.com/jafri/eosio.evm
+
