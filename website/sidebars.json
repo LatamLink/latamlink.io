@@ -5,16 +5,19 @@
       "protocolo-consenso",
       "topologia-red",
       "recursos",
-      "cuentas-permisos",
       "rendimiento",
-      "interoperabilidad",
+      "cuentas-permisos",
+      "digital-identity",
       "privacidad",
-      "legal"
+      "interoperabilidad",
+      "roadmap"
     ],
     "Guías": [
     	"como-iniciar",
     	"llaves-privadas",
+      "instalacion-nodos",
       "hola-mundo"
+
     ],
     "Herramientas": [
       "monitoreo",
@@ -24,8 +27,7 @@
       "cli",
       "eos-js",
       "respaldos",
-      "boilerplate  ",
-      "roadmap"
+      "boilerplate  "
     ],
     "Recursos": [
       "otros-recursos",

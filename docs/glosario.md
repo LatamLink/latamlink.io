@@ -4,12 +4,21 @@ title: Glosario de Términos
 sidebar_label: Glosario de Términos
 ---
 
-EOS
+>  EOS
 
-EOSIO
+Mainnet EOS
 
-Protocolo de Conceso 
+>  EOSIO
+
+Software
+
+
+
+
+
+>   Protocolo de Consenso 
+
+
+>  Nodo Validador
 
 Productor de Bloques
-
-Nodo Validador
