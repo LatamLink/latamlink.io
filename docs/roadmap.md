@@ -17,9 +17,9 @@ sidebar_label: Roadmap
 - LACChain POA System Contracts
 - Smart Contract based rotation of core nodes
 - App for managing network
-- Node's Activity Monitored
-- Dashboard for nodes
-- Block explorer
+- Node's Activity Monitor
+- Dashboard for Nodes
+- Block Explorer
 - Cloud Integrations and Infrastructure Tools
 
 ## Pre MainNet (September 30, 2020)
