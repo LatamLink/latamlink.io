@@ -26,7 +26,7 @@ sidebar_label: Roadmap
 - Privacy layer leveraged as native
 
 ## MainNet (December 31, 2020)
-- Quantum Safe
-- InterBlockchain Comunication
+- Quantum Safe **TBD
+- InterBlockchain Comunication **TBD
 - Activity Legally Supervised
 
