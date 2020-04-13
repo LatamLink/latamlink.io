@@ -11,7 +11,7 @@ sidebar_label: Roadmap
 - Documentation to deploy nodes
 - Smart Contract Installation support for testing and demos
 - Network Resource Management 
-- Account permision Management
+- Account Permission Management
 
 ## Pro TestNet (June 30, 2020)
 - LACChain POA System Contracts
