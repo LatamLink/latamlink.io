@@ -4,7 +4,7 @@ title: Roadmap de Proyecto
 sidebar_label: Roadmap
 ---
 
-## TestNet (April 30,2020)
+## TestNet (May 15, 2020)
 - Initial EOSIO v2.0.4  Network Setup with core network (Active + Standby BPs)
 - Access Network Nodes ( API / Full / Seed  Nodes)
 - EOSIO Native System Contracts
@@ -13,7 +13,7 @@ sidebar_label: Roadmap
 - Network Resource Management 
 - Account Permission Management
 
-## Pro TestNet (June 30, 2020)
+## Pro TestNet (July 15, 2020)
 - LACChain POA System Contracts
 - Smart Contract based rotation of core nodes
 - App for managing network
@@ -22,10 +22,10 @@ sidebar_label: Roadmap
 - Block Explorer
 - Cloud Integrations and Infrastructure Tools
 
-## Pre MainNet (September 30, 2020)
+## Pre MainNet (November 15, 2020)
 - Privacy layer leveraged as native
 
-## MainNet (December 31, 2020)
+## MainNet (January 2020)
 - Quantum Safe **TBD
 - InterBlockchain Comunication **TBD
 - Activity Legally Supervised
