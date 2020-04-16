@@ -20,7 +20,7 @@ const users = [
 
 const siteConfig = {
   title: "LatamLink Testnet", // Title for your website.
-  tagline: "Documentación Técnica",
+  tagline: "Technical Documentation",
   url: "https://latamlink.io/", // Your website URL
   cname: "latamlink.io", 
   baseUrl: "/", // Base URL for your project */
@@ -36,7 +36,7 @@ const siteConfig = {
   headerLinks: [
     {doc: 'eosio', label: 'Docs'},
     {doc: 'api', label: 'APIs'},
-    {page: 'ayuda', label: 'Ayuda'},
+    {page: 'ayuda', label: 'Help'},
     {blog: true, label: 'Blog'},
     {search: true}
   ],

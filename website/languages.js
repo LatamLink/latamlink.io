@@ -11,9 +11,9 @@ const languages = [
     tag: "en",
   },
   {
-    enabled: false,
+    enabled: true,
     name: "Español",
-    tag: "es-ES",
+    tag: "es-EM",
   },
   {
     enabled: false,

@@ -13,14 +13,14 @@
       "interoperabilidad",
       "roadmap"
     ],
-    "Guías": [
+    "Guides": [
     	"como-iniciar",
     	"llaves-privadas",
       "instalacion-nodos",
       "hola-mundo"
 
     ],
-    "Herramientas": [
+    "Tools": [
       "monitor",
       "gestion-red",
       "explorador-bloques",
@@ -30,7 +30,7 @@
       "respaldos",
       "boilerplate  "
     ],
-    "Recursos": [
+    "Resources": [
       "otros-recursos",
       "redes-eosio",
       "glosario"
