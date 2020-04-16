@@ -9,7 +9,7 @@ files:
     translation: '/website/translated_docs/%locale%/%original_file_name%'
     languages_mapping: &anchor
       locale:
-        'es-ES': 'es-ES'
+        'es-EM': 'es-EM'
         'pt-BR': 'pt-BR'
   -
     source: '/website/i18n/en.json'

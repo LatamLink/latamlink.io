@@ -1,26 +1,26 @@
 ---
 id: llaves-privadas
-title: Manejo de Llaves Privadas
-sidebar_label: Llaves Privadas
+title: Private Keys Management
+sidebar_label: Private Keys
 ---
 
-## Crear cuenta en el blockchain público
-En la terminal, vamos a ejecutar el comando `cleos` para generar las llaves criptográficas requeridas para crear una cuenta . Para crear una cuenta en el testnet de LatamLink. Además, vamos a requerir un block explorer para verificar las acciones ejecutadas. Para eso, vamos a usar Bloks.io que es muy popular entre la comunidad EOS.
+## Create an account in the public blockchain
+In the terminal, let's execute the command `cleos` to generate the cryptographic keys required to create an account. To create an account in the LatamLink Testnet. Besides, we´re going to create a block explorer to verify the executed transactions. For that, let's use Bloks.io that is so popular in the EOS community.
 
 
-## Generar y gestionar las llaves
-Para generar llaves, requisito para crear una cuenta en una blockchain, vamos a correr el comando cleos create key en la terminal. Este comando nos va a generar llaves privadas y públicas — podemos crear la cantidad de llaves que queramos. Las cuentas cleos, por defecto, vienen en pares: una `active key` y una `owner key` (para recuperar cuenta en caso de perder la active key).
+## Generate and manage the keys
+To generate keys, the requirement to create an account in a blockchain, let's run the command `cleos create key` in the terminal. This command is going to generate private and public keys — we can create the number of keys we want. The cleos accounts, by default, come in pairs: one `active key` and one `owner key` (to recover the account in case of active key lost).
 
-Una vez generadas las llaves, nos dirigimos al sandbox, LatamLink Testnet, para crear la cuenta. El nombre de la cuenta debe cumplir con ciertos requisitos: caracteres de la A a la Z en minúscula, números del 1 al 5 y tener una longitud de 12 caracteres. Para el ejemplo, llamaremos la cuenta: `holacontrato`.
+Once the keys are generated, we go to the sandbox, LatamLink TestNet, to create the account. The name of the account must comply with certain requirements: characters from A to Z in lowercase, numbers from 1 to 5 and must have 12 characters length. For this example, let's create the account: `hellocontract`.
 
-Luego, introducimos las llaves públicas de `owner` y `active` para ejecutar el contrato. Estas pueden ser cualquiera de las que se generaron con el comando cleos create key anteriormente. Se recomienda no compartir las llaves privadas.
+Then, we introduce the public keys of `owner` and `active` to execute the contract. This should be any of the ones generated with the `cleos create key` command above. Is recommendable not to share the private keys.
 
 
-## Administrar la billetera
-Una vez creada la cuenta, debemos generar la billetera e identificarla con el nombre de la cuenta, que en este ejemplo es `holacontrato`, mediante el comando `cleos wallet create -n holacontrato --to-console`.
+## Manage the wallet
+Once the account is created, we must generate the wallet and identify it with the name of the account, which in this example is `hellocontract`, with the command `cleos wallet create -n hellocontract --to-console`.
 
-En este momento, las llaves están guardadas únicamente en la consola, por lo que es necesario crear la billetera que contendrá las llaves. De esta manera, se podrá acceder a estas llaves con una única contraseña. Hay que importar las llaves en la billetera una a la vez, siguiendo el comando: `cleos wallet import` y añadiendo el nombre de la cuenta.
+At this moment, the keys are stored uniquely on the console, for which is necessary to create the wallet that will contain the keys. In this manner, we could access these keys with a unique password. We must import the keys in the wallet once at the time, writing the command `cleos wallet import` and adding the name of the account.
 
-## Autenticadores Externos (Wallets)
+## External Authenticators (Wallets)
 
-La última actualización importante para EOSJS incluyó soporte incorporado para proveedores de firmas intercambiables; eliminando la carga de manejar la gestión segura de claves de su alcance y mejorando la interoperabilidad. Lo que es más importante, esta es una mejora importante de seguridad que limita la exposición de las claves de un usuario en muchas aplicaciones a un único proveedor de firmas confiable que mitiga los riesgos potenciales que pueden surgir de un código malicioso o un error del usuario al usar aplicaciones blockchain.
+The last important update for EOSJS included built-in support for the interchangeable signs providers; deleting the burden of managing the secure keys management of its scope and improving the interoperability. What is more important, this is great security improving that limits the exposition of the keys of a user in several applications to a unique reliable signs provider that mitigates the potential risks that can arise from malicious code or an error of the user when using blockchain applications.

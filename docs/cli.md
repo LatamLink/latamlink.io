@@ -1,26 +1,26 @@
 ---
 id: cli
-title: Línea de Comando
-sidebar_label: Línea de Comando
+title: Command Line
+sidebar_label: Command Line
 ---
 
-## CLEOS 
+## CLEOS
 
-`Cleos` es una herramienta de línea de comandos que interactúa con la API REST expuesta por nodeos. Los desarrolladores también pueden usar cleos para implementar y probar contratos inteligentes EOSIO.
+`cleos` is a command line tool that interacts with the API REST exposed by nodeos. The developers also can use code to implement and test EOSIO's Smart Contracts.
 
-## Instalación
+## Instalation
 
-`cleos` se distribuye como parte de [EOSIO](https://github.com/EOSIO/eos/blob/master/README.md). Para instalar `cleos` siga las instrucciones descritas en la [sección de Instalación de software EOSIO](https://developers.eos.io/manuals/eos/latest/install/index).
+`cleos` is distributed as part of EOSIO. In order to install `cleos` follow the instructions written in the EOSIO's software instalation section.
 
-## Como utilizar Cleos
+## How to use Cleos
 
-Para usar `cleos`, necesita el dominio o dirección IP (y número de puerto) de una instancia de` nodeos` en ejecución. La instancia de `nodeos` debe configurarse para cargar` eosio :: chain_api_plugin` cuando se inicia. Esto permite que `nodeos` responda a las solicitudes de RPC que provienen de` cleos`.
+In order to use `cleos`, you need the domain or IP direction (and the port number) of an instance of `nodeos` in execution. The instance of `nodeos` needs to be configured to load `eosio :: chain_api_plugin` when starts. This allows that `nodeos` responds to the RPC request that come from `cleos`.
 
-### Comando Cleos
+### Cleos command
 
-Ver referencia completa de comandos en el siguiente enlace a [Documentación Cleos](https://developers.eos.io/manuals/eos/latest/cleos/index)
+Show the complete command reference in the following link to Cleos Documentation
 
-Para obtener una lista de todos los comandos `cleos`, ejecute:
+To get a full list of the available `cleos` commands, execute:
 
 ```sh
 cleos --help
@@ -59,9 +59,9 @@ Subcommands:
   system                      Send eosio.system contract action to the blockchain.
 ```
 
-### Subcomandos de Cleos
+### Cleos subcommands
 
-Para obtener ayuda con cualquier subcomando en particular, ejecute `cleos SUBCOMMAND --help`. Por ejemplo:
+To get help whit whatever subcommand in particular, execute `code SUBCOMMAND --help`. For example:
 
 ```sh
 cleos create --help
@@ -77,7 +77,7 @@ Subcommands:
                               (assumes system contract does not restrict RAM usage)
 ```
 
-`cleos` también puede proporcionar ayuda para uso de subcomandos dentro de subcomandos. Por ejemplo:
+`cleos` can also provide help for subcommands use within subcommands. For example:
 
 ```sh
 cleos create account --help
@@ -110,16 +110,16 @@ Options:
   --delay-sec UINT            set the delay_sec seconds, defaults to 0s
 ```
 
-## Ejemplo de cleos
+## Cleos example
 
-El siguiente comando `cleos` crea una billetera local llamada `mibilletera` y muestra la contraseña en la pantalla:
+The following command `cleos` creates a local wallet called `my_wallet` and shows the password on the screen:
 
 ```sh
-cleos wallet create -n mibilletera --to-console
+cleos wallet create -n my_wallet --to-console
 ```
 
 ```console
-Creating wallet: mibilletera
+Creating wallet: my_wallet
 Save password to use in the future to unlock this wallet.
 Without password imported keys will not be retrievable.
 "PW5JbF34UdA193Eps1bjrWVJRaNMt1VKddLn4Dx6SPVTfMDRnMBWN"

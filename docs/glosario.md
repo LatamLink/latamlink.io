@@ -1,14 +1,14 @@
 ---
 id: glosario
-title: Glosario de Términos
-sidebar_label: Glosario de Términos
+title: Glossary of terms
+sidebar_label: Glossary of Terms
 ---
 
->  EOS
+> EOS
 
-Mainnet EOS
+EOS Mainnet
 
->  EOSIO
+> EOSIO
 
 Software
 
@@ -16,9 +16,9 @@ Software
 
 
 
->   Protocolo de Consenso 
+> Consensus Protocol
 
 
->  Nodo Validador
+> Validator node
 
-Productor de Bloques
+Blocks Producer

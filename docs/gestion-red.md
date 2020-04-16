@@ -1,26 +1,27 @@
 ---
 id: gestion-red
-title: Herramientas de gestión de red.
-sidebar_label: Gestión de Red
+title: Network Management tools.
+sidebar_label: Network Management
 ---
-## Contratos Inteligentes
-Esta herramienta es para manejar el permisionamiento y gobernanza de LatamLink mediante contratos inteligentes.
 
-Tendrá las siguientes funciones.
+## Smart Contracts
+This tool is to manage the permitting and the governance of LatamLink through Smart Contract.
 
-### Registro de nodos productores de bloques
+Will have the following capabilities.
 
-### Cambios de nodos activos
+### Blocks Producers nodes registry
 
-### Asignación de recursos a cuentas
+### Actives nodes changes
 
-### Blacklisting de cuentas
+### Resources assignment to accounts
 
-### Actualización de contratos de sistema
+### Accounts Blacklisting
+
+### System contracts update
 
 
-## Interfaz gráfica 
-Herramienta GUI para facilitar la gestión de la red por parte del comité permisionador. 
+## Graphic interface
+GUI tool to facilitate the network management by permitting committee. 
 
 
 

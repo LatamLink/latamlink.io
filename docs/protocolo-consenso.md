@@ -1,100 +1,100 @@
 ---
 id: protocolo-consenso
-title: Mecanismo de Consenso
-sidebar_label: Mecanismo de Consenso
+title: Consensus Mechanism
+sidebar_label: Consensus Mechanism
 ---
 
-El mecanismo de consenso asegura que cada nuevo bloque que se agrega al Blockchain sea la única versión de la verdad acordada por todos los nodos en la red. Por lo tanto, un algoritmo de consenso tiene como objetivo encontrar un acuerdo común que sea una aceptado por toda la red.
+The consensus mechanism ensures that each new block that is added to the Blockchain be the unique versión of the agreed truth for the whole nodes in the network. Henceforth, a consensus algorithm aims to find a common agreement that is accepted for the whole network.
 
-En el caso de LatamLink existe un grupo de nodos que poseen la autoridad de validar transacciones y escribir estas transacciones dentro de bloques nuevos. A estos nodos los denominaremos **Productores de Bloques**. 
+In the case of LatamLink, there is a group of nodes that have transactions validation authority and write these transactions within new blocks. We call these nodes **Block Producers**.
 
 ## Proof of Authority (POA)
 
-El grupo de productores de bloques poseen la autoridad de escribir a la cadena de bloques porque fueron otorgados este privilegio por parte de la  autoridad superior, el comité permisionador, quien sera la máxima autoridad y quien determina cuales serán los nodos productores de bloques. 
+The Block Producers group have the authority to write to the blockchain because were granted the privilege by the superior authority, the permissioner committee, who will be the maximum authority and who determines which nodes will be the block producers.
 
-Cualquiera que cumpla con un mínimo de requisitos técnicos puede aplicar para ser escritor o validador.
+Anyone who meets with a minimum of technical requirements could apply to be a writer or validator.
 
-## Productores de Bloques Activos
+## Active Blocks Producers
 
-Se define un número fijo adecuado de nodos activos 
+An adequate fixed number is defined
 
-- Hasta **125 productores de bloque activos**, especificado mediante  `max_producers` en [config.hpp](https://github.com/EOSIO/eos/blob/master/libraries/chain/include/eosio/chain/config.hpp#L106)
-
-
-Los nodos productores de bloques pertenecen a un grupo que comparte la responsabilidad de validar y escribir todas las acciones en la red.
-
-Son capaces de reconocer las firmas de los nodos escritores y verificar que las transacciones hayan sido transmitidas a la red por nodos escritores autorizados en el contrato inteligente para su autorización. 
-
-Este grupo se organiza en un lista en orden alfabético.
-
-Los bloques nuevos son producidos por el primer nodo  en la lista durante un periodo de 6 segundos (12 bloques) y luego pasa el siguiente nodo a producir los siguientes 12 bloques y así sucesivamente. 
-
-### Rotación de nodos activos
-
-- Se habilita una rotación basada en contratos inteligentes (random) sin poder predecir quienes sean (entropia externa)
-
-- Los nodos también se rotan periódicamente en función de la descentralización y el rendimiento. Semanal?
-
-- Los nodos activos y de respaldo pueden cambiarse automáticamente cuando se detectan fallas de funcionamiento.
+- Up to **125 active blocks producers**, specified through `max_producers` in [config.hpp](https://github.com/EOSIO/eos/blob/master/libraries/chain/include/eosio/chain/config.hpp#L106)
 
 
-### Irreversabilidad de Bloques
+The blocks producers nodes belong to a group that shares the responsibility of validating and writing all the transactions in the network.
 
-Los bloques no se consideran irreversibles en la cadena de hasta que hayan sido validadas por 2/3 +1 de los productores activos. De tal manera que si un productor del grupo inserta una transacción invalida los nodos siguientes validaran las transacciones y no serán incluidas sin que 2/3 +1 hayn validado ese bloques. 
+Are capable of recognizing the writer nodes signs and verify that the transactions have been issued to the network by authorized writer nodes in the smart contract for its authorization.
 
+This group is organized in one list in alphabetical order.
 
-## Productores de Respaldo 
-- Si hay un problema de performance entra un nodo de respaldo 
-- mediante unas metricas objetivas de performance.
+The new blocks are produced by the first node in the list during 6 seconds (12 blocks) and then pass the next node to produce the next 12 blocks and so on.
 
-automatico o manual ?
+### Active nodes rotation
 
--  oracle smart contracts
--  comite permisionador
+- A Smart Contract based rotation is enabled (random) without the ability to predict who will be (external entropy)
 
-Se require definir numero optimo de nodos backup. 
+- The nodes also are rotated periodically in function to the decentralization and performance. Weekly?
 
-
-## Trazabilidad de nodos
-Los nodos sean capaces de reconocer a través de que nodo ha entrado la transacciones a la red , broadcasters de transacciones (Full Nodes)
-
-verificar que la transacción fue emitida por un nodo que esté permisionado . 
-
-Esta trazabilidad posiblemente requiera modificar la estructura de la transacción para incluir la firma del nodo.
-
-(actualmente esto no se permite en BESU IBFT 2) (problema de bloque vacios)
-
-No se puede verificar quien es el nodo validador que puede escribir.
-
-- Quien maneja esa lista? 
-
-Hoy en día, no se puede rastrear qué nodo de escritor generó esa transacción, por lo que no es posible hacerlos legalmente responsables de ella.
+- The active nodes and the backup ones could be changed automatically when operation failures are detected.
 
 
+### Blocks Irreversibility
 
-## Comite Permisionador
+The blocks are not considered irreversible until have been validated by 2/3 + 1 of the active producers. In that way, if a producer of the group inserts an invalid transaction the following nodes will validate the transactions and these will not be included without 2/3 + 1 approval.
 
-Evalua entidades que quieren ser validadores (BID)
 
-Eventualmemte habrá un vehículo legal , quien verifica identidad y firma contratos con productores de bloques. 
+## Backup nodes
+- If there is a performance problem, a backup node comes in
+- Through objective performance metrics.
 
-Esta  autoridad central podrá ser derivada de un conjunto de actores mediante aprobaciones multifirmas (multisig) te tal manera que se requieran del consenso del grupo mediante la aprobación de la mayoría simple, es decir, que se junten los votos de la mitad de los actores más uno adicional como mínimo.
+Manual or automatic?
 
-- comité permisionador que tengo el menor intervención posible  . sin embrago para una red publica permisionada ser requiere 
+-  Oracle Smart Contracts
+-  Permissioner Committee
 
-## Contratos de Sistema
+An optimal number of backup nodes is required.
 
-Se dispondrá el mecanismo de validación para LAC-Chain mediante contratos de sistema personalizados. Para esto nos basaremos en los contratos de sistema nativos de EOSIO.  cambio es un cambio de DPOS a POA de LAC-Chain
 
-Este cambio implica deshabilitar el uso de tokens y de votos característicos del protocolo DPOS. Es decir, al momento de girar recursos, no será necesario disponer de ningún token. Esta funcionalidad no necesariamente se eliminará, sino que se utilizará una función de “assert false” para deshabilitar las funciones ya que la plataforma no soporta estas funciones.
+## Nodes traceability
+The nodes can recognize through that node has inserted the transactions to the network, transactions broadcasters (full nodes)
 
-Funciones deshabilitadas:
+Verify that the transaction was issued by a node that is permissioned.
 
- - Token de Sistema
- - Votos por Productores de Bloques
- - Pago de Productores de Bloques
- - "Staking" para recursos
- - Delegación de Recursos
- - Namebiding
+This traceability possibly requires to modify the transaction structure to include the node sign.
+
+(actually, this is not allowed in BESU IBFT 2) (empty blocks problem)
+
+Cannot verify who is the validator node that can write.
+
+- Which manages that list?
+
+Nowadays, cannot trace which writer node generated that transaction, so is not possible to hold them legally responsible for it.
+
+
+
+## Permissioner Committee
+
+Evals entities that want to be validators (BID)
+
+Eventually will be a legal vehicle, who verifies the identity and sign contracts with blocks producers.
+
+This Central Authority could be derivated from a conjunct of actors through multi-signature approvals (multi-sig), in that way as to require from the consensus of the group through the simple majority approval, namely, that the votes are gathered from the half of the actors plus one additional at least.
+
+- Permissioner committee that has the minimum possible intervention. However, to be a public network that is needed
+
+## System Contracts
+
+The validation mechanism will be available for LAC-Chain via customized system contracts. For this, we will base on EOSIO's native system contracts.  Change from DPOS to POA for LAC-Chain
+
+This change implies disable the use of the token and the characteristics votes of the DPOS protocol. Namely, at the moment when turning over resources, will not be necessary to have tokens. This functionality not necessarily will be removed, but "assert false" function will be used to disable the functions since the platform does not support these functions.
+
+Disabled functions:
+
+ - System Token
+ - Votes for Block Producers
+ - Blocks Producers Payment
+ - "Staking" for resources
+ - Resources delegation
+ - Name binding
  - Rex
 

@@ -1,15 +1,15 @@
 ---
 id: instalacion-nodos
-title: Instalación de Nodos
-sidebar_label: Instalación de Nodos
+title: Nodes Instalation
+sidebar_label: Nodes Instalation
 ---
 
-Guía para la instalación de nodos 
+Nodes Installation guide
 
-## Nodos Productores de Bloques
+## Block Producers Nodes
 
-## Nodos API
+## API Nodes
 
-## Nodos Full 
+## Full Nodes
 
-## Nodos Seed
+## Seed Nodes

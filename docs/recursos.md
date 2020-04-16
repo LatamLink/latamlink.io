@@ -1,67 +1,67 @@
 ---
 id: recursos
-title: Recursos de Sistema
-sidebar_label: Recursos de Sistema
+title: Sistem Resources
+sidebar_label: System Resources
 ---
 
-LACChain no tiene y no tendrá tarifas de transacción. Sin embargo, para limitar el uso de la red a sus límites técnicos y evitar ataques de denegación de servicio, es necesario establecer un mecanismo para solicitar y asignar recursos de red.
+LAC-Chain doest not and will not have transaction fees. However, to limit the use of the network to its technical limits and avoid Distributed Denial of Service attacks, is necessary to establish a mechanism to require and assign resources in the network.
 
-## Recursos Computacionales
+## Computational resources
 
-Las cuentas podrán utilizar los siguientes recursos en la red:
+The accounts will be able to use the following resources in the network:
 
 ### CPU
-El recurso de CPU, en una cadena de bloques basada en EOSIO, representa el tiempo de procesamiento de una acción y se mide en microsegundos (μs). 
+The CPU resource, in an EOSIO based blockchain, represents the processing time of an action and is measured in microseconds (μs).
 
-Se refiere a este recurso como `CPU bandwith`  el resultado del comando `cleos get account` se indica la cantidad de tiempo de procesamiento que una cuenta tiene a su disposición al enviar acciones a un contrato. 
+This resource is referred to as `CPU bandwidth`, with the result of the command `cleos get account` processing time quantity that account has as its disposal when sending actions to a contract is indicated.
 
-Puede encontrar más detalles sobre la CPU como recurso del sistema [aquí](https://developers.eos.io/manuals/eosio.contracts/latest/key-concepts/cpu).
+You can find more details about the CPU as a system resource [here](https://developers.eos.io/manuals/eosio.contracts/latest/key-concepts/cpu).
 
 ### RAM
-En una cadena de bloques basada en EOSIO, RAM es uno de los recursos del sistema importantes que consumen las cuentas y los contratos inteligentes. RAM actúa como un almacenamiento permanente y se utiliza para almacenar nombres de cuenta, permisos, saldo de token y otros datos para un acceso rápido a los datos en cadena. La RAM debe asignarse, ya que es un recurso persistente limitado, medido en KiloBytes.
+In an EOSIO based blockchain, the RAM is one of the important system resources that the accounts and Smart Contracts consume. The RAM acts as permanent storage and is used to store the account name, permissions, tokens balances and other data for fast access. The RAM needs to be assigned since is a limited persistent resource, measured in KiloBytes.
 
-Puede encontrar más detalles sobre RAM como recurso del sistema [aquí](https://developers.eos.io/manuals/eosio.contracts/latest/key-concepts/ram).
+You cand find more details about RAM as a system resource[here](https://developers.eos.io/manuals/eosio.contracts/latest/key-concepts/ram).
 
 ### Network (NET)
 
-Además de CPU y RAM, NET también es un recurso muy importante en las cadenas de bloques basadas en EOSIO. NET es el ancho de banda de la red, medido en bytes, de transacciones y se denomina `net bandwidth` en el comando `cleos get account`. Igual que CPU NET es también un recurso de sistema transitorio.
+Apart from CPU and RAM, NET is also a highly important resource in the EOSIO based blockchains. NET is the bandwidth, measured in bytes of transactions and it's called `net bandwidth` in the command `cleos get account`. Like the CPU, NET is also a transitory system resource.
 
-Puede encontrar más detalles sobre NET como recurso del sistema [aquí](https://developers.eos.io/manuals/eosio.contracts/latest/key-concepts/net).
+You cand find more details about NET as a system resource [here](https://developers.eos.io/manuals/eosio.contracts/latest/key-concepts/net).
 
-## Cuenta privilegiada **eosio**
+## EOSIO privileged account
 
-Esta cuenta poseer acceso ilimitado a los recursos.  Se fijará una cuenta compuesta por el grupo de productores de bloques, o el comité permisionador que representa la autoridad máxima de la red. 
+This account has unlimited resources access.  An account composed by Block Producers Group will be set up, or the permissioner committee that represents the maximum authority in the network.
 
-Asimismo, se utilizará un contrato multifirma (o “multisig”) con parámetros variables que requerirá el consentimiento de la mayoría de los productores en la tabla. Esta cuenta privilegiada se denominará la cuenta `eosio`.
+Furthermore, a multi-signature contract will be used (multi-sig) with variables parameters that require the consent of the block producers majority in the table. This privileged account will be called the `eosio` account.
 
-Se propone una función multisig para actuar como la cuenta `eosio` para delegar recursos a otra cuenta.
+A multi-signature function is proposed to act as the `eosio` account to delegate the resources to other another account.
 
-| # Productores | Firmas Requeridas |
-|---|---|
-| 1 | 1/1 |
-| 2 | 2/2 |
-| 3 | 2/3 |
-| 4 | 3/4 |
-| 5 | 3/5 |
-
-
- La cuenta `eosio` tendrá recursos ilimitados. La autoridad podrá determinar la cantidad de cada recurso que se asignará a las demás cuentas dentro de la blockchain.
+| # BPS | Required signs |
+| ------ | -------------- |
+| 1      | 1/1            |
+| 2      | 2/2            |
+| 3      | 2/3            |
+| 4      | 3/4            |
+| 5      | 3/5            |
 
 
-Los recursos son establecidos de forma directa mediante una transacción firmada por la cuenta `eosio`. Esta autorización se deberá obtener mediante un proceso multifirmas de las cuentas de los productores de bloques elegidos. Asimismo, se podrá usar una función conocida como “delegate function” sin necesidad de usar funciones de “EOS staking”. 
-
-La primera función para establecer recursos se conoce como `set account resources.`
-
-La segunda función es para establecer límites y se conoce como `set account limits` `(eosio.bios: setalimits)`.
+ The `eosio` account will have unlimited resources. The authority will determine the quantity of each resource that will be assigned to the other accounts within the blockchain.
 
 
-### Otras Opciones
+The resources are established directly athwart one transaction signed by the account `eosio`. This authorization should be obtained athwart a multi-signature process of the accounts of the chosen block producers. Moreover, will be able to use a function knows as "delegate function" without the necessity of using "EOS Staking" functions.
+
+The fist function to establish resources is known as `set account resources`.
+
+The second function is to establish limits and is known as `set account limits` `(eosio.bios: setalimits)`.
+
+
+### Other options
 
 #### API throttling
-Para llevar a cabo las funciones de asignación de recursos, también existe la opción de implementar recursos ilimitados con un throttling en el API.
+To accomplish the resources assignment functions, also there is the option to implement unlimited resources with one throttling in the API.
 
 #### RAM Tokenization
 
-Se puede tokenizar el RAM
+The RAM can be tokenized
 
 
