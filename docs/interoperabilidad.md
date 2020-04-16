@@ -1,27 +1,28 @@
 ---
 id: interoperabilidad
-title: Interoperabilidad
-sidebar_label: Interoperabilidad
+title: Interoperability
+sidebar_label: Interoperability
 ---
-LAC-Chain es independiente de la tecnología, por lo que queremos poder integrar distintos protocolos blockchain que están siendo utilizados en LAC-Chain.
 
-La interoperabilidad entre distintos protocoles blockchain se puede lograr de dos formas:
+LAC-Chain technology-agnostic, for which we want to be able to integrate several blockchain protocols that are being used in LAC-Chain.
 
- **Trusted Peers:** Esta modalidad es mas sencilla de implementar, utilizando una capa de confianza para determinar que ocurre en cada cadena. 
- 
- **Trustless:** Es una solucion mas dificil especialmente ente protocolos  POW -> DPOS. 
+The interoperability between distinct blockchain protocols could be achieved in two ways:
 
-## Interoperabilidad Ethereum => EOSIO  
+ **Trusted Peers:** This modality is simpler of implement, using a trust layer to determine what occurs in each chain.
 
-## Interoperabilidad  Ethereum ⇔ EOSIO 
+ **Trustless:** Is a more difficult solution, specially between protocols POW -> DPOS.
 
-## EVM sobre EOSIO
+## Ethereum Interoperability => EOSIO
 
-Block.one anunció un desafío de un contrato inteligente, ofreciendo un premio de 200,000 dólares a quien lo resuelva.
+## Ethereum Interoperability ⇔ EOSIO
 
-"En este desafío, los participantes deben crear un Contrato Inteligente EOSIO que pueda almacenar e invocar Contratos Inteligentes EVM (Solidity) en un ambiente virtual parecido al de Ethereum", se detalla en un anuncio del 3 de febrero en DevPost de EOSIO.
+## EVM on EOSIO
 
-### Soluciones EVM sobre EOSIO Existentes:
+Block.one announced a challenge of a smart contract, offering a prize of 200,000 dollars to who resolved it.
+
+"In this challenge, the participants should create an EOSIO Smart Contract that can store and invoke EVM (Solidity) Smart Contracts in a virtual environment similar to the Ethereum one", is detailed in one announcement of February 3rd in EOSIO DevPost.
+
+### Existent EVM Solutions on EOSIO:
 
 https://github.com/jafri/eosio.evm
 

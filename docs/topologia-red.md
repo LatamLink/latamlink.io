@@ -1,51 +1,51 @@
 ---
 id: topologia-red
-title: Topología de Red
-sidebar_label: Topología de Red
+title: Network Topology
+sidebar_label: Network Topology
 ---
 
 
-<img src="/img/diagramas/topologia-red.png" alt="Topologia de Red LatamLink" width="450"/>
+<img src="/img/diagramas/topologia-red.png" alt="LatamLink Network Typology" width="450" />
 
-## Red Core
-La red core se compone de los productores de bloques quienes han sido agregados al grupo de consenso. La fuente de poder computacional final es derivada de la red core.
+## Network Core
+The core network is composed of the blocks producers who have been added to the consensus protocol group. The final computational power source is derivated from the network core.
 
-![Topología de Red Core](/img/diagramas/red-core.png)
+![Core Network Typology](/img/diagramas/red-core.png)
 
-### Nodos Productores de Bloques
-Nodos que ejecutan los contratos inteligentes y añaden nuevos bloques a la cadena. Son los custodios de la red que escriben la cadena de bloques que el resto de la red validará.
+### Blocks Producers Nodes
+Nodes that execute the Smart Contracts and add new blocks to the chain. They are the network custodians that writes the blockchain that the rest of the network will validate.
 
-### Productores de Bloques de Reserva
-Nodos productores que pueden asumir el rol de productores de bloques si alguno del grupo principal dejará de responder.
+### Backup Block Producers
+Block Producers that can assume the blocks producers role if anyone of the main group stops responding.
 
-## Red de Acceso
+## Access Network
 
-![Topología de Red de Acceso](/img/diagramas/red-de-acceso.png)
+![Network Access typology](/img/diagramas/red-de-acceso.png)
 
-### Nodos API
-Proveen acceso a la red mediante el API servido sobre HTTPS. Se pueden configurar como varios nodos detrás de un proxy / load balancer . También es recomendable algún tipo de protección contra ataques de denegación de servicio DDoS  ya que son el servicio con contacto directo con redes públicas.
+### API Nodes
+Provide access to the network through the API server over HTTPS. Can be configured as several nodes behind a proxy/load balancer. Also is recommendable some type of protection against DDOS since it's the service with direct contact with public networks.
 
-### Nodos Completos
-Mantienen un registro completo de la historia de las transacciones en una base de datos convencional que facilita la consulta de datos de las transacciones en la cadena. 
+### Full Nodes
+Maintain a complete full history of the transactions in a conventional database that facilitates the data query of the transactions on the chain.
 
-### Nodos Semilla
-Proveen acceso a los bloques de los producers , se conectan directamente a los producers y a los nodos API
+### Seed Nodes
+Provide access to the block producers, they connect directly to the producers and the API nodes.
 
-## Red de Consumo
+## Consumption Network
 
-La red de consumo utiliza la red de acceso para escritura y lectura del blockchain. Se compone de todas  las aplicaciones y usuarios que interactúan con el blockchain. Las interacciones de usuarios y aplicaciones se realiza mediante proveedores de firmas digitales o wallets y librerías como EOSJS.
+The consumption network uses the access network for writing and reading the blockchain. Is composed of all applications and users that interact with the blockchain. The user's interaction and applications are made through digital signature providers or wallets and library like EOSJS.
 
-![Topología Red de Consumo](/img/diagramas/red-consumo.png)
+![Consumption Network Typology](/img/diagramas/red-consumo.png)
 
-### Optimización de Rutas / Conexiones 
-La meta es gestionar la topología de red de forma dinámica usando contratos inteligentes.
+### Routes optimizations / Connections
+The goal is to manage the network topology in a dynamic way using Smart Contracts.
 
-En la [topología actual de de LACChain](https://github.com/lacchain/besu-network/blob/master/TOPOLOGY_AND_ARCHITECTURE.md), los nodos "boot" se pueden conectar a todos los nodos de la red (boot, validador y escritor). En la actualidad, todos los nodos "boot" están conectados a todos los nodos. Esto no es muy escalable ni eficiente. Además, los nodos no están restringidos por la red para conectarse solo a los nodos que corresponden (es decir, escritor con boot, o validador con validador y boot), ni tienen la información sobre qué tipo de nodo es cada uno. Necesitamos proporcionarles esa información fuera de la cadena.
+In the [actual LAC-Chain's topology](https://github.com/lacchain/besu-network/blob/master/TOPOLOGY_AND_ARCHITECTURE.md), the "boot" nodes can be connected to all nodes in the network (boot, validator and writer). At present, all "boot" nodes are connected to all nodes. This is not scalable and efficient. Alongside, the nodes are not restricted by the network to connect only to correspondent nodes (in other words, a writer with the boot, or validator with validator and boot), nor do they have the information about what kind of node each of them is. We need proportionalities to that information out of the chain.
 
 
-### Infraestructura Cloud
+### Cloud Infraestructure
 
-Es de interes de LAC-Chain utilizar implementaciones automáticas en varias nubes utilizando herramientas como terraform.
-- Aprovechar las herramientas en la nube para mejorar las capacidades de la red.
-- Explorar el uso de bóvedas de claves en la nube.
-- Trabajar con socios para proporcionar servicios en la nube en LACChain en una base SAAS.
+LAC-Chain is interested in using automatic implementations in several clouds using tools like terraform.
+- Take advantage of the tools in the cloud to improve the capabilities in the network.
+- Explore the use of the key vaults in the cloud.
+- Work with partners to open up cloud services in LAC-Chain on a SAAS basis.

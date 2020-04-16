@@ -1,13 +1,13 @@
 ---
 id: otros-recursos
-title: Recursos para aprender EOSIO
-sidebar_label: Portal de Aprendizaje
+title: EOSIO learning resources
+sidebar_label: Learning Portal
 ---
 
-Si está interesado en aprender más sobre el ecosistema EOSIO, le recomendamos los siguientes recursos:
+If you're interested in learning more about the EOSIO ecosystem, we recommend the following resources:
 
-- [Portal de Aprendizaje EOS Costa Rica ](https://learn.eoscostarica.io)
-- [Como Aprender a desarrollar en EOSIO](https://medium.com/@theblockstalk/learning-eosio-development-telos-eos-and-other-blockchains-94d384a8b09f)
-- [Taller de desarrolladores de blockchain de EOSIO, marzo de 2020](https://www.youtube.com/playlist?list=PLbq67nzUl6Prlg2Su8Rkmh8exeAL5O5l7)
-- [Personalización y gobernanza de EOSIO](https://www.youtube.com/watch?v=ITDFQESxglc&list=PLbq67nzUl6Prlg2Su8Rkmh8exeAL5O5l7&index=9)
+- [EOS Costa Rica Learning Portal ](https://learn.eoscostarica.io)
+- [How to learn to develop on EOSIO](https://medium.com/@theblockstalk/learning-eosio-development-telos-eos-and-other-blockchains-94d384a8b09f)
+- [EOSIO blockchain developers workshop, March 2020](https://www.youtube.com/playlist?list=PLbq67nzUl6Prlg2Su8Rkmh8exeAL5O5l7)
+- [EOSIO customization and governance](https://www.youtube.com/watch?v=ITDFQESxglc&list=PLbq67nzUl6Prlg2Su8Rkmh8exeAL5O5l7&index=9)
 

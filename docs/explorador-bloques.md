@@ -1,6 +1,6 @@
 ---
 id: explorador-bloques
-title: Explorador de Bloques
+title: Blocks Explorer
 ---
 
-Explorador de bloques integrado: Visualizador de transacciones.
+Blocks explorer built-in: Transactions visualizer.

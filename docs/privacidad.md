@@ -1,24 +1,24 @@
 ---
 id: privacidad
-title: Privacidad
-sidebar_label: Privacidad
+title: Privacy
+sidebar_label: Privacy
 ---
 
-## Propuesta LatamLink ZKP
+## LatamLink ZPK
 
-La tecnología Blockchain proporciona las herramientas necesarias para descentralizar la información de una manera segura e inquebrantable. La introducción de Bitcoin hizo posible que miles de nodos de todo el mundo compartan y mantengan la misma información. Sin embargo, en la mayoría de Blockchains, la idea central es mantener esta información pública para que todos puedan acceder a ella y verificarla, sin la necesidad de ninguna entidad central controladora, es por eso que definimos a las  blockchains públicas como redes *trust-less* (no hace falta confiar).
+Blockchain technology provides the necessary tools to decentralize the information securely and unwaveringly. The introduction of Bitcoin made possible that thousand of nodes from around the world share and hold the same information. However, in the majority of the Blockchains, the central idea is to hold this information public for everyone accesses to it and verify it, without the necessity of a central authority, is for that we defined the public blockchains as *trustless*(no need to trust).
 
-Es así cómo muchas empresas y entidades privadas que desean utilizar la tecnología blockchain se encuentran con un importante interrogante: ¿cómo puedo mantener la información privada y al mismo tiempo lograr mantener la seguridad y la transparencia de una blockchain pública?
+That is how a lot of companies and private entities that want to use the blockchain technology encounter with a very important question: how maintain the information private and at the same time keep the security and transparency of a public blockchain?
 
-Aquí es donde entran en juego los Protocolos de Cero Conocimiento, también conocidos como ZKP por sus siglas en inglés Zero Knowledge Proof: ZKP es el método por el cual los operadores de nodos pueden probar que una transacción es válida sin revelar realmente los valores de esa transacción.
+This is where Zero-Knowledge Protocols get into, also knows as ZPK. Is the method for which nodes operators can demonstrate that a transaction is valid without the necessity to reveal the values of the transaction.
 
-El hecho de que este valor agregado de privacidad se puede obtener a través de la criptografía es muy útil para las personas y entidades privadas que se benefician del uso de la tecnología blockchain sin temor a compartir información confidencial.
+The fact that this added value of privacy can be obtained through the cryptography is useful for the people and private entities that benefit from the use of blockchain technology without the fear of sharing confidential information.
 
-LatamLink apunta a integrar primitivas (intrinsics) para verificación de pruebas de cero conocimiento disponibles de forma nativa a los smart-contracts (Dapps) para la construccion de aplicación con requerimientos de privacidad y que al mismo tiempo sean validadas por lo mismos agentes de la red (BPs + Full Nodes), sin necesidad de agregar agentes nuevos a la Red.
+LatamLink aims to integrate new primitives (intrinsics) for the verification of ZKP natively available to the Smart Contracts (Dapps) for the construction of applications with privacy requirements and at the same time can be validated for the same agents in the network (BPs + Full Nodes), without the necessity to add new agents to the network.
 
-## Privacidad de los datos almacenados en el blockchain 
+## Blockchain stored data privacy
 
-### Soluciones existentes de privacidad de datos en EOSIO
+### Data privacy existent solutions in EOSIO
 https://github.com/EOSIO/eosjs-ecc/issues/19#issuecomment-392941963
 
 https://github.com/GetScatter/ScatterDesktop/issues/43

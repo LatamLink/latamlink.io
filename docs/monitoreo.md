@@ -1,49 +1,50 @@
 ---
 id: monitoreo
-title: Monitoreo de Red
-sidebar_label: Monitoreo de Red
+title: Network monitoring
+sidebar_label: Network monitoring
 ---
-El monitoreo de lo que sucede en la red es esencial para mejorarlo y medir el impacto social de sus soluciones.
 
-El principal objetivo es producir información descentralizada y confiable sobre cada nodo y la actividad de la red.
+The monitoring of what is happening in the network is essential to improve it and measure the social impact of its solutions.
 
-## Monitoreo on-chain
+The main objective is to produce decentralized and trusty information about each node and the activity of the network.
 
-- Contratos inteligentes para monitoreo EOSIO.
-- Investigar capacidad de monitorear otra redes blockchian, por ejemplo ethereum.
+## On-Chain monitoring
 
-### Ejemplos de contratos de monitoreo:
+- Smart Contract for monitoring EOSIO.
+- Investigate the monitoring capacity another blockchain networks, e. g. Ethereum.
+
+### Monitoring Contracts examples:
 
 - [EOS Mechanics](https://github.com/AlohaEOS/eos-mechanics)
 - [EOS Block Producer Benchmarks](https://www.alohaeos.com/tools/benchmarks) por [Aloha EOS](https://www.alohaeos.com/)
 - [Block Producer Performance](https://labs.eostitan.com/#/block-producer-performance) por [EOS Titan](https://eostitan.com/)
 
-## Monitoreo off-chain
+## Off-Chain monitoring
 
-- oracle distribuido que provee datos de performance a smart contract
-- datos podrían venir de validadores (todo tienen el mismo peso )
-- el comité permisionador se reserva el derecho discrecional de eliminar un productor.
+- A distributed oracle that provides performance data to a smart contract
+- The data could come from validators (all have the same weight)
+- The permissioner committee reserves the discretional right to delete a block producer.
 
-### Información sobre nodos
-- a que entidad pertenece 
-- ubicación de nodos
-- metricas de rendimiento y disponibilidad del nodo
-- datos públicos
-	
-
-### Monitoreo en la Nube
-
-Además de aprovechar los servicios en la nube existentes para el monitoreo.
-
- - prometheus
- - grafana 
-
-Adicionalmente se explorarán herramientas de Blockchain Analytics y Data Science.
+### Information about nodes
+- To what entity belongs
+- Nodes location
+- Performant metrics and node availability
+- Public data
 
 
-## Monitor de Red
+### Cloud monitoring
 
-Se proponer crear un [monitor de red](monitor.md) nativo como herramienta para lograr este objetivo. 
+Besides to take advantage of the services in the existent clouds for monitoring.
+
+ - Prometheus
+ - Grafana
+
+Additionally, we will explore Blockchain Analytics tools and Data Science.
+
+
+## Network Monitoring
+
+We propose to create a native [network monitor](monitor.md) to achieve this objective. 
  
 
 

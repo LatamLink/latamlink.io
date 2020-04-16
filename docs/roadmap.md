@@ -1,6 +1,6 @@
 ---
 id: roadmap
-title: Roadmap de Proyecto
+title: Project Roadmap
 sidebar_label: Roadmap
 ---
 
@@ -10,6 +10,7 @@ sidebar_label: Roadmap
 - EOSIO Native System Contracts
 - Documentation to deploy nodes
 - Smart Contract Installation support for testing and demos
+
 - Network Resource Management 
 - Account Permission Management
 

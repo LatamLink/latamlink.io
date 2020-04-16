@@ -4,17 +4,17 @@ title: Application Programming Interface API
 sidebar_label: APIs
 ---
 
-## Que es un API
+## What is an API?
 
-Diferentes API endpoints para interactuar con el testnet.
+Different API endpoints to interact with the testnet.
 
 [API Specification](https://developers.eos.io/manuals/eos/latest/nodeos/plugins/chain_api_plugin/api-reference/index)
 
 
-## Endpoints 
+## Endpoints
 
-	 https://latamlink.eosio.cr
+      https://latamlink.eosio.cr
 
-### HTTP RPC 
+### HTTP RPC
 
 ### P2P

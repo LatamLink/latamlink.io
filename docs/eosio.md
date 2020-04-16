@@ -1,33 +1,32 @@
 ---
 id: eosio
-title: Testnet de EOSIO para LAC-Chain
-sidebar_label: Protocolo EOSIO
+title: EOSIO's Testnet for LAC-Chain
+sidebar_label: EOSIO Protocol
 ---
 
-**EOSIO** es software de código abierto que permite lanzar redes blockhain altamente configurables sobre las cuales desarrolladores y emprendedores pueden correr aplicaciones blockchain de alto rendimiento. [EOSIO](https://eos.io) fue creado en el 2018 y es mantenido por la empresa [Block One](https://block.one).  La primera red pública lanzada sobre EOSIO se llama **EOS**, también referida como "mainnet". EOS es una de múltiples redes blockchain públicas actualmente utilizado EOSIO. Puede ver la siguiente [lista de redes EOSIO](redes-eosio.md). También existen múltiples redes privadas que actualmente utilizan EOSIO.
+**EOSIO** is open source software that allows launch blockchain networks highly configurable on which the developers and entrepreneurs can run high performant blockchain applications. [EOSIO](https://eos.io) was created in 2018 and is maintained by the company [Block One](https://block.one).  The first public network launched on EOSIO is called **EOS**, also referred as "mainnet". EOS is one of the multiple public blockchain networks actually using EOSIO. You can see the following [EOSIO network list](redes-eosio.md). Also there are multiple private networks that actually uses EOSIO.
 
-Algunas de las características innovadoras de EOSIO incluyen:
+Some of the innovative characteristics include:
 
-- **Trasacciones gratuitas** con limites de consumo.
-[![EOSIO Github](/img/eosio-logo.png#right)](https://github.com/eosio)
-- **Baja latencia** en confirmación de bloques nuevos  *(0.5 segundos)*
-- Finalidad **tolerante a fallas bizantinas BFT**
-- **Nombres de cuentas legibles por humanos** *(e.g. :* `latamlink12`*)*
-- **Permisos ACL** basados en roles jerárquicos
-- Contratos actualizables **escritos en C++** facilitan el uso a programadores.
-- Soporte para llaves protegidas por **hardware biométrico** *(e.g. : Apple Secure Enclave)*
-- Diseñado para la **comunicación Inter-Blockchain**
+- **Free transactions** with consumption limits. [![EOSIO Github](/img/eosio-logo.png#right)](https://github.com/eosio)
+- **Low latency** confirming new blocks  *(0.5 seconds)*
+- **Byzantine Fault Tolerance**
+- **Account names legible for humans** *(e.g. :* `latamlink12` *)*
+- **ACL Permissions** based on hierarchical roles
+- Updatable contracts **written in C++ ** facilitate the use to the programmers.
+- Support for keys protected by **biometric hardware***(e.g. : Apple Secure Enclave)*
+- Designed for **Inter-Blockchain communication**
 
-Otra característica importante de una red blockchain basada en el protocolo EOSIO tiene una arquitectura flexible, en la cual gran parte de las reglas de operación se definen a través de los **contratos del sistema**. 
+Another important characteristic of a EOSIO based blockchain network is that has a flexible architecture, in which great part of the operation rules are defined through the **system contracts**.
 
-Esta flexibilidad se debe a que los contratos de sistema constituyen un módulo separado del protocolo base de EOSIO. De esta forma, las funciones centrales de los nodos y el mecanismo de producción de  bloques se mantiene separado de los contratos de sistema.
+This flexibility is because system contracts constitute a separate module from EOSIO base protocol. On this way, the nodes central functions and the blocks production mechanism is maintained separated from the system contracts.
 
-Los contratos de sistema permiten a las redes EOSIO:
+The system contracts allow EOSIO networks:
 
-- Configurar fácilmente la gobernanza de la red mediante contratos inteligentes.
-- Tener reglas transparentes de operación del sistema.
-- Sincronizar los cambios en las reglas de operación de forma instantánea en toda la red, lo que reduce la administración y los costos de las actualizaciones de gobernanza.
-- Mantener la compatibilidad total con otras cadenas de bloques EOSIO.
+- Easily configure the network governance through Smart Contracts.
+- To have transparent rules for the operation of the system.
+- Synchronize the changes in the operation rules in a instantaneous way in the whole network, which reduce the administration and the cost of the governance updates.
+- Maintain the total compatibility with other EOSIO blockchains.
 
 
-**El objetivo de LatamLink es implementar el testnet de EOSIO para LAC-Chain** y demostrar la flexibilidad de esta tecnología desarrollando contratos de sistema personalizados para LAC-Chain. El testnet de LatamLink permitirá designar los actores que escriben y validan bloques nuevos a la cadena mediante contratos de sistema basados en mecanismos de consenso  Proof-of-Authority (POA) en una blockchain pública permisionada.
+**The objective of LatamLink is implement the EOSIO testnet for LAC-Chain** and demonstrate the flexibility of this technology developing customized system contracts for LAC-Chain. The LatamLink testnet will allow to designate actors that write and validate new blocks to the blockchain through system contracts based on Proof-of-Authority (POA) consensus mechanisms in a public permissioned blockchain.

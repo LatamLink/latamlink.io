@@ -1,7 +1,7 @@
 ---
 id: respaldos
-title: Respaldos y Snapshots 
-sidebar_label: Respaldos y Snapshots
+title: Snapshots and Backups
+sidebar_label: Snapshots and backups
 ---
 
-El servicio de snapshots de LatamLink le permitirá hacer cambios en los nodos de EOSIO rápidamente sin necesidad de sincronizar la cadena de bloques desde su génesis.
+LatamLink's snapshot service will allow making changes in the EOSIO nodes quickly, without the necessity of synchronizing the blockchain since its genesis.

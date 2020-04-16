@@ -1,22 +1,22 @@
 ---
 id: cuentas-permisos
-title: Cuentas y Permisos
-sidebar_label: Cuentas y Permisos
+title: Accounts and Permissions
+sidebar_label: Accounts and Permissions
 ---
 
-## Cuentas
+## Accounts
 
-Una cuenta en EOSIO es un nombre legible para humanos que se almacena en la cadena de bloques. Puede ser propiedad de un individuo o grupo de individuos dependiendo de la configuración de los permisos. Se requiere una cuenta para transferir o enviar cualquier transacción válida a la cadena de bloques.
+An account on EOSIO is a legible name for humans that get stored in the blockchain. Could be property of and individual or group of individuals depending of the configuration of the permits. Is required an account to transfer or send whatever valid transaction to the blockchain.
 
-El nombre de la cuenta debe cumplir con ciertos requisitos: caracteres de la a `a` la `z` en minúscula, números del `1` al `5` y tener una longitud de 12 caracteres. Por ejemplo : `latamlink12`.
+The account name must comply with certain requirements: characters from `a` to `z` in lower case, numbers from `1` to `5` and have 12 characters length. E. g. `latamlink12`.
 
-## Autorizaciones y Permisos
+## Authorizations and Permissions
 
-Los permisos son nombres arbitrarios utilizados para definir los requisitos para una transacción enviada en nombre de ese permiso. Se pueden asignar permisos para la autoridad sobre acciones contractuales específicas vinculando autorización o linkauth.
+The Permissions are arbitrary names used to define the requirements of a transactions sent in name of that permit. The permissions can be assigned to the authority about contractual actions.
 
-Para obtener más información sobre estos conceptos, consulte la [documentación de Cuentas y permisos](https://developers.eos.io/welcome/latest/protocol/accounts_and_permissions).
+To get more information about these concepts, go \[accounts and permissions documentation\](https://developers. eos. io/welcome/latest/protocol/accounts_and_permissions).
 
 
 ## Wallets
 
-Los wallets son clientes que almacenan llaves privadas asociadas con los permisos de una o más cuentas. Idealmente, un wallet (o billetera) tiene un estado bloqueado (cifrado) y desbloqueado (descifrado) que está protegido por una contraseña de alta entropía. En la distribución de EOSIO  viene incluido  un cliente CLI llamado `cleos` que interactúa con un cliente lite llamado `keosd`.
+The wallets are clients that store private keys associated with the permissions of one or more accounts. Ideally, a wallet has a locked state (encrypted) and unlock (unencrypted) that is protected by a high entropy password. In the EOSIO's distribution comes included a CLI client called `cleos` that interacts with lite client called `keosd`.

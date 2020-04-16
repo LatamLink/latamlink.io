@@ -1,15 +1,15 @@
 ---
 id: monitor
-title: Monitor de Red
-sidebar_label: Monitor de Red
+title: Network monitor
+sidebar_label: Network monitor
 ---
 
-Se planea desarrollar un monitor de red nativo como herramienta para desarrolladores y usuarios para el lanzamiento del Pro Testnet de LatamLink. 
+A native network monitor is planned to be developed as a tool for developers and users for the launching of the LatamLink Pro Testnet.
 
-Ver artículo sobre [monitoreo](monitoreo.md)
- 
+See the article about [monitoring](monitoreo.md)
 
-## Monitores Existentes 
+
+## Existent monitors
 
 https://github.com/CryptoLions/EOS-Network-monitor
 
