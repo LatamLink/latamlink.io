@@ -37,6 +37,8 @@
     crossorigin="anonymous"
   ></script>
 
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
   <!---JQUERY i18n configuration-->
   <script src="./jquery.i18n/jquery.i18n.js"></script>
   <script src="./jquery.i18n/jquery.i18n.messagestore.js"></script>
@@ -254,7 +256,7 @@
     >
       <div class="tools-header text-center mb-4">
         <h1>
-          <span class="underline">Herramientas</span>
+          <span data-i18n="tools" class="underline"></span>
         </h1>
         <br />
         <p data-i18n="tools-description">
@@ -390,3 +392,14 @@
     </div>
   </footer>
 </div>
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
