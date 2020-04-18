@@ -11,10 +11,18 @@ public_folder: "/images/uploads" # The src attribute for uploaded media will beg
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Blog" # Used in the UI
-    folder: "blog"
+    folder: "../../../blog"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Author", name: "author", widget: "string"}
       - {label: "Author Url", name: "Author Url", widget: "string"}
+  - name: "docs"
+    label: "Docs"
+    folder: "../../../../docs"
+    create: true
+    fields:
+      - {label: "id", name: "id", widget: "string"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Sidebar label", name: "sidebar_label", widget: "string"}
