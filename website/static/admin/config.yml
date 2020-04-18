@@ -18,6 +18,7 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Author", name: "author", widget: "string"}
       - {label: "Author Url", name: "Author Url", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
   - name: "docs"
     label: "Docs"
     folder: "docs"
@@ -26,3 +27,4 @@ collections:
       - {label: "id", name: "id", widget: "string"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Sidebar label", name: "sidebar_label", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
