@@ -4,22 +4,22 @@ title: EOSIO's Testnet for LAC-Chain
 sidebar_label: EOSIO Protocol
 ---
 
-**EOSIO** is open source software that allows launch blockchain networks highly configurable on which the developers and entrepreneurs can run high performant blockchain applications. [EOSIO](https://eos.io) was created in 2018 and is maintained by the company [Block One](https://block.one).  The first public network launched on EOSIO is called **EOS**, also referred as "mainnet". EOS is one of the multiple public blockchain networks actually using EOSIO. You can see the following [EOSIO network list](redes-eosio.md). Also there are multiple private networks that actually uses EOSIO.
+**EOSIO** is open source software that allows launching highly configurable blockchain networks on which developers and entrepreneurs can run high performant blockchain applications. [EOSIO](https://eos.io) was created in 2018 and is maintained by [Block One](https://block.one).  The first public network launched on EOSIO is called **EOS**, also referred as "mainnet". EOS is one of the multiple public blockchain networks actually using EOSIO. You can see the following [EOSIO network list](redes-eosio.md). Also there are multiple private networks using EOSIO.
 
-Some of the innovative characteristics include:
+Some innovative features include:
 
 - **Free transactions** with consumption limits. [![EOSIO Github](/img/eosio-logo.png#right)](https://github.com/eosio)
 - **Low latency** confirming new blocks  *(0.5 seconds)*
 - **Byzantine Fault Tolerance**
-- **Account names legible for humans** *(e.g. :* `latamlink12` *)*
+- **Human Readable Account Names** *(e.g. :* `latamlink12` *)*
 - **ACL Permissions** based on hierarchical roles
-- Updatable contracts **written in C++ ** facilitate the use to the programmers.
+- Updatable contracts **written in C++ **.
 - Support for keys protected by **biometric hardware***(e.g. : Apple Secure Enclave)*
 - Designed for **Inter-Blockchain communication**
 
-Another important characteristic of a EOSIO based blockchain network is that has a flexible architecture, in which great part of the operation rules are defined through the **system contracts**.
+Another important feature of EOSIO based blockchain networks is it's flexible architecture, with which many of the operation rules are defined through the **system contracts**.
 
-This flexibility is because system contracts constitute a separate module from EOSIO base protocol. On this way, the nodes central functions and the blocks production mechanism is maintained separated from the system contracts.
+This flexibility is due to a set of smart contracts seperated from the EOSIO core protocol. Because of this, the core funtionality that validates blocks and transactions is separated from the system contracts.
 
 The system contracts allow EOSIO networks:
 
