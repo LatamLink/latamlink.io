@@ -54,7 +54,7 @@ const siteConfig = {
     primaryColor: "#19af54",
     secondaryColor: "#000"
   },
-  editUrl: "https://github.com/LatamLink/documentacion/edit/master/docs/",
+  editUrl: "https://github.com/LatamLink/latamlink.io/edit/master/docs/",
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
   copyright: `Copyright © ${new Date().getFullYear()} LatamLink`,
 

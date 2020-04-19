@@ -4,7 +4,7 @@ title: How to begin
 sidebar_label: How to begin
 ---
 
-## Before begin
+## Before you begin
 At first, is recommendable have installed the software [EOSIO](https://github.com/eosio) developed by [Block.one](https://block.one/) to create actions with the EOS protocol following the command `brew tap eosio/eosio` y `brew install eosio`. This software it's made up of:
 
 - **cleos:** is the command line tool that connects with the API exposed by nodeos and functions to manage the wallet, account, keys, transactions and Smart Contracts.
