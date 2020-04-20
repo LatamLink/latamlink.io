@@ -13,8 +13,8 @@ Some innovative features include:
 - **Byzantine Fault Tolerance**
 - **Human Readable Account Names** *(e.g. :* `latamlink12` *)*
 - **ACL Permissions** based on hierarchical roles
-- Updatable contracts **written in C++ **.
-- Support for keys protected by **biometric hardware***(e.g. : Apple Secure Enclave)*
+- Updatable contracts **written in C++**.
+- Support for keys protected by **biometric hardware** *(e.g. : Apple Secure Enclave)*
 - Designed for **Inter-Blockchain communication**
 
 Another important feature of EOSIO based blockchain networks is it's flexible architecture, with which many of the operation rules are defined through the **system contracts**.
