@@ -17,7 +17,7 @@ Additionally, we recommend install Contract Development Toolkit (CDT) beforehand
 
 ## Get your private keys
 
-More information [about private keys](llaves-privadas.md)
+More information [about private keys](private-keys.md)
 
 ## Agile accounts creator
 

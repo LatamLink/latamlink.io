@@ -8,7 +8,7 @@ We explain by example how to create an account and a "Hello World" contract to u
 
 ## Get your private keys
 
-More information [about private keys](llaves-privadas.md)
+More information [about private keys](private-keys.md)
 
 ## Acquire RAM resource
 Once you have the account on LatamLink Testnet, we can use the Faucet to receive dummy tokens for free, that in this case will be EOS, necessary to use network resources (as long as we have participation on that network). The sense of that is, for the contract, we will be requiring to acquire RAM resources of the block producers, for which that we will need these EOS that were just sent to us.

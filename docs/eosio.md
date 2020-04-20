@@ -4,7 +4,7 @@ title: EOSIO's Testnet for LAC-Chain
 sidebar_label: EOSIO Protocol
 ---
 
-**EOSIO** is open source software that allows launching highly configurable blockchain networks on which developers and entrepreneurs can run high performant blockchain applications. [EOSIO](https://eos.io) was created in 2018 and is maintained by [Block One](https://block.one).  The first public network launched on EOSIO is called **EOS**, also referred as "mainnet". EOS is one of the multiple public blockchain networks actually using EOSIO. You can see the following [EOSIO network list](redes-eosio.md). Also there are multiple private networks using EOSIO.
+**EOSIO** is open source software that allows launching highly configurable blockchain networks on which developers and entrepreneurs can run high performant blockchain applications. [EOSIO](https://eos.io) was created in 2018 and is maintained by [Block One](https://block.one).  The first public network launched on EOSIO is called **EOS**, also referred as "mainnet". EOS is one of the multiple public blockchain networks actually using EOSIO. You can see the following [EOSIO network list](eosio-networks.md). Also there are multiple private networks using EOSIO.
 
 Some innovative features include:
 

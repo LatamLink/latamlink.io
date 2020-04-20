@@ -36,7 +36,8 @@ const siteConfig = {
   headerLinks: [
     {doc: 'eosio', label: 'Docs'},
     {doc: 'api', label: 'APIs'},
-    {page: 'ayuda', label: 'Help'},
+    {page: 'help', label: 'Help'},
+    {href: 'https://es.latamlink.io/docs/eosio', label: 'Español'},
     {search: true}
   ],
 
