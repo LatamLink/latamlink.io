@@ -39,15 +39,6 @@
 
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
-  <!---JQUERY i18n configuration-->
-  <script src="./jquery.i18n/jquery.i18n.js"></script>
-  <script src="./jquery.i18n/jquery.i18n.messagestore.js"></script>
-  <script src="./jquery.i18n/jquery.i18n.fallbacks.js"></script>
-  <script src="./jquery.i18n/jquery.i18n.language.js"></script>
-  <script src="./jquery.i18n/jquery.i18n.parser.js"></script>
-  <script src="./jquery.i18n/jquery.i18n.emitter.js"></script>
-  <script src="./jquery.i18n/jquery.i18n.emitter.bidi.js"></script>
-
   <!-- Latest compiled and minified CSS -->
   <link
     rel="stylesheet"
@@ -392,14 +383,3 @@
     </div>
   </footer>
 </div>
-<script>
-  if (window.netlifyIdentity) {
-    window.netlifyIdentity.on("init", user => {
-      if (!user) {
-        window.netlifyIdentity.on("login", () => {
-          document.location.href = "/admin/";
-        });
-      }
-    });
-  }
-</script>
