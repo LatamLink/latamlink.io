@@ -37,7 +37,6 @@ const siteConfig = {
     {doc: 'eosio', label: 'Docs'},
     {doc: 'api', label: 'APIs'},
     {page: 'ayuda', label: 'Help'},
-    {blog: true, label: 'Blog'},
     {search: true}
   ],
 
