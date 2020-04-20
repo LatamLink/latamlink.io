@@ -13,23 +13,23 @@
 	</a>
 </p>
 
-## Descripción 
-Documentación técnica para el testnet LatamLink [latamlink.io](https://latamlink.io)
+## Description 
+Technical documentation for the LatamLink testnet [latamlink.io](https://latamlink.io)
 
-Este sitio web es creado usando [https://docusaurus.io/](Docusaurus), una herramienta para mantener documentación técnica de proyectos de código libre. 
+This website is created using [https://docusaurus.io/](Docusaurus), a tool for maintaining technical documentation of open source projects.
 
-### Editar Contenido
-La documentación se genera a partir de archivos en formato markdown ubicados dentro de la sub-carpeta `/docs`. Ver mas información [aquí](https://github.com/LatamLink/latamlink.io/tree/master/website).
+### Edit Content
+Documentation is generated from markdown format files located within the `/docs` sub-folder. See more information [here](https://github.com/LatamLink/latamlink.io/tree/master/website).
 
-### Ambiente Local
-Para correr el sitio web en un ambiente local de desarrollo se requiere correr los siguientes comandos: 
+### Local Environment
+To run the website in a local development environment you need to run the following commands: 
 
 `cd website` 
 
 `yarn start` 
 
-### Publicar
-[latamlink.io](https://latamlink.io) esta alojado en GitHub y se publica mediante el siguientes comandos:
+### Publishing
+[latamlink.io](https://latamlink.io) is hosted on GitHub and published using the following commands:
 
 `cd website`
 
@@ -37,19 +37,19 @@ Para correr el sitio web en un ambiente local de desarrollo se requiere correr l
 
 `GIT_USER=LatamLink CURRENT_BRANCH=master USE_SSH=true npm run publish-gh-pages`
 
-## Como Contribuir
+## How to contribute
 
-Utilizamos un tablero de estilo Kanban para priorizar el trabajo. [Ir al tablero del proyecto](https://github.com/LatamLink/projects/1).
-
-
-Los principales canales de comunicación son [github issues](https://github.com/LatamLink/latamlink.io/issues) y el [canal de Telegram](https://t.me/latamlink). Siéntase libre mandar todas las preguntas que pueda tener.
+We use a Kanban style board to prioritize work. [Go to the project board](https://github.com/LatamLink/projects/1).
 
 
-Pautas para contribuyentes. [https://developers.eoscostarica.io/docs/open-source-guidelines](https://developers.eoscostarica.io/docs/open-source-guidelines).
-
-Informe cualquier idea o errores grandes y pequeños [abriendo un "issue"](https://github.com/LatamLink/latamlink.io/issues).
+The main communication channels are [github issues](https://github.com/LatamLink/latamlink.io/issues) and the [Telegram channel](https://t.me/latamlink). Feel free to send any questions you may have.
 
 
-## Licencia
+Contributing Guidelines: [https://developers.eoscostarica.io/docs/open-source-guidelines](https://developers.eoscostarica.io/docs/open-source-guidelines).
+
+Report any bugs big or small [by opening an issue](https://github.com/LatamLink/latamlink.io/issues).
+
+
+## License
 
 MIT © [LatamLink Testnet](https://latamlink.io)  
