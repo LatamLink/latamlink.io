@@ -1,6 +1,6 @@
 ---
-id: recursos
-title: Sistem Resources
+id: system-resources
+title: System Resources
 sidebar_label: System Resources
 ---
 
@@ -20,13 +20,13 @@ You can find more details about the CPU as a system resource [here](https://deve
 ### RAM
 In an EOSIO based blockchain, the RAM is one of the important system resources that the accounts and Smart Contracts consume. The RAM acts as permanent storage and is used to store the account name, permissions, tokens balances and other data for fast access. The RAM needs to be assigned since is a limited persistent resource, measured in KiloBytes.
 
-You cand find more details about RAM as a system resource[here](https://developers.eos.io/manuals/eosio.contracts/latest/key-concepts/ram).
+You can find more details about RAM as a system resource[here](https://developers.eos.io/manuals/eosio.contracts/latest/key-concepts/ram).
 
 ### Network (NET)
 
 Apart from CPU and RAM, NET is also a highly important resource in the EOSIO based blockchains. NET is the bandwidth, measured in bytes of transactions and it's called `net bandwidth` in the command `cleos get account`. Like the CPU, NET is also a transitory system resource.
 
-You cand find more details about NET as a system resource [here](https://developers.eos.io/manuals/eosio.contracts/latest/key-concepts/net).
+You can find more details about NET as a system resource [here](https://developers.eos.io/manuals/eosio.contracts/latest/key-concepts/net).
 
 ## EOSIO privileged account
 

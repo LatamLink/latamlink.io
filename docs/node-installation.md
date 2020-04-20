@@ -1,7 +1,7 @@
 ---
-id: instalacion-nodos
-title: Nodes Instalation
-sidebar_label: Nodes Instalation
+id: node-installation
+title: EOSIO Node Installation
+sidebar_label: Node Installation
 ---
 
 Nodes Installation guide

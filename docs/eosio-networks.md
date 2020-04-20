@@ -1,5 +1,5 @@
 ---
-id: redes-eosio
+id: eosio-networks
 title: EOSIO based Blockchain Networks
 sidebar_label: EOSIO Networks
 ---

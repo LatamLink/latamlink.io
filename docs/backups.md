@@ -1,5 +1,5 @@
 ---
-id: respaldos
+id: backups
 title: Snapshots and Backups
 sidebar_label: Snapshots and backups
 ---

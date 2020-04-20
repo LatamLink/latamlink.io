@@ -1,5 +1,5 @@
 ---
-id: hola-mundo
+id: hello-world
 title: Hello World Contract
 sidebar_label: Hello World Contract
 ---

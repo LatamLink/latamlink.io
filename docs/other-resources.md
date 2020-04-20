@@ -1,5 +1,5 @@
 ---
-id: otros-recursos
+id: other-resources
 title: EOSIO learning resources
 sidebar_label: Learning Portal
 ---

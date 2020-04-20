@@ -1,5 +1,5 @@
 ---
-id: monitoreo
+id: monitoring
 title: Network monitoring
 sidebar_label: Network monitoring
 ---

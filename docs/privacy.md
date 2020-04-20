@@ -1,5 +1,5 @@
 ---
-id: privacidad
+id: privacy
 title: Privacy
 sidebar_label: Privacy
 ---

@@ -1,10 +1,10 @@
 ---
-id: protocolo-consenso
+id: consensus-mechanism
 title: Consensus Mechanism
 sidebar_label: Consensus Mechanism
 ---
 
-The consensus mechanism ensures that each new block that is added to the Blockchain be the unique versión of the agreed truth for the whole nodes in the network. Henceforth, a consensus algorithm aims to find a common agreement that is accepted for the whole network.
+The consensus mechanism ensures that each new block that is added to the Blockchain be the unique version of the agreed truth for the whole nodes in the network. Henceforth, a consensus algorithm aims to find a common agreement that is accepted for the whole network.
 
 In the case of LatamLink, there is a group of nodes that have transactions validation authority and write these transactions within new blocks. We call these nodes **Block Producers**.
 

@@ -1,7 +1,7 @@
 ---
-id: como-iniciar
-title: How to begin
-sidebar_label: How to begin
+id: getting-started
+title: Getting Started
+sidebar_label: Getting Started
 ---
 
 ## Before you begin

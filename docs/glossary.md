@@ -1,5 +1,5 @@
 ---
-id: glosario
+id: glossary
 title: Glossary of terms
 sidebar_label: Glossary of Terms
 ---

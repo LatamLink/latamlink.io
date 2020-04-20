@@ -1,6 +1,6 @@
 ---
 id: cli
-title: Command Line
+title: Command Line Interface
 sidebar_label: Command Line
 ---
 

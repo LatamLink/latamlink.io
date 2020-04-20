@@ -1,5 +1,5 @@
 ---
-id: llaves-privadas
+id: private-keys
 title: Private Keys Management
 sidebar_label: Private Keys
 ---

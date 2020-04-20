@@ -1,5 +1,5 @@
 ---
-id: rendimiento
+id: performance
 title: Network security and Performance
 sidebar_label: Security and Performance
 ---

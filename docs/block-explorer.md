@@ -1,6 +1,6 @@
 ---
-id: explorador-bloques
-title: Blocks Explorer
+id: block-explorer
+title: Block Explorer
 ---
 
 Blocks explorer built-in: Transactions visualizer.

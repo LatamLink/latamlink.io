@@ -1,5 +1,5 @@
 ---
-id: interoperabilidad
+id: interoperability
 title: Interoperability
 sidebar_label: Interoperability
 ---

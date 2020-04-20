@@ -1,5 +1,5 @@
 ---
-id: topologia-red
+id: network-topology
 title: Network Topology
 sidebar_label: Network Topology
 ---

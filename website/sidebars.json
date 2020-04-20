@@ -2,38 +2,38 @@
   "docs": {
     "Testnet": [
       "eosio",
-      "protocolo-consenso",
-      "topologia-red",
-      "monitoreo",
-      "recursos",
-      "rendimiento",
-      "cuentas-permisos",
+      "consensus-mechanism",
+      "network-topology",
+      "monitoring",
+      "system-resources",
+      "performance",
+      "accounts-permissions",
       "digital-identity",
-      "privacidad",
-      "interoperabilidad",
+      "privacy",
+      "interoperability",
       "roadmap"
     ],
     "Guides": [
-    	"como-iniciar",
-    	"llaves-privadas",
-      "instalacion-nodos",
-      "hola-mundo"
+    	"getting-started",
+    	"private-keys",
+      "node-installation",
+      "hello-world"
 
     ],
     "Tools": [
       "monitor",
-      "gestion-red",
-      "explorador-bloques",
+      "network-governance",
+      "block-explorer",
       "api",
       "cli",
       "eos-js",
-      "respaldos",
-      "boilerplate  "
+      "backups",
+      "boilerplate"
     ],
     "Resources": [
-      "otros-recursos",
-      "redes-eosio",
-      "glosario"
+      "other-resources",
+      "eosio-networks",
+      "glossary"
     ]
   }
 }

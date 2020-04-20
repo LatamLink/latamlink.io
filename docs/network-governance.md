@@ -1,7 +1,7 @@
 ---
-id: gestion-red
-title: Network Management tools.
-sidebar_label: Network Management
+id: network-governance
+title: Network Governance Tool
+sidebar_label: Network Governance
 ---
 
 ## Smart Contracts
