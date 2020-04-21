@@ -65,11 +65,11 @@ const siteConfig = {
   separateCss: [
     "css/static_website.css"
   ],
-  algolia: {
-    apiKey: 'f7e83f64ca037b5315b5ccd56f79910c',
-    indexName: 'latamlink',
-    algoliaOptions: {} // Optional, if provided by Algolia
-  },
+  // algolia: {
+  //   apiKey: '',
+  //   indexName: '',
+  //   algoliaOptions: {} // Optional, if provided by Algolia
+  // },
 
   // Add custom scripts here that would be placed in <script> tags.
   scripts: ["https://buttons.github.io/buttons.js"],
@@ -96,7 +96,7 @@ const siteConfig = {
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
-  repoUrl: "https://github.com/LatamLink"
+  repoUrl: "https://github.com/LatamLink/latamlink.io"
 };
 
 module.exports = siteConfig;
