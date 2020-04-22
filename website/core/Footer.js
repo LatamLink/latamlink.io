@@ -34,21 +34,21 @@ class Footer extends React.Component {
             )}
           </a>
           <div>
-            <h5>Documentación</h5>
+            <h5>Documentation</h5>
             <a href={this.docUrl('doc1.html', this.props.language)}>
-              Como Iniciar
+              How to get started
             </a>
             <a href={this.docUrl('doc2.html', this.props.language)}>
-              Guías
+              Guides
             </a>
             <a href={this.docUrl('doc3.html', this.props.language)}>
               APIs
             </a>
           </div>
           <div>
-            <h5>Comunidad</h5>
+            <h5>Community</h5>
             <a href={this.pageUrl('users.html', this.props.language)}>
-              Usuarios
+              Users
             </a>
             <a
               href="https://stackoverflow.com/questions/tagged/"
@@ -65,7 +65,7 @@ class Footer extends React.Component {
             </a>
           </div>
           <div>
-            <h5>Más</h5>
+            <h5>More</h5>
             <a href={`${this.props.config.baseUrl}blog`}>Blog</a>
             <a href="https://github.com/LatamLink">GitHub</a>
             <a
