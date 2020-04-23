@@ -27,17 +27,15 @@ class Footer extends React.Component {
         <section className="sitemap">
           <div>
             <h5>Documentation</h5>
-            <a href={this.docUrl("doc1.html", this.props.language)}>
+            <a href={this.docUrl("getting-started.html")}>
               How to get started
             </a>
-            <a href={this.docUrl("doc2.html", this.props.language)}>Guides</a>
-            <a href={this.docUrl("doc3.html", this.props.language)}>APIs</a>
+            <a href={this.docUrl("api.html")}>APIs</a>
           </div>
           <div>
             <h5>Community</h5>
-            <a href={this.pageUrl("users.html", this.props.language)}>Users</a>
             <a
-              href="https://stackoverflow.com/questions/tagged/"
+              href="https://eosio.stackexchange.com/"
               target="_blank"
               rel="noreferrer noopener"
             >
