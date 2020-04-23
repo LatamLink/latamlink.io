@@ -5,62 +5,50 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-const React = require('react');
+const React = require("react");
 
 class Footer extends React.Component {
   docUrl(doc, language) {
     const baseUrl = this.props.config.baseUrl;
     const docsUrl = this.props.config.docsUrl;
-    const docsPart = `${docsUrl ? `${docsUrl}/` : ''}`;
-    const langPart = `${language ? `${language}/` : ''}`;
+    const docsPart = `${docsUrl ? `${docsUrl}/` : ""}`;
+    const langPart = `${language ? `${language}/` : ""}`;
     return `${baseUrl}${docsPart}${langPart}${doc}`;
   }
 
   pageUrl(doc, language) {
     const baseUrl = this.props.config.baseUrl;
-    return baseUrl + (language ? `${language}/` : '') + doc;
+    return baseUrl + (language ? `${language}/` : "") + doc;
   }
 
   render() {
     return (
       <footer className="nav-footer" id="footer">
         <section className="sitemap">
-          <a href={this.props.config.baseUrl} className="nav-home">
-            {this.props.config.footerIcon && (
-              <img
-                src={this.props.config.baseUrl + this.props.config.footerIcon}
-                alt={this.props.config.title}
-              />
-            )}
-          </a>
           <div>
             <h5>Documentation</h5>
-            <a href={this.docUrl('doc1.html', this.props.language)}>
+            <a href={this.docUrl("doc1.html", this.props.language)}>
               How to get started
             </a>
-            <a href={this.docUrl('doc2.html', this.props.language)}>
-              Guides
-            </a>
-            <a href={this.docUrl('doc3.html', this.props.language)}>
-              APIs
-            </a>
+            <a href={this.docUrl("doc2.html", this.props.language)}>Guides</a>
+            <a href={this.docUrl("doc3.html", this.props.language)}>APIs</a>
           </div>
           <div>
             <h5>Community</h5>
-            <a href={this.pageUrl('users.html', this.props.language)}>
-              Users
-            </a>
+            <a href={this.pageUrl("users.html", this.props.language)}>Users</a>
             <a
               href="https://stackoverflow.com/questions/tagged/"
               target="_blank"
-              rel="noreferrer noopener">
+              rel="noreferrer noopener"
+            >
               Stack Overflow
             </a>
             <a href="https://t.me/">Telegram Chat</a>
             <a
               href="https://twitter.com/"
               target="_blank"
-              rel="noreferrer noopener">
+              rel="noreferrer noopener"
+            >
               Twitter
             </a>
           </div>
@@ -75,14 +63,16 @@ class Footer extends React.Component {
               data-count-href="/LatamLink/documentacion"
               data-show-count="true"
               data-count-aria-label="# stargazers on GitHub"
-              aria-label="Star this project on GitHub">
+              aria-label="Star this project on GitHub"
+            >
               Star
             </a>
             {this.props.config.twitterUsername && (
               <div className="social">
                 <a
                   href={`https://twitter.com/${this.props.config.twitterUsername}`}
-                  className="twitter-follow-button">
+                  className="twitter-follow-button"
+                >
                   Follow @{this.props.config.twitterUsername}
                 </a>
               </div>
@@ -102,7 +92,50 @@ class Footer extends React.Component {
             )}
           </div>
         </section>
-
+        <div className="icon-container">
+          <a href={this.props.config.baseUrl} className="nav-home">
+            {this.props.config.footerIcon && (
+              <img
+                className="footer-logo"
+                src={this.props.config.baseUrl + this.props.config.footerIcon}
+                alt={this.props.config.title}
+              />
+            )}
+          </a>
+          <a
+            href="https://eoscostarica.io/es/"
+            target="_blank"
+            className="nav-home"
+          >
+            <img
+              className="footer-logo"
+              src={this.props.config.baseUrl + this.props.config.eoscrIcon}
+              alt={this.props.config.title}
+            />
+          </a>
+          <a
+            href="https://www.eosargentina.io/"
+            target="_blank"
+            className="nav-home"
+          >
+            <img
+              className="footer-logo"
+              src={this.props.config.baseUrl + this.props.config.eosarIcon}
+              alt={this.props.config.title}
+            />
+          </a>
+          <a
+            href="https://eosvenezuela.io/"
+            target="_blank"
+            className="nav-home"
+          >
+            <img
+              className="footer-logo"
+              src={this.props.config.baseUrl + this.props.config.eosvenIcon}
+              alt={this.props.config.title}
+            />
+          </a>
+        </div>
         <section className="copyright">{this.props.config.copyright}</section>
       </footer>
     );
