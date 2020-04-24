@@ -35,7 +35,9 @@ const siteConfig = {
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     { href: "https://latamlink.io", label: "Home" },
-    { doc: "eosio", label: "Docs" },
+    { href: "https://monitor.latamlink.io", label: "Monitor" },
+    { href: "http://explorer.testnet.latamlink.io", label: "Explorer" },
+    { href: "api", label: "APIs" },
     { href: "https://es.latamlink.io/docs/eosio", label: "Español" },
     { search: true },
   ],
