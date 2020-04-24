@@ -80,7 +80,7 @@ const siteConfig = {
   // No .html extensions for paths.
   cleanUrl: true,
 
-  twitterUsername: "EOSCostaRica",
+  twitterUsername: "LatamLink_EOS",
   // Open Graph and Twitter card images.
   ogImage: "img/undraw_online.svg",
   twitterImage: "img/undraw_tweetstorm.svg",
