@@ -14,15 +14,15 @@ const users = [
     caption: "User1",
     image: "/img/undraw_open_source.svg",
     infoLink: "https://www.facebook.com",
-    pinned: true
-  }
+    pinned: true,
+  },
 ];
 
 const siteConfig = {
   title: "LatamLink Testnet", // Title for your website.
   tagline: "Technical Documentation",
   url: "https://latamlink.io/", // Your website URL
-  cname: "latamlink.io", 
+  cname: "latamlink.io",
   baseUrl: "/", // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
@@ -34,9 +34,10 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'eosio', label: 'Docs'},
-    {href: 'https://es.latamlink.io/docs/eosio', label: 'Español'},
-    {search: true}
+    { href: "https://latamlink.io", label: "Home" },
+    { doc: "eosio", label: "Docs" },
+    { href: "https://es.latamlink.io/docs/eosio", label: "Español" },
+    { search: true },
   ],
 
   // If you have users set above, you add it here:
@@ -53,7 +54,7 @@ const siteConfig = {
   /* Colors for website */
   colors: {
     primaryColor: "#19af54",
-    secondaryColor: "#000"
+    secondaryColor: "#000",
   },
   editUrl: "https://github.com/LatamLink/latamlink.io/edit/master/docs/",
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
@@ -61,15 +62,13 @@ const siteConfig = {
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
-    theme: "default"
+    theme: "default",
   },
-  separateCss: [
-    "css/static_website.css"
-  ],
+  separateCss: ["css/static_website.css"],
   algolia: {
-    apiKey: 'f7e83f64ca037b5315b5ccd56f79910c',
-    indexName: 'latamlink',
-    algoliaOptions: {} // Optional, if provided by Algolia
+    apiKey: "f7e83f64ca037b5315b5ccd56f79910c",
+    indexName: "latamlink",
+    algoliaOptions: {}, // Optional, if provided by Algolia
   },
 
   // Add custom scripts here that would be placed in <script> tags.
@@ -80,7 +79,7 @@ const siteConfig = {
   // No .html extensions for paths.
   cleanUrl: true,
 
-  twitterUsername: "EOSCostaRica",
+  twitterUsername: "LatamLink_EOS",
   // Open Graph and Twitter card images.
   ogImage: "img/undraw_online.svg",
   twitterImage: "img/undraw_tweetstorm.svg",
@@ -97,7 +96,7 @@ const siteConfig = {
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
-  repoUrl: "https://github.com/LatamLink/latamlink.io"
+  repoUrl: "https://github.com/LatamLink/latamlink.io",
 };
 
 module.exports = siteConfig;
