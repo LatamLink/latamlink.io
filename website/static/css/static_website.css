@@ -17,6 +17,8 @@ li.list-group-item > a {
   color: #5bb517;
 }
 
+
+
 .underline {
   border-bottom: 2px solid #5bb517;
   padding-bottom: 10px;
@@ -129,12 +131,10 @@ information-card-text {
   display: grid;
   grid-column-gap: 50px;
   padding: auto;
-  align-items: center;
   justify-self: center;
   align-self: center;
   justify-content: center;
-  justify-items: center;
-  grid-template-columns: repeat(auto-fit, minmax(360px, auto));
+  grid-template-columns: repeat(auto-fit, minmax(350px, auto));
   grid-template-rows: auto;
 }
 
@@ -142,20 +142,20 @@ information-card-text {
   display: flex;
   flex-direction: row;
   min-width: 330px;
-  max-width: 370px;
+  max-width: 350px;
   justify-content: space-around;
 }
 
 .information-grid-footer {
   display: grid;
-  width: 70%;
+  width: 80%;
   margin: 0;
   margin: auto;
   gap: 50px;
   align-items: center;
   justify-items: center;
   grid-template-areas: "information information-img";
-  grid-template-columns: 2fr minmax(250, 300px);
+  grid-template-columns: 1.5fr 1fr;
 }
 
 .information-grid-footer,
@@ -217,14 +217,17 @@ information-card-text {
 .tools {
   justify-content: center;
   width: fit-content;
+  justify-self: center !important;
   margin: auto;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 300px));
+  grid-template-columns: repeat(3, minmax(300px, 300px));
+  grid-template-rows: repeat(auto-fill, 1fr);
   justify-items: center;
   display: grid;
 }
 
 .tools > div {
   max-width: 400px;
+  max-height: 387px;
 }
 
 .border-t {
@@ -242,10 +245,11 @@ information-card-text {
 .border-r {
   border-right: 0.5px solid rgba(211, 211, 211, 0.89);
 }
+
 /** MEDIA QUERIES **/
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
   .get-started-step {
     display: flex;
     flex-direction: column;
@@ -258,10 +262,6 @@ information-card-text {
     max-height: 60px;
     padding: 15px;
     border: none;
-  }
-
-  .tools {
-    grid-template-columns: 1fr;
   }
 
   .footer-container > h4 {
@@ -278,9 +278,6 @@ information-card-text {
   }
 
   .information-grid-footer {
-    display: grid;
-    width: 100%;
-    margin: auto;
     grid-template-areas:
       "information-img"
       "information";
@@ -293,10 +290,10 @@ information-card-text {
       "get-started-img    get-started-img     get-started-img"
       "get-started-steps  get-started-steps   get-started-steps";
   }
-
-  .border-r, border-l, .border-b {
-    border: none !important;
+  .tools {
+    grid-template-columns: 1fr;
   }
+
 }
 
 @media only screen and (min-width: 481px) and (max-width: 767px) {
@@ -308,9 +305,6 @@ information-card-text {
   }
 
   .information-grid-footer {
-    display: grid;
-    width: 100%;
-    margin: auto;
     grid-template-areas:
       "information-img"
       "information";
@@ -319,29 +313,31 @@ information-card-text {
 
   .tools {
     grid-template-columns: repeat(auto-fill, minmax(400px, 500px));
-    grid-template-rows: repeat(3, 450px);
   }
 
-  .border-r, border-l, .border-b {
-    border: none !important;
+  .footer-container > h4 {
+    font-size: 1rem;
+  }
+
+  .footer-container {
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 10vh;
   }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 834px) {
+@media only screen and (min-width: 768px) and (max-width: 991px) {
   .get-started-structure {
     grid-template-areas:
       "get-started-header get-started-header  get-started-header"
-      "get-started-img    get-started-img     get-started-img"
+      "...    get-started-img     ..."
       "get-started-steps  get-started-steps   get-started-steps";
   }
+
   .information-grid {
-    grid-template-columns: 1fr !important;
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .information-grid-footer {
-    display: grid;
-    width: 100%;
-    margin: auto;
     grid-template-areas:
       "information-img"
       "information";
@@ -349,18 +345,6 @@ information-card-text {
   }
 
   .tools {
-    grid-template-columns: repeat(auto-fill, minmax(1fr, 2fr));
-  }
-
-  div.tools > div {
-    padding: 0px !important;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
-
-@media screen and (min-width: 1224px) {
-  .tools {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-/** END MEDIA QUERIES **/
