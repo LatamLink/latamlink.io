@@ -40,7 +40,7 @@ An EOSIO network is configured by default to use 21 active producers and a serie
 
 ## Block producer schedule
 
-In EOSIO networks, active block producers are listed on a list, called schedule.
+In EOSIO networks, active block producers are listed on a list, called **`schedule`**.
 
 The schedule is arranged alphabetically and thus defines the sequence in which block producers must sign blocks.
 
@@ -87,7 +87,7 @@ Eventually, a smart contract may be implemented to replace a block producer's ac
 
 
 ## Node traceability
-LACCHain currently runs a Hyperledger BESU IBFT 2 network, where it cannot traced which writer node generated a transaction, so it is not possible to make them legally responsible for it.
+LACCHain currently runs a Hyperledger BESU IBFT 2 network, where it cannot trace which node relayed a transaction, so it is not possible to make them legally responsible for it.
 
 It is necessary to verify that in LatamLink any transaction that is issued is propagated by a node that is in the list of accounts authorized by the permitting committee.
 
@@ -101,7 +101,7 @@ This traceability may require modifying the EOSIO transaction protocol to includ
 
 LACChain will use tailored system contracts. Building over the native EOSIO system contracts, where the main changes lie replacing native **Delegated Proof of Stake (dPOS)** mechanism with LAC-Chain **Proof of Authority (POA)**.
 
-This change involves disabling the use of tokens and voting featuress of the DPOS protocol. It will also no longer be necessary to issue a system token.
+This change involves disabling the use of tokens and voting features of the DPOS protocol. It will also no longer be necessary to issue a system token.
 
 ### Disabled dPOS functions :
 - System Token
