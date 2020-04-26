@@ -8,9 +8,9 @@ sidebar_label: Command Line
 
 `cleos` is a command line tool that interacts with the API REST exposed by nodeos. The developers also can use code to implement and test EOSIO's Smart Contracts.
 
-## Instalation
+## Installation
 
-`cleos` is distributed as part of EOSIO. In order to install `cleos` follow the instructions written in the EOSIO's software instalation section.
+`cleos` is distributed as part of EOSIO. In order to install `cleos` follow the instructions written in the EOSIO's software installation section.
 
 ## How to use Cleos
 

@@ -24,8 +24,8 @@ This metric consists of quickly writing and reading to a RAM table and in a very
 
 ### Monitoring Contracts examples:
 
-- [EOS Block Producer Benchmarks](https://www.alohaeos.com/tools/benchmarks) por [Aloha EOS](https://www.alohaeos.com/)
-- [Block Producer Performance](https://labs.eostitan.com/#/block-producer-performance) por [EOS Titan](https://eostitan.com/)
+- [EOS Block Producer Benchmarks](https://www.alohaeos.com/tools/benchmarks)
+- [Block Producer Performance](https://labs.eostitan.com/#/block-producer-performance)
 
 ## Off-Chain monitoring
 
@@ -34,7 +34,7 @@ This metric consists of quickly writing and reading to a RAM table and in a very
 - The permissioning committee reserves the discretionary right to delete a block producer.
 
 ### Information about nodes
-- Legal entity disclousure
+- Legal entity disclosure
 - Nodes location
 - Performance metrics and node availability
 - Other Public data

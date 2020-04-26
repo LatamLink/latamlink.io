@@ -4,9 +4,9 @@ title: Digital Identity
 sidebar_label: Digital Identity
 ---
 
-Self-soverign identity for end users, compatible with national digital identities and electronic signatures
+Self-sovereign identity for end users, compatible with national digital identities and electronic signatures
 
-Interoperable with other national blockchains and ecosystems.
+Inter-operable with other national blockchains and ecosystems.
 
 ## Techno-Legal Framework
 
