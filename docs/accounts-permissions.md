@@ -6,16 +6,20 @@ sidebar_label: Accounts and Permissions
 
 ## Accounts
 
-An account on EOSIO is a legible name for humans that get stored in the blockchain. Could be property of and individual or group of individuals depending of the configuration of the permits. Is required an account to transfer or send whatever valid transaction to the blockchain.
+An account on EOSIO is a legible name for humans that get stored on the blockchain. An account can belong to an individual or group of individuals depending on the permissions configuration. An account is required in order to execute any transaction on the blockchain.
 
 The account name must comply with certain requirements: characters from `a` to `z` in lower case, numbers from `1` to `5` and have 12 characters length. E. g. `latamlink12`.
 
-## Authorizations and Permissions
+## Permissions
 
-The Permissions are arbitrary names used to define the requirements of a transactions sent in name of that permit. The permissions can be assigned to the authority about contractual actions.
+EOSIO allows to create custom hierarchical permissions that stem from the owner permission. This allows finer control over action authorizations. It also strengthens security in case the active permission gets compromised.
 
-To get more information about these concepts, go \[accounts and permissions documentation\](https://developers.eos.io/welcome/latest/protocol/accounts_and_permissions).
+Any given account can define a mapping between any of its named permissions and a smart contract or action within that contract.
 
+## Authorizations
+Each account's permission can be linked to an authority table used to determine whether a given action authorization can be satisfied
+
+To get more information about these concepts, go [accounts and permissions documentation](https://developers.eos.io/welcome/latest/protocol/accounts_and_permissions).
 
 ## Wallets
 
