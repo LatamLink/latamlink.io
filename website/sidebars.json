@@ -3,11 +3,11 @@
     "Testnet": [
       "eosio",
       "consensus-mechanism",
+      "system-resources",
+      "accounts-permissions",
       "network-topology",
       "monitoring",
-      "system-resources",
       "performance",
-      "accounts-permissions",
       "digital-identity",
       "privacy",
       "interoperability",
