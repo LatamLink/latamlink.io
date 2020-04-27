@@ -27,9 +27,7 @@ class Footer extends React.Component {
         <section className="sitemap">
           <div>
             <h5>Documentation</h5>
-            <a href={this.docUrl("getting-started.html")}>
-              How to get started
-            </a>
+            <a href={this.docUrl("getting-started.html")}>How to get started</a>
             <a href={this.docUrl("api.html")}>APIs</a>
           </div>
           <div>
@@ -90,51 +88,56 @@ class Footer extends React.Component {
             )}
           </div>
         </section>
-        <div className="icon-container">
-          <a href={this.props.config.baseUrl} className="nav-home">
-            {this.props.config.footerIcon && (
+        <section className="copyright">
+          <div className="icon-container">
+            <p id="poweredby">Powered by</p>
+            <a href={this.props.config.baseUrl} className="nav-home">
+              {this.props.config.footerIcon && (
+                <img
+                  className="footer-logo"
+                  src={this.props.config.baseUrl + this.props.config.footerIcon}
+                  alt={this.props.config.title}
+                />
+              )}
+            </a>
+            <a
+              href="https://eoscostarica.io/es/"
+              target="_blank"
+              className="nav-home"
+            >
               <img
                 className="footer-logo"
-                src={this.props.config.baseUrl + this.props.config.footerIcon}
+                src={this.props.config.baseUrl + this.props.config.eoscrIcon}
                 alt={this.props.config.title}
               />
-            )}
-          </a>
-          <a
-            href="https://eoscostarica.io/es/"
-            target="_blank"
-            className="nav-home"
-          >
-            <img
-              className="footer-logo"
-              src={this.props.config.baseUrl + this.props.config.eoscrIcon}
-              alt={this.props.config.title}
-            />
-          </a>
-          <a
-            href="https://www.eosargentina.io/"
-            target="_blank"
-            className="nav-home"
-          >
-            <img
-              className="footer-logo"
-              src={this.props.config.baseUrl + this.props.config.eosarIcon}
-              alt={this.props.config.title}
-            />
-          </a>
-          <a
-            href="https://eosvenezuela.io/"
-            target="_blank"
-            className="nav-home"
-          >
-            <img
-              className="footer-logo"
-              src={this.props.config.baseUrl + this.props.config.eosvenIcon}
-              alt={this.props.config.title}
-            />
-          </a>
-        </div>
-        <section className="copyright">{this.props.config.copyright}</section>
+            </a>
+            <a
+              href="https://www.eosargentina.io/"
+              target="_blank"
+              className="nav-home"
+            >
+              <img
+                className="footer-logo"
+                src={this.props.config.baseUrl + this.props.config.eosarIcon}
+                alt={this.props.config.title}
+              />
+            </a>
+            <a
+              href="https://eosvenezuela.io/"
+              target="_blank"
+              className="nav-home"
+            >
+              <img
+                className="footer-logo"
+                src={this.props.config.baseUrl + this.props.config.eosvenIcon}
+                alt={this.props.config.title}
+              />
+            </a>
+          </div>
+          <p style={{margin: 0, height: 'fit-content'}}>
+            {this.props.config.copyright}
+          </p>
+        </section>
       </footer>
     );
   }

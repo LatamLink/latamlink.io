@@ -55,35 +55,26 @@ img.logo {
 .onPageNav {
   padding: 30px 0 !important;
 }
-.nav-footer .sitemap .nav-home {
-  width: 200px !important;
-}
 
-/* .nav-home {
-  padding-right: 20px !important;
-} */
-
-@media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
-}
-
-@media only screen and (min-width: 1024px) {
-}
-
-@media only screen and (max-width: 1023px) {
-}
-
-@media only screen and (min-width: 1400px) {
-}
-
-@media only screen and (min-width: 1500px) {
+.nav-footer .copyright {
+  color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  max-width: 1080px;
+  display: flex;
+  align-items: flex-end;
+  margin: auto;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .icon-container {
-  margin: auto;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   align-items: center;
   justify-items: center;
   justify-content: center;
+  column-gap: 15px;
 }
 
 a.nav-home {
@@ -110,4 +101,12 @@ a.nav-home {
   -webkit-filter: grayscale(0);
   -webkit-transform: scale(1.5);
   transform: scale(1.5);
+}
+
+#poweredby {
+  grid-column: 1 / 5;
+  grid-row: 1;
+  width: 100%;
+  text-align: start;
+  font-size: 1.5rem;
 }
