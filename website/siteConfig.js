@@ -21,7 +21,7 @@ const users = [
 const siteConfig = {
   title: "LatamLink Testnet", // Title for your website.
   tagline: "Technical Documentation",
-  url: "https://latamlink.io/", // Your website URL
+  url: "https://latamlink.io", // Your website URL
   cname: "latamlink.io",
   baseUrl: "/", // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
