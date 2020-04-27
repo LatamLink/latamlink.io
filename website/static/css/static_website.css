@@ -81,8 +81,7 @@ html {
 .main-container > div,
 .main-container .head,
 .main-container .content-header,
-.main-container .content,
-.main-container .foot {
+.main-container .content {
   background: #fff;
   padding: 20px;
 }
@@ -91,6 +90,23 @@ html {
   position: absolute;
   width: 100%;
   height: 100%;
+}
+
+.foot {
+  max-width: 100vw !important;
+  background: #0bb155;
+  color: #fff;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: 2fr minmax(270px, 270px);
+  grid-template-rows: 30vh;
+  align-content: center;
+  align-items: center;
+  justify-self: center;
+  gap: 20px;
+  max-width: 100%;
 }
 
 .main-container .content-header {
