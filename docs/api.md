@@ -4,7 +4,7 @@ title: Application Programming Interface API
 sidebar_label: APIs
 ---
 
-LatamLink has implemeted the powerful features of [Dfuse](https://www.dfuse.io/en), a robust blockchain API that makes it possible to stream real-time state updates, conduct lightning-fast searches and provide irreversible transaction guarantees all for the first time using a simple API call.
+LatamLink has implemented the powerful features of [Dfuse](https://www.dfuse.io/en), a robust blockchain API that makes it possible to stream real-time state updates, conduct lightning-fast searches and provide irreversible transaction guarantees all for the first time using a simple API call.
 
 ## GraphQL 
 

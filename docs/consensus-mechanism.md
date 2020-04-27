@@ -4,97 +4,115 @@ title: Consensus Mechanism
 sidebar_label: Consensus Mechanism
 ---
 
-The consensus mechanism ensures that each new block that is added to the Blockchain be the unique version of the agreed truth for the whole nodes in the network. Henceforth, a consensus algorithm aims to find a common agreement that is accepted for the whole network.
+A consensus mechanism ensures that each new block that is added to the blockchain is accepted as the only version of the truth by all nodes on the network. In essence, a consensus algorithm aims to find a common agreement that is accepted for the whole network.
 
-In the case of LatamLink, there is a group of nodes that have transactions validation authority and write these transactions within new blocks. We call these nodes **Block Producers**.
+LatamLink will delegate the the authority to validate and write new blocks to a group of nodes that we call **Block Producers**.
 
 ## Proof of Authority (POA)
 
-The Block Producers group have the authority to write to the blockchain because were granted the privilege by the superior authority, the permissioner committee, who will be the maximum authority and who determines which nodes will be the block producers.
+The group of block producers have the authority to write to the blockchain because this privilege was granted by a higher authority, the **permisioning committee**, who will be the maximum authority and who determines which nodes will be the block producing nodes.
 
-Anyone who meets with a minimum of technical requirements could apply to be a writer or validator.
+### Permisioning Committee
+
+LACChain is a public / permissioned blockchain which aims to become a legally supervised network. This objective requires a central authority to govern the activity of the network.
+
+LACChain is designed under the principle that the permisioning committee is transparent and has as little intervention as possible.
+
+The authority of the permisioning committee can be derived from a set of actors through multi-signature [`multisig`]( https://developers.eos.io/manuals/eosjs/v21.0/how-to-guides/how-to-propose-a-multisig-transaction/#gatsby-focus-wrapper) approvals so that the group's consensus is required by way of a simple majority, that is, the votes gathered sum 1/2 +1 of the actors.
+
+One of the main functions of the permisioning committee is to evaluate the entities that want to register as block producers.
+
+> Any entity that meets a minimum of technical and legal requirements can apply to be a block producer on LatamLink.
+
+Eventually there will be a legal vehicle, who verifies identity and signs contracts with block producers.
 
 ## Active Blocks Producers
 
-An adequate fixed number is defined
+The accounts authorized as active block producers belong to a group that shares the responsibility of validating and writing all the transactions in the network.
 
-- Up to **125 active blocks producers**, specified through `max_producers` in [config.hpp](https://github.com/EOSIO/eos/blob/master/libraries/chain/include/eosio/chain/config.hpp#L106)
+They are able to recognize the signatures of other nodes and verify that the transactions have been transmitted to the network by authorized nodes through white lists in smart contracts.
 
+An EOSIO network is configured by default to use 21 active producers and a series of reserve producers for stable operation.
 
-The blocks producers nodes belong to a group that shares the responsibility of validating and writing all the transactions in the network.
+**The appropriate fixed number of active producers for the LatamLink network remains to be defined.**
 
-Are capable of recognizing the writer nodes signs and verify that the transactions have been issued to the network by authorized writer nodes in the smart contract for its authorization.
+> EOSIO allows up to 125 active block producers, specified by `max_producers` in [config.hpp](https://github.com/EOSIO/eos/blob/master/libraries/chain/include/eosio/chain/config.hpp#L106)
 
-This group is organized in one list in alphabetical order.
+## Block producer schedule
 
-The new blocks are produced by the first node in the list during 6 seconds (12 blocks) and then pass the next node to produce the next 12 blocks and so on.
+In EOSIO networks, active block producers are listed on a list, called **`schedule`**.
 
-### Active nodes rotation
+The schedule is arranged alphabetically and thus defines the sequence in which block producers must sign blocks.
 
-- A Smart Contract based rotation is enabled (random) without the ability to predict who will be (external entropy)
+Each producer receives a 12 block window to sign before the next producer starts their window. New blocks are produced by the first node in the list for a period of 6 seconds (12 blocks) and then the next node continues to produce the next 12 blocks and so on.
 
-- The nodes also are rotated periodically in function to the decentralization and performance. Weekly?
-
-- The active nodes and the backup ones could be changed automatically when operation failures are detected.
-
-
-### Blocks Irreversibility
-
-The blocks are not considered irreversible until have been validated by 2/3 + 1 of the active producers. In that way, if a producer of the group inserts an invalid transaction the following nodes will validate the transactions and these will not be included without 2/3 + 1 approval.
+If a producer node is not ready or unavailable, there is no one to produce the 12 blocks, so all speculative transactions are delayed until the next producer starts signing.
 
 
-## Backup nodes
-- If there is a performance problem, a backup node comes in
-- Through objective performance metrics.
+### Byzantine Fault Tolerance
 
-Manual or automatic?
+New blocks are considered reversible until they have been validated by 2/3 +1 of the active producers. This way if a producer node inserts an invalid block, the following nodes will reject it and the block will not be included unless 2/3 +1 of the producers group approve it.
 
--  Oracle Smart Contracts
--  Permissioner Committee
+> **Example:** A network of 21 active producers requires validation of 15 nodes (2/3 +1), which takes on average 90 seconds to obtain irreversibility of a new block.
 
-An optimal number of backup nodes is required.
+### Node Fault Tolerance
 
+Once a block is signed, other producers on the schedule validate it and it goes into an irreversible state after 2/3 + 1 producers have signed. So if 1/3 or more of all producers are offline, the last irreversible block number, known as **Last Irreversible Block** or **LIB**, would not increase and the blockchain will stop.
 
-## Nodes traceability
-The nodes can recognize through that node has inserted the transactions to the network, transactions broadcasters (full nodes)
+Servers sometimes fail, and sometimes must be decommissioned for software updates and system maintenance, which is important to consider on small EOSIO networks.
 
-Verify that the transaction was issued by a node that is permissioned.
+With only 5 producers, the network will tolerate 1 producer going offline. If more than one is offline, the number of the Last Irreversible Block will stop increasing and the network will stop. With 4 nodes, a single failed a node will stall the network. With 9 producers, two nodes can be disconnected without breaking the network.
 
-This traceability possibly requires to modify the transaction structure to include the node sign.
-
-(actually, this is not allowed in BESU IBFT 2) (empty blocks problem)
-
-Cannot verify who is the validator node that can write.
-
-- Which manages that list?
-
-Nowadays, cannot trace which writer node generated that transaction, so is not possible to hold them legally responsible for it.
+It is also important that private keys used by production nodes are properly backed up. If block producer keys are lost due to a system disaster, there is a chance that the network will stop working forever.
 
 
+## Stand-By Block Producers
 
-## Permissioner Committee
+EOSIO networks keep a list of registered block producer accounts that run nodes that can successfully produce blocks just by being added to the schedule of active producers by the permisioning committee.
 
-Evals entities that want to be validators (BID)
+### Block Producer Rotation 
 
-Eventually will be a legal vehicle, who verifies the identity and sign contracts with blocks producers.
+The periodic rotation of active block producing nodes in the schedule favors decentralization. For this reason, the permisioning committee will have a [network management tool](https://latamlink.io/docs/network-governance) that allows selecting the block producers that it wants to include or exclude in the schedule.
 
-This Central Authority could be derivated from a conjunct of actors through multi-signature approvals (multi-sig), in that way as to require from the consensus of the group through the simple majority approval, namely, that the votes are gathered from the half of the actors plus one additional at least.
+> **For example:** You can define a weekly active node rotation policy.
 
-- Permissioner committee that has the minimum possible intervention. However, to be a public network that is needed
+Later on, periodic and automatic rotation based on smart contracts will be enabled. In such a way that it is impossible to predict who are the producers of selected active blocks. (external entropy)
 
-## System Contracts
+### Replacement of an active Block Producer
+If a node on the schedule stops responding. The permisioning committee may manually replace block producers with performance or security issues.
 
-The validation mechanism will be available for LAC-Chain via customized system contracts. For this, we will base on EOSIO's native system contracts.  Change from DPOS to POA for LAC-Chain
+Eventually, a smart contract may be implemented to replace a block producer's account in the schedule automatically based on objective performance metrics.
 
-This change implies disable the use of the token and the characteristics votes of the DPOS protocol. Namely, at the moment when turning over resources, will not be necessary to have tokens. This functionality not necessarily will be removed, but "assert false" function will be used to disable the functions since the platform does not support these functions.
+**An optimal number of backup blocks producers is still undefined for LACChain.**
 
-Disabled functions:
 
- - System Token
- - Votes for Block Producers
- - Blocks Producers Payment
- - "Staking" for resources
- - Resources delegation
- - Name binding
- - Rex
+## Node traceability
+LACCHain currently runs a Hyperledger BESU IBFT 2 network, where it cannot trace which node relayed a transaction, so it is not possible to make them legally responsible for it.
+
+It is necessary to verify that in LatamLink any transaction that is issued is propagated by a node that is in the list of accounts authorized by the permitting committee.
+
+This traceability may require modifying the EOSIO transaction protocol to include the signature of the front node so that the other nodes are able to recognize through which node the transactions have entered the network. 
+
+**This requires further investigation**
+
+
+
+## Custom EOSIO system contracts
+
+LACChain will use tailored system contracts. Building over the native EOSIO system contracts, where the main changes lie replacing native **Delegated Proof of Stake (dPOS)** mechanism with LAC-Chain **Proof of Authority (POA)**.
+
+This change involves disabling the use of tokens and voting features of the DPOS protocol. It will also no longer be necessary to issue a system token.
+
+### Disabled dPOS functions :
+- System Token
+- Block Producer Voting
+- Block Producer Payment
+- Staking for resources
+- Delegation of Resources
+- Namebiding
+- Resource Exchange (REX)
+
+This functionality will not necessarily be removed, but an “assert false” function will be used to disable the functions since these functions are not required.
+
+In essence, the LAC Chain system contracts define a mechanism to register the block producers as well as allocate **system resources** required by the network user accounts to execute their smart contracts.
 

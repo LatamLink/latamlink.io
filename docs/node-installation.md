@@ -51,7 +51,7 @@ Check if you can access your node using link `http://**YOUR_SERVER**/v1/chain/ge
 
 Here is an <a href="https://latamlink.eosio.cr/v1/chain/get_info" target="_blank">API Example</a>  
 
-### Starting and Stoping Nodeos
+### Starting and Stopping Nodeos
 
 - `./start.sh` Starts and restarts Nodeos service.
 

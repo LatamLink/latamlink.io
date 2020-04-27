@@ -30,7 +30,7 @@ You can find more details about NET as a system resource [here](https://develope
 
 ## EOSIO privileged account
 
-This account has unlimited resources access.  An account composed by Block Producers Group will be set up, or the permissioner committee that represents the maximum authority in the network.
+This account has unlimited resources access.  An account composed by Block Producers Group will be set up, or the permissioning committee that represents the maximum authority in the network.
 
 Furthermore, a multi-signature contract will be used (multi-sig) with variables parameters that require the consent of the block producers majority in the table. This privileged account will be called the `eosio` account.
 

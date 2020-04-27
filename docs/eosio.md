@@ -4,9 +4,9 @@ title: EOSIO's Testnet for LAC-Chain
 sidebar_label: EOSIO Protocol
 ---
 
-**EOSIO** is open source software that allows launching highly configurable blockchain networks on which developers and entrepreneurs can run high performant blockchain applications. [EOSIO](https://eos.io) was created in 2018 and is maintained by [Block One](https://block.one).  The first public network launched on EOSIO is called **EOS**, also referred as "mainnet". EOS is one of the multiple public blockchain networks actually using EOSIO. You can see the following [EOSIO network list](eosio-networks.md). Also there are multiple private networks using EOSIO.
+**EOSIO** is open source software that enables launching highly configurable blockchain networks on which developers and entrepreneurs can run highly performant blockchain applications. [EOSIO](https://eos.io) was created in 2018 and is maintained by [Block One](https://block.one).  The first public network launched on EOSIO is called **EOS**, also referred as "mainnet". EOS is however just one of multiple public blockchain networks currently using EOSIO. Take a look at the following [EOSIO network list](eosio-networks.md). There are also multiple private networks currently using EOSIO.
 
-Some innovative features include:
+Some innovative features of EOSIO include:
 
 - **Free transactions** with consumption limits. [![EOSIO Github](/img/eosio-logo.png#right)](https://github.com/eosio)
 - **Low latency** confirming new blocks  *(0.5 seconds)*
@@ -17,16 +17,16 @@ Some innovative features include:
 - Support for keys protected by **biometric hardware** *(e.g. : Apple Secure Enclave)*
 - Designed for **Inter-Blockchain communication**
 
-Another important feature of EOSIO based blockchain networks is it's flexible architecture, with which many of the operation rules are defined through the **system contracts**.
+Another important feature of EOSIO based blockchain networks is it's flexible architecture, because  many of the network's "rules of engagement" are defined through **system contracts**.
 
-This flexibility is due to a set of smart contracts seperated from the EOSIO core protocol. Because of this, the core funtionality that validates blocks and transactions is separated from the system contracts.
+This flexibility is achieved thanks to a set of smart contracts separated from the EOSIO core protocol. Because of this, the core functionality that validates blocks and transactions is separated from the system contracts.
 
-The system contracts allow EOSIO networks:
+**System contracts allow EOSIO networks to :**
 
-- Easily configure the network governance through Smart Contracts.
+- Easily configure the network governance through smart contracts.
 - To have transparent rules for the operation of the system.
-- Synchronize the changes in the operation rules in a instantaneous way in the whole network, which reduce the administration and the cost of the governance updates.
-- Maintain the total compatibility with other EOSIO blockchains.
+- Synchronize the changes in system contracts in a instantaneous way with the whole network, which reduces the administration costs and delays of any governance updates.
+- Maintain total compatibility with other EOSIO blockchains.
 
 
-**The objective of LatamLink is implement the EOSIO testnet for LAC-Chain** and demonstrate the flexibility of this technology developing customized system contracts for LAC-Chain. The LatamLink testnet will allow to designate actors that write and validate new blocks to the blockchain through system contracts based on Proof-of-Authority (POA) consensus mechanisms in a public permissioned blockchain.
+**The objective of LatamLink is implement an EOSIO testnet for [LAC-Chain](https://medium.com/@lacchain.official/what-is-the-lacchain-global-alliance-and-what-does-it-consist-of-861cb76257b1)** and demonstrate the flexibility of this technology developing customized system contracts for LAC-Chain's requirements. The LatamLink testnet will allow a **permisioning comitee** to authorize actors that write and validate new blocks to the blockchain through system contracts based on **Proof-of-Authority (POA)** consensus mechanisms in a **public permissioned blockchain**.

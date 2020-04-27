@@ -31,7 +31,7 @@ Maintain a complete full history of the transactions in a conventional database 
 ### Seed Nodes
 Provide access to the block producers, they connect directly to the producers and the API nodes.
 
-## Consumption Network
+## Consumer Network
 
 The consumption network uses the access network for writing and reading the blockchain. Is composed of all applications and users that interact with the blockchain. The user's interaction and applications are made through digital signature providers or wallets and library like EOSJS.
 
