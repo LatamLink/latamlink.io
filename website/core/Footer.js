@@ -101,17 +101,6 @@ class Footer extends React.Component {
               )}
             </a>
             <a
-              href="https://eoscostarica.io/es/"
-              target="_blank"
-              className="nav-home"
-            >
-              <img
-                className="footer-logo"
-                src={this.props.config.baseUrl + this.props.config.eoscrIcon}
-                alt={this.props.config.title}
-              />
-            </a>
-            <a
               href="https://www.eosargentina.io/"
               target="_blank"
               className="nav-home"
@@ -119,6 +108,17 @@ class Footer extends React.Component {
               <img
                 className="footer-logo"
                 src={this.props.config.baseUrl + this.props.config.eosarIcon}
+                alt={this.props.config.title}
+              />
+            </a>
+            <a
+              href="https://eoscostarica.io/es/"
+              target="_blank"
+              className="nav-home"
+            >
+              <img
+                className="footer-logo"
+                src={this.props.config.baseUrl + this.props.config.eoscrIcon}
                 alt={this.props.config.title}
               />
             </a>
