@@ -32,8 +32,3 @@ The following API is EOSIO's native mechanism available to interact with the tes
 EOS JS is the official javascript API for integration with EOSIO-based blockchains using [RPC API](https://developers.eos.io/eosio-nodeos/reference).
 
 Documentation can be found [here](https://eosio.github.io/eosjs)
-
-
-Instead or rebranding why not educate the public on this distinction ?
-
-Private #eosio networks rely on strong public networks, #eos would seem like the obvious choice for private chains to commit to
