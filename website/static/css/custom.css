@@ -57,24 +57,25 @@ img.logo {
 }
 
 .nav-footer .copyright {
-  color: rgba(255, 255, 255, 0.4);
-  text-align: center;
-  max-width: 1080px;
-  display: flex;
-  align-items: flex-end;
-  margin: auto;
-  justify-content: space-between;
-  width: 100%;
+	color: rgba(255, 255, 255, 0.4);
+	text-align: center;
+	max-width: 1080px;
+	display: flex;
+	align-items: flex-end;
+	flex-wrap: wrap;
+	margin: auto;
+	justify-content: space-between;
+	width: 100%;
 }
 
 .icon-container {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  align-items: center;
-  justify-items: center;
-  justify-content: center;
-  column-gap: 15px;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	align-items: center;
+	justify-items: center;
+	justify-content: center;
+	column-gap: 30px;
 }
 
 a.nav-home {
