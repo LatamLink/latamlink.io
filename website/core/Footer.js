@@ -90,7 +90,7 @@ class Footer extends React.Component {
         </section>
         <section className="copyright">
           <div className="icon-container">
-            <p id="poweredby">Powered by</p>
+            <p id="poweredby">Led by</p>
             <a href={this.props.config.baseUrl} className="nav-home">
               {this.props.config.footerIcon && (
                 <img
