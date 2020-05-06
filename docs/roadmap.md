@@ -9,8 +9,7 @@ sidebar_label: Roadmap
 - Access Network Nodes ( API / Full / Seed  Nodes)
 - EOSIO Native System Contracts
 - Documentation to deploy nodes
-- Smart Contract Installation support for testing and demos
-
+- Smart Contract Installation support for testing and demos			
 - Network Resource Management 
 - Account Permission Management
 
