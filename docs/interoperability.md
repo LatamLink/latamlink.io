@@ -12,9 +12,9 @@ The interoperability between distinct blockchain protocols could be achieved in 
 
  **Trustless:** Is a more difficult solution, specially between protocols POW -> DPOS.
 
-## Ethereum Interoperability => EOSIO
+## Ethereum Interoperability -> EOSIO
 
-## Ethereum Interoperability ⇔ EOSIO
+## Ethereum Interoperability <-> EOSIO
 
 ## EVM on EOSIO
 

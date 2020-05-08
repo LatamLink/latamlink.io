@@ -4,9 +4,10 @@ title: Private Keys Management
 sidebar_label: Private Keys
 ---
 
-## Create an account in the public blockchain
-In the terminal, let's execute the command `cleos` to generate the cryptographic keys required to create an account. To create an account in the LatamLink Testnet. Besides, we´re going to create a block explorer to verify the executed transactions. For that, let's use Bloks.io that is so popular in the EOS community.
 
+## Create an account in the public blockchain
+
+In most wallets you can generate new eosio keys, for this guide we will create keys in the terminal. let's execute the command `cleos` to generate the cryptographic keys required to create an account. To create an account in the LatamLink Testnet. 
 
 ## Generate and manage the keys
 To generate keys, the requirement to create an account in a blockchain, let's run the command `cleos create key` in the terminal. This command is going to generate private and public keys — we can create the number of keys we want. The cleos accounts, by default, come in pairs: one `active key` and one `owner key` (to recover the account in case of active key lost).
