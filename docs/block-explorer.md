@@ -3,7 +3,8 @@ id: block-explorer
 title: Block Explorer
 ---
 
-LatamLink has installed **eosq**, a high-precision block explorer that provides access to detailed, accurate, actionable data about accounts, actions, block producers, and more on the LatamLink testnet.
+## eosq high-precision block explorer
+LatamLink has installed **eosq**, a block explorer that provides access to detailed, accurate, actionable data about accounts, actions, block producers, and more on the LatamLink testnet.
 
 http://explorer.testnet.latamlink.io/
 
