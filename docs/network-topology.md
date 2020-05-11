@@ -7,7 +7,7 @@ sidebar_label: Network Topology
 
 <img src="/img/diagramas/topologia-red.png" alt="LatamLink Network Typology" width="450" />
 
-## Network Core
+## Core Network 
 The core network is composed of the blocks producers who have been added to the consensus protocol group. The final computational power source is derived from the network core.
 
 ![Core Network Typology](/img/diagramas/red-core.png)

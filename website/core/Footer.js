@@ -26,8 +26,21 @@ class Footer extends React.Component {
       <footer className="nav-footer" id="footer">
         <section className="sitemap">
           <div>
-            <h5>Documentation</h5>
-            <a href={this.docUrl("getting-started.html")}>How to get started</a>
+            <h5>Tools</h5>
+            <a 
+              href='http://monitor.latamlink.io'
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              Network Monitor
+            </a>
+            <a 
+              href='http://explorer.testnet.latamlink.io'
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              Block Explorer 
+            </a>
             <a href={this.docUrl("api.html")}>APIs</a>
           </div>
           <div>
@@ -39,29 +52,36 @@ class Footer extends React.Component {
             >
               Stack Overflow
             </a>
-            <a href="https://t.me/">Telegram Chat</a>
             <a
-              href="https://twitter.com/"
+              href="https://github.com/LatamLink"
               target="_blank"
               rel="noreferrer noopener"
+              >
+              GitHub
+            </a>
+            <a 
+              class="github-button" 
+              href="https://github.com/LatamLink" 
+              aria-label="Follow @LatamLink on GitHub"
             >
-              Twitter
+              Follow @LatamLink
             </a>
           </div>
           <div>
             <h5>More</h5>
-            <a href={`${this.props.config.baseUrl}blog`}>Blog</a>
-            <a href="https://github.com/LatamLink">GitHub</a>
-            <a
-              className="github-button"
-              href={this.props.config.repoUrl}
-              data-icon="octicon-star"
-              data-count-href="/LatamLink/documentacion"
-              data-show-count="true"
-              data-count-aria-label="# stargazers on GitHub"
-              aria-label="Star this project on GitHub"
+            <a 
+              href="https://medium.com/@latam_link"
+              target="_blank"
+              rel="noreferrer noopener"
             >
-              Star
+              Medium
+            </a>
+            <a
+              href="https://twitter.com/LatamLink_EOS"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              Twitter
             </a>
             {this.props.config.twitterUsername && (
               <div className="social">
