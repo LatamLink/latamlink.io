@@ -21,7 +21,7 @@ Depending on the use, EOSIO has the capability of **10,000 transactions per seco
 
  BID has an interest in beginning to explore how to go-ahead towards one new quantum-secure blockchain technology generation. There is an interest in testing the quantum capabilities of the LAC-Chain network to make it quantum-computers secure.
 
- > This topic is addressed in [this BID's publication](https://publications.iadb.org/es/tecnologias-cuanticas-una-oportunidad-transversal-e-interdisciplinar-para-la-transformacion-digital)
+ > This topic is addressed in [this IADB publication](https://publications.iadb.org/es/tecnologias-cuanticas-una-oportunidad-transversal-e-interdisciplinar-para-la-transformacion-digital)
 
 LatamLink will explore the way to generate certificates following the verifiable credentials standard [VC](https://www.w3.org/TR/vc-data-model/) to all nodes in the network which will have as an authentication mechanism one public-private key pairs generated with a quantum-secure algorithm.
 
