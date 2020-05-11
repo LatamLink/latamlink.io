@@ -1,6 +1,6 @@
 ---
 id: eosio
-title: EOSIO's Testnet for LAC-Chain
+title: EOSIO blockchain for LAC-Chain testnet
 sidebar_label: EOSIO Protocol
 ---
 
