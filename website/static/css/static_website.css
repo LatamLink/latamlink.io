@@ -357,7 +357,7 @@ information-card-text {
 		border: none;
 	}
 
-	.banner > h4 {
+	.banner > span {
 		font-size: 0.9rem;
 	}
 
@@ -395,7 +395,7 @@ information-card-text {
 		grid-template-columns: 1fr;
 	}
 
-	.banner > h4 {
+	.banner > span {
 		font-size: 1rem;
 	}
 
