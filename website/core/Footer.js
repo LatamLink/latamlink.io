@@ -60,7 +60,7 @@ class Footer extends React.Component {
               GitHub
             </a>
             <a 
-              class="github-button" 
+              className="github-button" 
               href="https://github.com/LatamLink" 
               aria-label="Follow @LatamLink on GitHub"
             >

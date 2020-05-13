@@ -231,6 +231,7 @@ a.nav-home {
 	width: 100%;
 	text-align: start;
 	font-size: 1.5rem;
+	font-weight: 400;
 }
 
 /** END MAIN STRUCTURE SETUP **/
@@ -357,7 +358,7 @@ information-card-text {
 		border: none;
 	}
 
-	.banner > h4 {
+	.banner > h2 {
 		font-size: 0.9rem;
 	}
 
@@ -395,7 +396,7 @@ information-card-text {
 		grid-template-columns: 1fr;
 	}
 
-	.banner > h4 {
+	.banner > h2 {
 		font-size: 1rem;
 	}
 
