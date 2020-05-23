@@ -3,7 +3,7 @@
     "Testnet": [
       "eosio",
       "consensus-mechanism",
-      "system-resources",
+      "resource-usage",
       "accounts-permissions",
       "network-topology",
       "monitoring",

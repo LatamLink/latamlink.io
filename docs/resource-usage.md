@@ -1,31 +1,43 @@
-## Resource usage and billing on an EOSIO network
+---
+id: resource-usage
+title: Resource Usage
+sidebar_label: Resource Usage
+---
 
-### Type of Resources
+LAC-Chain doest not and will not have transaction fees. However, to limit the use of the network to its technical limits and avoid Distributed Denial of Service attacks, is necessary to establish a mechanism to require and assign resources in the network.
 
-#### RAM
+## Type of Resources
+The accounts will be able to use the following resources in the network:
 
-RAM is the memory storage space, where the blockchain stores data. 
-If your contract needs to store data on the blockchain, like in a database, then it can store it in the blockchain's RAM.
+### RAM
+In an EOSIO network, RAM is the memory storage space where the blockchain stores data, it is measured in kilobytes (KiB). If your contract needs to store data in a blockchain table, like in a database, then it can store it in the blockchain's RAM.
 
 RAM is a very important resource and it is a limited one. It is used when executing many actions that are available on the blockchain, when creating a new account for example the information for that account is stored in the blockchain’s memory. Also when an account accepts a new type of token a new record has to be created somewhere in the blockchain memory that holds the balance of the new token accepted, and that memory, the storage space on the blockchain, has to be purchased either by the account that transfers the token or by the account that accepts the new token type.
 
-#### CPU
+RAM is referred to as `memory` in the following `cleos get account` output: 
+```
+memory: 
+     quota:     86.68 KiB    used:     11.62 KiB  
+```
 
-CPU is processing power, the amount of CPU an account has is measured in microseconds, it is referred to as cpu bandwidth on the cleos get account command output and represents the amount of processing time an account has at its disposal when pushing actions to a contract.
+You can find more details about RAM as a resource [here](https://developers.eos.io/manuals/eosio.contracts/latest/key-concepts/ram).
 
-#### NET
+### CPU
+CPU is processing power, the amount of CPU an account has is measured in microseconds (μs), it is referred to as `CPU bandwidth` the `cleos get account` command outputs the amount of processing time an account has at its disposal when pushing actions to a contract.
 
-As CPU and RAM, NET is also a very important resource in EOSIO-based blockchains.
-NET is the network bandwidth measured in bytes of transactions and it is referred to as net bandwidth.
+You can find more details about the CPU as a resource [here](https://developers.eos.io/manuals/eosio.contracts/latest/key-concepts/cpu).
 
-### Account resource limits
+### NET
+As CPU and RAM, NET is also a very important resource in EOSIO-based blockchains. NET is the network bandwidth measured in bytes of transactions and it is referred to as `net bandwidth`.
 
+You can find more details about NET as a resource [here](https://developers.eos.io/manuals/eosio.contracts/latest/key-concepts/net).
+
+## Account resource limits
 Every account on a EOSIO-based blockchain has resource limits for CPU/NET and RAM associated with it. These limits specify how much of each resource can be used by the account and they can be dynamically changed by calling the privileged API `set_resource_limits`.
 
 The difference between CPU/NET and RAM resource limits is that RAM, since its a limited resource, once used the only way to recover it is to free the storage space used. On the other side, CPU and NET will be fully replenished when the account is not using the network for a period of time. By default this period is set to 24 hours.
 
-### Resource billing
-
+## Resource billing
 When a user (account) wants to interact with a smart-contract (another account) a transaction is created with an action in it that specifies the smart function to call together with the account (permission level) that is authorizing the action.
 
 Then, after signing with the keys that authorize the permission level specified in the action, the transaction is broadcasted to the network until it reaches the current block-producer in the schedule.
@@ -34,8 +46,7 @@ The block-producer will execute all actions inside the transaction and bill the 
 
 If the actions performed by the smart-contract involves any kind of data storage, the smart-contract can choose to use the RAM resources of any of the transaction authorizing accounts or use the RAM resources of the smart-contract account.
 
-### CPU and NET as elastic resources
-
+## CPU and NET as elastic resources
 The `resource limit manager` of an EOSIO-based blockchain is the part of the protocol that keeps track of the amount of available network resources at any time and how much resources each account is using.
 
 In particular, it treats CPU and NET as elastic resources allowing users to consume more resources than what they are entitled to while this resource is below a desired usage (uncongested).
