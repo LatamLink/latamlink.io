@@ -35,6 +35,15 @@ To get more information about these concepts, see [accounts and permissions docu
 
 The wallets are clients that store private keys associated with the permissions of one or more accounts. Ideally, a wallet has a locked state (encrypted) and unlock (unencrypted) that is protected by a high entropy password.
 
+
+### Transit Wallet Access Layer
+This library is a small abstraction layer on top of `eosjs` which aims to assist EOS dApp (decentralized app) developers with wallet communication (signature verification and acceptance) by providing a simple and intuitive API.
+
+Instead of focusing on supporting specific signature providers one by one, developers can support every one that has built a Transit plugin, allowing the user to use their signature provider of choice. This way, the best UX for signature providers wins and the developers can focus on building their dApp instead of setting up `eosjs` and wallet connections.
+
+Please see the "Quick Start" and thorough guide in the [`eos-transit` package docs](https://github.com/eosnewyork/eos-transit)
+
+
 ### Universal Authenticator Library 
 A library exists that allows apps to easily use different auth providers. App Developers need to support many authentication providers (wallets) in order to maximize user reach and permit user choice.
 
