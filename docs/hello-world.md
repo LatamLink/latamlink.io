@@ -54,7 +54,7 @@ Once the contract is ready, we can execute one action in the contract. With cleo
 
 <p spaces-before="0">Is necessary to wait some seconds to complete the irreversibility of the block, since the block producers should validate the data block for this.</p>
 
-<p spaces-before="0">Finally, this is a sample of how you can interact with a blockchain. There are JavaScript tools, library <a href="eos-js.md">EOS JS</a> that could be implemented to execute actions in a way more programmatic to integrate with dApps, data may persist, or even execute business logic on the blockchain with this same pattern.</p>
+<p spaces-before="0">Finally, this is a sample of how you can interact with a blockchain. There are JavaScript tools, library <a href="/docs/sdk-libraries">EOS JS</a> that could be implemented to execute actions in a way more programmatic to integrate with dApps, data may persist, or even execute business logic on the blockchain with this same pattern.</p>
 
 <h2 spaces-before="0">Video-Tutorial</h2>
 

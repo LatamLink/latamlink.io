@@ -50,7 +50,7 @@ A library exists that allows apps to easily use different auth providers. App De
 The [Universal Authenticator Library (UAL)](https://github.com/EOSIO/universal-authenticator-library)  achieves this goal by abstracting the internal business logic of many authentication providers and exposing a single universal API.
 
 
-#### Available authenticators:
+#### Available Authenticators:
  - [UAL for Scatter](https://github.com/EOSIO/ual-scatter)
  - [UAL for Lynx](https://github.com/EOSIO/ual-lynx)
  - [UAL for Ledger](https://github.com/EOSIO/ual-ledger)

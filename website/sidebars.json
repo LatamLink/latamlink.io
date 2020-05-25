@@ -5,7 +5,9 @@
       "consensus-mechanism",
       "resource-usage",
       "accounts-permissions",
+      "important-functions",
       "network-topology",
+      "traceability",
       "monitoring",
       "performance",
       "digital-identity",
@@ -26,7 +28,7 @@
       "block-explorer",
       "api",
       "cli",
-      "eos-js",
+      "sdk-libraries",
       "backups",
       "boilerplates"
     ],

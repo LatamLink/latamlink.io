@@ -15,7 +15,7 @@ In an EOSIO network, RAM is the memory storage space where the blockchain stores
 RAM is a very important resource and it is a limited one. It is used when executing many actions that are available on the blockchain, when creating a new account for example the information for that account is stored in the blockchain’s memory. Also when an account accepts a new type of token a new record has to be created somewhere in the blockchain memory that holds the balance of the new token accepted, and that memory, the storage space on the blockchain, has to be purchased either by the account that transfers the token or by the account that accepts the new token type.
 
 RAM is referred to as `memory` in the following `cleos get account` output: 
-```
+```c++
 memory: 
      quota:     86.68 KiB    used:     11.62 KiB  
 ```
@@ -62,15 +62,13 @@ An elastic resource has the following properties.
 
 Let see at the default configuration for the CPU resource as an example:
 
-```
-...
+```c++
 const static uint32_t default_max_block_cpu_usage        = 200'000; /// max block cpu usage in microseconds
 const static uint32_t default_target_block_cpu_usage_pct = 10 * percent_1;
 const static uint32_t block_cpu_usage_average_window_ms  = 60*1000l;
-...
 ```
 
-```
+```c++
 elastic_limit_parameters cpu_limit_parameters = {
     EOS_PERCENT(config::default_max_block_cpu_usage, config::default_target_block_cpu_usage_pct), //10% of 200ms
     config::default_max_block_cpu_usage,                                                          //200ms
@@ -83,7 +81,7 @@ elastic_limit_parameters cpu_limit_parameters = {
 
 By making the CPU an elastic resource, a virtual cpu will be created that will range between the lowest possible value which is the maximun usage specified and the highest possible value which is the the lowest possible value times the multiplier.
 
-```
+```c++
 virtual cpu = [[maximum usage, maximum usage * multiplier]]
 ```
 
@@ -91,7 +89,7 @@ The virtual cpu limit will be contracted (expanded) by the `contract (expand) ra
 
 The average CPU utilization is computed using an EMA (Exponential Moving Average) placing a greater weight and significance on the most recent usage.
 
-```
+```c++
 def update_elastic_limit(current_limit, average_usage, elastic_resource_limit) {
    result = current_limit
    if average_usage > elastic_resource_limit.target:

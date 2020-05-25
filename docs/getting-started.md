@@ -11,7 +11,7 @@ At first, is recommendable have installed the software [EOSIO](https://github.co
 - **nodeos:** functions as the central daemon that manages EOSIO's net and could be configured as node to produce blocks.
 - **keosd:** functions as wallet to manage the keys for EOSIO.
 
-![Cleos](/img/diagramas/cleos.png)
+![Cleos](/img/diagrams/cleos.png)
 
 Additionally, we recommend install Contract Development Toolkit (CDT) beforehand, that can be installed using `brew tap eosio.cdt` command and followed by `brew install eosio.cdt` to access to the resources created by the contracts.
 
