@@ -158,7 +158,7 @@ These actions can be executed by any account in order to issue their own token.
 
 
 ### `create`
-Allows an *** issuer *** account to create a token.
+Allows an ***issuer*** account to create a token.
 
 Parameters:
 ```yaml
