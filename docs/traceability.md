@@ -18,10 +18,8 @@ We propose to delegate account creation permissions to writer nodes, this permis
 ### Account Creation
 The following steps are proposed for the creation of accounts and use of the resources of the chain.
 
-1. Permission to create new accounts is delegated exclusively to writers / writers.
-
+1. Permission to create new accounts is delegated exclusively to writer nodes.
 2. A writer `writerbobby1` creates a new account `aliceaccount`.
-
 3. In the chart of accounts, `aliceaccount` has`writerbobby1` defined as the writer who created the account.
 4. The writer decides how to distribute resources to Alice based on the requirements defined by the committee, he can choose to transfer resources, delegate them, co-sign transactions.
 5. Alice uses network resources.
