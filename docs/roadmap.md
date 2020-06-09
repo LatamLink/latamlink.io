@@ -4,7 +4,7 @@ title: Project Roadmap
 sidebar_label: Roadmap
 ---
 
-## TestNet (May 15, 2020)
+## TestNet (Original May 15, 2020) - REVISED to June 15, 2020
 - Initial EOSIO v2.0.4  Network Setup with core network (Active + Standby BPs)
 - Access Network Nodes ( API / Full / Seed  Nodes)
 - EOSIO Native System Contracts
@@ -17,8 +17,8 @@ sidebar_label: Roadmap
 - LACChain POA System Contracts
 - Smart Contract based rotation of core nodes
 - App for managing network
-- Node's Activity Monitor
-- Dashboard for Nodes
+- Node Activity Monitor
+- Dashboard for Admin Nodes
 - Block Explorer
 - Cloud Integrations and Infrastructure Tools
 
