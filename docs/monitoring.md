@@ -64,13 +64,12 @@ Think of a WHOIS for LAC-Chain accounts that are verified by a blockchain signat
  
 ### Phase II
 #### Performance
- - Involuntary :
- - Missed blocks in X period of time
- - Total downtime
- - Total number of blocks produced
- - Average position in BP list
- - Average performance rating
- - Voluntary :
+ - Missed blocks in X period of time * *Involuntary*
+ - Missed rounds in X period of time * *Involuntary*
+ - Total number of blocks produced * *Involuntary*
+ - Average position in BP list * *Involuntary*
+ - Average performance rating * *Involuntary*
+ - Total downtime 
  - Outages
  - Stress testing
  - Patch management
