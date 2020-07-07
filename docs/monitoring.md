@@ -38,9 +38,9 @@ Think of a WHOIS for LAC-Chain accounts that are verified by a blockchain signat
 ### Phase 1
 #### 1. Basic UI complete
 #### 2. Auto-generated list of all block producers pulled from the blockchain.
- - BP name
- - Producer account name
- - Producer public key
+ - Node account name
+ - Node entity type
+ - Node public key
  - Location Code
 
 #### 3. Voluntary information provided by each entity
@@ -64,13 +64,13 @@ Think of a WHOIS for LAC-Chain accounts that are verified by a blockchain signat
  
 ### Phase II
 #### Performance
- - Involuntary
+ - Involuntary :
  - Missed blocks in X period of time
  - Total downtime
  - Total number of blocks produced
  - Average position in BP list
  - Average performance rating
- - Voluntary
+ - Voluntary :
  - Outages
  - Stress testing
  - Patch management
@@ -78,11 +78,9 @@ Think of a WHOIS for LAC-Chain accounts that are verified by a blockchain signat
  - Intrusion testing
 
 #### Infrastructure
-- Physical
+- Physical / Public Cloud / Shared
 	* Primary site
 	* Secondary site
-- Shared
-- Public Cloud
 - Infra diagram
 - DDoS protection
 - Firewalls
