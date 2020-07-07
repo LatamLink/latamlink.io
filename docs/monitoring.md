@@ -28,16 +28,16 @@ This metric consists of quickly writing and reading to a RAM table and in a very
 - [Block Producer Performance](https://labs.eostitan.com/#/block-producer-performance)
 
 
-## Voluntary disclosure of node account information
+## Voluntary disclosure of node information
 
-Allows node operators to publicly announce their ownership of an LAC-Chain account and share information about themselves.
+Allows node operators to publicly announce their ownership of a LAC-Chain account and share information about themselves.
 
-Think of a whois for LAC-Chain accounts that are verified by a blockchain signature. These fields all require a Single Sign-on that is authenticated through the blockchain and therefore cannot be wrong. Only the BP with the correct key can edit these fields using the user interface.
+Think of a WHOIS for LAC-Chain accounts that are verified by a blockchain signature. These fields all require a Single Sign-on that is authenticated through the blockchain and therefore cannot be wrong. Only the BP with the correct key can edit these fields using the user interface.
 
 
 ### Phase 1
 #### 1. Basic UI complete
-#### 2. Auto-generated list of all block producers pulled from the block chain.
+#### 2. Auto-generated list of all block producers pulled from the blockchain.
  - BP name
  - Producer account name
  - Producer public key
