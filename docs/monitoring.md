@@ -56,11 +56,11 @@ Think of a WHOIS for LAC-Chain accounts that are verified by a blockchain signat
 #### EOSIO Nodes
 - Node Locations
 - API and P2P endpoints
- - Validators
- - Writer Nodes
- - History API nodes
- - API nodes
- - Boot Nodes
+	- Validators
+	- Writer Nodes
+	- History API nodes
+	- API nodes
+	- Boot Nodes
  
 ### Phase II
 #### Performance
