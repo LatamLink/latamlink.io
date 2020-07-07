@@ -27,20 +27,85 @@ This metric consists of quickly writing and reading to a RAM table and in a very
 - [EOS Block Producer Benchmarks](https://www.alohaeos.com/tools/benchmarks)
 - [Block Producer Performance](https://labs.eostitan.com/#/block-producer-performance)
 
-## Off-Chain monitoring
 
-- A distributed oracle that provides performance data to a smart contract
-- The data could come from block producers (all have the same weight)
-- The permissioning committee reserves the discretionary right to delete a block producer.
+## Voluntary disclosure of node account information
 
-### Information about nodes
-- Legal entity disclosure
-- Nodes location
-- Performance metrics and node availability
-- Other Public data
+Allows node operators to publicly announce their ownership of an LAC-Chain account and share information about themselves.
+
+Think of a whois for LAC-Chain accounts that are verified by a blockchain signature. These fields all require a Single Sign-on that is authenticated through the blockchain and therefore cannot be wrong. Only the BP with the correct key can edit these fields using the user interface.
 
 
-### Cloud monitoring
+### Phase 1
+#### 1. Basic UI complete
+#### 2. Auto-generated list of all block producers pulled from the block chain.
+ - BP name
+ - Producer account name
+ - Producer public key
+ - Location Code
+
+#### 3. Voluntary information provided by each entity
+ - Legal Name
+ - ID Number 
+ - Address
+ - Website
+ - Email
+ - Social links
+ - Branding
+ - Code of conduct
+ 
+#### EOSIO Nodes
+- Node Locations
+- API and P2P endpoints
+ - Validators
+ - Writer Nodes
+ - History API nodes
+ - API nodes
+ - Boot Nodes
+ 
+### Phase II
+#### Performance
+ - Involuntary
+ - Missed blocks in X period of time
+ - Total downtime
+ - Total number of blocks produced
+ - Average position in BP list
+ - Average performance rating
+ - Voluntary
+ - Outages
+ - Stress testing
+ - Patch management
+ - DR capability
+ - Intrusion testing
+
+#### Infrastructure
+- Physical
+	* Primary site
+	* Secondary site
+- Shared
+- Public Cloud
+- Infra diagram
+- DDoS protection
+- Firewalls
+- Load balancers
+- VPN Y/N
+- Future plans
+
+### Phase III
+
+#### Support structure
+ - Number of technical employees
+ - 24/7 support
+ - Monitoring tools
+ - Communication plan with other BPs
+	
+#### Ownership structure
+ - BP self written description of business structure
+ - Number of employees
+ - Individual interest holders
+ - Business entity shareholders
+ - Affiliated entities
+	
+#### Cloud monitoring
 
 Take advantage of the existing cloud monitoring services.
 
@@ -49,12 +114,6 @@ Take advantage of the existing cloud monitoring services.
 
 Additionally, we will explore Blockchain Analytics tools and Data Science.
 
-
-## Network Monitor
+### Network Monitor
 
 We propose to create a native [network monitor](monitor.md) to achieve this objective. 
- 
-
-
-
-
