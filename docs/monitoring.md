@@ -111,6 +111,6 @@ Take advantage of the existing cloud monitoring services.
 
 Additionally, we will explore Blockchain Analytics tools and Data Science.
 
-### Network Monitor
+## Network Monitor
 
 We propose to create a native [network monitor](monitor.md) to achieve this objective. 
