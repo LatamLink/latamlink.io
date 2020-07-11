@@ -23,9 +23,9 @@ LatamLink aims to integrate new primitives (intrinsics) for the verification of 
 
 ### Privacy Transaction Manager
 
-A Privacy Transaction Manager (PTM) is a mechanism used in several blockchain technologies to distribute private transactions by a peer-to-peer side-channel, where only the participants involved in the transaction receive the private payload. A pointer or hash of the transaction is registered in the publick blockchain, so the pearticipants can check the intengrity and ordering of the private transactions. 
+A Privacy Transaction Manager (PTM) is a mechanism used in several blockchain technologies to distribute private transactions by a peer-to-peer side-channel, where only the participants involved in the transaction receive the private payload. A pointer or hash of the transaction is registered in the publick blockchain, so the participants can check the intengrity and ordering of the private transactions. 
 
-For instance **Hyperledger Besu**, another blockchain technology used in LACChain, has a pre-compile contract extension of the ethereum client that uses orion keys to channel private transactions through orion nodes to prevent data from being visible on the public network.
+For instance **Hyperledger Besu**, another blockchain technology used in LACChain, Uses a PTM called Orion. Besu provides a pre-compile contract extension of the ethereum client that uses Orion keys to channel private transactions through Orion nodes to prevent data from being visible on the public network.
 
 ### Data privacy existent solutions in EOSIO
 https://github.com/EOSIO/eosjs-ecc/issues/19#issuecomment-392941963
