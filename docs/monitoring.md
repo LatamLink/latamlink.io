@@ -41,7 +41,7 @@ Think of a WHOIS for LAC-Chain accounts that are verified by a blockchain signat
  - Node account name
  - Node entity type
  - Node public key
- - Location Code (ISO Code: ISO 3166-1)
+ - Location Code (ISO 3166-1 numeric)
 
 #### 3. Voluntary information provided by each entity
  - Legal Name
