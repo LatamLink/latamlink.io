@@ -23,10 +23,10 @@ This flexibility is achieved thanks to a set of smart contracts separated from t
 
 **System contracts allow EOSIO networks to :**
 
-- easily configure the network governance through smart contracts.
-- have transparent rules for the operation of the system.
-- synchronize the changes in system contracts in a instantaneous way with the whole network, which reduces the administration costs and delays of any governance updates.
-- maintain total compatibility with other EOSIO blockchains.
+- Easily configure the network governance through smart contracts.
+- Have transparent rules for the operation of the system.
+- Synchronize the changes in system contracts in a instantaneous way with the whole network, which reduces the administration costs and delays of any governance updates.
+- Maintain total compatibility with other EOSIO blockchains.
 
 
 **The objective of LatamLink is implement an EOSIO testnet for [LACChain](https://medium.com/@lacchain.official/what-is-the-lacchain-global-alliance-and-what-does-it-consist-of-861cb76257b1)** and demonstrate the flexibility of this technology developing customized system contracts for LACChain's requirements. The LatamLink testnet will allow a **permisioning committee** to authorize actors that write and validate new blocks to the blockchain through system contracts based on **Proof-of-Authority (POA)** consensus mechanisms in a **public permissioned blockchain**.

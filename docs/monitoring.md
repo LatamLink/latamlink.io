@@ -45,7 +45,9 @@ Think of a WHOIS for LAC-Chain accounts that are verified by a blockchain signat
 
 #### 3. Voluntary information provided by each entity
  - Legal Name
- - ID Number 
+ - ID Number
+ - Technical Contact Name
+ - Business Contact Name	 
  - Address
  - Website
  - Email
@@ -61,6 +63,7 @@ Think of a WHOIS for LAC-Chain accounts that are verified by a blockchain signat
 	- History API nodes
 	- API nodes
 	- Boot Nodes
+	- Observer Nodes
  
 ### Phase II
 #### Performance

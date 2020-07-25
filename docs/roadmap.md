@@ -4,14 +4,16 @@ title: Project Roadmap
 sidebar_label: Roadmap
 ---
 
-## Current Status: TestNet in progress
+### Current Status: TestNet in progress
 As of July 2020
 
 
+` ✓ = required for milestone`
+
+## Infrastructure
 
 |                                                                                                                         |  **TestNet**  | **Pro TestNet** | **Pre MainNet** | **MainNet** | **Status** |
 |:------------------------------------------------------------------------------------------------------------------------|:--------------:|:--------------:|:--------------:|:-----------:|:-----------:| 
-| **INFRASTRUCTURE**                                                                                                      |   |   |   |   |      |
 | Network set up and stabilized                                                                                           | ✓ | ✓ | ✓ | ✓ | done |
 | Documentation available in the Github repository to deploy nodes                                                        | ✓ | ✓ | ✓ | ✓ | done |
 | Documentation available in the Github repository on topology and architecture                                           | ✓ | ✓ | ✓ | ✓ | done |
@@ -39,14 +41,22 @@ As of July 2020
 | Smart-contract based gas schema                                                                                         |   |   |   | ✓ |      |
 | Data anlytics tools                                                                                                     |   |   |   | ✓ |      |
 | Quantum safe protocolos and algorithms                                                                                  |   |   |   | ✓ |      |
-| **SERVICE**                                                                                                             |   |   |   |   |      |
+
+## Service
+
+|                                                                                                                         |  **TestNet**  | **Pro TestNet** | **Pre MainNet** | **MainNet** | **Status** |
+|:------------------------------------------------------------------------------------------------------------------------|:--------------:|:--------------:|:--------------:|:-----------:|:-----------:| 
 | Installation support                                                                                                    | ✓ | ✓ | ✓ | ✓ | done |
 | Writer nodes allowed to run tests and demos                                                                             | ✓ | ✓ | ✓ | ✓ |      |
 | Writer nodes allowed to run tests, demos, POCs, MVPs and sandboxes                                                      |   | ✓ | ✓ | ✓ |      |
 | Writer nodes allowed to run applications in production                                                                  |   |   | ✓ | ✓ |      |
 | Cloud integration for node deploy and maintenance                                                                       |   |   | ✓ | ✓ |      |
 | 24/7 technical support                                                                                                  |   |   |   | ✓ |      |
-| **LEGAL**                                                                                                               |   |   |   |   |      |
+
+## Legal
+
+|                                                                                                                         |  **TestNet**  | **Pro TestNet** | **Pre MainNet** | **MainNet** | **Status** |
+|:------------------------------------------------------------------------------------------------------------------------|:--------------:|:--------------:|:--------------:|:-----------:|:-----------:| 
 | Test-net disclaimer                                                                                                     | ✓ | ✓ | ✓ | ✓ | done |
 | Terms and Conditions for core nodes                                                                                     |   | ✓ | ✓ | ✓ | done |
 | Terms and Conditions for writer nodes                                                                                   |   | ✓ | ✓ | ✓ | done |
@@ -60,16 +70,35 @@ As of July 2020
 | Business policies                                                                                                       |   |   | ✓ | ✓ |      |
 | LACChain-Net                                                                                                            |   |   | ✓ | ✓ |      |
 | Economics model                                                                                                         |   |   | ✓ | ✓ |      |
-| **STANDARDS AND PROTOCOLS**                                                                                             |   |   |   |   |      |
+
+## Standards and Protocols
+
+|                                                                                                                         |  **TestNet**  | **Pro TestNet** | **Pre MainNet** | **MainNet** | **Status** |
+|:------------------------------------------------------------------------------------------------------------------------|:--------------:|:--------------:|:--------------:|:-----------:|:-----------:| 
 | DIDs methods compatible to LACChain registered at W3C                                                                   |   |   | ✓ | ✓ |      |
 | Templates, standards and protocols for verifiable credentials and presentations in areas as education, land registry, … |   |   | ✓ | ✓ |      |
-| **IDENTIFICATION AND AUTHENTICATION**                                                                                   |   |   |   |   |      |
+
+## Identification and Authentication
+
+|                                                                                                                         |  **TestNet**  | **Pro TestNet** | **Pre MainNet** | **MainNet** | **Status** |
+|:------------------------------------------------------------------------------------------------------------------------|:--------------:|:--------------:|:--------------:|:-----------:|:-----------:| 
 | Nodes identified and authenticated with DIDs and verifiable credentials                                                 |   |   | ✓ | ✓ |      |
 | LACChain ID app with different wallets integrated                                                                       |   |   | ✓ | ✓ |      |
-| **COMMITTEES**                                                                                                          |   |   |   |   |      |
+
+## Committees
+
+|                                                                                                                         |  **TestNet**  | **Pro TestNet** | **Pre MainNet** | **MainNet** | **Status** |
+|:------------------------------------------------------------------------------------------------------------------------|:--------------:|:--------------:|:--------------:|:-----------:|:-----------:|
 | Satellite Permissioning Committee (SPC) constitued and operative                                                        |   |   | ✓ | ✓ |      |
 | Core Permissioning Committee (CPC) constituted and operative                                                            |   |   | ✓ | ✓ |      |
-| **TOKENIZED FIAT MONEY**                                                                                                |   |   |   |   |      |
+
+## Tokenized Fiat Money
+
+|                                                                                                                         |  **TestNet**  | **Pro TestNet** | **Pre MainNet** | **MainNet** | **Status** |
+|:------------------------------------------------------------------------------------------------------------------------|:--------------:|:--------------:|:--------------:|:-----------:|:-----------:| 
 | Regulated tokenized fiat money enabled                                                                                  |   |   | ✓ | ✓ |      |
-| **INSURANCE**                                                                                                           |   |   |   |   |      |
-| Insurance coverage                                                                                                      |   |   |   | ✓ |      |
+
+## Insurance
+|                                                                                                                         |  **TestNet**  | **Pro TestNet** | **Pre MainNet** | **MainNet** | **Status** |
+|:------------------------------------------------------------------------------------------------------------------------|:--------------:|:--------------:|:--------------:|:-----------:|:-----------:| 
+| Blockchain Network Insurance Coverage                                                                                                      |   |   |   | ✓ |      |
