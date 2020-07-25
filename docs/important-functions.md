@@ -2,8 +2,8 @@
 id: important-functions
 title: Important Functions in EOSIO
 sidebar_label: Important Functions
-
 ---
+
 ## EOSIO Privileged Account
 This account has unlimited access to CPU, NET, and RAM resources. An account consisting of the permitting committee representing the highest authority of the network will be set.
 

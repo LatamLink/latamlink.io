@@ -4,12 +4,8 @@ title: Project Roadmap
 sidebar_label: Roadmap
 ---
 
-- Network Resource Management
-- Account Permission Management
-- EOSIO System Contracts
-- Smart Contract Rotation of Block Producers
-- Quantum Safe
-- Interblockchain Communication
+## Current Status: Testnet 
+As of July 2020
 
 
 
@@ -23,7 +19,7 @@ sidebar_label: Roadmap
 | Validator nodes enabled                                                                                                 | ✓ | ✓ | ✓ | ✓ | done |
 | Writer nodes enabled                                                                                                    | ✓ | ✓ | ✓ | ✓ |      |
 | Boot nodes enabled                                                                                                      |   | ✓ | ✓ | ✓ |      |
-| Smart-contract based permissioning                                                                                      |   | ✓ | ✓ | ✓ | done |
+| Smart-contract based permissioning                                                                                      |   | ✓ | ✓ | ✓ | in progress |
 | App for managing permissioning                                                                                          |   | ✓ | ✓ | ✓ |      |
 | Privacy leveraged as native                                                                                             |   | ✓ | ✓ | ✓ |      |
 | Dashboard for nodes                                                                                                     |   | ✓ | ✓ | ✓ |      |

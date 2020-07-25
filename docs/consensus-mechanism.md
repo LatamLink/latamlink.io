@@ -10,7 +10,7 @@ LatamLink will delegate the the authority to validate and write new blocks to a 
 
 ## Proof of Authority (POA)
 
-The group of block producers have the authority to write to the blockchain because this privilege was granted by a higher authority, the **permisioning committee**, who will be the maximum authority and who determines which nodes will be the block producing nodes.
+The group of block producers have the authority to write to the blockchain because this privilege was granted by a higher authority, the **permisioning committee**, who will be the maximum authority and who determines which nodes will be the block producing nodes. 
 
 ### Permisioning Committee
 
@@ -22,7 +22,7 @@ The authority of the permisioning committee can be derived from a set of actors 
 
 One of the main functions of the permisioning committee is to evaluate the entities that want to register as block producers.
 
-> Any entity that meets a minimum of technical and legal requirements can apply to be a block producer on LatamLink.
+> Any entity that meets a minimum of technical and legal requirements can apply to be a block producer on LatamLink. See our section on the [permissioning process](permissioning-process.md) for more information.
 
 Eventually there will be a legal vehicle, who verifies identity and signs contracts with block producers.
 
