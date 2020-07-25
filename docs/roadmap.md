@@ -4,7 +4,7 @@ title: Project Roadmap
 sidebar_label: Roadmap
 ---
 
-## Current Status: Testnet 
+## Current Status: TestNet in progress
 As of July 2020
 
 
