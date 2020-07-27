@@ -24,7 +24,6 @@ After executing the buy, we can verify that now we have 86 KiB of RAM and just 5
 
 In the Bloks.io explorer, we can search for the information in that account. Additionally, we can review the taken actions, including the RAM buy transactions, the Faucet tokens and the complete history of movements.
 
-
 ## Create a contract
 
 To continue, let's create a simple contract inside a new directory, which we call "hellocontract". As resources are needed on EOS, these should be associated with the account tokens, so first should put the same contract name previously created.
@@ -48,14 +47,14 @@ Once the contract is ready, let's publish in the LatamLink Testnet account. To p
 Back in the block explorer (Bloks.io), we can verify that the account is the owner of the contract that exposes the "Hello" action and contains the abi information in which is specified in JSON structure the actions within the contract and associated components.
 
 
-Once the contract is ready, we can execute one action in the contract. With cleos</code< there is a command to specify the endpoint within the LatamLink Testnet and execute the "Hello" action. For this example, we put as input: "eoscostarica". The output of the action will be the text "Hello eoscostarica".</p>
+Once the contract is ready, we can execute one action in the contract. With cleos there is a command to specify the endpoint within the LatamLink Testnet and execute the "Hello" action. For this example, we put as input: "eoscostarica". The output of the action will be the text "Hello eoscostarica".
 
-<p spaces-before="0">We can verify in the blocks explorer the executed actions.</p>
+We can verify in the blocks explorer the executed actions.
 
-<p spaces-before="0">Is necessary to wait some seconds to complete the irreversibility of the block, since the block producers should validate the data block for this.</p>
+Is necessary to wait some seconds to complete the irreversibility of the block, since the block producers should validate the data block for this.
 
-<p spaces-before="0">Finally, this is a sample of how you can interact with a blockchain. There are JavaScript tools, library <a href="/docs/sdk-libraries">EOS JS</a> that could be implemented to execute actions in a way more programmatic to integrate with dApps, data may persist, or even execute business logic on the blockchain with this same pattern.</p>
+Finally, this is a sample of how you can interact with a blockchain. There are JavaScript tools, library EOS JS that could be implemented to execute actions in a way more programmatic to integrate with dApps, data may persist, or even execute business logic on the blockchain with this same pattern.>
 
-<h2 spaces-before="0">Video-Tutorial</h2>
+## Video-Tutorial
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/nMivNMvS09Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen mark="crwd-mark"></iframe>
