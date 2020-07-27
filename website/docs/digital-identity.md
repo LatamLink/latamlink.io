@@ -17,6 +17,14 @@ Integrating digital identity to blockchain networks opens new opportunities, for
 - Removing the complex private key mechanics from the user experience.
 
 
+## LAC Chain ID Mailbox
+
+LACChain Mailbox enables an email-like messaging for third-party issued Verifiable Credentials (VC). Using a secure and controlled server to store encrypted VC, LACChain Mailbox delivers a simple, secure, messaging experience for sending and receiving Verifiable Credentials with total privacy.
+
+LACChain Mailbox also provides an API solution to use the DID resolution functionality, sending and receiving encrypted VC from any application.
+
+[Read More on Lac-chain ID Mailbox](https://github.com/lacchain/id-mailbox)
+
 ## X.509 client certificates 
 
 Certificates issued by a Certificate Authority (CA) who is responsible for validating the user's identity is commonly used for Digital Indentity. These certificates can then be used to generate blockchain private keys. Read this article on  [Using X.509 PKI certificates as EOSIO blockchain identity](https://github.com/cc32d9/cc32d9_ideas_for_EOSIO/blob/master/X509_Certificates_as_EOSIO_id.md)
