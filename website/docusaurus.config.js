@@ -28,7 +28,7 @@ const siteConfig = {
         alt: 'Latamlink Logo',
         src: 'img/latamlink_logo-h-full-color-overwhite.svg',
         srcDark: 'img/latamlink_logo-h-full-color-overwhite.svg',
-        href: 'https://es.latamlink.io',
+        //href: 'https://es.latamlink.io',
       },
       items: [
         {to: 'https://latamlink.io', label: 'Home', position: 'left'},
