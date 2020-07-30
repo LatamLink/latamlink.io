@@ -53,9 +53,9 @@ function Footer() {
   return (
     <footer
       className={clsx('footer', {
-        'footer--dark': footer.style === 'dark',
+        'footer--dark ': footer.style === 'dark' ,
       })}>
-      <div className="container">
+      <div className="container grove">
         {links && links.length > 0 && (
           <div className="row footer__links">
             {links.map((linkItem, i) => (
@@ -99,26 +99,19 @@ function Footer() {
         </div>
         <div>
            <h4>Led by</h4>
+            <a href="/" class="nav-home" target="_blank" class="nav-home float-left">
+              <img class="footer-logo" src="img/latamlink_logo-h-full-color-overwhite.svg"alt="LatamLink Testnet" />
+            </a>
+            <a href="https://www.eosargentina.io/" target="_blank" class="nav-home float-left">
+              <img class="footer-logo"src="/images/eosar_logo.png" alt="EOS Argentina" />
+            </a>
+            <a href="https://eoscostarica.io/es/" target="_blank" class="nav-home float-left">
+              <img class="footer-logo"src="/images/EOSCr-logo.png" alt="EOS Costa Rica" />
+            </a>
+            <a href="https://eosvenezuela.io/"target="_blank" class="nav-home float-left">
+              <img class="footer-logo" src="/images/eosvenezuelalogo-122x122.png"alt="EOS Venezuela" />
+            </a>
         </div>
-        {(logo) && (
-          <div >
-            {logo && logo.src && (
-              <div className="margin-bottom--sm">
-                {logo.href ? (
-                  <a
-                    href={logo.href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className={styles.footerLogoLink}>
-                    <FooterLogo alt={logo.alt} url={logoUrl} />
-                  </a>
-                ) : (
-                  <FooterLogo alt={logo.alt} url={logoUrl} />
-                )}
-              </div>
-            )}
-          </div>
-        )}
       </div>
     </footer>
   );

@@ -221,7 +221,7 @@ a.nav-home {
 	align-content: center !important;
 	justify-content: center !important;
 	text-align: center !important;
-	width: fit-content !important;
+	width: 25% !important;
 }
 
 .footer-logo {
@@ -435,7 +435,7 @@ img[src*="#left"] {
     align-content: center !important;
     justify-content: center !important;
     text-align: center !important;
-    width: fit-content !important;
+    width: 23% !important;
   }
   
   .footer-logo {
