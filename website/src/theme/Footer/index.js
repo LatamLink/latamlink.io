@@ -89,8 +89,19 @@ function Footer() {
             ))}
           </div>
         )}
-        {(logo || copyright) && (
-          <div className="text--center">
+        <div className="text--center">
+          <div // Developer provided the HTML, so assume it's safe.
+            // eslint-disable-next-line react/no-danger
+            dangerouslySetInnerHTML={{
+              __html: copyright,
+            }}
+          />
+        </div>
+        <div>
+           <h4>Led by</h4>
+        </div>
+        {(logo) && (
+          <div >
             {logo && logo.src && (
               <div className="margin-bottom--sm">
                 {logo.href ? (
@@ -106,13 +117,6 @@ function Footer() {
                 )}
               </div>
             )}
-
-            <div // Developer provided the HTML, so assume it's safe.
-              // eslint-disable-next-line react/no-danger
-              dangerouslySetInnerHTML={{
-                __html: copyright,
-              }}
-            />
           </div>
         )}
       </div>

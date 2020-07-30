@@ -4,6 +4,10 @@
 	padding: 0;
 }
 
+.grove{
+	border-style: groove;
+}
+
 p.font-weight-light {
 	font-size: 1rem;
 }
@@ -94,7 +98,9 @@ h5 {
 }
 
 .size-button-more-font{
-    font-size: 5em;
+	font-size: 5em;
+	width: 90px;
+	height: 100px;
 }
 
 .color-0bb155{

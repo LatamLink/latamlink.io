@@ -31,10 +31,11 @@ const siteConfig = {
         //href: 'https://es.latamlink.io',
       },
       items: [
-        {to: 'https://latamlink.io', label: 'Home', position: 'left'},
-        {to: 'https://monitor.latamlink.io', label: 'Monitor', position: 'left'},
-        {to: 'http://explorer.testnet.latamlink.io', label: 'Explorer', position: 'left'},
-        {to: 'https://latamlink.io/docs/api', label: 'APIs', position: 'left'},
+        {to: 'https://latamlink.io/#about', label: 'About', position: 'right'},
+        {to: 'https://medium.com/@latam_link', label: 'News', position: 'right'},
+        {to: 'https://monitor.latamlink.io/', label: 'Monitor', position: 'right'},
+        {to: 'http://explorer.testnet.latamlink.io/', label: 'Explorer', position: 'right'},
+        {to: 'https://latamlink.io/docs/eosio', label: 'Documentation', position: 'right'},
         {
           href: 'https://es.latamlink.io/docs/eosio',
           label: 'Español',
@@ -128,7 +129,18 @@ const siteConfig = {
     ],
   ],
 
-  scripts: ["https://buttons.github.io/buttons.js"],
+  scripts: [
+    {
+      src:
+        'https://buttons.github.io/buttons.js',
+      async: true,
+    },
+    'https://code.jquery.com/jquery-3.4.1.min.js',
+    'https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js',
+    'https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js',
+    'https://kit.fontawesome.com/6c84ac616f.js',
+    'https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js',
+  ],
 
 };
 module.exports = siteConfig;

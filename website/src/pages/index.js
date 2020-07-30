@@ -14,16 +14,16 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 import '../css/homepage.css';
 
 const lightTheme = makeStyles({
 
-  
 });
 
 const DarkTheme = makeStyles({
 
-  
 });
 
 const HeroSection  = () => {
@@ -39,8 +39,8 @@ const HeroSection  = () => {
     <div className="pt-0 pl-4 pr-4 content-header">
         <img className="img-fluid" src="images/latamlink_logo-header.svg" alt="LatamLink's logo header" />
         <div className="container-fluid text-center">
-            <button id="more" className="text-secondary size-button-more-font btn bg-transparent">
-                <i className="fas fa-angle-down color-0bb155" ></i>
+            <button id="more" className="text-secondary size-button-more-font btn bg-transparent" onClick={Scroll}>
+                <i className="fas fa-angle-down color-0bb155"></i>
             </button>
         </div>
     </div>
@@ -322,19 +322,31 @@ const MainSection  = () => {
   );
 }
 
+function Scroll(){
+    $("html,body").animate(
+      {
+        scrollTop: 550,
+      },
+      "slow"
+    );
+}
+
 const HomePage = () => {
   const {siteConfig} = useDocusaurusContext();
-
   return (
-    <Layout
-      permalink="/"
-      title={siteConfig.title}
-      description={siteConfig.tagline}>
-      <HeroSection></HeroSection>
-      <MainSection></MainSection>
-    </Layout>
+    <div>
+        <link rel="canonical" href="https://latamlink.io/"/>
+        <Layout
+            permalink="/"
+            title={siteConfig.title}
+            description={siteConfig.tagline}>
+            <HeroSection></HeroSection>
+            <MainSection></MainSection>
+        </Layout>
+    </div>
+    
   );
-  
 };
+
 
 export default HomePage;
