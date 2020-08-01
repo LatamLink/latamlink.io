@@ -1,0 +1,457 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-173987-71"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-173987-71');
+    </script>
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <title>LatamLink EOSIO TestNet for LAC-Chain by BID Labs (IADB)</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <base href="./" />
+    <link type="text/css" rel="stylesheet" href="css/static_website.css" />
+    <link rel="canonical" href="https://latamlink.io/" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/6c84ac616f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/tiny-slider.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+</head>
+
+<div style="background-color: #f7f7f7;" id="particles-js"></div>
+<header style="max-width: 100vw !important;"
+    class="head fixed-top navbar shadow navbar-expand-sm navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+        aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="/">
+        <img src="images/latamlink_logo-h-full-color-overwhite.png" class="img-fluid rounded" width="75" height="75"
+            alt="LatamLink logo navbar" />
+    </a>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav text-left mr-2 ml-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+                <a class="nav-link" target="_blank" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" target="_blank" href="https://medium.com/@latam_link">News</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" target="_blank" href="https://monitor.latamlink.io">Monitor</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" target="_blank" href="http://explorer.testnet.latamlink.io">Explorer</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/docs/eosio">
+                    Documentation
+                </a>
+            </li>
+        </ul>
+        <a style="color: #5bb517" class="mr-3" href="https://es.latamlink.io/" rel="alternate" hreflang="es">Español</a>
+        <a style="color: #0bb155" target="_blank" href="https://github.com/LatamLink"><i
+                class="fab fa-github fa-2x"></i></a>
+    </div>
+</header>
+<div class="main-container">
+    <div style="background: transparent;" class="pt-0 pl-4 pr-4 content-header">
+        <img class="img-fluid" src="images/latamlink_logo-header.svg" alt="LatamLink's logo header" />
+        <div class="container-fluid text-center">
+            <button id="more" style="font-size: 5em;" class="text-secondary btn bg-transparent">
+                <i class="fas fa-angle-down" style="color: #0bb155;"></i>
+            </button>
+        </div>
+    </div>
+    <main class="content">
+        <section id="about" class="mt-5 pr-2 pl-2 mb-5 information-grid">
+            <div class="information-card">
+                <div class="text-top mr-4">
+                    <img src="images/latamlink_Floor_Light_1853.svg" alt="Learn about blockchain icon" />
+                </div>
+                <div>
+                    <h1 class="h4">Learn About EOSIO</h1>
+                    <p class="information-card-text text-justify">
+                        LatamLink offers tools for projects in Latin America to explore the benefits of <a target="_blank" style="color: #0bb155;" href="https://eos.io/">EOSIO</a> <b>blockchain technology</b>.
+                    </p>
+                </div>
+            </div>
+            <div class="information-card">
+                <div class="text-top mr-4">
+                    <img src="images/latamlink_finger_108.svg" alt="Put yours dapps to test icon" />
+                </div>
+                <div>
+                    <h1 class="h4">Put your dApps to the test</h1>
+                    <p class="information-card-text text-justify">
+                        LatamLink includes a local environment to build and test 
+                        <b>decentralized applications</b> (dApps).
+                    </p>
+                </div>
+            </div>
+            <div class="information-card">
+                <div class="text-top mr-4">
+                    <img src="images/latamlink_cog_104.svg" alt="Test your infraestructure logo" />
+                </div>
+                <div>
+                    <h1 class="h4">Test your infrastructure</h1>
+                    <p class="information-card-text text-justify">
+                        LatamLink enables developers and organizations a solid platform to test blockchain <b>infrastructure</b>.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <br />
+        <hr />
+        <div class="mt-5 mb-5 pb-3 information-grid-footer">
+            <div class="information d-flex flex-column">
+                <div class="text-justify">
+                    <h2 class="text-left mb-4 font-weight-bold">
+                        <span class="underline">
+                            What is LatamLink
+                        </span>
+                    </h2>
+                    <span>
+                        LatamLink is a voluntary regional alliance led by Latin American technology companies. We develop an EOSIO-based testnet for the
+                        <a style="color: #5bb517" href="https://www.lacchain.net/" target="_blank">LACChain</a>
+                        network to highlight the benefits of this technology. LatamLink deploys a public permissioned version of EOSIO technology for Latin American developers and organizations to test their decentralized applications and infrastructure.
+                    </span>
+                    <h2 class="h3" style="padding: 20px 0 0 0">
+                        What is LACChain ?
+                    </h2>
+                    <span>
+                       LACChain is an initiative by IDB Lab (part of the <a style="color: #5bb517" href="https://www.iadb.org/en" target="_blank">Inter-American Development Bank</a>) to accompany and accelerate the development of the blockchain ecosystem in Latin America. It aims to establish national consortiums in the region, to develop and promote standards for interoperability of networks, and to develop and maintain interoperable blockchain infrastructures.
+                    </span>
+                    <h2 class="h3" style="padding: 20px 0 0 0">
+                        What is EOSIO ?
+                    </h2>
+                    <span>
+                        EOSIO is a next-generation blockchain technology launched in 2018 by <a style="color: #5bb517" href="https://block.one/" target="_blank">block.one</a>, a leading company that provides high-performance blockchain solutions. EOSIO enables greater flexibility, scalability, and cost-efficiency, allowing up to 4,000 transactions per second in its network.
+                    </span>
+                    <h3 class="h4" style="padding: 20px 0 0 0">
+                            LatamLink is led by:
+                    </h3>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <a target="_blank" href="https://www.eosargentina.io/">EOS Argentina</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a target="_blank" href="https://eoscostarica.io/">EOS Costa Rica</a>
+                            <br />
+                        </li>
+                        <li class="list-group-item">
+                            <a target="_blank" href="https://eosvenezuela.io/">EOS Venezuela</a>
+                        </li>
+                        <li class="list-group-item"></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="information-img">
+                <img class="img-fluid" src="images/map-content-home.png" alt="LAC-Chain map" />
+            </div>
+        </div>
+        <section id="get-start" class="get-started-structure pt-5 pl-3 pr-3 pb-5">
+            <div class="mt-5 mb-5 get-started-header">
+                <h2 class="h1 text-center font-weight-bold">
+                    <span class="underline">Why Choose LatamLink?</span>
+                </h2>
+            </div>
+            <div class="get-started-steps">
+                <div class="get-started-step">
+                    <img class="get-started-icon" src="images/latamlink_Rocket_1885.svg" alt="Test and deploy" />
+                    <p class="ml-4 text-justify">
+                        <strong class="h4">1. It allows you to explore EOSIO </strong>
+                        <br />
+                        <br />
+                        <span>
+                            EOSIO is an open-source blockchain technology that enables greater flexibility, scalability, and cost-efficiency, which is ideal for enterprise and social impact solutions. <a href="https://eos.io/" target="_">Read more about EOSIO here</a>.
+                        </span>
+                    </p>
+                </div>
+                <div class="get-started-step">
+                    <img class="get-started-icon" src="images/latamlink_sun_1004125.svg" alt="Get resources icon" />
+                    <p class="ml-4 text-justify">
+                        <strong class="h4">2. We are part of the LACChain initiative 
+</strong>
+                        <br />
+                        <br />
+                        <span>
+                            LACChain is an initiative of IDB Lab to foster the blockchain ecosystem in Latin America. It builds alliances with leading companies in the blockchain field and integrates major blockchain technologies into its LACChain network. For more information about LACChain, <a href="https://medium.com/@lacchain.official/what-is-the-lacchain-global-alliance-and-what-does-it-consist-of-861cb76257b1">visit this link</a>.
+                        </span>
+                    </p>
+                </div>
+                <div class="get-started-step">
+                    <img class="get-started-icon" src="images/latamlink_memo_123.svg" alt="Create account icon" />
+                    <p class="ml-4 text-justify">
+                        <strong class="h4">3. It offers an integral solution </strong>
+                        <br />
+                        <br />
+                        <span>
+                            LatamLink deploys a public permissioned version of EOSIO technology for Latin America. We include some features such as a local development and testing environment, a monitor service, and adaptability to API endpoints, wallets, and other tools. Check the full list below. 
+
+                        </span>
+                    </p>
+                </div>
+            </div>
+            <img class="img-fluid get-started-img" src="images/mobile-previews-fake.png" alt="Mobile preview" />
+        </section>
+        <section class="banner">
+            <h2 class="h4 font-weight-light text-center">
+                " LatamLink is a voluntary regional alliance to highlight the benefits
+                of the EOSIO blockchain. "
+            </h2>
+            <img class="img-fluid" src="images/latamlink_logo-footer.svg" alt="LatamLink banner image" />
+        </section>
+        <section id="herramientas" class="d-flex pt-5 pb-5 flex-column justify-content-sm-center">
+            <div class="tools-header text-center mb-4">
+                <h2 class="h1">
+                    <span class="underline">Tools</span>
+                </h2>
+                <br />
+                <p>
+                    These are some tools and resources LatamLink offers to help you leverage your decentralized app or blockchain infrastructure.
+                </p>
+            </div>
+            <br />
+            <div class="tools">
+                <div class="left-to-right-slider">
+                    <div class="p-3 shadow-sm rounded text-center">
+                        <img class="mt-5 mb-4 img-fluid" src="images/search.svg" alt="Block Explorer icon" />
+                        <h2>Block Explorer</h2>
+                        <p class="font-weight-light text-justify">
+                            <span>We provide a </span>
+                            <a target="_blank" href="http://explorer.testnet.latamlink.io">Block Explorer</a>
+                            <span>
+                                that allows you to search information about transactions and Smart
+                                Contracts
+                            </span>
+                        </p>
+                    </div>
+                    <div class="p-3 text-center">
+                        <img class="mt-5 mb-4 img-fluid" src="images/docse-01.svg" alt="Documentation icon" />
+                        <h2>Documentation</h2>
+                        <p class="font-weight-light text-justify">
+                            <span>A curated <a href="https://latamlink.io/docs/eosio"> list of resources </a> to learn from experts in the blockchain industry.
+                            </span>
+                            <a href="https://latamlink.io/docs/eosio">here</a>
+                        </p>
+                    </div>
+                    <div class="p-3 shadow-sm rounded text-center">
+                        <img class="mt-5 mb-4 img-fluid" src="images/latamlink_1.svg" alt="APIS icon" />
+                        <h2>APIs</h2>
+                        <p class="font-weight-light text-justify">
+                            A variety of <a href="/docs/api" target="_blank">API endpoints</a> to integrate through LatamLink.
+                        </p>
+                    </div>
+                    <div class="p-3 text-center">
+                        <img class="mt-5 mb-4 img-fluid" src="images/latamlink_Monitor_1014.svg" alt="Monitor icon" />
+                        <h2>Network Monitor</h2>
+                        <p class="font-weight-light text-justify">
+                            LatamLink has a <a href="https://monitor.latamlink.io/" target="_blank">monitor service</a> that will allow you trace the
+                            network activity
+                        </p>
+                    </div>
+                    <div class="p-3 text-center">
+                        <img class="mt-5 mb-4 img-fluid" src="images/latamlink_wallet_1003987.svg" alt="Wallets icon" />
+                        <h2>
+                           EOSIO Wallets
+                        </h2>
+                        <p class="font-weight-light text-justify">
+                            Adaptability to several EOSIO wallets that can be configured in the testnet.
+                        </p>
+                    </div>
+                </div>
+                <div class="right-to-left-slider">
+                    <div class="p-3 shadow-sm rounded text-center">
+                        <img class="mt-5 mb-4 img-fluid" src="images/latamlink_Laptop_187.svg" alt="Cleos icon" />
+                        <h2>Cleos</h2>
+                        <p class="font-weight-light text-justify">
+                            Implementation of the command-line tool known as <a target="_blank" href="https://developers.eos.io/manuals/eos/latest/cleos/index">cleos</a>
+                            <span>
+                                developed by
+                            </span>
+                            <a target="_blank" href="https://block.one/">block.one</a>
+                        </p>
+                    </div>
+                    <div class="p-3 text-center">
+                        <img class="mt-5 mb-4 img-fluid" src="images/latamlink_Wrench_1004034.svg" alt="Dev env icon" />
+                        <h2>
+                            Development Environment
+                        </h2>
+                        <p class="font-weight-light text-justify">
+                            <a target="_blank" href="https://www.eosstudio.io/">EOS Studio</a>
+                            <span>
+                                has a local environment for developing decentralized applications
+                                (dApps) based on EOSIO.
+                            </span>
+                        </p>
+                    </div>
+                    <div class="p-3 shadow-sm rounded text-center">
+                        <img class="mt-5 mb-4 img-fluid" src="images/latamlink_Camera_1.svg" alt="Snapshots icon" />
+                        <h2>Snapshots</h2>
+                        <p class="font-weight-light text-justify">
+                            Snapshots alow you to spin-up nodes in record time. With a valid snapshot file you can create a valid chain state.
+                        </p>
+                    </div>
+                    <div class="p-3 text-center">
+                        <img class="mt-5 mb-4 img-fluid" src="images/latamlink_balloon-1.svg" alt="Telegram Group icon" />
+                        <h2>
+                            Telegram Group
+                        </h2>
+                        <p class="font-weight-light text-justify">
+                            A <a target="_blank" href="https://t.me/latamlink">Telegram group</a> to coordinate and share relevant information related to the EOSIO ecosystem and LatamLink.
+                        </p>
+                    </div>
+                    <div class="p-3 shadow-sm rounded text-center">
+                        <img class="mt-5 mb-4 img-fluid" src="images/dfuse-01.svg" alt="dfuse icon" />
+                        <h2>dfuse integration</h2>
+                        <p class="font-weight-light text-justify">
+                            <span>A </span>
+                            <a target="_blank" href="http://dfuse.testnet.latamlink.io/graphiql/">dfuse endpoint</a>
+                            <span>
+                                able to use high-performance GraphQL queries to the testnet.
+                            </span>
+                        </p>
+                    </div>
+                    <div class="p-3 text-center">
+                        <img class="mt-5 mb-4 img-fluid" src="images/Github-VerGreen-SVG-Hermes-22-04-20.svg" alt="Github icon" />
+                        <h2>GitHub</h2>
+                        <p class="font-weight-light text-justify">
+                            <span>A </span>
+                            <a target="_blank" href="https://github.com/LatamLink">GitHub profile</a>
+                            <span>
+                                to foster a community of developers.
+                            </span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="nav-footer" id="footer">
+        <section class="sitemap">
+            <div>
+                <h5>Tools</h5>
+                <a href='http://monitor.latamlink.io' target="_blank" rel="noreferrer noopener">
+                    Network Monitor
+                </a>
+                <a href='http://explorer.testnet.latamlink.io' target="_blank" rel="noreferrer noopener">
+                    Block Explorer
+                </a>
+
+                <a href="/docs/api.html">APIs</a>
+            </div>
+            <div>
+                <h5>Community</h5>
+                <a href="https://eosio.stackexchange.com/" target="_blank" rel="noreferrer noopener">Stack Overflow</a>
+                <a href="https://github.com/LatamLink">GitHub</a>
+                <a class="github-button" href="https://github.com/LatamLink"
+                    aria-label="Follow @LatamLink on GitHub">Follow @LatamLink</a>
+
+            </div>
+            <div>
+                <h5>More</h5>
+                <a href="https://medium.com/@latam_link" target="_blank" rel="noreferrer noopener">Medium</a>
+                <a href="https://twitter.com/LatamLink_EOS" target="_blank" rel="noreferrer noopener">Twitter</a>
+                <div class="social">
+                    <iframe id="twitter-widget-0" scrolling="no"
+                        allowfullscreen class="twitter-follow-button twitter-follow-button-rendered"
+                        style="position: static; visibility: visible; border: none; width: 227px; height: 20px;"
+                        title="Twitter Follow Button"
+                        src="https://platform.twitter.com/widgets/follow_button.6787510241df65d128e2b60207ad4c25.en.html#dnt=false&amp;id=twitter-widget-0&amp;lang=en&amp;screen_name=LatamLink_EOS&amp;show_count=true&amp;show_screen_name=true&amp;size=m&amp;time=1588018874558"
+                        data-screen-name="LatamLink_EOS"></iframe>
+                </div>
+            </div>
+        </section>
+        <section class="copyright">
+            <div class="icon-container">
+                <h2 id="poweredby">Led by</h2>
+                <a href="/" class="nav-home"><img class="footer-logo" src="/img/footerlogo.png"
+                        alt="LatamLink Testnet" /></a>
+                <a href="https://www.eosargentina.io/" target="_blank" class="nav-home"><img class="footer-logo"
+                        src="/images/eosar_logo.png" alt="EOS Argentina" /></a>
+                <a href="https://eoscostarica.io/es/" target="_blank" class="nav-home"><img class="footer-logo"
+                        src="/images/EOSCr-logo.png" alt="EOS Costa Rica" /></a><a href="https://eosvenezuela.io/"
+                    target="_blank" class="nav-home"><img class="footer-logo" src="/images/eosvenezuelalogo-122x122.png"
+                        alt="EOS Venezuela" /></a>
+            </div>
+            <p style="margin: 0; height: fit-content;">
+                Copyright © 2020 LatamLink
+            </p>
+        </section>
+    </footer>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+<script src="js/particle-script.js"></script>
+<script>
+    var rightToLeft = tns({
+        container: '.right-to-left-slider',
+        items: 3,
+        mouseDrag: true,
+        speed: 700,
+        loop: true,
+        autoplay: true,
+        controls: false,
+        autoplayTimeout: 3000,
+        autoplayButtonOutput: false,
+        responsive: {
+            360: {
+                items: 1
+            },
+            640: {
+                items: 2
+            },
+            700: {
+                items: 2
+            },
+            900: {
+                items: 3
+            }
+        }
+    });
+    var leftToRight = tns({
+        container: '.left-to-right-slider',
+        items: 3,
+        mouseDrag: true,
+        speed: 700,
+        loop: true,
+        autoplay: true,
+        controls: false,
+        autoplayButtonOutput: false,
+        autoplayTimeout: 3000,
+        autoplayDirection: "backward",
+        responsive: {
+            360: {
+                items: 1
+            },
+            640: {
+                items: 2
+            },
+            700: {
+                items: 2
+            },
+            900: {
+                items: 3
+            }
+        }
+    });
+
+    $(".tns-nav").remove();
+</script>
+
+</html>
