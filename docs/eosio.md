@@ -8,7 +8,7 @@ sidebar_label: EOSIO Protocol
 
 Some innovative features of EOSIO include:
 
-- **Free transactions** with consumption limits. [![EOSIO Github](/img/eosio-logo.png)](https://github.com/eosio)
+- **Free transactions** with consumption limits. [![EOSIO Github](/img/eosio-logo.png#right)](https://github.com/eosio)
 - **Low latency** confirming new blocks  *(0.5 seconds)*
 - **Byzantine Fault Tolerance**
 - **Human Readable Account Names** *(e.g. :* `latamlink12` *)*
