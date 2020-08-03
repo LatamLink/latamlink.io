@@ -1,0 +1,14 @@
+/**
+ * You can override the default Infima variables here.
+ * Note: this is not a complete list of --ifm- variables.
+ */
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=PT+Sans:wght@400;700&display=swap');
+:root {
+  --ifm-color-primary: #19AF54;
+  --ifm-color-primary-dark: #179E4C;
+  --ifm-color-primary-darker: #159547;
+  --ifm-color-primary-darkest: #117B3B;
+  --ifm-color-primary-light: #1CC15C;
+  --ifm-color-primary-lighter: #1DC961;
+  --ifm-color-primary-lightest: #24E06E;
+}
