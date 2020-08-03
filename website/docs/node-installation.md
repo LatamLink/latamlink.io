@@ -8,7 +8,7 @@ EOSIO version tag: `v2.0.5`
 
 Chain ID: `2c1f36d2e3774cba3e47804b6463c207544ac24183194e0b96ffad31e8f4acd5`
 
-Genesis File: [`genesis.json`](genesis.json)
+Genesis File: [`genesis.json`](https://raw.githubusercontent.com/LatamLink/eosio-testnet/master/genesis.json)
 
 ## 1. Install EOSIO from precompiled binaries   
 
