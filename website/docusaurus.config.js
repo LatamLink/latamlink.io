@@ -22,8 +22,11 @@ const siteConfig = {
   favicon: 'img/favicon/favicon.ico',
   //scripts: ['https://buttons.github.io/buttons.js','../../scripts/languageSelector.js'],
   themeConfig: {
+    colorMode: {
+      disableSwitch: true
+    },
     navbar: {
-      title: 'LatamLink',
+      title: '',
       logo: {
         alt: 'Latamlink Logo',
         src: 'img/latamlink_logo-h-full-color-overwhite.svg',
@@ -31,16 +34,12 @@ const siteConfig = {
         //href: 'https://es.latamlink.io',
       },
       items: [
-        {to: 'https://latamlink.io/#about', label: 'About', position: 'right'},
-        {to: 'https://medium.com/@latam_link', label: 'News', position: 'right'},
-        {to: 'https://monitor.latamlink.io/', label: 'Monitor', position: 'right'},
-        {to: 'http://explorer.testnet.latamlink.io/', label: 'Explorer', position: 'right'},
-        {to: 'https://latamlink.io/docs/eosio', label: 'Documentation', position: 'right'},
-        {
-          href: 'https://es.latamlink.io/docs/eosio',
-          label: 'Español',
-          position: 'right',
-        },
+        {href: 'https://latamlink.io/#about', label: 'About', position: 'right'},
+        {href: 'https://medium.com/@latam_link', label: 'News', position: 'right'},
+        {href: 'https://monitor.latamlink.io/', label: 'Monitor', position: 'right'},
+        {href: 'http://explorer.testnet.latamlink.io/', label: 'Explorer', position: 'right'},
+        {to: 'docs/eosio', label: 'Documentation', position: 'right'},
+        {href: 'https://es.latamlink.io/', label: 'Español',position: 'right',},
         {to: 'search'},
       ],
     },
