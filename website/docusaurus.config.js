@@ -114,7 +114,7 @@ const siteConfig = {
           editUrl:
             'https://github.com/LatamLink/latamlink.io/tree/master/website',
           sidebarPath: require.resolve('./sidebars.js'),
-          showLastUpdateAuthor: true,
+          showLastUpdateAuthor: false,
           showLastUpdateTime: true,
         },
         theme: {

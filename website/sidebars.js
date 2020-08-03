@@ -22,9 +22,10 @@ module.exports = {
       type: 'category',
       label: 'Guides',
       items: [
-        'permissioning-process',
         'getting-started',
-    	'private-keys',
+        'private-keys',
+        'permissioning-process',
+        'data-entities-nodes',
         'node-installation',
         'hello-world'
       ],
@@ -34,10 +35,10 @@ module.exports = {
       label: 'Tools',
       items: [
         'monitor',
-        'network-governance',
-        'block-explorer',
         'api',
         'cli',
+        'block-explorer',
+        'network-governance',
         'sdk-libraries',
         'backups',
         'boilerplates'
