@@ -15,3 +15,10 @@
   --ifm-color-primary-lighter: #1DC961;
   --ifm-color-primary-lightest: #24E06E;
 }
+
+.pagination-nav__label{
+  color: var(--ifm-color-primary);
+}
+.col a{
+  color: black;
+}
