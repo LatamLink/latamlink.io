@@ -4,7 +4,7 @@ title: Network Topology
 sidebar_label: Network Topology
 ---
 
-Taking the network topology of the besu network as a reference, we present a configuration proposal using EOSIO nodes.
+We present the following proposal for LAC-Chain network configuration using EOSIO nodes.
 
 ## Design principles
 * **Trustless**, the correct and optimal functioning of the network, should not be based on trust between the entities that make up the network.
@@ -17,7 +17,7 @@ Taking the network topology of the besu network as a reference, we present a con
 
 ## Proposed Topology
 
-<img src="/img/diagrams/network-layers.png" alt="Latam Link Blockchain Network" width="450"/>
+<img src="/img/diagrams/network-topologia.png#center" alt="Topologia de Red LatamLink" width="450"/>
 
 - **Layer 1 ([Core](/docs/network-topology#Layer-1---core-network))** Red de validadores y nodos p2p para meshear entre ellos
 
@@ -59,7 +59,7 @@ P2p node configured to update writer nodes with new blocks and in turn accept tx
 Accepts transactions through p2p and sends them to layer 1 through a `boot-p2p-bidir`.
 > for example: A wallet manages its own API and connects to the network through a p2p writer.
 
-### Writer api
+### Writer API
 Accept http transaction push requests and send them to layer 1 through a `boot-p2p-bidir`
 
 ### Observer nodes p2p
