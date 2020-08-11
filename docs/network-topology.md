@@ -17,7 +17,7 @@ We present the following proposal for LAC-Chain network configuration using EOSI
 
 ## Proposed Topology
 
-<img src="/img/diagramas/topologia-red.png#center" alt="Topologia de Red LatamLink" width="450"/>
+<img src="/img/diagrams/network-topologia.png#center" alt="Topologia de Red LatamLink" width="450"/>
 
 - **Layer 1 ([Core](/docs/network-topology#Layer-1---core-network))** Red de validadores y nodos p2p para meshear entre ellos
 
