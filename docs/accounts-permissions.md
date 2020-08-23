@@ -32,3 +32,5 @@ Any given account can define a mapping between any of its named permissions and 
 In other words each account's permission can be linked to an authority table used to determine whether a given action authorization can be satisfied
 
 To get more information about these concepts, see [accounts and permissions documentation](https://developers.eos.io/welcome/latest/protocol/accounts_and_permissions).
+
+![EOSIO Permisions](/img/diagrams/eosio-permissions.png)

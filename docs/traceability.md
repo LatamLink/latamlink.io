@@ -31,11 +31,11 @@ The permitted entities can be lacchain "partners" which can deploy any type of n
 
 |                 | Account key              | Block Signing Key | Peer Key | Extra Keys            |
 |-----------------|:------------------------:|:-----------------:|:--------:|:---------------------:|
-| **Entity**      | Active/Owner permissions | ![No](/img/no-icon.svg) | ![No](/img/no-icon.svg) | Optional ([info field](/docs/datos-entidades-nodos#estructura-json-entidades)) |
-|  ˫ **validator**| ![No](/img/no-icon.svg)  | ![Yes](/img/yes-icon.svg) | ![Yes](/img/yes-icon.svg) | Optional ([info field](/docs/datos-entidades-nodos#nodo-validador)) |
-|  ˫ **boot**     | ![No](/img/no-icon.svg)  | ![No](/img/no-icon.svg) | ![Yes](/img/yes-icon.svg) | Optional ([info field](/docs/datos-entidades-nodos#nodo-boot)) |
-|  ˫ **writer**   | NodeName permission      | ![No](/img/no-icon.svg) | ![Yes](/img/yes-icon.svg) | Optional ([info field](/docs/datos-entidades-nodos#nodo-escritor)) |
-|  ˪ **observer** | ![No](/img/no-icon.svg)  | ![No](/img/no-icon.svg) | ![Yes](/img/yes-icon.svg) | Optional ([info field](/docs/datos-entidades-nodos#nodo-observador)) |
+| **Entity**      | Active/Owner permissions | ![No](/img/no-icon.svg) | ![No](/img/no-icon.svg) | Optional ([info field](/docs/data-entities-nodes#entity-json-structure)) |
+|  ˫ **validator**| ![No](/img/no-icon.svg)  | ![Yes](/img/yes-icon.svg) | ![Yes](/img/yes-icon.svg) | Optional ([info field](/docs/data-entities-nodes#validator-node)) |
+|  ˫ **boot**     | ![No](/img/no-icon.svg)  | ![No](/img/no-icon.svg) | ![Yes](/img/yes-icon.svg) | Optional ([info field](/docs/data-entities-nodes#boot-node)) |
+|  ˫ **writer**   | NodeName permission      | ![No](/img/no-icon.svg) | ![Yes](/img/yes-icon.svg) | Optional ([info field](/docs/data-entities-nodes#writer-node)) |
+|  ˪ **observer** | ![No](/img/no-icon.svg)  | ![No](/img/no-icon.svg) | ![Yes](/img/yes-icon.svg) | Optional ([info field](/docs/data-entities-nodes#observer-node)) |
 
 
 #### Account key	

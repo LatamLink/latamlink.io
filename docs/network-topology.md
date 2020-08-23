@@ -17,7 +17,7 @@ We present the following proposal for LAC-Chain network configuration using EOSI
 
 ## Proposed Topology
 
-<img src="/img/diagrams/network-topologia.png#center" alt="Topologia de Red LatamLink" width="450"/>
+<img src="/img/diagrams/network-topology-en.png#center" alt="Topologia de Red LatamLink" width="450"/>
 
 - **Layer 1 ([Core](/docs/network-topology#Layer-1---core-network))** Red de validadores y nodos p2p para meshear entre ellos
 
@@ -33,39 +33,45 @@ We present the following proposal for LAC-Chain network configuration using EOSI
 The core network is composed of the blocks producers who have been added to the consensus protocol group. The final computational power source is derived from the network core.
 
 
-### validator nodes Nodes
-In an EOSIO network these nodes are called validator nodes, they are in charge of generating blocks every 500ms. These nodes should only be connected to other nodes managed by the same entity.
+### Validator Nodes
+In an EOSIO network these nodes are called block producers, they are in charge of generating blocks every 500ms. These nodes should only be connected to other nodes managed by the same entity.
 
-### Validator p2p for other Validators
+#### Validator p2p for other Validators
 P2P node configured as part of the internal network of the validators.
 
 ## Layer 2 - Bridge
 
-### Validator p2p out
+#### Validator p2p out
 Node configured to only broadcast blocks over p2p connections, allowed p2p out observers connect to this node.
 
-### Validator p2p bidir
+#### Validator p2p bidir
 Node configured to accept p2p transactions from allowed nodes and send it to the validator.
 
-### Boot p2p out
+### Boot Nodes
+
+#### Boot p2p out
 Node configured to accept blocks from p2p validators and only forward them to p2p and api observers, does not accept transactions.
 
-### Boot p2p bidir
+#### Boot p2p bidir
 P2p node configured to update writer nodes with new blocks and in turn accept txs to send to validators
 
 ## Layer 3 - Satellite
 
-### Writer p2p
+### Writer Nodes 
+
+#### Writer p2p
 Accepts transactions through p2p and sends them to layer 1 through a `boot-p2p-bidir`.
 > for example: A wallet manages its own API and connects to the network through a p2p writer.
 
-### Writer API
+#### Writer API
 Accept http transaction push requests and send them to layer 1 through a `boot-p2p-bidir`
 
-### Observer nodes p2p
+### Observer Nodes 
+
+#### Observer nodes p2p
 An observer node p2p is a node that is consuming layer 1 information through a `boot-p2p-out`, it can only read the state of the blockchain.
 
-### Observer nodes API
+#### Observer nodes API
 Node that allows requesting information from the blockchain through an http request, the use of dfuse is recommended.
 
 ## Architecture
@@ -81,6 +87,15 @@ Node Discovery Cycle
 1. Nodes in the network that need it update their list of allowed pairs to add the new node to the nodes that are needed.
 1. The new node confirms that it is connected to the network.
 
+
+#### Nodes Groups and Sub-Groups
+
+| **Writer Nodes** | **Boot Nodes** | **Observer Nodes** | **Validator Nodes** |
+|---|---|---|---|
+| Group 1....n  | Group 1....n  | Group 1...n  | Active and Stand-By  |
+| groups of up to 40 nodos | groups of up to 40 nodos  | groups of up to 10 nodos |  active defined in schedule  |
+
+Boot and validator nodes that do not meet the required configuration can be removed by the permissioning committee.
 
 ### Node Communication
 

@@ -3,6 +3,7 @@ id: performance
 title: Network security and Performance
 sidebar_label: Security and Performance
 ---
+
 :::note Work in Progress
 We are still working on this aspect of the network. Please refer to the [Project Roadmap](./roadmap.md).
 :::
@@ -18,7 +19,6 @@ Depending on the use, EOSIO has the capability of **10,000 transactions per seco
 
 - [Performance tests Contract](https://github.com/CryptoLions/TxShooterContract)
 - [EOS Blaster](https://github.com/michaeljyeates/eos-blaster)
-
 
 ## Quantum safe cryptography
 
