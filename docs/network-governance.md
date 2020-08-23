@@ -4,6 +4,10 @@ title: Network Governance Tool
 sidebar_label: Network Governance
 ---
 
+:::note Work in Progress
+We are still working on this aspect of the network. Please refer to the [Project Roadmap](./roadmap.md).
+:::
+
 ## Smart Contracts
 This tool is to manage the permitting and the governance of LatamLink through Smart Contract.
 

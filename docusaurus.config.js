@@ -15,7 +15,6 @@ const siteConfig = {
   tagline: 'Technical Documentation',
   url: 'https://latamlink.io', // Your website URL
   baseUrl: '/', // Base URL for your project */
-  //cname: "guide.eoscostarica.io",
   // Used for publishing and more
   projectName: 'latamlink.io',
   organizationName: 'LatamLink',
@@ -23,10 +22,18 @@ const siteConfig = {
   //scripts: ['https://buttons.github.io/buttons.js','../../scripts/languageSelector.js'],
   themeConfig: {
     colorMode: {
-      disableSwitch: true
+      // "light" | "dark"
+      defaultMode: 'light',
+      // // Hides the switch in the navbar
+      // // Useful if you want to support a single color mode
+      // disableSwitch: false,
+      // // Should we use the prefers-color-scheme media-query,
+      // // using user system preferences, instead of the hardcoded defaultMode
+      // respectPrefersColorScheme: true,
     },
     navbar: {
       title: '',
+      hideOnScroll: true,
       logo: {
         alt: 'Latamlink Logo',
         src: 'img/latamlink_logo-h-full-color-overwhite.svg',
@@ -41,7 +48,7 @@ const siteConfig = {
         {to: 'docs/eosio', label: 'Documentation', position: 'right'},
         {href: 'https://es.latamlink.io/', label: 'Español',position: 'right',},
         {to: 'search'},
-      ],
+      ]
     },
     footer: {
       links: [
