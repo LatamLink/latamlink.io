@@ -32,6 +32,63 @@ As CPU and RAM, NET is also a very important resource in EOSIO-based blockchains
 
 You can find more details about NET as a resource [here](https://developers.eos.io/manuals/eosio.contracts/latest/key-concepts/net).
 
+## Network Resource Limits
+
+
+The following values ​​are obtained by calling [system get_info](https://lacchain.eosio.cr/v1/chain/get_info) to the RPC API endpoint for latamlink.
+
+
+```json title="CPU limit"
+"block_cpu_limit":199900
+```
+
+```json title="NET limit"
+"block_net_limit":1048576
+````
+
+```json title="RAM limit"
+The EOS network started with 64GB ram and increased by 1KiB (1024 bytes) per day
+```
+
+### Resource Distribution
+
+Entities that operate writer nodes receive an equivalent portion of the network resources than other entities. In such a way that each node is assigned `1 / N` of all the resources where:
+
+**`N = Number of entities`**.
+
+ If an entity decides to operate more than one writer node, this does not affect the amount of resources it receives.
+
+#### Entity with two writer nodes
+
+`CPU = 1/N • 200 ms` `NET = 1/N • 1048 KiB` `RAM = 10000 KiB`
+
+![Example of Entity 1](/img/diagrams/entity1-authorities.png)
+
+#### Entity with a writer node
+
+`CPU = 1/N • 200 ms` `NET = 1/N • 1048 KiB` `RAM = 10000 KiB`
+
+![Example of Entity 2](/img/diagrams/entity2-authorities.png)
+
+#### Entity without nodes 
+
+`CPU = X txs per day`
+
+`NET = X txs per day`
+
+`RAM = 10000 KiB`
+
+![Example of Entity 3](/img/diagrams/entity3-authorities.png)
+
+### Users
+User accounts do not have resources, these are discounted from the account of the writer node when co-signing a transaction.
+
+`CPU = 0 us`
+`NET = 0 KiB`
+`RAM = 0 KiB`
+
+![Example of User Authorities](/img/diagrams/user-authorities.png)
+
 ## Account resource limits
 Every account on a EOSIO-based blockchain has resource limits for CPU/NET and RAM associated with it. These limits specify how much of each resource can be used by the account and they can be dynamically changed by calling the privileged API `set_resource_limits`.
 
@@ -85,7 +142,7 @@ By making the CPU an elastic resource, a virtual cpu will be created that will r
 virtual cpu = [[maximum usage, maximum usage * multiplier]]
 ```
 
-The virtual cpu limit will be contracted (expanded) by the `contract (expand) ratio` when the average utilization is above (below) the desired usage, meaning that `the most an account can consume during idle periods is 1000x (multiplier) the bandwidth it is gauranteed under congestion.`
+The virtual cpu limit will be contracted (expanded) by the `contract (expand) ratio` when the average utilization is above (below) the desired usage, meaning *that the most an account can consume during idle periods is 1000x (multiplier) the bandwidth it is gauranteed under congestion.*
 
 The average CPU utilization is computed using an EMA (Exponential Moving Average) placing a greater weight and significance on the most recent usage.
 

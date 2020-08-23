@@ -26,15 +26,15 @@ We present the following proposal for LAC-Chain network configuration using EOSI
 		- **Layer 3 ([Satellite](/docs/network-topology#layer-3---satellite))** Layer de consumo para writers y observers
 
 
-![LatamLink Topology](/img/diagrams/network-topology.png)
+![LatamLink Topology](/img/diagrams/topologia-nodos-2.png)
 
 
 ## Layer 1 - Core Network
 The core network is composed of the blocks producers who have been added to the consensus protocol group. The final computational power source is derived from the network core.
 
 
-### Block Producers Nodes
-In an EOSIO network these nodes are called block producers, they are in charge of generating blocks every 500ms. These nodes should only be connected to other nodes managed by the same entity.
+### validator nodes Nodes
+In an EOSIO network these nodes are called validator nodes, they are in charge of generating blocks every 500ms. These nodes should only be connected to other nodes managed by the same entity.
 
 ### Validator p2p for other Validators
 P2P node configured as part of the internal network of the validators.

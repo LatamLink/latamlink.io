@@ -3,7 +3,9 @@ id: private-keys
 title: Private Keys Management
 sidebar_label: Private Keys
 ---
-
+:::note Work in Progress
+We are still working on this aspect of the network. Please refer to the [Project Roadmap](./roadmap.md).
+:::
 
 ## Create an account in the public blockchain
 

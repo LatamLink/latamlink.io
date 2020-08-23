@@ -1,9 +1,12 @@
 ---
 id: api
-title: Application Programming Interface API
+title: Application Programming Interface
 sidebar_label: APIs
 ---
 
+:::note Work in Progress
+We are still working on this aspect of the network. Please refer to the [Project Roadmap](./roadmap.md).
+:::
 
 ## dfuse 	 
 

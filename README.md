@@ -1,6 +1,6 @@
 <p align="center">
 	<a href="https://latamlink.io">
-		<img src="static/images/latamlink_logo-h-full-color-overwhite.png" width=50% >
+		<img src="https://github.com/LatamLink/es.latamlink.io/blob/master/static/images/latamlink_logo-h-full-color-overwhite.png?raw=true" width=50% >
 	</a>
 </p>
 

@@ -4,6 +4,10 @@ title: Network monitor
 sidebar_label: Network monitor
 ---
 
+:::note Work in Progress
+We are still working on this aspect of the network. Please refer to the [Project Roadmap](./roadmap.md).
+:::
+
 A native network monitor will be created as a tool for developers and users prior to launching the LatamLink Pro Testnet. The network monitor will display both "on-chain" and "off-chain" metrics, please see this article on [network monitoring](monitoring.md).
 
 ## Link to network monitor

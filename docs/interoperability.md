@@ -3,6 +3,10 @@ id: interoperability
 title: Interoperability
 sidebar_label: Interoperability
 ---
+:::note Work in Progress
+We are still working on this aspect of the network. Please refer to the [Project Roadmap](./roadmap.md).
+:::
+
 
 LAC-Chain technology-agnostic, for which we want to be able to integrate several blockchain protocols that are being used in LAC-Chain.
 

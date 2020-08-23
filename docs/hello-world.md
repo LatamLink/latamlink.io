@@ -11,7 +11,7 @@ We explain by example how to create an account and a "Hello World" contract to u
 More information [about private keys](private-keys.md)
 
 ## Acquire RAM resource
-Once you have the account on LatamLink Testnet, we can use the Faucet to receive dummy tokens for free, that in this case will be EOS, necessary to use network resources (as long as we have participation on that network). The sense of that is, for the contract, we will be requiring to acquire RAM resources of the block producers, for which that we will need these EOS that were just sent to us.
+Once you have the account on LatamLink Testnet, we can use the Faucet to receive dummy tokens for free, that in this case will be EOS, necessary to use network resources (as long as we have participation on that network). The sense of that is, for the contract, we will be requiring to acquire RAM resources of the validator nodes, for which that we will need these EOS that were just sent to us.
 
 With this command, we can check the EOS quantity we have in this account (which in this case are 100 EOS), as well as the RAM resource, which at this moment is 5.366 KiB.
 
@@ -51,7 +51,7 @@ Once the contract is ready, we can execute one action in the contract. With cleo
 
 We can verify in the blocks explorer the executed actions.
 
-Is necessary to wait some seconds to complete the irreversibility of the block, since the block producers should validate the data block for this.
+Is necessary to wait some seconds to complete the irreversibility of the block, since the validator nodes should validate the data block for this.
 
 Finally, this is a sample of how you can interact with a blockchain. There are JavaScript tools, library EOS JS that could be implemented to execute actions in a way more programmatic to integrate with dApps, data may persist, or even execute business logic on the blockchain with this same pattern.>
 

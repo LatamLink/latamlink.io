@@ -1,19 +1,106 @@
 ---
 id: traceability
-title: Transaction Traceability 
-sidebar_label: Traceability
+title: Authorization and Traceability  
+sidebar_label: Authorization and Traceability  
 ---
 
 ## Permisions and traceability in EOSIO
-In EOSIO all transactions are linked to an account, for example if you want to call the action of a contract, the call will be accompanied by a source account that consumes that action of the smart contract.
 
-Unlike other blockchains, no action is anonymous, considering that the permission to create new accounts could be delegated exclusively to the writers in the BESU topology, all actions, regardless of how they enter the network, could be linked to the writer who created the account.
+In EOSIO no action is anonymous, all transactions are linked to an account, for example if you want to call the action of a contract, the call will be accompanied by an origin account that consumes that action of the smart contract.
 
-## Traceability of actions on LACChain
+As we saw in the accounts and permissions section, eosio has a native system to define authorizations that satisfy permissions that can be defined for an account on the network.
 
-In this preliminary proposal, privileged permissions can be dynamically delegated to different entities and sub-entities, for example to a legal committees within the permissioning committee or to technical representatives within the committee.
+## Permisioning Committee
+
+Privileged permissions can be dynamically delegated to different entities and nodes, for example to legal committees within the committee or to technical representatives within the committee.
+
+Considering that the permission to create new accounts could be delegated exclusively to the writers and in that way any action regardless of how they enter the network could be linked to the writer who created the account.
+
+## Types of Permissioned Entities
+The permitted entities can be lacchain "partners" which can deploy any type of node. Otherwise non-partner entities can only display writer and observer nodes.
+
+| Node Type | Partner | Non-Partner |
+|-----------|:-------:|:-----------:|
+| **Validator nodes** | ![Yes](/img/yes-icon.svg) |  ![No](/img/no-icon.svg)  |
+| **Boot nodes**      | ![Yes](/img/yes-icon.svg) |  ![No](/img/no-icon.svg)  |
+| **Writer nodes**    | ![Yes](/img/yes-icon.svg) | ![Yes](/img/yes-icon.svg) |
+| **Observer nodes**  | ![Yes](/img/yes-icon.svg) | ![Yes](/img/yes-icon.svg) |
+
+
+#### Permissions and Keys by Node Type
+
+|                 | Account key              | Block Signing Key | Peer Key | Extra Keys            |
+|-----------------|:------------------------:|:-----------------:|:--------:|:---------------------:|
+| **Entity**      | Active/Owner permissions | ![No](/img/no-icon.svg) | ![No](/img/no-icon.svg) | Optional ([info field](/docs/datos-entidades-nodos#estructura-json-entidades)) |
+|  ˫ **validator**| ![No](/img/no-icon.svg)  | ![Yes](/img/yes-icon.svg) | ![Yes](/img/yes-icon.svg) | Optional ([info field](/docs/datos-entidades-nodos#nodo-validador)) |
+|  ˫ **boot**     | ![No](/img/no-icon.svg)  | ![No](/img/no-icon.svg) | ![Yes](/img/yes-icon.svg) | Optional ([info field](/docs/datos-entidades-nodos#nodo-boot)) |
+|  ˫ **writer**   | NodeName permission      | ![No](/img/no-icon.svg) | ![Yes](/img/yes-icon.svg) | Optional ([info field](/docs/datos-entidades-nodos#nodo-escritor)) |
+|  ˪ **observer** | ![No](/img/no-icon.svg)  | ![No](/img/no-icon.svg) | ![Yes](/img/yes-icon.svg) | Optional ([info field](/docs/datos-entidades-nodos#nodo-observador)) |
+
+
+#### Account key	
+
+Keys belonging to a registered account, in EOSIO a minimum of two permissions are required.
+
+```sh
+permissions: 
+     owner     1:    1 EOS6R46x4P8b82D4zjpU62xZG3ytn6VUxcyuJntSxSwMLXAgLxcU8
+        active     1:    1 EOS6R46x4P8b82D4zjpU62xZG3ytn6VUxcyuJntSxSwMLXAgLxcU8
+```
+
+#### Block Signing Key
+
+Keys used to sign blocks by the validator nodes that are part of the consensus group.
+
+```sh title="nodeos configuration parameters"
+  -p [ --producer-name ] arg            ID of producer controlled by this node 
+                                        (e.g. inita; may specify multiple 
+                                        times)
+  --signature-provider arg              Key=Value pairs in the form 
+                                        <public-key>=<provider-spec>
+```
+
+#### Peer Key
+
+Keys used by the P2P protocol to establish communication between nodes with valid signatures for the specified public keys.
+
+```sh title="nodeos configuration parameters"
+  --allowed-connection arg (=any)       Can be 'any' or 'producers' or 
+                                        'specified' or 'none'. If 'specified', 
+                                        peer-key must be specified at least 
+                                        once. If only 'producers', peer-key is 
+                                        not required. 'producers' and 
+                                        'specified' may be combined.
+  --peer-key arg                        Optional public key of peer allowed to 
+                                        connect.  May be used multiple times.
+  --peer-private-key arg                Tuple of [PublicKey, WIF private key] 
+                                        (may specify multiple times)
+```
+
+#### Extra Keys
+
+Additional keys for other uses other than the core EOSIO network protocol or consensus mechanism can be used for other functions such as post-quantum cryptography. This information can be included within the [data of entities and nodes](data-entities-nodes.md) stored in the system contract.
+
+
+### Write Node Authority
+
+Writer nodes require specified authorizations for the `writer` permission which is administered by the permitting committee.
+
+![Writer Nodes Authority Example](/img/diagrams/writer-authorities.png)
+
+### User Authority 
 
 We propose to delegate account creation permissions to writer nodes, this permission can be modified in turn by an organization / committee to conform to legal and operational requirements.
+
+Each new user will be linked to a writer node belonging to a permissioned entity. Any transaction created by a user's account must be accompanied by the signature of a writer node to comply with the number of minimum authorizations required (2/2).
+
+![Example User Authorities](/img/diagrams/user-authorities.png)
+
+The LAC-Chain network requires tracking which writer node generated a transaction, in such a way that it is possible to make them legally responsible for it.
+
+It is necessary to verify that in LatamLink any transaction that is issued is propagated by a node that is on the list of accounts authorized by the permitting committee.
+
+This traceability requires that each EOSIO transaction include the signature of the writer node in such a way that the other nodes are able to recognize through which node the transaction entered the network.
 
 ### Account Creation
 The following steps are proposed for the creation of accounts and use of the resources of the chain.
@@ -24,7 +111,7 @@ The following steps are proposed for the creation of accounts and use of the res
 4. The writer decides how to distribute resources to Alice based on the requirements defined by the committee, he can choose to transfer resources, delegate them, co-sign transactions.
 5. Alice uses network resources.
 
-### Traceability, damage control and liability
+### Damage control and liability
 
 In case the resources of the chain are being used outside the scope proposed by the committee, the following scenario arises.
 

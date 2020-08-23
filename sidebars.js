@@ -6,10 +6,10 @@ module.exports = {
       items: [
         'eosio',
         'consensus-mechanism',
-        'resource-usage',
-        'accounts-permissions',
         'network-topology',
+        'accounts-permissions',
         'traceability',
+        'resource-usage',
         'monitoring',
         'performance',
         'digital-identity',

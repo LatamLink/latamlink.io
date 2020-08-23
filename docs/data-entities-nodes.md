@@ -11,12 +11,12 @@ Think of a WHOIS for LAC-Chain accounts that are verified by a blockchain signat
 
 ## Data Update Tool
 
-To access the user interface to update data, select the "Update Node Info" option in the [Network Monitor] (https://dashboard.latamlink.io).
+To access the user interface to update data, select the "Update Node Info" option in the [Network Monitor](https://dashboard.latamlink.io).
 
 ## Implementation Phases
 
 ### Phase  I
-#### Self-generated list of all block producers extracted from the blockchain.
+#### Self-generated list of all validator nodes extracted from the blockchain.
  - Node account name
  - Type of node entity
  - Node public key

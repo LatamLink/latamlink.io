@@ -343,10 +343,10 @@ const ToolsSection = () => {
           </Grid>
           <Grid item xs={12} sm={12} md={4}>
             <CustomCard 
-              href="/"
-              img="images/latamlink_wallet_1003987.svg"
-              title="EOSIO Wallets"
-              body="Adaptability to several EOSIO wallets that can be configured in the testnet."
+              href="https://dashboard.latamlink.io"
+              img="images/latamlink_Monitor_1014.svg"
+              title="Network Monitor"
+              body="A network monitor service that allows for tracebility of network activity."
             />
           </Grid>
           <Grid item xs={12} sm={12} md={4}>
@@ -359,7 +359,7 @@ const ToolsSection = () => {
           </Grid>    
           <Grid item xs={12} sm={12} md={4}>
             <CustomCard 
-              href="/"
+              href="https://github.com/eoscostarica/eosio-network-bootstrap"
               img="images/latamlink_Wrench_1004034.svg"
               title="Development Environment"
               body="Has a local environment for developing decentralized applications
@@ -368,7 +368,7 @@ const ToolsSection = () => {
           </Grid>
           <Grid item xs={12} sm={12} md={4}>
             <CustomCard 
-              href="/"
+              href="https://t.me/latamlink"
               img="images/latamlink_balloon-1.svg"
               title="Telegram Group"
               body="to coordinate and share relevant information related to the EOSIO ecosystem and LatamLink."
@@ -376,7 +376,7 @@ const ToolsSection = () => {
           </Grid>
           <Grid item xs={12} sm={12} md={4}>
             <CustomCard 
-              href="https://github.com/LatamLink"
+              href="https://github.com/latamlink"
               img="images/Github-VerGreen-SVG-Hermes-22-04-20.svg"
               title="GitHub"
               body="GitHub profile to foster a community of developers."

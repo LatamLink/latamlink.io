@@ -3,8 +3,11 @@ id: performance
 title: Network security and Performance
 sidebar_label: Security and Performance
 ---
+:::note Work in Progress
+We are still working on this aspect of the network. Please refer to the [Project Roadmap](./roadmap.md).
+:::
 
-Is essential to know the limits of the infrastructure from cybersecurity and performance perspective.
+It is essential to know the limits of the infrastructure from cybersecurity and performance perspective.
 
 LatamLink plans to make cybersecurity analysis and evaluations in the infrastructure. As well as make coordinate stress tests.
 

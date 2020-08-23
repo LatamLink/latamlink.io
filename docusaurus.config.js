@@ -11,7 +11,7 @@
 // List of projects/orgs using your project for the users page.
 
 const siteConfig = {
-  title: 'LatamLink Testnet', // Title for your website.
+  title: 'EOSIO Testnet for LAC-Chain IADB Labs Blockchain', // Title for your website.
   tagline: 'Technical Documentation',
   url: 'https://latamlink.io', // Your website URL
   baseUrl: '/', // Base URL for your project */
@@ -34,10 +34,10 @@ const siteConfig = {
         //href: 'https://es.latamlink.io',
       },
       items: [
-        {href: 'https://latamlink.io/#about', label: 'About', position: 'right'},
-        {href: 'https://medium.com/@latam_link', label: 'News', position: 'right'},
+        // {href: 'https://latamlink.io/#about', label: 'About', position: 'right'},
+        // {href: 'https://medium.com/@latam_link', label: 'News', position: 'right'},
         {href: 'https://monitor.latamlink.io/', label: 'Monitor', position: 'right'},
-        {href: 'http://explorer.testnet.latamlink.io/', label: 'Explorer', position: 'right'},
+        // {href: 'http://explorer.testnet.latamlink.io/', label: 'Explorer', position: 'right'},
         {to: 'docs/eosio', label: 'Documentation', position: 'right'},
         {href: 'https://es.latamlink.io/', label: 'Español',position: 'right',},
         {to: 'search'},
@@ -111,7 +111,7 @@ const siteConfig = {
           path: './docs',
           // Sidebars file relative to website dir.
           editUrl:
-            'https://github.com/LatamLink/latamlink.io/tree/master/website',
+            'https://github.com/LatamLink/latamlink.io/tree/master',
           sidebarPath: require.resolve('./sidebars.js'),
           showLastUpdateAuthor: false,
           showLastUpdateTime: true,

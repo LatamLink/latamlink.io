@@ -97,6 +97,10 @@ a.nav-home {
   transition: all 0.4s ease-in-out;
 }
 
+.col a{
+  color: green;
+}
+
 .footer-logo:hover {
   filter: none;
   -webkit-filter: grayscale(0);
