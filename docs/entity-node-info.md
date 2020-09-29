@@ -1,5 +1,5 @@
 ---
-id: data-entities-nodes
+id: entity-node-info
 title: Entity and Node Information
 sidebar_label: Entity and Node Data
 ---
@@ -33,7 +33,7 @@ it will insert or update a record in the `nodes` table in `eosio` system contrac
 
 - **org:** *{Object}*
   - **candidate_name**: Organization name
-  - **organization_id**"**: Government Issued Organization ID
+  - **organization_id**: Government Issued Organization ID
   - **technical_contact**: Person Name
   - **business_contact**: Person Name
   - **website**: Organization website
