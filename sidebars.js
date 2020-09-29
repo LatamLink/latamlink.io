@@ -25,7 +25,7 @@ module.exports = {
         'getting-started',
         'private-keys',
         'permissioning-process',
-        'data-entities-nodes',
+        'entity-node-info',
         'node-installation',
         'hello-world'
       ],
