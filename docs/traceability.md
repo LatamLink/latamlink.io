@@ -31,11 +31,11 @@ The permitted entities can be lacchain "partners" which can deploy any type of n
 
 |                 | Account key              | Block Signing Key | Peer Key | Extra Keys            |
 |-----------------|:------------------------:|:-----------------:|:--------:|:---------------------:|
-| **Entity**      | Active/Owner permissions | ![No](/img/no-icon.svg) | ![No](/img/no-icon.svg) | Optional ([info field](/docs/data-entities-nodes#entity-json-structure)) |
-|  ˫ **validator**| ![No](/img/no-icon.svg)  | ![Yes](/img/yes-icon.svg) | ![Yes](/img/yes-icon.svg) | Optional ([info field](/docs/data-entities-nodes#validator-node)) |
-|  ˫ **boot**     | ![No](/img/no-icon.svg)  | ![No](/img/no-icon.svg) | ![Yes](/img/yes-icon.svg) | Optional ([info field](/docs/data-entities-nodes#boot-node)) |
-|  ˫ **writer**   | NodeName permission      | ![No](/img/no-icon.svg) | ![Yes](/img/yes-icon.svg) | Optional ([info field](/docs/data-entities-nodes#writer-node)) |
-|  ˪ **observer** | ![No](/img/no-icon.svg)  | ![No](/img/no-icon.svg) | ![Yes](/img/yes-icon.svg) | Optional ([info field](/docs/data-entities-nodes#observer-node)) |
+| **Entity**      | Active/Owner permissions | ![No](/img/no-icon.svg) | ![No](/img/no-icon.svg) | Optional ([info field](/docs/entity-node-info#entity-json-structure)) |
+|  ˫ **validator**| ![No](/img/no-icon.svg)  | ![Yes](/img/yes-icon.svg) | ![Yes](/img/yes-icon.svg) | Optional ([info field](/docs/entity-node-info#validator-node)) |
+|  ˫ **boot**     | ![No](/img/no-icon.svg)  | ![No](/img/no-icon.svg) | ![Yes](/img/yes-icon.svg) | Optional ([info field](/docs/entity-node-info#boot-node)) |
+|  ˫ **writer**   | NodeName permission      | ![No](/img/no-icon.svg) | ![Yes](/img/yes-icon.svg) | Optional ([info field](/docs/entity-node-info#writer-node)) |
+|  ˪ **observer** | ![No](/img/no-icon.svg)  | ![No](/img/no-icon.svg) | ![Yes](/img/yes-icon.svg) | Optional ([info field](/docs/entity-node-info#observer-node)) |
 
 
 #### Account key	
@@ -79,7 +79,7 @@ Keys used by the P2P protocol to establish communication between nodes with vali
 
 #### Extra Keys
 
-Additional keys for other uses other than the core EOSIO network protocol or consensus mechanism can be used for other functions such as post-quantum cryptography. This information can be included within the [data of entities and nodes](data-entities-nodes.md) stored in the system contract.
+Additional keys for other uses other than the core EOSIO network protocol or consensus mechanism can be used for other functions such as post-quantum cryptography. This information can be included within the [data of entities and nodes](entity-node-info.md) stored in the system contract.
 
 
 ### Write Node Authority
