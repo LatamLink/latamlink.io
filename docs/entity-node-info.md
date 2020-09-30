@@ -27,7 +27,7 @@ Executing this action requires the authorization of the authorized account or th
 | `entity` | *name* | Name of the node asociated to the entity |
 | `info` | *string* | JSON for entity info |
 
-it will insert or update a record in the `nodes` table in `eosio` system contracts.
+it will insert or update a record in the `entity` table located  in the `eosio` system contracts.
 
 ### Entity JSON Structure 
 
