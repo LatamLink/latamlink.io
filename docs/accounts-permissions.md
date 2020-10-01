@@ -16,7 +16,7 @@ Read more on [EOSIO accounts](https://developers.eos.io/welcome/latest/protocol/
 
 EOSIO allows to create custom hierarchical permissions that stem from the owner permission. A custom permission is basically a key that can only perform the actions you allow it to perform. 
 
-Each account has two base permissions `owner` and` active`, `owner` a being recovery key that is kept ideally in cold storage and used only in case of wanting to change the `active` key. Apart from these two initial permissions, additional custom permissions can be configured.
+Each account has two base permissions `owner` and` active`. `owner` is a recovery key that is kept ideally in cold storage and used only in case of wanting to change the `active` key. Apart from these two initial permissions, additional custom permissions can be configured.
 
  > **For example:** Any account can create a custom permission with its unique key pair to solely interact with a single contract. 
 
