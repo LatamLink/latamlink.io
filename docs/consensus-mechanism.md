@@ -8,7 +8,7 @@ A consensus mechanism ensures that each new block that is added to the blockchai
 
 LatamLink will delegate the authority for validating and writing new blocks to a group of nodes that we call **validator nodes**.
 
-## LAC-Chain Permisioning Committee
+## LACChain Permisioning Committee
 
 LACChain is a public / permissioned blockchain which aims to become a legally supervised network. This objective requires a central authority to govern the activity of the network.
 
