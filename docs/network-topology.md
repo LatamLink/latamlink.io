@@ -103,21 +103,21 @@ For more information on how communication works between nodes in EOSIO networks,
 
 ### Transactions
 
-The cycle of a transaction is:
+The cycle of a transaction is as follows:
 
-1. A client sends a transaction signed by https or by p2p to a writer node, either api or p2p.
+1. A client sends a signed transaction by https or by p2p to a writer node, either API or p2p.
 
-1. The writer verifies the transaction
+1. The writer verifies the transaction.
 
-1. The writer broadcasted the transaction to the `boot-p2p-bidir` nodes
+1. The writer broadcastes the transaction to the `boot-p2p-bidir` nodes.
 
-1. the `boot-p2p-bidir`, broadcasted the transaction to layer 1 (core)
+1. The `boot-p2p-bidir`, broadcastes the transaction to the layer 1 (core).
 
 1. The validator that is in schedule verifies the transaction and executes it.
 
-1. The validator broadcastes the new block to layer 1 and layer 2
+1. The validator broadcastes the new block to the layer 1 and the layer 2.
 
-1. Layer 2 Boot Verify the New Block and Broadcast it to Layer 3
+1. Layer 2 Boot verifis the new block and broadcastes it to the layer 3.
 
 
 ## Routes optimizations / Connections
