@@ -146,7 +146,7 @@ const AboutSection = () => {
             <AboutCards 
                 img="images/latamlink_Floor_Light_1853.svg"
                 title="Learn About EOSIO"
-                body=" LatamLink offers tools for projects in Latin America to explore the benefits of."
+                body=" LatamLink offers tools for projects in Latin America to explore the benefits of the EOSIO blockchain technology."
             ></AboutCards>
             <AboutCards 
                 img="images/latamlink_finger_108.svg"
