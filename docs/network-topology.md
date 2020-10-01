@@ -4,7 +4,7 @@ title: Network Topology
 sidebar_label: Network Topology
 ---
 
-We present the following proposal for LAC-Chain network configuration using EOSIO nodes.
+We present the following proposal for LACChain network configuration using EOSIO nodes.
 
 ## Design principles
 * **Trustless**, the correct and optimal functioning of the network, should not be based on trust between the entities that make up the network.
@@ -123,11 +123,11 @@ The cycle of a transaction is:
 ## Routes optimizations / Connections
 The goal is to manage the network topology in a dynamic way using Smart Contracts.
 
-In the [current BESU LAC-Chain topology](https://github.com/lacchain/besu-network/blob/master/TOPOLOGY_AND_ARCHITECTURE.md), the "boot" nodes can be connected to all nodes in the network (boot, validator and writer). At present, all "boot" nodes are connected to all nodes. This is not scalable and efficient. Alongside, the nodes are not restricted by the network to connect only to correspondent nodes (in other words, a writer with the boot, or validator with validator and boot), nor do they have the information about what kind of node each of them is. We need proportionalities to that information out of the chain.
+In the [current BESU LACChain topology](https://github.com/lacchain/besu-network/blob/master/TOPOLOGY_AND_ARCHITECTURE.md), the "boot" nodes can be connected to all nodes in the network (boot, validator and writer). At present, all "boot" nodes are connected to all nodes. This is not scalable and efficient. Alongside, the nodes are not restricted by the network to connect only to correspondent nodes (in other words, a writer with the boot, or validator with validator and boot), nor do they have the information about what kind of node each of them is. We need proportionalities to that information out of the chain.
 
 ## Cloud Infrastructure
 
-LAC-Chain is interested in using automatic implementations in several clouds using tools like terraform.
+LACChain is interested in using automatic implementations in several clouds using tools like terraform.
 - Take advantage of the tools in the cloud to improve the Layerbilities in the network.
 - Explore the use of the key vaults in the cloud.
-- Work with partners to open up cloud services in LAC-Chain on a SAAS basis.
+- Work with partners to open up cloud services in LACChain on a SAAS basis.
