@@ -6,7 +6,7 @@ sidebar_label: Consensus Mechanism
 
 A consensus mechanism ensures that each new block that is added to the blockchain is accepted as the only version of the truth by all nodes on the network. In essence, a consensus algorithm aims to find a common agreement that is accepted for the whole network.
 
-LatamLink will delegate the the authority to validate and write new blocks to a group of nodes that we call **validator nodes**.
+LatamLink will delegate the authority for validating and writing new blocks to a group of nodes that we call **validator nodes**.
 
 ## LAC-Chain Permisioning Committee
 
