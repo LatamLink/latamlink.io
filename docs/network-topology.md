@@ -19,11 +19,11 @@ We present the following proposal for LACChain network configuration using EOSIO
 
 <img src="/img/diagrams/network-topology-en.png#center" alt="Topologia de Red LatamLink" width="450"/>
 
-- **Layer 1 ([Core](/docs/network-topology#Layer-1---core-network))** Red de validadores y nodos p2p para meshear entre ellos
+- **Layer 1 ([Core](/docs/network-topology#Layer-1---core-network))** Validator and interconnecting p2p node network.
 
-	- **Layer 2 ([Bridge](/docs/network-topology#Layer-2---bridge))** Distribucion p2p entre validators p2p y boots
+	- **Layer 2 ([Bridge](/docs/network-topology#Layer-2---bridge))** p2p distribution network among p2p validators and boot nodes.
 
-		- **Layer 3 ([Satellite](/docs/network-topology#layer-3---satellite))** Layer de consumo para writers y observers
+		- **Layer 3 ([Satellite](/docs/network-topology#layer-3---satellite))** Writer and observer nodes consumption layer.
 
 
 ![LatamLink Topology](/img/diagrams/topologia-nodos-2.png)
