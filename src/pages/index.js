@@ -150,7 +150,7 @@ const AboutSection = () => {
             ></AboutCards>
             <AboutCards 
                 img="images/latamlink_finger_108.svg"
-                title="Put your dApps to the test"
+                title="Test your dApps"
                 body="LatamLink includes a local environment to build and test decentralized applications (dApps)."
             ></AboutCards>
             <AboutCards 
@@ -185,9 +185,9 @@ const InformationSection = () => {
                 What is LACChain?
             </h2>
             <span>
-                LACChain is an initiative by IDB Lab (part of the 
+                LACChain is an initiative by IDB Labs (part of the 
                 <a style={{color: "#5bb517"}} href="https://www.iadb.org/en" target="_blank"> Inter-American Development Bank</a>) 
-                to accompany and accelerate the development of the blockchain ecosystem in Latin America. 
+                to support and accelerate the development of the blockchain ecosystem in Latin America. 
                 It aims to establish national consortiums in the region, to develop and promote standards for interoperability of 
                 networks, and to develop and maintain interoperable blockchain infrastructures.
             </span>
@@ -272,7 +272,7 @@ const WhyChoose = () => {
               img="images/latamlink_Rocket_1885.svg"
               body="LatamLink deploys a public permissioned version of EOSIO technology for Latin America. 
               We include some features such as a local development and testing environment, a monitor service, 
-              and adaptability to API endpoints, wallets, and other tools. Check the full list below. ."
+              and adaptability to API endpoints, wallets, and other tools. Check the full list below."
               href=""
               info=""
           ></GetStartedSteps>
