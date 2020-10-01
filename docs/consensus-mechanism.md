@@ -38,7 +38,7 @@ An EOSIO network is configured by default to use 21 active producers and a serie
 
 ## Block production schedule
 
-In EOSIO networks, active validator nodes are listed on a list, called **`schedule`**.
+In EOSIO networks, active validator nodes are listed on a **`schedule`** list.
 
 The schedule is arranged alphabetically and thus defines the sequence in which validator nodes must sign blocks.
 
