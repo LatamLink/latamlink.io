@@ -196,7 +196,7 @@ const InformationSection = () => {
             </h2>
             <span>
                 EOSIO is a next-generation blockchain technology launched in 2018 by 
-                <a style={{color: "#5bb517"}} href="https://block.one/" target="_blank"> block.one</a>, 
+                <a style={{color: "#5bb517"}} href="https://block.one/" target="_blank"> Block One</a>, 
                 a leading company that provides high-performance blockchain solutions. EOSIO enables 
                 greater flexibility, scalability, and cost-efficiency, allowing up to 4,000 transactions per second in its network.
             </span>
