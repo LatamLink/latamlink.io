@@ -98,5 +98,5 @@ This change involves disabling the use of tokens and voting features of the DPOS
 
 This functionality will not necessarily be removed, but an “assert false” function will be used to disable the functions since these functions are not required.
 
-In essence, the LAC Chain system contracts define a mechanism to register the validator nodes as well as allocate **system resources** required by the network user accounts to execute their smart contracts.
+In essence, the LACChain system contracts define a mechanism to register the validator nodes as well as allocate **system resources** required by the network user accounts to execute their smart contracts.
 
