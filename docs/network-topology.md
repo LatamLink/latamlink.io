@@ -81,10 +81,10 @@ Node that allows requesting information from the blockchain through an http requ
 
 Node Discovery Cycle
 
-1. The entity configures a new node
-1. The entity registers a new node with the committee including in its information, node type (`observer-api`,` writer-p2p`, `boot-p2p-bidir`, etc.) along with its public key for peering
-1. The committee updates the node table in the smart contract with the node information to add this information
-1. Nodes in the network that need it update their list of allowed pairs to add the new node to the nodes that are needed.
+1. The entity configures a new node.
+1. The entity registers a new node with the committee including information such as node type (`observer-api`,` writer-p2p`, `boot-p2p-bidir`, etc.) along with its public key for peering.
+1. The committee updates the node table in the smart contract with the node information to add the above data.
+1. Nodes already in the network must update their list of allowed pairs with the new added node.
 1. The new node confirms that it is connected to the network.
 
 
