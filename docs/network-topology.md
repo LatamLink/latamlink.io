@@ -93,7 +93,7 @@ Node Discovery Cycle
 | **Writer Nodes** | **Boot Nodes** | **Observer Nodes** | **Validator Nodes** |
 |---|---|---|---|
 | Group 1....n  | Group 1....n  | Group 1...n  | Active and Stand-By  |
-| groups of up to 40 nodos | groups of up to 40 nodos  | groups of up to 10 nodos |  active defined in schedule  |
+| groups of up to 40 nodes | groups of up to 40 nodes  | groups of up to 10 nodes |  active defined in schedule  |
 
 Boot and validator nodes that do not meet the required configuration can be removed by the permissioning committee.
 
