@@ -127,7 +127,7 @@ In the [current BESU LACChain topology](https://github.com/lacchain/besu-network
 
 ## Cloud Infrastructure
 
-LACChain is interested in using autonomous deployments on several clouds using tools like terraform. The goals related to the cloud ae the following:
+LACChain is interested in using autonomous deployments on several clouds using tools like terraform. The goals related to the cloud are the following:
 - Take advantage of the tools in the cloud to improve the Layerbilities in the network.
 - Explore the use of the key vaults in the cloud.
 - Work with partners to open up cloud services in LACChain on a SAAS basis.
