@@ -83,7 +83,7 @@ Eventually, a smart contract may be implemented to replace a block producer's ac
 
 ## Custom EOSIO system contracts
 
-LACChain will use tailored system contracts. Building over the native EOSIO system contracts, where the main changes lie replacing native **Delegated Proof of Stake (dPOS)** mechanism with the standard defined by **LAC-Chain**.
+LACChain will use tailored system contracts. Building over the native EOSIO system contracts, where the main changes lie replacing native **Delegated Proof of Stake (dPOS)** mechanism with the standard defined by **LACChain**.
 
 This change involves disabling the use of tokens and voting features of the DPOS protocol. It will also no longer be necessary to issue a system token.
 
