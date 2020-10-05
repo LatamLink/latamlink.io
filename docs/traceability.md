@@ -100,7 +100,7 @@ The LACChain network requires tracking which writer node generated a transaction
 
 It is necessary to verify that in LACChain any transaction that is issued is propagated by a node that is on the list of accounts authorized by the permitting committee.
 
-This traceability requires that each EOSIO transaction include the signature of the writer node in such a way that the other nodes are able to recognize through which node the transaction entered the network.
+This traceability requires that each EOSIO transaction includes the signature of the writer node in such a way that the other nodes are able to recognize through which node the transaction entered the network.
 
 ### Account Creation
 The following steps are proposed for the creation of accounts and use of the resources of the chain.
