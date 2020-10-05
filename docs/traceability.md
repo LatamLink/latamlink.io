@@ -98,7 +98,7 @@ Each new user will be linked to a writer node belonging to a permissioned entity
 
 The LACChain network requires tracking which writer node generated a transaction, in such a way that it is possible to make them legally responsible for it.
 
-It is necessary to verify that in LatamLink any transaction that is issued is propagated by a node that is on the list of accounts authorized by the permitting committee.
+It is necessary to verify that in LACChain any transaction that is issued is propagated by a node that is on the list of accounts authorized by the permitting committee.
 
 This traceability requires that each EOSIO transaction include the signature of the writer node in such a way that the other nodes are able to recognize through which node the transaction entered the network.
 
