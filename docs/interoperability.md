@@ -8,13 +8,13 @@ We are still working on this aspect of the network. Please refer to the [Project
 :::
 
 
-LAC-Chain technology-agnostic, for which we want to be able to integrate several blockchain protocols that are being used in LAC-Chain.
+LACChain is designed to be technology-agnostic. We aim to integrate several blockchain protocols used in LACChain.
 
 The interoperability between distinct blockchain protocols could be achieved in two ways:
 
- **Trusted Peers:** This modality is simpler of implement, using a trust layer to determine what occurs in each chain.
+ **Trusted Peers:** This modality is simpler to implement. It uses a trust layer to determine what occurs on each chain.
 
- **Trustless:** Is a more difficult solution, specially between protocols POW -> DPOS.
+ **Trustless:** It is a more challenging solution, specially between different consensus protocols such as POW -> DPOS.
 
 ## Ethereum Interoperability -> EOSIO
 
@@ -22,7 +22,7 @@ The interoperability between distinct blockchain protocols could be achieved in 
 
 ## EVM on EOSIO
 
-Block.one announced a challenge of a smart contract, offering a prize of 200,000 dollars to who resolved it.
+Block.one announced a smart contract challenge, offering a prize of 200,000 dollars to the winner:
 
 "In this challenge, the participants should create an EOSIO Smart Contract that can store and invoke EVM (Solidity) Smart Contracts in a virtual environment similar to the Ethereum one", is detailed in one announcement of February 3rd in EOSIO DevPost.
 
