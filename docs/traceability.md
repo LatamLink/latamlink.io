@@ -17,7 +17,7 @@ Privileged permissions can be dynamically delegated to different entities and no
 Considering that the permission to create new accounts could be delegated exclusively to the writers and in that way any action regardless of how they enter the network could be linked to the writer who created the account.
 
 ## Types of Permissioned Entities
-The permitted entities can be lacchain "partners" which can deploy any type of node. Otherwise non-partner entities can only display writer and observer nodes.
+The permitted entities can be LACChain "partners" which can deploy any type of node. Otherwise non-partner entities can only display writer and observer nodes.
 
 | Node Type | Partner | Non-Partner |
 |-----------|:-------:|:-----------:|
@@ -96,7 +96,7 @@ Each new user will be linked to a writer node belonging to a permissioned entity
 
 ![Example User Authorities](/img/diagrams/user-authorities.png)
 
-The LAC-Chain network requires tracking which writer node generated a transaction, in such a way that it is possible to make them legally responsible for it.
+The LACChain network requires tracking which writer node generated a transaction, in such a way that it is possible to make them legally responsible for it.
 
 It is necessary to verify that in LatamLink any transaction that is issued is propagated by a node that is on the list of accounts authorized by the permitting committee.
 
