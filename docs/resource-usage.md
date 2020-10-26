@@ -12,7 +12,7 @@ The accounts will be able to use the following resources in the network:
 ### RAM
 In an EOSIO network, RAM is the memory storage space where the blockchain stores data, it is measured in kilobytes (KiB). If your contract needs to store data in a blockchain table, like in a database, then it can store it in the blockchain's RAM.
 
-RAM is a very important resource and it is a limited one. It is used when executing many actions that are available on the blockchain, when creating a new account for example the information for that account is stored in the blockchain’s memory. Also when an account accepts a new type of token a new record has to be created somewhere in the blockchain memory that holds the balance of the new token accepted, and that memory, the storage space on the blockchain, has to be purchased either by the account that transfers the token or by the account that accepts the new token type.
+RAM is a very important resource and a limited one. It is used when executing many actions that are available on the blockchain. When creating a new account, for example, the information for that account is stored in the blockchain’s memory. Also when an account accepts a new type of token a new record has to be created somewhere in the blockchain memory that holds the balance of the new token accepted, and that memory, the storage space on the blockchain, has to be purchased either by the account that transfers the token or by the account that accepts the new token type.
 
 RAM is referred to as `memory` in the following `cleos get account` output: 
 ```c++
