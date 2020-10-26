@@ -4,7 +4,7 @@ title: Resource Usage
 sidebar_label: Resource Usage
 ---
 
-LAC-Chain doest not and will not have transaction fees. However, to limit the use of the network to its technical limits and avoid Distributed Denial of Service attacks, is necessary to establish a mechanism to require and assign resources in the network.
+LACChain doest not and will not have transaction fees. However, to limit the use of the network to its technical limits and avoid Distributed Denial of Service attacks, is necessary to establish a mechanism to require and assign resources in the network.
 
 ## Type of Resources
 The accounts will be able to use the following resources in the network:
