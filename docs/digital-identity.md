@@ -4,7 +4,31 @@ title: Authentication and Digital Identity
 sidebar_label: Authentication & Digital ID
 ---
 
-## Authenticators (Wallets)
+LACChain uses self-sovereign identity as a second layer of its blockchain-based infrastructure. It complements the first layer of public permissioned blockchain network by adding the possibility to identify and authenticate entities.
+
+## LACCHAIN Techno-Legal Framework
+
+### Trust Framework
+
+- Trusted lists (TLs)
+- Identity providers (IDs) and Certificate Authorities (CA)
+- Levels of Assurance (LOAs)
+
+### Regulatory Policies
+
+- Electronic Signature, DLTs, DIDs, VCs
+
+### Technology
+
+- Decentralized Idetifiers (DIDs)
+- Verifiable Credentials (VC)
+- Verifiable Presentations (VPs)
+- Key Storage Recovery
+- Credentials Storage and Recovery
+- Authentication
+- Sign On
+
+## Authenticators available for EOSIO networks (Wallets)
 
 The wallets are clients that store private keys associated with the permissions of one or more accounts. Ideally, a wallet has a locked state (encrypted) and unlock (unencrypted) that is protected by a high entropy password.
 
@@ -57,25 +81,3 @@ LACChain Mailbox also provides an API solution to use the DID resolution functio
 ## X.509 client certificates
 
 Certificates issued by a Certificate Authority (CA) who is responsible for validating the user's identity is commonly used for Digital Indentity. These certificates can then be used to generate blockchain private keys. Read this article on [Using X.509 PKI certificates as EOSIO blockchain identity](https://github.com/cc32d9/cc32d9_ideas_for_EOSIO/blob/master/X509_Certificates_as_EOSIO_id.md)
-
-## Techno-Legal Framework
-
-### Trust Framework
-
-- Trusted lists (TLs)
-- Identity providers (IDs) and Certificate Authorities (CA)
-- Levels of Assurance (LOAs)
-
-### Regulatory Policies
-
-- Electronic Signature, DLTs, DIDs, VCs
-
-### Technology
-
-- Decentralized Idetifiers (DIDs)
-- Verifiable Credentials (VC)
-- Verifiable Presentations (VPs)
-- Key Storage Recovery
-- Credentials Storage and Recovery
-- Authentication
-- Sign On
