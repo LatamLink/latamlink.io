@@ -31,7 +31,7 @@ Here we describe the framework that defines how identity works in LACChain and i
 - Authentication
 - Sign On
 
-## LAC Chain ID Mailbox
+## LACChain ID Mailbox
 
 LACChain Mailbox enables an email-like messaging for third-party issued Verifiable Credentials (VC). Using a secure and controlled server to store encrypted VC, LACChain Mailbox delivers a simple, secure, messaging experience for sending and receiving Verifiable Credentials with total privacy.
 
