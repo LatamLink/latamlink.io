@@ -4,9 +4,10 @@ title: Authentication and Digital Identity
 sidebar_label: Authentication & Digital ID
 ---
 
-LACChain uses self-sovereign identity as a second layer of its blockchain-based infrastructure. It complements the first layer of public permissioned blockchain network by adding the possibility to identify and authenticate entities.
+LACChain uses self-sovereign identity as a second layer of its blockchain-based infrastructure. It complements the first layer of public permissioned blockchain network by adding the possibility to identify and authenticate entities. The identification of entities in the system, including individuals, organizations, things and processes, is important to assign the ownership of the digital assets and determine legal responsibilities. 
+Here we describe the framework that defines how identity works in LACChain and its implementation by the EOSIO technology.
 
-## LACCHAIN Techno-Legal Framework
+## LACChain Techno-Legal Framework
 
 ### Trust Framework
 
