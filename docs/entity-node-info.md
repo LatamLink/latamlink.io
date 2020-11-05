@@ -32,7 +32,7 @@ it will insert or update a record in the `entity` table located  in the `eosio` 
 ### Entity JSON Structure 
 
 - **org:** *{Object}*
-  - **candidate_name**: Organization name
+  - **organization_name**: Organization name
   - **organization_id**: Government Issued Organization ID
   - **technical_contact**: Person Name
   - **business_contact**: Person Name
