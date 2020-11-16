@@ -43,7 +43,7 @@ const siteConfig = {
       items: [
         // {href: 'https://latamlink.io/#about', label: 'About', position: 'right'},
         // {href: 'https://medium.com/@latam_link', label: 'News', position: 'right'},
-        {href: 'https://monitor.latamlink.io/', label: 'Monitor', position: 'right'},
+        {href: 'https://dashboard.latamlink.io/', label: 'Network Dashboard', position: 'right'},
         // {href: 'http://explorer.testnet.latamlink.io/', label: 'Explorer', position: 'right'},
         {to: 'docs/eosio', label: 'Documentation', position: 'right'},
         {href: 'https://es.latamlink.io/', label: 'Español',position: 'right',},
@@ -57,7 +57,7 @@ const siteConfig = {
           items: [
             {
               label: 'Network Monitor',
-              to: 'https://monitor.latamlink.io/',
+              to: 'https://dashboard.latamlink.io/',
             },
             {
               label: 'Block Explorer',
