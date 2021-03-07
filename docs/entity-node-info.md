@@ -145,8 +145,7 @@ Expected node info varies depending on **node_type:**  `validator / boot / write
         "peer_keys": ["EOS..."]
     },
     "validator_endpoints":{
-        "validator_p2p_out": "lacchain.eosio.cr:9876",
-        "validator_p2p_bidir": "lacchain.eosio.cr:9876"
+        "validator_p2p": "lacchain.eosio.cr:9876"
     },
     "validator_location": {
         "name": "San Jose",
@@ -164,8 +163,7 @@ Expected node info varies depending on **node_type:**  `validator / boot / write
         "peer_keys": ["EOS..."]
     },
     "boot_endpoints":{
-        "boot_p2p_out": "",
-        "boot_p2p_bidir": "lacchain.eosio.cr:9876",
+        "boot_p2p": "lacchain.eosio.cr:9876"
     },
     "boot_location": {
         "name": "San Jose",
