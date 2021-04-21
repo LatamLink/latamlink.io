@@ -22,7 +22,7 @@ module.exports = {
       type: 'category',
       label: 'Guides',
       items: [
-        'getting-started',
+        'development-environment',
         'private-keys',
         'permissioning-process',
         'entity-node-info',
