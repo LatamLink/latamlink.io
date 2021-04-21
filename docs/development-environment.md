@@ -53,6 +53,6 @@ wget https://github.com/EOSIO/eosio.cdt/releases/download/v1.7.0/eosio.cdt_1.7.0
 sudo apt install ./eosio.cdt_1.7.0-1-ubuntu-18.04_amd64.deb
 ``` 
 
-## Get your account on Lacchain
+## Get your account on LACChain
 
 More information [about creating accounts.](private-keys.md)
