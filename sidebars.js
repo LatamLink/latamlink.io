@@ -22,7 +22,7 @@ module.exports = {
       type: 'category',
       label: 'Guides',
       items: [
-        'guides/getting-started',
+        'guides/development-environment',
         'guides/private-keys',
         'guides/create-account-final',
         'guides/create-account-contract',
