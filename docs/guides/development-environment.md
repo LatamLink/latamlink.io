@@ -55,4 +55,9 @@ sudo apt install ./eosio.cdt_1.7.0-1-ubuntu-18.04_amd64.deb
 
 ## Get your account on LACChain
 
-More information [about creating accounts.](private-keys.md)
+In LACChain EOSIO network, there are several types of accounts. See the guide to create an account according to your user role:
+
+- [End users](./create-account-final)
+- [Apps or Contracts](./create-account-contract)
+- [Non-Partner](./create-account-non-partner)
+- [Partner](./create-account-partner)
