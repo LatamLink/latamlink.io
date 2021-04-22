@@ -24,6 +24,10 @@ module.exports = {
       items: [
         'guides/getting-started',
         'guides/private-keys',
+        'guides/create-account-final',
+        'guides/create-account-contract',
+        'guides/create-account-non-partner',
+        'guides/create-account-partner',
         'guides/permissioning-process',
         'guides/entity-node-info',
         'guides/node-installation',
