@@ -31,7 +31,7 @@ module.exports = {
         'guides/permissioning-process',
         'guides/entity-node-info',
         'guides/node-installation',
-        'guides/hello-world'
+        'guides/deploy-smart-contract'
       ],
     },
     {
