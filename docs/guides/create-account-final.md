@@ -5,7 +5,7 @@ sidebar_label: End Users Accounts
 ---
 
 :::note Work in Progress
-We are still working on this aspect of the network. Please refer to the [Project Roadmap](./roadmap.md).
+We are still working on this aspect of the network. Please refer to the [Project Roadmap](../testnet/roadmap).
 :::
 
 ## Create account using an application
@@ -15,16 +15,16 @@ In the LACChain EOSIO network, end user accounts can be created through partner 
 Here is a list of projects in which they make use of account accounts in LACChain EOSIO:
 
 - [LifeBank](https://lifebank.io/)
-- [Inmutrust]()
+- [Inmutrust](https://lifebank.io/)
 - [SMARTGATE](https://smartgate.tech/)
 - [Notario Digital](https://notarize.eosio.cr/dashboard/notary)
-- [EOS Mechanics]()
+- [EOS Mechanics](https://lifebank.io/)
 
 ## Create an account by a partner
 
 ### 1. Generate private keys
 
-Keys are a requirement to create an account on a blockchain. See the following tutorial to create [private keys](./private-keys.md).
+Keys are a requirement to create an account on a blockchain. See the following tutorial to create [private keys](./private-keys).
 
 ###  2. Request an account from a Partner
 
