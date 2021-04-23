@@ -5,7 +5,7 @@ sidebar_label: Security and Performance
 ---
 
 :::note Work in Progress
-We are still working on this aspect of the network. Please refer to the [Project Roadmap](./roadmap.md).
+We are still working on this aspect of the network. Please refer to the [Project Roadmap](./roadmap).
 :::
 
 It is essential to know the limits of the infrastructure from cybersecurity and performance perspective.

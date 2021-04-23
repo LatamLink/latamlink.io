@@ -5,7 +5,7 @@ sidebar_label: Network Governance
 ---
 
 :::note Work in Progress
-We are still working on this aspect of the network. Please refer to the [Project Roadmap](./roadmap.md).
+We are still working on this aspect of the network. Please refer to the [Project Roadmap](../testnet/roadmap).
 :::
 
 ## Smart Contracts
