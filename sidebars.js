@@ -29,6 +29,7 @@ module.exports = {
         'guides/create-account-contract',
         'guides/create-account-non-partner',
         'guides/create-account-partner',
+        "guides/partners",
         'guides/permissioning-process',
         'guides/node-installation',
         'guides/deploy-smart-contract'

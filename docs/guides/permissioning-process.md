@@ -12,7 +12,7 @@ For an entity to be permissioned to run a writer node, it is required to follow 
 
 1. Read, understand and agree with the [Terms and Conditions for Writer Nodes for LACChain Test Networks](../testnet/writer-nodes-terms-conditions) that includes the Privacy Policy, and the Forbidden Use Cases as annexes. 
 2. Fill the [Node Agreement](../tesnet/node-agreement) and send it signed to info@lacchain.net (as a PDF).
-3. Follow the [instructions](../guides/node-installation) to deploy a writer node, and send us the node you get at the end of the process to info@lacchain.net to permission your node.
+3. Follow the [instructions](./node-installation) to deploy a writer node, and send us the node you get at the end of the process to info@lacchain.net to permission your node.
 
 
 ## Validator Nodes
@@ -22,4 +22,4 @@ For an entity to be permissioned to run a validator node, it is required to foll
 1. Become a partner of the LACChain Alliance.
 2. Read, understand and agree with the [Terms and Conditions for Writer Nodes for LACChain Test Networks](../tesnet/validator-nodes-terms-conditions) that includes the Privacy Policy, and the Forbidden Use Cases as annexes. 
 3. Fill the [Node Agreement](../tesnet/node-agreement) and send it signed to info@lacchain.net (as a PDF).
-4. Follow the [instructions](../guides/node-installation) to deploy a validator node, and send us the node you get at the end of the process to info@lacchain.net to permission your node.
+4. Follow the [instructions](./node-installation) to deploy a validator node, and send us the node you get at the end of the process to info@lacchain.net to permission your node.
