@@ -8,11 +8,17 @@ sidebar_label: Non-Partners Accounts
 We are still working on this aspect of the network. Please refer to the [Project Roadmap](.testent/roadmap).
 :::
 
-Non-Partners are a type of entity within the LAAChain EOSIO network with some peculiar characteristics that differentiate it from Partners:
+The `Non-Partners` are a type of entity within the LAAChain EOSIO network with some peculiar characteristics with the nodes that they can deploy that differentiate it from the `Partners`:
 
-- It does not have writer nodes.
-- They can add observer nodes.
-- They cannot add new accounts on the network.
+| Node Type | Partner | Non-Partner |
+|-----------|:-------:|:-----------:|
+| **Validator nodes** | ![Yes](/img/yes-icon.svg) |  ![No](/img/no-icon.svg)  |
+| **Boot nodes**      | ![Yes](/img/yes-icon.svg) |  ![No](/img/no-icon.svg)  |
+| **Writer nodes**    | ![Yes](/img/yes-icon.svg) | ![Yes](/img/yes-icon.svg) |
+| **Observer nodes**  | ![Yes](/img/yes-icon.svg) | ![Yes](/img/yes-icon.svg) |
+
+You can consult more information about [authorizations and traceability](../testnet/traceability)
+
 
 ## Apply to join the LACChain EOSIO network as a Non-Partner
 
