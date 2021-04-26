@@ -8,6 +8,6 @@ Currently the LACChain EOSIO network has a series of partners who are in charge 
 
 - [EOS Argentina](https://www.eosargentina.io/)
 - [EOS Costa Rica](https://es.eoscostarica.io/)
-- [EOS Venezuela](https://eosvenezuela.io//)
+- [Inter-American Development Bank](https://www.iadb.org/en)
 
 To be part of the network as a partner see [this information](./create-account-partner)
