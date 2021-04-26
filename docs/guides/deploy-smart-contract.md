@@ -15,12 +15,11 @@ In the LACChain EOSIO network, there are several types of accounts. See the guid
 - [Non-partner](./create-account-non-partner)
 - [Partner](./create-account-partner)
 
-
 ## 2. Acquire RAM
 
-Una vez que se tiene la cuenta en el LACChain EOSIO Testnet, para el contrato, necesitaremos disponer de recursos para desplegar el contrato en este caso RAM. Para esto consulte sobre el [manejo de recursos en la red](../testnet/resource-usage).
+Once the account is had in the LACChain EOSIO Testnet, for the contract, we will need to have resources to deploy the contract in this case RAM. For this consult about the [management of resources in the network](../testnet/resource-usage).
 
-Para extraer la información de la cuenta y verificar cuantos kilobytes de RAM tiene disponbible la cuenta puede realizar ejecutando el siguiente comando el cual puede apuntar al "end-point" de cualquiera de los partner de la red, puede observar la lista de partners [aquí](./create-account-partner).
+To extract the account information and verify how many kilobytes of RAM the account has available, it can perform by executing the following command which can point to the "end-point" of any of the network partners, you can see the list of partners [here](./create-account-partner).
 
 ```bash
 cleos -u http://lacchain.eosio.cr get account {nombrecuenta}
@@ -131,7 +130,7 @@ cleos -u http://lacchain.eosio.cr push action holacontrato hola '["LACChain EOSI
 ```
 
 :::note Note
-Es necesario esperar unos segundos para completar la irreversibilidad del bloque, ya que los block producers deben hacer la validación del bloque de datos para esto.
+It is necessary to wait a few seconds to complete the irreversibility of the block, since the block producers must validate the data block for this.
 :::
 
 ## Video-Tutorial
