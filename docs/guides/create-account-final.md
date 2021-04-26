@@ -15,10 +15,10 @@ In the LACChain EOSIO network, end user accounts can be created through applicat
 Here is a list of projects in which they make use of account accounts in LACChain EOSIO:
 
 - [LifeBank](https://lifebank.io/)
-- [Inmutrust](https://lifebank.io/)
+- [Inmutrust](https://inmutrust.com/)
 - [SMARTGATE](https://smartgate.tech/)
 - [Notario Digital](https://notarize.eosio.cr/dashboard/notary)
-- [EOS Mechanics](https://lifebank.io/)
+- [EOS Mechanics](https://dashboard.latamlink.io/node-performance)
 
 ## Create an account by a partner
 
