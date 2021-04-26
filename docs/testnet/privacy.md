@@ -5,7 +5,7 @@ sidebar_label: Privacy
 ---
 
 :::note Work in Progress
-We are still working on this aspect of the network. Please refer to the [Project Roadmap](./roadmap.md).
+We are still working on this aspect of the network. Please refer to the [Project Roadmap](./roadmap).
 :::
 
 Blockchain technology provides the necessary tools to decentralize the information securely and unwaveringly. The introduction of Bitcoin made possible that thousand of nodes from around the world share and hold the same information. However, in the majority of the Blockchains, the central idea is to hold this information public for everyone accesses to it and verify it, without the necessity of a central authority. Therefore public blockchains are defined as *trustless*(no need to trust). However, a lot of companies and private entities that want to use the blockchain technology encounter with a very important question: how maintain the information private and at the same time keep the security and transparency of a public blockchain?
