@@ -117,8 +117,7 @@ const siteConfig = {
           // Docs folder path relative to website dir.
           path: './docs',
           // Sidebars file relative to website dir.
-          editUrl:
-            'https://github.com/LatamLink/latamlink.io/tree/master',
+          editUrl:'https://github.com/LatamLink/latamlink.io/tree/master',
           sidebarPath: require.resolve('./sidebars.js'),
           showLastUpdateAuthor: false,
           showLastUpdateTime: true,
