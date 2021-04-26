@@ -4,9 +4,8 @@ title: Interoperability
 sidebar_label: Interoperability
 ---
 :::note Work in Progress
-We are still working on this aspect of the network. Please refer to the [Project Roadmap](./roadmap.md).
+We are still working on this aspect of the network. Please refer to the [Project Roadmap](./roadmap).
 :::
-
 
 LACChain is designed to be technology-agnostic. We aim to integrate several blockchain protocols used in LACChain.
 

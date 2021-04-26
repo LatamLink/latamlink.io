@@ -5,7 +5,7 @@ sidebar_label: Network monitoring
 ---
 
 :::note Work in Progress
-We are still working on this aspect of the network. Please refer to the [Project Roadmap](./roadmap.md).
+We are still working on this aspect of the network. Please refer to the [Project Roadmap](./roadmap).
 :::
 
 Monitoring what is happening on the network is essential to improve it and measure the social impact of our solutions. The main objective of the monitoring tools is to produce decentralized and reliable information about each node and the activity of the network.
@@ -42,8 +42,8 @@ Additionally, we will explore Blockchain Analytics tools and Data Science.
 
 ### Entity node Information 
 
-Please see page on [entity and node information](entity-node-info.md).
+Please see page on [entity and node information](./entity-node-info).
 
 ## Network Monitor
 
-We propose to create a native [network monitor](monitor.md) to achieve this objective. 
+We propose to create a native [network monitor](../tools/monitor) to achieve this objective. 
