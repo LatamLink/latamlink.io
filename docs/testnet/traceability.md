@@ -79,7 +79,7 @@ Keys used by the P2P protocol to establish communication between nodes with vali
 
 #### Extra Keys
 
-Additional keys for other uses other than the core EOSIO network protocol or consensus mechanism can be used for other functions such as post-quantum cryptography. This information can be included within the [data of entities and nodes](entity-node-info.md) stored in the system contract.
+Additional keys for other uses other than the core EOSIO network protocol or consensus mechanism can be used for other functions such as post-quantum cryptography. This information can be included within the [data of entities and nodes](./entity-node-info) stored in the system contract.
 
 
 ### Write Node Authority

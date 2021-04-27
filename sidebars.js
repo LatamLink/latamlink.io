@@ -15,7 +15,8 @@ module.exports = {
         'testnet/digital-identity',
         'testnet/privacy',
         'testnet/interoperability',
-        'testnet/roadmap'
+        'testnet/roadmap',
+        'testnet/entity-node-info',
       ],
     },
     {
@@ -30,7 +31,6 @@ module.exports = {
         'guides/create-account-partner',
         "guides/partners",
         'guides/permissioning-process',
-        'guides/entity-node-info',
         'guides/node-installation',
         'guides/deploy-smart-contract'
       ],

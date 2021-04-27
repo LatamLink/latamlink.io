@@ -5,7 +5,7 @@ sidebar_label: Apps or Contracts Accounts
 ---
 
 :::note Work in Progress
-We are still working on this aspect of the network. Please refer to the [Project Roadmap](.testent/roadmap).
+We are still working on this aspect of the network. Please refer to the [Project Roadmap](../testnet/roadmap).
 :::
 
 The application or contract accounts are used for the development of applications as their name indicates, this type of accounts are mainly those that own the actions of the system, allowing end users to interact with them and the blockchain.
@@ -14,7 +14,7 @@ The application or contract accounts are used for the development of application
 
 ### 1. Generate private keys
 
-Keys are a requirement to create an account on a blockchain. See the following tutorial to create [private keys](./private-keys.md).
+Keys are a requirement to create an account on a blockchain. See the following tutorial to create [private keys](./private-keys).
 
 ###  2. Request an account from a Partner
 

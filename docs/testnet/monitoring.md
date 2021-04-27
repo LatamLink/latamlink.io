@@ -42,7 +42,7 @@ Additionally, we will explore Blockchain Analytics tools and Data Science.
 
 ### Entity node Information 
 
-Please see page on [entity and node information](../guides/entity-node-info).
+Please see page on [entity and node information](./entity-node-info).
 
 ## Network Monitor
 

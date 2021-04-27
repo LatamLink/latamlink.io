@@ -5,7 +5,7 @@ sidebar_label: Non-Partners Accounts
 ---
 
 :::note Work in Progress
-We are still working on this aspect of the network. Please refer to the [Project Roadmap](.testent/roadmap).
+We are still working on this aspect of the network. Please refer to the [Project Roadmap](../tesnet/roadmap).
 :::
 
 The `Non-Partners` are a type of entity within the LAAChain EOSIO network with some peculiar characteristics with the nodes that they can deploy that differentiate it from the `Partners`:
