@@ -31,11 +31,11 @@ The permitted entities can be LACChain "partners" which can deploy any type of n
 
 |                 | Account key              | Block Signing Key | Peer Key | Extra Keys            |
 |-----------------|:------------------------:|:-----------------:|:--------:|:---------------------:|
-| **Entity**      | Active/Owner permissions | ![No](/img/no-icon.svg) | ![No](/img/no-icon.svg) | Optional ([info field](/docs/entity-node-info#entity-json-structure)) |
-|  ˫ **validator**| ![No](/img/no-icon.svg)  | ![Yes](/img/yes-icon.svg) | ![Yes](/img/yes-icon.svg) | Optional ([info field](/docs/entity-node-info#validator-node)) |
-|  ˫ **boot**     | ![No](/img/no-icon.svg)  | ![No](/img/no-icon.svg) | ![Yes](/img/yes-icon.svg) | Optional ([info field](/docs/entity-node-info#boot-node)) |
-|  ˫ **writer**   | NodeName permission      | ![No](/img/no-icon.svg) | ![Yes](/img/yes-icon.svg) | Optional ([info field](/docs/entity-node-info#writer-node)) |
-|  ˪ **observer** | ![No](/img/no-icon.svg)  | ![No](/img/no-icon.svg) | ![Yes](/img/yes-icon.svg) | Optional ([info field](/docs/entity-node-info#observer-node)) |
+| **Entity**      | Active/Owner permissions | ![No](/img/no-icon.svg) | ![No](/img/no-icon.svg) | Optional ([info field](/docs/testnet/entity-node-info#entity-json-structure)) |
+|  ˫ **validator**| ![No](/img/no-icon.svg)  | ![Yes](/img/yes-icon.svg) | ![Yes](/img/yes-icon.svg) | Optional ([info field](/docs/testnet/entity-node-info#validator-node)) |
+|  ˫ **boot**     | ![No](/img/no-icon.svg)  | ![No](/img/no-icon.svg) | ![Yes](/img/yes-icon.svg) | Optional ([info field](/docs/testnet/entity-node-info#boot-node)) |
+|  ˫ **writer**   | NodeName permission      | ![No](/img/no-icon.svg) | ![Yes](/img/yes-icon.svg) | Optional ([info field](/docs/testnet/entity-node-info#writer-node)) |
+|  ˪ **observer** | ![No](/img/no-icon.svg)  | ![No](/img/no-icon.svg) | ![Yes](/img/yes-icon.svg) | Optional ([info field](/docs/testnet/entity-node-info#observer-node)) |
 
 
 #### Account key	
