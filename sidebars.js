@@ -8,6 +8,8 @@ module.exports = {
         'testnet/consensus-mechanism',
         'testnet/network-topology',
         'testnet/accounts-permissions',
+        'testnet/eosio-nodes',
+        'testnet/entity-node-info',
         'testnet/traceability',
         'testnet/resource-usage',
         'testnet/monitoring',
@@ -15,8 +17,7 @@ module.exports = {
         'testnet/digital-identity',
         'testnet/privacy',
         'testnet/interoperability',
-        'testnet/roadmap',
-        'testnet/entity-node-info',
+        'testnet/roadmap'
       ],
     },
     {
