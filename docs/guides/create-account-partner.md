@@ -33,4 +33,4 @@ To be part of the network, a registration application form must be completed, wh
 - **entity_type** (partner)
 - **pub_key** (public key for the account of the new entity)
 
-To see the list of partners that are part of the network permitting committee, go to [here](./partners).
+To see the list of partners that are part of the network Permissioning Committee, go to [here](./partners).
