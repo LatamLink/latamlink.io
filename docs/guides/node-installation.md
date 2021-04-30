@@ -1,197 +1,68 @@
 ---
 id: node-installation
-title: EOSIO Node Installation
-sidebar_label: Node Installation
+title: Installing Validator / Boot / Writer / Observer nodes
+sidebar_label: Installing Validator / Boot / Writer / Observer nodes
 ---
 
-EOSIO version tag: `v2.0.5` 
+## Testnet LACChain EOSIO 
 
-Chain ID: `2c1f36d2e3774cba3e47804b6463c207544ac24183194e0b96ffad31e8f4acd5`
+<table>
+<tr>
+    <td>EOSIO version</td>
+    <td>
+        <a href="https://github.com/lacchain/eosio-network" target="_blank" rel="noopener noreferrer">
+            <code>LACChain EOSIO</code>
+        </a>
+    </td>
+</tr>
+<tr>
+    <td>Chain ID</td>
+    <td><code>2c1f36d2e3774cba3e47804b6463c207544ac24183194e0b96ffad31e8f4acd5</code></td>
+</tr>
+<tr>
+    <td>Genesis file</td>
+    <td>
+      <a href="https://raw.githubusercontent.com/LatamLink/eosio-testnet/master/genesis.json" target="_blank" rel="noopener noreferrer"><code>genesis.json</code></a>
+    </td>
+</tr>
+</table>
 
-Genesis File: [`genesis.json`](https://raw.githubusercontent.com/LatamLink/eosio-testnet/master/genesis.json)
+See our [GitHub repository](https://github.com/lacchain/eosio-network) for more information about nodes in LACChain EOSIO.
 
-## 1. Install EOSIO from precompiled binaries   
+## 1. Create an account
 
-Download the latest version of EOSIO for your OS from:  https://github.com/EOSIO/eos/releases/tag/v2.0.5   
+In order to deploy nodes in the LACChain EOSIO network, it is important to have an account registered as a `Partner` or` Non-Partner`.
+ 
+See the guide to create an account according to your user role:
 
-For example, for ubuntu 18.04 you need to download `eosio_2.0.5-1-ubuntu-18.04_amd64.deb`  
+- [Non-partner](./crear-cuenta-non-partner)
+- [Partner](./crear-cuenta-partner)
 
-You can use apt to install it:  
-```bash
-wget https://github.com/eosio/eos/releases/download/v2.0.5/eosio_2.0.5-1-ubuntu-18.04_amd64.deb
-sudo apt install ./eosio_2.0.5-1-ubuntu-18.04_amd64.deb
-```
-It will download all dependencies and install EOSIO to `/usr/opt/eosio/v2.0.5`  
 
-### Uninstall Script
-To uninstall the EOSIO built/installed binaries and dependencies, run:
+## 2. Authenticate on the Dashboard
 
-```bash 
-./scripts/eosio_uninstall.sh
-```
+The LACChain EOSIO network has a [dashboard] (https://dashboard.latamlink.io/), which allows users to manage within the network, including the option to deploy various types of nodes.
 
-## 2. Configure LatamLink Testnet Node  
+Login with your `Partner` or` Non-Partner` account. See our tutorial on how to manage your [private keys](./private-keys#31-external-authenticators-wallets)
 
-```bash
-mkdir ~/LatamLink-testnet
-cd ~/LatamLink-testnet
-git clone https://github.com/LatamLink/testnet.git ./
-```
 
-- Edit `config.ini`   
-  - Enter your server's external address: `p2p-server-address = YOUR_DOMAIN_OR_IP:9876` 
+## 3. Deploy a node 
 
-- Open TCP Ports (8888, 9876) on your firewall/router  
+Once authenticated with our account, select the `administration` option within the dashboard tools. In this section you will be shown the types of nodes that you can deploy depending on your type of account.
 
-**Specify a genesis.json file the first time you run nodeos**  
-```bash
-./start.sh --delete-all-blocks --genesis-json genesis.json
-```  
-Follow logs to check your node is running OK. 
+In order to create the node, we simply fill in the requested data in the form and execute the transaction.
 
-```bash
-tail -f stderr.txt
-```
+![Administration section](/img/docs/dashboard_02.png)
 
-Check if you can access your node using link `http://**YOUR_SERVER**/v1/chain/get_info` 
 
-Here is an <a href="https://latamlink.eosio.cr/v1/chain/get_info" target="_blank">API Example</a>  
+### Configuration examples
 
-### Starting and Stopping Nodeos
+The dashboard also has a section in which we can download an example of the configuration of the different types of node, we only have to access the option of [`node config`](https://dashboard.latamlink.io/node-config) within the tools.
 
-- `./start.sh` Starts and restarts Nodeos service.
+![Node config](/img/docs/dashboard_01.png)
 
-- `./stop.sh` Performs graceful shutdown of Nodeos service.
+## 4. Delete a node 
 
-## Relevant nodeos configurations
+Inside the dashboard, there is also an option to be able to delete the nodes, simply by typing the name of the node that we want to delete. 
 
-This is not a list of configurations that can be used out of the box, rather a list of important options for each type of node.
-
-### Validator
-
-```bash title="config.ini"
-
-producer-name = <validator_name>
-
-signature-provider = EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV=KEY:5KQwrPbwdL6PhXujxW37FSSQZ1JiwsST4cqQzDeyXtP79zkvFD3
-
-peer-key =
-peer-private-key =
-
-eosio::producer_plugin
-
-```
-
-### Validator p2p layer 1
-```bash title="config.ini"
-peer-key =
-peer-private-key =
-p2p-listen-endpoint =
-p2p-server-address =
-p2p-peer-address =
-p2p-max-nodes-per-host =
-max-clients =
-net-threads =
-
-eosio::net_plugin
-```
-
-### Validator p2p out
-```bash title="config.ini"
-p2p-accept-transactions = false
-api-accept-transactions = false
-
-peer-key =
-peer-private-key = 
-p2p-listen-endpoint =
-p2p-server-address =
-p2p-peer-address =
-p2p-max-nodes-per-host =
-max-clients =
-net-threads =
-
-eosio::net_plugin
-```
-### Validator p2p bidir
-```bash title="config.ini"
-peer-key =
-peer-private-key =
-p2p-listen-endpoint =
-p2p-server-address =
-p2p-peer-address =
-p2p-max-nodes-per-host =
-max-clients =
-net-threads =
-
-eosio::net_plugin
-```
-
-### boot p2p out
-```bash title="config.ini"
-p2p-accept-transactions = false
-api-accept-transactions = false
-
-peer-key =
-peer-private-key =
-p2p-listen-endpoint =
-p2p-server-address =
-p2p-peer-address =
-p2p-max-nodes-per-host =
-max-clients =
-net-threads =
-
-eosio::net_plugin
-```
-
-### boot p2p bidir
-```bash title="config.ini"
-peer-key =
-peer-private-key =
-p2p-listen-endpoint =
-p2p-server-address =
-p2p-peer-address =
-p2p-max-nodes-per-host =
-max-clients =
-net-threads =
-
-eosio::net_plugin
-```
-
-### writer p2p
-```bash title="config.ini"
-peer-key =
-peer-private-key =
-p2p-listen-endpoint =
-p2p-server-address =
-p2p-peer-address =
-p2p-max-nodes-per-host =
-max-clients =
-net-threads =
-
-eosio::net_plugin
-```
-
-### writer api
-Please see [dfuse documentation](https://www.dfuse.io/en)
-
-### observer api
-Please see [dfuse documentation](https://www.dfuse.io/en)
-
-### observer p2p
-
-```bash title="config.ini"
-p2p-accept-transactions = false
-api-accept-transactions = false
-
-peer-key =
-peer-private-key =
-p2p-listen-endpoint =
-p2p-server-address =
-p2p-peer-address =
-p2p-max-nodes-per-host =
-max-clients =
-net-threads =
-
-eosio::net_plugin
-```
-
+![Delete a node](/img/docs/dashboard_03.png)
