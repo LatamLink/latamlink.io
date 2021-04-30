@@ -22,13 +22,13 @@ RAM is a very important resource and it is limited. It is used when executing ma
 
 RAM is referred to as `memory` when executing the following command:
 
-#### Entrada
+#### Input
 
 ``` bash
 cleos get account
 ```
 
-#### Salida
+#### Output
 
 ```cpp
 memory: quota:     86.68 KiB    used:     11.62 KiB  
