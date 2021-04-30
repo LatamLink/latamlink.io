@@ -8,7 +8,7 @@ sidebar_label: Non-Partners Accounts
 We are still working on this aspect of the network. Please refer to the [Project Roadmap](../testnet/roadmap).
 :::
 
-The `Non-Partners` are a type of entity within the LAAChain EOSIO network with some peculiar characteristics with the nodes that they can deploy that differentiate it from the `Partners`:
+The `Non-Partners` are a type of entity within the LAAChain EOSIO network that have some special characteristics in the nodes that can deploy this differentiate them from the` Partners`:
 
 | Node Type | Partner | Non-Partner |
 |-----------|:-------:|:-----------:|
@@ -19,9 +19,12 @@ The `Non-Partners` are a type of entity within the LAAChain EOSIO network with s
 
 You can consult more information about [authorizations and traceability](../testnet/traceability)
 
-
 ## Apply to join the LACChain EOSIO network as a Non-Partner
 
-To be part of the network, you must complete a registration application form, which will be evaluated by the permitting committee, a member of this may contact you.
+To be part of the network, a registration application form must be completed, which will be evaluated by the permitting committee. To do this, you must contact a member of the committee and send them the following information:
 
-To see the list of partners that are part of the network go [here](./partners).
+- **entity_name** (entity account name)
+- **entity_type** (non-partner)
+- **pub_key** (public key for the account of the new entity)
+
+To see the list of partners that are part of the network Permissioning Committee, go to [here](./partners).
