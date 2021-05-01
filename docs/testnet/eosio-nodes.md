@@ -10,7 +10,7 @@ sidebar_label: EOSIO Nodes
 
 When planning a server installation, you have several options to select from. Often times, the selection is determined by the existing habits and preferences of the system administrator.
 
-Consult our guide on how to configure the [development environment](./development-environment) to be able to work on the LACChain EOSIO network.
+Consult our guide on how to configure the [development environment](../guides/development-environment) to be able to work on the LACChain EOSIO network.
 
 ### Hardware Requirements
 

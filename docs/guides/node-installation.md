@@ -35,8 +35,8 @@ In order to deploy nodes in the LACChain EOSIO network, it is important to have 
  
 See the guide to create an account according to your user role:
 
-- [Non-partner](./crear-cuenta-non-partner)
-- [Partner](./crear-cuenta-partner)
+- [Non-partner](./create-account-partner)
+- [Partner](./create-account-partner)
 
 
 ## 2. Authenticate on the Dashboard
