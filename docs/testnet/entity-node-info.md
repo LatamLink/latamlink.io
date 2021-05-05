@@ -4,11 +4,11 @@ title: Entity and Node Information
 sidebar_label: Entity and Node Data
 ---
 
-This is a proposed JSON Standard for Entity and Node Information which LAC-Chain partners are required to publish and stored on the system contract tables. This Standard is based off the [BP JSON standard](https://github.com/eosrio/bp-info-standard) utilized in the EOS mainnet.
+This is a proposed JSON Standard for Entity and Node Information which LACChain partners are required to publish and stored on the system contract tables. This Standard is based off the [BP JSON standard](https://github.com/eosrio/bp-info-standard) utilized in the EOS mainnet.
 
-It allows node operators to publicly advertise their ownership of a LAC-Chain account and share information about themselves.
+It allows node operators to publicly advertise their ownership of a LACChain account and share information about themselves.
 
-Think of a WHOIS for LAC-Chain accounts that are verified by a blockchain signature. All of these fields require a single sign-on that authenticates via blockchain and therefore cannot be wrong. Only the BP with the correct key can edit these fields using the user interface.
+Think of a WHOIS for LACChain accounts that are verified by a blockchain signature. All of these fields require a single sign-on that authenticates via blockchain and therefore cannot be wrong. Only the BP with the correct key can edit these fields using the user interface.
 
 #### Version
 

@@ -75,7 +75,7 @@ In the EOSIO's distribution comes included a CLI client called [`cleos`](https:/
 
 Public key cryptography has been in use for several decades and has evolved to a set of standards for digital signatures. Many governments have adopted digital signature standards so individuals or businesses can obtain identity certificates and use them to sign legal documents.
 
-> LatamLink aspires to integrate self-sovereign identity for end users that is compatible with national digital identities and digital signatures commonly used by large enterprise users.
+> LACChain EOSIO aspires to integrate self-sovereign identity for end users that is compatible with national digital identities and digital signatures commonly used by large enterprise users.
 
 Integrating digital identity to blockchain networks opens new opportunities, for example:
 

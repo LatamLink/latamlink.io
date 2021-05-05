@@ -121,16 +121,16 @@ function Footer() {
           <div className="icon-container">
             <h2 id="poweredby">Led by</h2>
             <a href="/" className="nav-home">
-                <img className="footer-logo" src="/images/latamlink_logo-h-full-color-overwhite.png" alt="LatamLink Testnet" />
+                <img className="footer-logo" src="/images/latamlink_logo-h-full-color-overwhite.png" alt="LACChain EOSIO Testnet" />
             </a>
             <a href="https://eoscostarica.io/es/" target="_blank" className="nav-home">
-              <img className="footer-logo" src="/images/EOSCr-logo.png" alt="LatamLink Testnet" />
+              <img className="footer-logo" src="/images/EOSCr-logo.png" alt="LACChain EOSIO Testnet" />
             </a>
             <a href="https://www.eosargentina.io/" target="_blank" className="nav-home">
-              <img className="footer-logo" src="/images/eosar_logo.png" alt="LatamLink Testnet" />
+              <img className="footer-logo" src="/images/eosar_logo.png" alt="LACChain EOSIO Testnet" />
             </a>
             <a href="https://eosvenezuela.io/" target="_blank" className="nav-home">
-              <img className="footer-logo" src="/images/eosvenezuelalogo-122x122.png" alt="LatamLink Testnet" />
+              <img className="footer-logo" src="/images/eosvenezuelalogo-122x122.png" alt="LACChain EOSIO Testnet" />
             </a>
           </div>
           <br/>

@@ -10,7 +10,7 @@ We are still working on this aspect of the network. Please refer to the [Project
 
 ## dfuse 	 
 
-LatamLink has implemented the powerful features of [dfuse](https://www.dfuse.io/en), a robust blockchain API that makes it possible to stream real-time state updates, conduct lightning-fast searches and provide irreversible transaction guarantees all for the first time using a simple API call.
+LACChain EOSIO has implemented the powerful features of [dfuse](https://www.dfuse.io/en), a robust blockchain API that makes it possible to stream real-time state updates, conduct lightning-fast searches and provide irreversible transaction guarantees all for the first time using a simple API call.
 
 ### GraphQL Endpoints
 
