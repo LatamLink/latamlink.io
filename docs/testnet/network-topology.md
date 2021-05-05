@@ -17,7 +17,7 @@ We present the following proposal for LACChain network configuration using EOSIO
 
 ## Proposed Topology
 
-<img src="/img/diagrams/network-topology-en.png#center" alt="Topologia de Red LatamLink" width="450"/>
+<img src="/img/diagrams/network-topology-en.png#center" alt="Topologia de Red LACChain EOSIO" width="450"/>
 
 - **Layer 1 ([Core](/docs/testnet/network-topology#Layer-1---core-network))** Validator and interconnecting p2p node network.
 
@@ -25,9 +25,7 @@ We present the following proposal for LACChain network configuration using EOSIO
 
 		- **Layer 3 ([Satellite](/docs/testnet/network-topology#layer-3---satellite))** Writer and observer nodes consumption layer.
 
-
-![LatamLink Topology](/img/diagrams/topologia-nodos-2.png)
-
+![LACChain EOSIO Topology](/img/diagrams/topologia-nodos-2.png)
 
 ## Layer 1 - Core Network
 The core network is composed of the blocks producers who have been added to the consensus protocol group. The final computational power source is derived from the network core.

@@ -146,17 +146,17 @@ const AboutSection = () => {
             <AboutCards 
                 img="images/latamlink_Floor_Light_1853.svg"
                 title="Learn About EOSIO"
-                body=" LatamLink offers tools for projects in Latin America to explore the benefits of the EOSIO blockchain technology."
+                body=" LACChain EOSIO offers tools for projects in Latin America to explore the benefits of the EOSIO blockchain technology."
             ></AboutCards>
             <AboutCards 
                 img="images/latamlink_finger_108.svg"
                 title="Test your dApps"
-                body="LatamLink includes a local environment to build and test decentralized applications (dApps)."
+                body="LACChain EOSIO includes a local environment to build and test decentralized applications (dApps)."
             ></AboutCards>
             <AboutCards 
                 img="images/latamlink_cog_104.svg"
                 title="Test your infrastructure"
-                body="LatamLink enables developers and organizations a solid platform to test blockchain infrastructure."
+                body="LACChain EOSIO enables developers and organizations a solid platform to test blockchain infrastructure."
             ></AboutCards>
         </section>
     );
@@ -178,7 +178,7 @@ const InformationSection = () => {
                 We develop an EOSIO-based testnet for the
                 <a style={{color: "#5bb517"}} href="https://www.lacchain.net/" target="_blank"> LACChain </a>
                 network to highlight the benefits of this technology. 
-                LatamLink deploys a public permissioned version of EOSIO technology for Latin American developers and organizations
+                LACChain EOSIO deploys a public permissioned version of EOSIO technology for Latin American developers and organizations
                  to test their decentralized applications and infrastructure.
             </span>
             <h2 className="h3" style={{padding: "20px 0 0 0"}} >
@@ -246,7 +246,7 @@ const WhyChoose = () => {
       <section id="iniciar" className="get-started-structure pt-5 pl-3 pr-3 pb-5">
         <div className="mt-5 mb-5 get-started-header">
           <h2 className="h1 text-center font-weight-bold">
-            <span className="underline">Why Choose LatamLink?</span>
+            <span className="underline">Why Choose LACChain EOSIO?</span>
           </h2>
         </div>
         <div className="get-started-steps">
@@ -270,7 +270,7 @@ const WhyChoose = () => {
           <GetStartedSteps
               title="3. It offers an integral solution"
               img="images/latamlink_Rocket_1885.svg"
-              body="LatamLink deploys a public permissioned version of EOSIO technology for Latin America. 
+              body="LACChain EOSIO deploys a public permissioned version of EOSIO technology for Latin America. 
               We include some features such as a local development and testing environment, a monitor service, 
               and adaptability to API endpoints, wallets, and other tools. Check the full list below."
               href=""
@@ -321,7 +321,7 @@ const ToolsSection = () => {
         </h2>
         <br />
         <p className="text-justify text-center">
-            These are some tools and resources LatamLink offers to help you leverage your 
+            These are some tools and resources LACChain EOSIO offers to help you leverage your 
             decentralized app or blockchain infrastructure.
         </p>
       </div>
@@ -371,7 +371,7 @@ const ToolsSection = () => {
               href="https://t.me/latamlink"
               img="images/latamlink_balloon-1.svg"
               title="Telegram Group"
-              body="to coordinate and share relevant information related to the EOSIO ecosystem and LatamLink."
+              body="to coordinate and share relevant information related to the EOSIO ecosystem and LACChain EOSIO."
             />
           </Grid>
           <Grid item xs={12} sm={12} md={4}>

@@ -11,7 +11,7 @@
 // List of projects/orgs using your project for the users page.
 
 const siteConfig = {
-  title: 'EOSIO Testnet for LAC-Chain IADB Labs Blockchain', // Title for your website.
+  title: 'EOSIO Testnet for LACChain IADB Labs Blockchain', // Title for your website.
   tagline: 'Technical Documentation',
   url: 'https://latamlink.io', // Your website URL
   baseUrl: '/', // Base URL for your project */

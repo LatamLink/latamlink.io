@@ -390,7 +390,7 @@ keosd = key + eos
 
 ### LatamLink 
 
-`LatamLink` is a voluntary regional alliance led by Latin American technology companies. We develop an EOSIO-based testnet for the LACChain network to highlight the benefits of this technology. LatamLink deploys a public permissioned version of EOSIO technology for Latin American developers and organizations to test their decentralized applications and infrastructure.
+`LatamLink` is a voluntary regional alliance led by Latin American technology companies. We develop an EOSIO-based testnet for the LACChain network to highlight the benefits of this technology. LACChain EOSIO deploys a public permissioned version of EOSIO technology for Latin American developers and organizations to test their decentralized applications and infrastructure.
 
 * * *
 

@@ -9,7 +9,7 @@ We are still working on this aspect of the network. Please refer to the [Project
 :::
 
 ## Smart Contracts
-This tool is to manage the permitting and the governance of LatamLink through Smart Contract.
+This tool is to manage the permitting and the governance of LACChain EOSIO through Smart Contract.
 
 Will have the following capabilities.
 

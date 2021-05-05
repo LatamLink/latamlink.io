@@ -8,7 +8,7 @@ sidebar_label: Partners Accounts
 We are still working on this aspect of the network. Please refer to the [Project Roadmap](../testnet/roadmap).
 :::
 
-The partners in the LAAChain EOSIO network are entities that are part of the permitting committee, which are in charge of regulating and managing the management of resources and access to the network.
+The partners in the LACChain EOSIO network are entities that are part of the permitting committee, which are in charge of regulating and managing the management of resources and access to the network.
 
 Each partner has the autonomy to manage in a personalized way the resources available to its affiliates in the network, these have within their functions::
 

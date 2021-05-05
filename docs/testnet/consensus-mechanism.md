@@ -6,7 +6,7 @@ sidebar_label: Consensus Mechanism
 
 A consensus mechanism ensures that each new block that is added to the blockchain is accepted as the only version of the truth by all nodes on the network. In essence, a consensus algorithm aims to find a common agreement that is accepted for the whole network.
 
-LatamLink will delegate the authority for validating and writing new blocks to a group of nodes that we call **validator nodes**.
+LACChain EOSIO will delegate the authority for validating and writing new blocks to a group of nodes that we call **validator nodes**.
 
 ## LACChain Permisioning Committee
 
@@ -22,7 +22,7 @@ One of the main functions of the permisioning committee is to evaluate the entit
 
 The group of validator nodes have the authority to write to the blockchain because this privilege was granted by a higher authority, the **permisioning committee**, who will be the maximum authority and who determines which nodes will be the block producing nodes.
 
-> Any entity that meets a minimum of technical and legal requirements can apply to be a validator node on LatamLink. See our section on the [permissioning process](../guides/permissioning-process) for more information.
+> Any entity that meets a minimum of technical and legal requirements can apply to be a validator node on LACChain EOSIO. See our section on the [permissioning process](../guides/permissioning-process) for more information.
 
 Eventually there will be a legal vehicle, who verifies identity and signs contracts with validator nodes.
 
