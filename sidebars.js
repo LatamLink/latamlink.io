@@ -34,7 +34,8 @@ module.exports = {
         "guides/get-resources",
         'guides/permissioning-process',
         'guides/node-installation',
-        'guides/deploy-smart-contract'
+        'guides/deploy-smart-contract',
+        'guides/contribute'
       ],
     },
     {
