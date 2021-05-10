@@ -8,23 +8,21 @@ sidebar_label: dAPP Boilerplates
 We are still working on this aspect of the network. Please refer to the [Project Roadmap](../testnet/roadmap).
 :::
 
-## React WebApp Boilerplate
+A boilerplate is a framework or template for the development of a project. It is a project structure already defined in advance that serves to streamline the organization and development of the software. Accelerates the integration of solutions and formats that serve to drive the development of a new project to production.
 
-A bare-bones react web app featuring UAL for EOSIO authenticators (wallets)
+## EOS Costa Rica Boilerplates
+EOS Costa Rica has created three boilerplate repositories to accelerate the development of EOSIO applications on LACChain.
 
-- **GitHub** : https://github.com/eoscostarica/webapp-boilerplate
+- [Front-End Boilerplate](https://github.com/eoscostarica/webapp-boilerplate)
+- [Back-End Boilerplate](https://github.com/eoscostarica/backend-boilerplate)  
+- [Full-Stack Boilerplate](https://github.com/eoscostarica/full-stack-boilerplate)
 
-## BackEnd Boilerplate
+More documentation about the boilerplates in the following link:
 
-A bare-bones back-end scaffold featuring Wallets and EOSJS.
-
-- **GitHub** : https://github.com/eoscostarica/webapp-boilerplate
+https://guias.eoscostarica.io/docs/boilerplate 
 
 ## EOSCR React Components
-A collection of React Components for EOSIO
+A collection of React Components for EOSIO:  https://components.eosio.cr
 
 ### GitHub Repository
 https://github.com/eoscostarica/eoscr-components
-
-### StoryBook Preview
-https://components.eosio.cr

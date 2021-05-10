@@ -1,7 +1,7 @@
 ---
 id: get-resources
 title: How to obtain resources in the network?
-sidebar_label: How to obtain resources in the network?
+sidebar_label: Obtaining Resources
 ---
 
 :::note Work in progress
@@ -16,8 +16,8 @@ To obtain this resource, the user must request it from his [partner](./partners)
 
   | | **CPU** | **NET** | **RAM** |
 :--------------:|:--------------:|:--------------:|:--------------:|
-| Permitting Committee | - | - | 32 GB |
-| Entities | 1/N of total CPU | 1/N of the total NET | Assigned by committee |
-| Writer Nodes | Uses entity CPU | Uses NET of the entity | n/a |
-| Smart Contracts | 0 ųs | 0 Bytes | Assigned by entity |
-| End Users | 0 ųs | 0 Bytes | 0 Bytes |
+| **Permitting Committee** | - | - | 32 GB |
+| **Entities** | 1/N of total CPU | 1/N of the total NET | Assigned by committee |
+| **Writer Nodes** | Uses entity CPU | Uses NET of the entity | n/a |
+| **Smart Contracts** | 0 ųs | 0 Bytes | Assigned by entity |
+| **End Users** | 0 ųs | 0 Bytes | 0 Bytes |

@@ -1,10 +1,10 @@
 ---
 id: node-installation
-title: Installing Validator / Boot / Writer / Observer nodes
-sidebar_label: Installing Validator / Boot / Writer / Observer nodes
+title: Installing LACChain EOSIO Nodes
+sidebar_label: Installing Nodes
 ---
 
-## Testnet LACChain EOSIO 
+## Testnet Information  
 
 <table>
 <tr>

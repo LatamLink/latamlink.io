@@ -38,7 +38,7 @@ You can find more details about RAM as a resource [here](https://developers.eos.
 
 ### CPU
 
-CPU is the processing power, the amount of CPU that an account has is measured in microseconds (μs), it is known as `CPU bandwith`, the following command outputs the amount of processing time that an account has at its disposal when sending actions to a contract.
+CPU is the processing power, the amount of CPU that an account has is measured in microseconds (μs), it is known as `CPU bandwidth`, the following command outputs the amount of processing time that an account has at its disposal when sending actions to a contract.
 
 ``` bash
 cleos get account
@@ -166,13 +166,13 @@ elastic_limit_parameters cpu_limit_parameters = {
 };
 ```
 
-By making the CPU an elastic resource, a virtual cpu will be created that will range between the lowest possible value which is the maximun usage specified and the highest possible value which is the the lowest possible value times the multiplier.
+By making the CPU an elastic resource, a virtual cpu will be created that will range between the lowest possible value which is the maximum usage specified and the highest possible value which is the the lowest possible value times the multiplier.
 
 ```c++
 virtual cpu = [[maximum usage, maximum usage * multiplier]]
 ```
 
-The virtual cpu limit will be contracted (expanded) by the `contract (expand) ratio` when the average utilization is above (below) the desired usage, meaning *that the most an account can consume during idle periods is 1000x (multiplier) the bandwidth it is gauranteed under congestion.*
+The virtual cpu limit will be contracted (expanded) by the `contract (expand) ratio` when the average utilization is above (below) the desired usage, meaning *that the most an account can consume during idle periods is 1000x (multiplier) the bandwidth it is guaranteed under congestion.*
 
 The average CPU utilization is computed using an EMA (Exponential Moving Average) placing a greater weight and significance on the most recent usage.
 
