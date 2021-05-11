@@ -15,9 +15,9 @@ function NotFound() {
               <Box className="sectionHero">
                 <Box className="titleBox">
                   <h1 className="centerText">Oops! We couldn't find this page.</h1>
-                  <h1 className="centerText">Please, go back to the <a style={{color:'#1dc961'}} href="/">homepage</a> and try it again.</h1>
+                  <h1 className="centerText">Please, go back to the <a style={{color:'#1dc961'}} href="/">homepage</a> and try again.</h1>
                 </Box>
-                <p className="centerText">If you have any questions about LACChain EOSIO, please contact <a href="/docs/testnet/eosio">our documentation</a>!</p>
+                <p className="centerText">If you have any questions about LACChain EOSIO, please visit <a href="/docs/testnet/eosio">our documentation</a>!</p>
               </Box>
             </Box>
         </Box>
@@ -29,9 +29,9 @@ function NotFound() {
               <Box className="section">
                 <Box className="titleBox">
                     <h1 style={{paddingLeft: '25px', paddingRight:'25px', fontSize:'30px'}} className="centerText">Oops! We couldn't find this page.</h1>
-                    <h2 style={{paddingLeft: '25px', paddingRight:'25px', fontSize:'20px'}} className="centerText">Please, go back to the <a style={{color:'#1dc961'}} href="/">homepage</a> and try it again.</h2>
+                    <h2 style={{paddingLeft: '25px', paddingRight:'25px', fontSize:'20px'}} className="centerText">Please, go back to the <a style={{color:'#1dc961'}} href="/">homepage</a> and try again.</h2>
                   </Box>
-                  <p style={{paddingLeft: '25px', paddingRight:'25px',fontSize:'14px'}} className="centerText">If you have any questions about LACChain EOSIO, please contact <a href="/docs/testnet/eosio">our documentation</a>!</p>
+                  <p style={{paddingLeft: '25px', paddingRight:'25px',fontSize:'14px'}} className="centerText">If you have any questions about LACChain EOSIO, please visit <a href="/docs/testnet/eosio">our documentation</a>!</p>
                 </Box>
               </Box>
             </Box>
