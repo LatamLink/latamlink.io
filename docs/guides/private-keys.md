@@ -39,6 +39,44 @@ At this moment, the keys are stored uniquely on the console, for which is necess
 cleos wallet import -n hellocontract
 ````
 
+### 3.1 Change private key
+
+In case you want to change the private key of your account in LACChain EOSIO, you must follow the following steps:
+
+#### Step 1: Create new keys
+
+Create two new key pairs using
+
+```
+cleos create key --to-console
+```
+
+#### Step 2: Import keys
+
+Import new keys to your wallet
+
+```
+cleos wallet import -n holacontrato
+```
+
+#### Step 3: Set permissions
+
+Set the **owner** account permission
+
+```
+cleos -u https://lacchain.eosio.cr set account permission account_name owner EOS_public_key_of_new_owner -p account_name@owner
+```
+
+Set **active** account permission
+
+```
+cleos -u https://lacchain.eosio.cr set account permission account_name active EOS_private_key_of_new_active -p account_name@active
+```
+
+:::note Note
+You must have the current owner key in your wallet to authorize this transaction.
+:::
+
 ## 4. External Authenticators (Wallets)
 
 The last important update for EOSJS included built-in support for the interchangeable signs providers; deleting the burden of managing the secure keys management of its scope and improving the interoperability. What is more important, this is great security improving that limits the exposition of the keys of a user in several applications to a unique reliable signs provider that mitigates the potential risks that can arise from malicious code or an error of the user when using blockchain applications.
