@@ -1,7 +1,7 @@
 ---
-id: eosio-nodes
-title: EOSIO Nodes 
-sidebar_label: EOSIO Nodes 
+id: infrastructure-considerations
+title: Considerations and Infrastructure
+sidebar_label: Infrastructure 
 ---
 
 `Nodeos` is the core software of an EOSIO blockchain. It is a deamon that performs all the functions of a blockchain node, such as synchronization with other nodes through the `p2p protocol`, provides an` HTTP API` for the client software and optionally `signs blocks` if configured with the account of a validator.
@@ -10,7 +10,7 @@ sidebar_label: EOSIO Nodes
 
 When planning a server installation, you have several options to select from. Often times, the selection is determined by the existing habits and preferences of the system administrator.
 
-Consult our guide on how to configure the [development environment](../guides/development-environment) to be able to work on the LACChain EOSIO network.
+Consult our guide on how to configure the [development environment](../development-environment) to be able to work on the LACChain EOSIO network.
 
 ### Hardware Requirements
 

@@ -28,9 +28,13 @@ module.exports = {
         'guides/create-user-account',
         'guides/create-contract-account',
         'guides/create-entity-account',
+        {
+          'EOSIO Nodes': [
+            "guides/eosio-nodes/infrastructure-considerations",
+            "guides/eosio-nodes/node-installation"
+          ],
+        },
         "guides/get-resources",
-        'guides/node-installation',
-        'guides/eosio-nodes',
         'guides/partners',
         'guides/deploy-smart-contract',
         'guides/contribute'
