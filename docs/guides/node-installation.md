@@ -1,10 +1,10 @@
 ---
 id: node-installation
-title: Installing Validator / Boot / Writer / Observer nodes
-sidebar_label: Installing Validator / Boot / Writer / Observer nodes
+title: Installing LACChain EOSIO Nodes
+sidebar_label: Installing Nodes
 ---
 
-## Testnet LACChain EOSIO 
+## Testnet Information  
 
 <table>
 <tr>
@@ -35,8 +35,8 @@ In order to deploy nodes in the LACChain EOSIO network, it is important to have 
  
 See the guide to create an account according to your user role:
 
-- [Non-partner](./create-account-partner)
-- [Partner](./create-account-partner)
+- [Non-partner](./create-entity-account)
+- [Partner](./create-entity-account)
 
 
 ## 2. Authenticate on the Dashboard

@@ -71,7 +71,7 @@ sudo apt remove eosio
 
 In LACChain EOSIO network, there are several types of accounts. See the guide to create an account according to your user role:
 
-- [End users](./create-account-final)
-- [Apps or Contracts](./create-account-contract)
-- [Non-Partner](./create-account-non-partner)
-- [Partner](./create-account-partner)
+- [End users](./create-user-account)
+- [Apps or Contracts](./create-contract-account)
+- [Non-Partner](./create-entity-account)
+- [Partner](./create-entity-account)
