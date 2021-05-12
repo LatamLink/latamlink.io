@@ -14,18 +14,18 @@ All the documentation pages of the site have an option called **Edit this page**
 
 ## 2. Edit The Document
 
-Now you are on a GitHub page where you can see the content of the document you want to edit, to perform this action you must select the **pencil icon** located in the upper right, this will allow you to make the desired changes on it document.
+Now you are on a GitHub page where you can see the content of the document you want to edit, to perform this action you must select the **pencil icon** located in the upper right, this will allow you to make the desired changes to it document.
 
 ![Edit content](/img/docs/editFile.png)
 
 ## 3. Propose Changes
 
-Once the content has been edited, you must propose the changes that I make so that they are evaluated by the community and become part of the site in production, for this you must go to the end of the page where I edit the content, there you will find a form which to standardize community contributions must be completed with the following data:
+Once the content has been edited, you must propose the changes that I make so that they are evaluated by the community and become part of the site in production, for this you must go to the end of the page where you edited the content, there you will find a form must be completed with the following data:
 
 - **Commit Title**: a clear and short title. 
     - **Ej**: Fix(link): broken link on Consensus Group section
 
-- **Cuerpo del commit**: 
+- **Commit Body**: 
     - **Summary**: A short description.
     - **Steps to reproduce**: How did you find the bug? Instructions to reproduce it.
     - **Expected behavior**: How do you expect it to behave?

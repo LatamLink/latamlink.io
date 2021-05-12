@@ -21,7 +21,7 @@ In LACChain EOSIO network, there are several types of accounts. See the guide to
 
 - [End users](./create-account-final)
 - [Apps or Contracts](./create-account-contract)
-- [Non-Partner](./create-account-non-partner)
+- [Non-Partner](./create-account-partner)
 - [Partner](./create-account-partner)
 
 
@@ -99,7 +99,7 @@ Now you will be presented with a window with a list of the networks that you can
 
 ![networks list](/img/tutorials/networks_list.png)
 
-En este momento se deben completar un formulario para ingresar en el autenticador, para esto se deben completar los siguientes datos y guardar la información presionando el botón **Save**:
+At this time a form must be completed to enter the authenticator, for this the following data must be completed and the information must be saved by pressing the **Save** button :
 
  - **Chain ID**: 5821525c6588037e2b066b992fcac34909a5b7f1ea8d5a393f6720fca3750d61
  - **Name of Blockchain**: LACChain EOSIO

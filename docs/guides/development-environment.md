@@ -73,5 +73,5 @@ In LACChain EOSIO network, there are several types of accounts. See the guide to
 
 - [End users](./create-account-final)
 - [Apps or Contracts](./create-account-contract)
-- [Non-Partner](./create-account-non-partner)
+- [Non-Partner](./create-account-partner)
 - [Partner](./create-account-partner)
