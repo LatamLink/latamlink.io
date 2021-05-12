@@ -1,5 +1,5 @@
 ---
-id: create-account-contract
+id: create-contract-account
 title: Register a Smart Contract Account
 sidebar_label: Smart Contract Accounts
 ---

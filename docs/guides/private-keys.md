@@ -19,10 +19,10 @@ This command is going to generate private and public keys — we can create the 
 
 In LACChain EOSIO network, there are several types of accounts. See the guide to create an account according to your user role:
 
-- [End users](./create-account-final)
-- [Apps or Contracts](./create-account-contract)
-- [Non-Partner](./create-account-partner)
-- [Partner](./create-account-partner)
+- [End users](./create-user-account)
+- [Apps or Contracts](./create-contract-account)
+- [Non-Partner](./create-entity-account)
+- [Partner](./create-entity-account)
 
 
 ## 3. Manage the wallet with cleos
