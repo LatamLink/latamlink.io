@@ -25,9 +25,9 @@ module.exports = {
       items: [
         'guides/development-environment',
         'guides/private-keys',
-        'guides/create-account-final',
-        'guides/create-account-contract',
-        'guides/create-account-partner',
+        'guides/create-user-account',
+        'guides/create-contract-account',
+        'guides/create-entity-account',
         "guides/get-resources",
         'guides/node-installation',
         'guides/eosio-nodes',

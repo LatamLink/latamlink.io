@@ -1,5 +1,5 @@
 ---
-id: create-account-partner
+id: create-entity-account
 title: Registering Entity Accounts 
 sidebar_label: Partner Entity Accounts
 ---

@@ -8,7 +8,7 @@ Currently the LACChain EOSIO network is made up of a group of entities who are i
 
 ## Entity Registration in LACChain
 
-To be part of the network as Partners or Non-Partners see [this information] (./create-account-partner)
+To be part of the network as Partners or Non-Partners see [this information] (./create-entity-account)
 
 ## Founding Partners
 - [EOS Argentina](https://www.eosargentina.io/)

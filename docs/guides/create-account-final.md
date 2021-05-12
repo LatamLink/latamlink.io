@@ -1,5 +1,5 @@
 ---
-id: create-account-final
+id: create-user-account
 title: Get an Account for an End Users
 sidebar_label: End Users Accounts
 ---
