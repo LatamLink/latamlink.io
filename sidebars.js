@@ -31,6 +31,7 @@ module.exports = {
         "guides/get-resources",
         'guides/node-installation',
         'guides/eosio-nodes',
+        'guides/partners',
         'guides/deploy-smart-contract',
         'guides/contribute'
       ],
