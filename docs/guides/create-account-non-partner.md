@@ -4,10 +4,6 @@ title: Get an Account for a Non-Partners
 sidebar_label: Non-Partners Accounts
 ---
 
-:::note Work in Progress
-We are still working on this aspect of the network. Please refer to the [Project Roadmap](../testnet/roadmap).
-:::
-
 The `Non-Partners` are a type of entity within the LACChain EOSIO network that have some special characteristics in the nodes that can deploy this differentiate them from the` Partners`:
 
 | Node Type | Partner | Non-Partner |
@@ -28,3 +24,7 @@ To be part of the network, a registration application form must be completed, wh
 - **pub_key** (public key for the account of the new entity)
 
 To see the list of partners that are part of the network Permissioning Committee, go to [here](./partners).
+
+:::note Work in Progress
+We are still working on this aspect of the documentation, if you want to improve the content you can learn [how to contribute](./contribute). See the [Project Roadmap](../testnet/roadmap).
+:::

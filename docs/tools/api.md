@@ -4,9 +4,7 @@ title: Application Programming Interface
 sidebar_label: APIs
 ---
 
-:::note Work in Progress
-We are still working on this aspect of the network. Please refer to the [Project Roadmap](../testnet/roadmap).
-:::
+
 
 ## dfuse 	 
 
@@ -14,9 +12,7 @@ LACChain EOSIO has implemented the powerful features of [dfuse](https://www.dfus
 
 ### GraphQL Endpoints
 
-
 >  - [http://dfuse.testnet.latamlink.io/graphiql/](http://dfuse.testnet.latamlink.io/graphiql/)
-
 
 ## EOSIO RPC API 
 
@@ -24,14 +20,16 @@ The following API is EOSIO's native mechanism available to interact with the tes
 
 [API Specification](https://developers.eos.io/manuals/eos/latest/nodeos/plugins/chain_api_plugin/api-reference/index)
 
-
 ### HTTP endpoints
 
 > - [https://latamlink.eosio.cr](https://latamlink.eosio.cr/v1/chain/get_info)
-
 
 ### EOS JS
 
 EOS JS is the official javascript API for integration with EOSIO-based blockchains using [RPC API](https://developers.eos.io/eosio-nodeos/reference).
 
 Documentation can be found [here](https://eosio.github.io/eosjs)
+
+:::note Work in Progress
+We are still working on this aspect of the documentation, if you want to improve the content you can learn [how to contribute](../guides/contribute). See the [Project Roadmap](../testnet/roadmap).
+:::

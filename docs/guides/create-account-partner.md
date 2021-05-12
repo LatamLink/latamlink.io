@@ -4,10 +4,6 @@ title: Get an Account for a Partners
 sidebar_label: Partners Accounts
 ---
 
-:::note Work in Progress
-We are still working on this aspect of the network. Please refer to the [Project Roadmap](../testnet/roadmap).
-:::
-
 The partners in the LACChain EOSIO network are entities that are part of the permitting committee, which are in charge of regulating and managing the management of resources and access to the network.
 
 Each partner has the autonomy to manage in a personalized way the resources available to its affiliates in the network, these have within their functions::
@@ -34,3 +30,7 @@ To be part of the network, a registration application form must be completed, wh
 - **pub_key** (public key for the account of the new entity)
 
 To see the list of partners that are part of the network Permissioning Committee, go to [here](./partners).
+
+:::note Work in Progress
+We are still working on this aspect of the documentation, if you want to improve the content you can learn [how to contribute](./contribute). See the [Project Roadmap](../testnet/roadmap).
+:::

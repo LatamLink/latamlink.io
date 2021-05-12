@@ -4,10 +4,6 @@ title: Get an Account for an End Users
 sidebar_label: End Users Accounts
 ---
 
-:::note Work in Progress
-We are still working on this aspect of the network. Please refer to the [Project Roadmap](../testnet/roadmap).
-:::
-
 ## Create account using an application
 
 In the LACChain EOSIO network, end user accounts can be created through applications deployed on the network or through a partner.
@@ -33,3 +29,7 @@ In order to create an account in LACChain EOSIO, it is necessary to establish co
 To see the list of partners that are part of the network go [here] (./partners).
 
 The account name must meet certain requirements: characters from A to Z in lowercase, numbers from 1 to 5 and be 12 characters long. For the example, we will call the account: `hellocontract`.
+
+:::note Work in Progress
+We are still working on this aspect of the documentation, if you want to improve the content you can learn [how to contribute](./contribute). See the [Project Roadmap](../testnet/roadmap).
+:::

@@ -29,3 +29,6 @@ Block.one announced a smart contract challenge, offering a prize of 200,000 doll
 
 https://github.com/jafri/eosio.evm
 
+:::note Work in Progress
+We are still working on this aspect of the documentation, if you want to improve the content you can learn [how to contribute](../guides/contribute). See the [Project Roadmap](./roadmap).
+:::
