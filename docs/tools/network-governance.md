@@ -8,7 +8,7 @@ sidebar_label: Network Governance
 We are still working on this aspect of the network. Please refer to the [Project Roadmap](../testnet/roadmap).
 :::
 
-LACChain EOSIO permissioning contracts are implemented as [System Contracts](https://developers.eos.io/manuals/eosio.contracts/latest/index). These contracts have access to [privileged functions](/resources/important-functions) that encapsulate the base functionality for the LACChain governance framework.
+LACChain EOSIO permissioning contracts are implemented as [System Contracts](https://developers.eos.io/manuals/eosio.contracts/latest/index). These contracts have access to [privileged functions](../resources/important-functions) that encapsulate the base functionality for the LACChain governance framework.
 
 [LACChain EOSOIO Systems Contracts](https://github.com/LatamLink/eosio.contracts/tree/master/contracts/lacchain.system)
 
