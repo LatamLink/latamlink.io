@@ -18,7 +18,6 @@ Data migrations for data privacy applications: significant challenges exist when
 
 [Download Privacy Report](https://arxiv.org/pdf/2105.01316)
 
-
 ## Privacy on EOSIO
 
 Privacy in LACChain EOSIO is focused on making data only available to a specific list of participants. In order to accomplish this a mechanism must be implemented that ensures transactions are distributed only to a list of participants who can send private transactions among them.
