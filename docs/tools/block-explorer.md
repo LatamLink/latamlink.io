@@ -3,10 +3,6 @@ id: block-explorer
 title: Block Explorer
 ---
 
-:::note Work in Progress
-We are still working on this aspect of the network. Please refer to the [Project Roadmap](../testnet/roadmap).
-:::
-
 A block explorer is a tool for visualizing all transactions that occur on the network. 
 
 ## EOSIO Explorer
@@ -21,3 +17,7 @@ https://explorer.latamlink.io
 LACChain EOSIO has plans to install  **eosq**, a block explorer that provides access to detailed, accurate, actionable data about accounts, actions, validator nodes, and more on the LACChain EOSIO testnet.
 
 eosq was developed by [dfuse](https://www.dfuse.io/) for the EOSIO community.
+
+:::note Work in Progress
+We are still working on this aspect of the documentation, if you want to improve the content you can learn [how to contribute](../guides/contribute). See the [Project Roadmap](../testnet/roadmap).
+:::

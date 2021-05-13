@@ -4,10 +4,6 @@ title: Privacy
 sidebar_label: Privacy
 ---
 
-:::note Work in Progress
-We are still working on this aspect of the network. Please refer to the [Project Roadmap](./roadmap).
-:::
-
 Blockchain technology provides the necessary tools to decentralize the information securely and unwaveringly. The introduction of Bitcoin made possible that thousand of nodes from around the world share and hold the same information. However, in the majority of the Blockchains, the central idea is to hold this information public for everyone accesses to it and verify it, without the necessity of a central authority. Therefore public blockchains are defined as *trustless*(no need to trust). However, a lot of companies and private entities that want to use the blockchain technology encounter with a very important question: how maintain the information private and at the same time keep the security and transparency of a public blockchain?
 
 Privacy in LACChain EOSIO is focused on making data only available to a specific list of participants. In order to accomplish this a mechanism must be implemented that ensures transactions are distributed only to a list of participants who can send private transactions among them.
@@ -35,3 +31,7 @@ For instance **Hyperledger Besu**, another blockchain technology used in LACChai
 https://github.com/EOSIO/eosjs-ecc/issues/19#issuecomment-392941963
 
 https://github.com/GetScatter/ScatterDesktop/issues/43
+
+:::note Work in Progress
+We are still working on this aspect of the documentation, if you want to improve the content you can learn [how to contribute](../guides/contribute). See the [Project Roadmap](./roadmap).
+:::

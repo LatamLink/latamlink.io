@@ -4,10 +4,6 @@ title: Network monitoring
 sidebar_label: Network monitoring
 ---
 
-:::note Work in Progress
-We are still working on this aspect of the network. Please refer to the [Project Roadmap](./roadmap).
-:::
-
 Monitoring what is happening on the network is essential to improve it and measure the social impact of our solutions. The main objective of the monitoring tools is to produce objective and reliable information about each node and the activity of the network.
 
 The permitting committee reserves the discretionary right to remove a validator node from the production schedule based on node performance data.
@@ -69,4 +65,6 @@ Additionally, we will explore Blockchain Analytics tools and Data Science.
 
 Please see page on [entity and node information](./entity-node-info).
 
-
+:::note Work in Progress
+We are still working on this aspect of the documentation, if you want to improve the content you can learn [how to contribute](../guides/contribute). See the [Project Roadmap](./roadmap).
+:::
