@@ -12,7 +12,8 @@ Blockchain technology provides the necessary tools to decentralize the informati
 **Cryptography:** the hashing algorithm was found to be the most used cryptographic primitive in enterprise or changeover privacy solutions. Coordination via on-chain contracts - a common strategy was to use a shared publicly ledger to coordinate data privacy groups and more generally managed identities and access control.
 
 **Transaction and contract code sharing:** there was a variety of different levels of privacy around the business logic (smart contract code) visibility. Some solutions only allowed authorised peers to view code while others made this accessible to everybody that was a member of the shared ledger.
-Data migrations for data privacy applications: significant challenges exist when using cryptographically stored data in terms of being able to run system upgrades.
+
+**Data migrations for data privacy applications:** significant challenges exist when using cryptographically stored data in terms of being able to run system upgrades.
 
 **Multiple blockchain ledgers for data privacy:** solutions attempted to create a new private blockchain for every private data relationship which was eventually abandoned in favour of one shared ledger with private data collections/transactions that were anchored to the ledger with a hash in order to improve scaling.
 
