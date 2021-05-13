@@ -74,7 +74,6 @@ Node that allows requesting information from the blockchain through an http requ
 
 ## Architecture
 
-
 ### Node Discovery
 
 Node Discovery Cycle
@@ -116,7 +115,6 @@ The cycle of a transaction is as follows:
 1. The validator broadcastes the new block to the layer 1 and the layer 2.
 
 1. Layer 2 Boot verifis the new block and broadcastes it to the layer 3.
-
 
 ## Routes optimizations / Connections
 The goal is to manage the network topology in a dynamic way using Smart Contracts.

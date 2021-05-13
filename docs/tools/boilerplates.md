@@ -4,10 +4,6 @@ title: Dapp Boilerplates
 sidebar_label: dAPP Boilerplates
 ---
 
-:::note Work in Progress
-We are still working on this aspect of the network. Please refer to the [Project Roadmap](../testnet/roadmap).
-:::
-
 A boilerplate is a framework or template for the development of a project. It is a project structure already defined in advance that serves to streamline the organization and development of the software. Accelerates the integration of solutions and formats that serve to drive the development of a new project to production.
 
 ## EOS Costa Rica Boilerplates
@@ -26,3 +22,7 @@ A collection of React Components for EOSIO:  https://components.eosio.cr
 
 ### GitHub Repository
 https://github.com/eoscostarica/eoscr-components
+
+:::note Work in Progress
+We are still working on this aspect of the documentation, if you want to improve the content you can learn [how to contribute](../guides/contribute). See the [Project Roadmap](../testnet/roadmap).
+:::

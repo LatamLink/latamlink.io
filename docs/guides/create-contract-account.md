@@ -4,10 +4,6 @@ title: Register a Smart Contract Account
 sidebar_label: Smart Contract Accounts
 ---
 
-:::note Work in Progress
-We are still working on this aspect of the network. Please refer to the [Project Roadmap](../testnet/roadmap).
-:::
-
 Any EOSIO account can be used to deploy a smart contract for the development of applications. An account must however have enough RAM memory to store a smart contract. RAM memory is acquired through partners on the network.
 
 ## Create an account through a partner
@@ -31,4 +27,6 @@ To see the list of partners that are part of the network go [here](./partners).
 
  Please refer to the following article [obtain resources](get-resources)
 
- 
+:::note Work in Progress
+We are still working on this aspect of the documentation, if you want to improve the content you can learn [how to contribute](./contribute). See the [Project Roadmap](../testnet/roadmap).
+:::
