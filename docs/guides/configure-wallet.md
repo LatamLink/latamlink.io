@@ -1,20 +1,16 @@
 ---
-id: external-authenticators
-title: Configure External Authenticators
-sidebar_label: Configure external authenticators
+id: configure-wallet
+title: Configure Wallet
+sidebar_label: Configure Wallet
 ---
 
-The last important update for EOSJS included built-in support for the interchangeable signs providers; deleting the burden of managing the secure keys management of its scope and improving the interoperability. What is more important, this is great security improving that limits the exposition of the keys of a user in several applications to a unique reliable signs provider that mitigates the potential risks that can arise from malicious code or an error of the user when using blockchain applications.
+To use external authenticators(wallets) in LACChain EOSIO such as Anchor Wallet, a configuration must be made to include the network within the networks available in the authenticator, below, a tutorial is shown where this process is explained.
 
-## External Authenticators Configuration (Anchor Wallet)
-
-To use external authenticators in LACChain EOSIO such as Anchor Wallet, a configuration must be made to include the network within the networks available in the authenticator, below, a tutorial is shown where this process is explained.
-
-### Step 1: download and install
+### Step 1: Download and Install
 
 In this case the authenticator [Anchor Wallet](https://greymass.com/en/anchor/) is used.
 
-### Step 2: add the network
+### Step 2: Add the Network
 
 Once the Anchor Wallet installation is done, you should go to the **Manage Available Blockchains** window, there press the **Add/Remove** button.
 
@@ -36,7 +32,7 @@ At this time a form must be completed to enter the authenticator, for this the f
 Check before saving the information that the **This blockchain is a test network (TESTNET)** box is selected.
 :::
 
-### Step 3: import accounts
+### Step 3: Import Accounts
 
 After adding the network, you must import the keys associated with your account in LACChain EOSIO, for this in the side menu select the option **Setup Account** there select the button **Import Account**.
 
