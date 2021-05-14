@@ -70,7 +70,7 @@ EOSIO networks keep a list of registered validators that run nodes that can succ
 
 ### Validator Node Rotation 
 
-The periodic rotation of active validator producing nodes in the schedule favors decentralization. For this reason, the permisioning committee will have a [network management tool](https://latamlink.io/docs/network-governance) that allows selecting the validator nodes that it wants to include or exclude in the schedule.
+The periodic rotation of active validator producing nodes in the schedule favors decentralization. For this reason, the permisioning committee will have a [network management tool](../tools/network-governance) that allows selecting the validator nodes that it wants to include or exclude in the schedule.
 
 > **For example:** You can define a weekly active node rotation policy.
 
