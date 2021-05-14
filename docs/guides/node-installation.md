@@ -41,7 +41,7 @@ See the guide to create an account according to your user role:
 
 ## 2. Authenticate on the Dashboard
 
-The LACChain EOSIO network has a [dashboard] (https://dashboard.latamlink.io/), which allows users to manage within the network, including the option to deploy various types of nodes.
+The LACChain EOSIO network has a [dashboard](https://dashboard.latamlink.io/), which allows users to manage within the network, including the option to deploy various types of nodes.
 
 Login with your `Partner` or` Non-Partner` account. See our tutorial on how to manage your [private keys](./private-keys#31-external-authenticators-wallets)
 
