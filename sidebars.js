@@ -25,6 +25,7 @@ module.exports = {
       items: [
         'guides/development-environment',
         'guides/private-keys',
+        'guides/configure-wallet',
         'guides/create-user-account',
         'guides/create-contract-account',
         'guides/create-entity-account',

@@ -19,9 +19,9 @@ We present the following proposal for LACChain network configuration using EOSIO
 
 <img src="/img/diagrams/network-topology-en.png#center" alt="Topologia de Red LACChain EOSIO" width="450"/>
 
-- **Layer 1 ([Core](/docs/testnet/network-topology#Layer-1---core-network))** Validator and interconnecting p2p node network.
+- **Layer 1 ([Core](/docs/testnet/network-topology#layer-1---core-network))** Validator and interconnecting p2p node network.
 
-	- **Layer 2 ([Bridge](/docs/testnet/network-topology#Layer-2---bridge))** p2p distribution network among p2p validators and boot nodes.
+	- **Layer 2 ([Bridge](/docs/testnet/network-topology#layer-2---bridge))** p2p distribution network among p2p validators and boot nodes.
 
 		- **Layer 3 ([Satellite](/docs/testnet/network-topology#layer-3---satellite))** Writer and observer nodes consumption layer.
 
