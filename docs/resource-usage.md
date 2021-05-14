@@ -9,7 +9,7 @@ LACChain does not and will not have transaction fees. However, to regulate netwo
 ## Type of Resources
 The accounts will be able to use the following resources in the network:
 
-| **[RAM](/docs/testnet/resource-usage#ram)** | **[CPU](/docs/testnet/resource-usage#cpu)** | **[NET](/docs/testnet/resource-usage#net)** |
+| **[RAM](/docs/resource-usage#ram)** | **[CPU](/docs/resource-usage#cpu)** | **[NET](/docs/resource-usage#net)** |
 :--------------:|:--------------:|:--------------:| 
 |Memory to store status|Processing time|Bandwidth to transmit information|
 |It is measured in bytes|Measured in microseconds|It is measured in bytes| 
