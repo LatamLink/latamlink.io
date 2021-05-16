@@ -1,7 +1,7 @@
 ---
 id: deploy-smart-contract
-title: Deploy Smart Contract
-sidebar_label: Deploy Smart Contract
+title: How to Deploy a Smart Contract
+sidebar_label: How to Deploy a Contract
 ---
 
 Below we explain with examples how to create, compile and deploy a “Hello World” contract to upload it to the LACChain EOSIO network. For this example, we are relying on resources posted by [Block.one to share with the community](http://developers.eos.io/).

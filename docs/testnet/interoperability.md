@@ -1,6 +1,6 @@
 ---
 id: interoperability
-title: Interoperability
+title: Network Interoperability
 sidebar_label: Interoperability
 ---
 

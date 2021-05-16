@@ -2,7 +2,7 @@ module.exports = {
   docs: [
     {
       type: 'category',
-      label: 'LACChain EOSIO',
+      label: 'About LACChain EOSIO',
       items: [
         'testnet/eosio',
         'testnet/consensus-mechanism',
@@ -21,7 +21,7 @@ module.exports = {
     },
     {
       type: 'category',
-      label: 'Guides',
+      label: 'Guides & How-Tos',
       items: [
         'guides/create-user-account',
         'guides/create-contract-account',
@@ -37,7 +37,7 @@ module.exports = {
     },
     {
       type: 'category',
-      label: 'Tools',
+      label: 'Developer Tools',
       items: [
         'tools/block-explorer',
         'tools/monitor',
@@ -51,7 +51,7 @@ module.exports = {
     },
     {
       type: 'category',
-      label: 'Resources',
+      label: 'Learning Resources',
       items: [
         'resources/other-resources',
         'resources/glossary',

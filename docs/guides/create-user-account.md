@@ -1,7 +1,7 @@
 ---
 id: create-user-account
 title: Get an Account for an End Users
-sidebar_label: End Users Accounts
+sidebar_label: How to Register as a User
 ---
 
 There are several ways to obtain an account in LACChain EOSIO, the most common are through an application or through a registered entity.
