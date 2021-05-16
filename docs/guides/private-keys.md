@@ -4,7 +4,7 @@ title: Public and Private Key Management
 sidebar_label: Public and Private Keys
 ---
 
-## 1. Generate public and private key pair
+## 1. Generate public / private key pair
 
 Keys are a requirement to create an account on a blockchain. In most wallets you can generate new keys for EOSIO.
 
