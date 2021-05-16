@@ -1,0 +1,113 @@
+/**
+ * Copyright (c) 2017-present, Facebook, Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/* your custom css */
+
+img[src*="#left"] {
+  float: left;
+}
+img[src*="#right"] {
+  float: right;
+}
+img[src*="#center"] {
+  display: block;
+  margin: auto;
+}
+
+.fixedHeaderContainer {
+  background: #f8f9fa !important;
+  height: 59.09px !important;
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+  margin-bottom: 20px !important;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.fixedHeaderContainer a {
+  color: #19af54 !important;
+  background: #f8f9fa !important;
+}
+
+.fixedHeaderContainer a:hover {
+  color: #5bb517 !important;
+}
+
+h2.headerTitleWithLogo {
+  display: none !important;
+}
+
+img.logo {
+  height: 33.09px !important;
+}
+
+.toc {
+  padding: 60px 0 !important;
+}
+
+.mainContainer {
+  padding: 60px 0 !important;
+}
+
+.onPageNav {
+  padding: 30px 0 !important;
+}
+
+.nav-footer .copyright {
+	color: rgba(255, 255, 255, 0.4);
+	text-align: center;
+	max-width: 1080px;
+	display: flex;
+	align-items: flex-end;
+	flex-wrap: wrap;
+	margin: auto;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.icon-container {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	align-items: center;
+	justify-items: center;
+	justify-content: center;
+	column-gap: 30px;
+}
+
+a.nav-home {
+  cursor: pointer;
+  margin: 1% !important;
+  display: flex !important;
+  align-content: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+  width: fit-content !important;
+}
+
+.footer-logo {
+  max-width: 60px !important;
+  max-height: 60px !important;
+  filter: gray; /* IE5+ */
+  -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.footer-logo:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+#poweredby {
+  grid-column: 1 / 5;
+  grid-row: 1;
+  width: 100%;
+  text-align: start;
+  font-size: 1.5rem;
+}
