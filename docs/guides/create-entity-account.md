@@ -50,7 +50,6 @@ The partners in the LACChain EOSIO network are entities that may also be part of
 Each partner has the autonomy to manage its share of network resources to it's clients and affiliates on the network. 
 
 :::note Work in Progress
-We are still working on this aspect of the network. Please refer to the [Project Roadmap](../testnet/roadmap).
+We are still working on this aspect of the documentation, if you want to improve the content you can learn [how to contribute](./contribute). See the [Project Roadmap](../testnet/roadmap).
 :::
-
 

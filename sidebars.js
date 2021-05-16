@@ -27,6 +27,7 @@ module.exports = {
         'guides/create-contract-account',
         'guides/create-entity-account',
         'guides/private-keys',
+        'guides/configure-wallet',
         "guides/get-resources",
         'guides/deploy-smart-contract',
         'guides/development-environment',
