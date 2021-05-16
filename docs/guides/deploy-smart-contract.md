@@ -10,7 +10,7 @@ Below we explain with examples how to create, compile and deploy a “Hello Worl
 
 In the LACChain EOSIO network, there are several types of accounts. See the guide to create an account according to your user role:
 
-- [Final user](./create-user-account)
+- [End User](./create-user-account)
 - [App or contract](./create-contract-account)
 - [Non-partner](./create-entity-account)
 - [Partner](./create-entity-account)

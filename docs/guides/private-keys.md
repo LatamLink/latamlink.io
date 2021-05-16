@@ -1,17 +1,17 @@
 ---
 id: private-keys
-title: Private Keys Management
-sidebar_label: Private Keys
+title: Public and Private Key Management
+sidebar_label: Public and Private Keys
 ---
 
-## 1. Generate private keys
+## 1. Generate public and private key pair
 
 Keys are a requirement to create an account on a blockchain. In most wallets you can generate new keys for EOSIO.
 
 To generate them we will execute the following command in the terminal.
 
-```bash
-cleos create key
+```
+cleos create key --to-console
 ```
 This command is going to generate private and public keys — we can create the number of keys we want. The cleos accounts, by default, come in pairs: one `active key` and one `owner key` (to recover the account in case of active key lost).
 

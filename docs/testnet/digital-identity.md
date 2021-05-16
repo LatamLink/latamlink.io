@@ -1,7 +1,7 @@
 ---
 id: digital-identity
 title: Authentication and Digital Identity
-sidebar_label: Authentication & Digital ID
+sidebar_label: Digital Identification
 ---
 
 LACChain uses self-sovereign identity as a second layer of its blockchain-based infrastructure. It complements the first layer of public permissioned blockchain network by adding the possibility to identify and authenticate entities. The identification of entities in the system, including individuals, organizations, things and processes, is important to assign the ownership of the digital assets and determine legal responsibilities.
@@ -88,3 +88,7 @@ Integrating digital identity to blockchain networks opens new opportunities, for
 ## X.509 client certificates
 
 Certificates issued by a Certificate Authority (CA) who is responsible for validating the user's identity is commonly used for Digital Indentity. These certificates can then be used to generate blockchain private keys. Read this article on [Using X.509 PKI certificates as EOSIO blockchain identity](https://github.com/cc32d9/cc32d9_ideas_for_EOSIO/blob/master/X509_Certificates_as_EOSIO_id.md)
+
+:::note Work in Progress
+We are still working on this aspect of the documentation, if you want to improve the content you can learn [how to contribute](../guides/contribute). See the [Project Roadmap](../testnet/roadmap).
+:::

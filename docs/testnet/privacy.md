@@ -9,7 +9,9 @@ Blockchain technology provides the necessary tools to decentralize the informati
 ## Technology Review of Blockchain Data Privacy Solutions
 [This report](https://arxiv.org/pdf/2105.01316) reviews existing enterprise blockchain technologies - EOSIO powered systems, Hyperledger Fabric and Besu, Consensus Quorum, R3 Corda and Ernst and Young's Nightfall - that provide data privacy while leveraging the data integrity benefits of blockchain. By reviewing and comparing how and how well these technologies achieve data privacy, a snapshot is captured of the industry's current best practices and data privacy models. Major enterprise technologies are contrasted in parallel to EOSIO to better understand how EOSIO can evolve to meet the trends seen in enterprise blockchain privacy. The following strategies and trends were generally observed in these technologies:
 
-**Cryptography:** the hashing algorithm was found to be the most used cryptographic primitive in enterprise or changeover privacy solutions. Coordination via on-chain contracts - a common strategy was to use a shared publicly ledger to coordinate data privacy groups and more generally managed identities and access control.
+**Cryptography:** the hashing algorithm was found to be the most used cryptographic primitive in enterprise or changeover privacy solutions. 
+
+**Coordination via on-chain contracts:** a common strategy was to use a shared public ledger to coordinate data privacy groups and more generally managed identities and access control.
 
 **Transaction and contract code sharing:** there was a variety of different levels of privacy around the business logic (smart contract code) visibility. Some solutions only allowed authorised peers to view code while others made this accessible to everybody that was a member of the shared ledger.
 
@@ -24,7 +26,6 @@ Blockchain technology provides the necessary tools to decentralize the informati
 Privacy in LACChain EOSIO is focused on making data only available to a specific list of participants. In order to accomplish this a mechanism must be implemented that ensures transactions are distributed only to a list of participants who can send private transactions among them.
 
 This brings up a couple of questions:
-
 - Which accounts can see the transaction ?
 - Which nodes can see the transaction ?
 - Which nodes can see the smart contract ? 

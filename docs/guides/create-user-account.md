@@ -17,8 +17,6 @@ Here is a list of projects which register accounts on LACChain EOSIO for it's us
 
 ## Create an account though a registered entity
 
-### 1. Generate private keys
-
 ### 1. Generate a key pair
 
 Keys are a requirement to create an account on a blockchain. See the following tutorial to create [private keys](./private-keys). Once you create your key pair, public and private keys, **you must only share the public key** when requesting a new account on LACChain EOSIO.
@@ -27,7 +25,7 @@ Keys are a requirement to create an account on a blockchain. See the following t
 
 In order to create an account in LACChain EOSIO, it is necessary to establish communication with a `partner`, who are in charge of creating the accounts.
 
-To see the list of partners that are part of the network go [here] (./partners).
+To see the list of partners that are part of the network go [here](./partners).
 
 > **New account names must meet the following criteria:**
  - Not be previously registered
