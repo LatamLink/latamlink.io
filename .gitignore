@@ -12,6 +12,7 @@
 .cache-loader
 
 # misc
+yarn.lock
 .DS_Store
 .env.local
 .env.development.local
@@ -27,6 +28,5 @@ lib/core/MetadataBlog.js
 
 translated_docs
 build/
-yarn.lock
 node_modules
 i18n/*
