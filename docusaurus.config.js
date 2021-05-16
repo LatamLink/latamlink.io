@@ -11,8 +11,8 @@
 // List of projects/orgs using your project for the users page.
 
 const siteConfig = {
-  title: 'EOSIO Testnet for LACChain IADB Labs Blockchain', // Title for your website.
-  tagline: 'Technical Documentation',
+  title: 'EOSIO Pro Testnet for LACChain IADB Labs Blockchain', // Title for your website.
+  tagline: 'LACCHAIN EOSIO Technical Documentation',
   url: 'https://latamlink.io', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // Used for publishing and more
@@ -33,7 +33,7 @@ const siteConfig = {
     },
     navbar: {
       title: '',
-      hideOnScroll: true,
+      hideOnScroll: false,
       logo: {
         alt: 'Latamlink Logo',
         src: 'img/latamlink_logo-h-full-color-overwhite.svg',
@@ -53,7 +53,7 @@ const siteConfig = {
     footer: {
       links: [
         {
-          title: 'Tools',
+          title: 'Developer Tools',
           items: [
             {
               label: 'Network Monitor',
@@ -64,7 +64,7 @@ const siteConfig = {
               to: 'http://explorer.latamlink.io/',
             },
             {
-              label: 'APIs',
+              label: 'API Endpoints',
               to: 'https://latamlink.io/docs/api.html',
             },
           ],
@@ -78,7 +78,7 @@ const siteConfig = {
             },          
             {
               label: 'GitHub',
-              href: 'https://github.com/LatamLink',
+              href: 'https://github.com/lacchain',
             },
           ],
         },

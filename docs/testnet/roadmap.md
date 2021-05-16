@@ -1,7 +1,7 @@
 ---
 id: roadmap
 title: Project Roadmap
-sidebar_label: Roadmap
+sidebar_label: Project Roadmap
 ---
 
 ### Current Status: Pro TestNet in progress
