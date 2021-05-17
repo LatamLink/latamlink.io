@@ -15,7 +15,7 @@ In this video Matias Romeo explains how network resources are distributed on LAC
 ## Type of Resources
 Accounts are able to use the following network resource types:
 
-| **[RAM](/docs/testnet/resource-usage#ram)** | **[CPU](/docs/testnet/resource-usage#cpu)** | **[NET](/docs/testnet/resource-usage#net)** |
+| **[RAM](/docs/resource-usage#ram)** | **[CPU](/docs/resource-usage#cpu)** | **[NET](/docs/resource-usage#net)** |
 |:--------------:|:--------------:|:--------------:| 
 |Memory to store state | Processing time | Bandwidth to transmit data|
 | Measured in bytes | Measured in microseconds | Measured in bytes| 
