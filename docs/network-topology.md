@@ -23,7 +23,7 @@ We present the following proposal for LACChain network configuration using EOSIO
 
 	- **Layer 2 ([Bridge](/docs/testnet/network-topology#layer-2---bridge))** p2p distribution network among p2p validators and boot nodes.
 
-		- **Layer 3 ([Satellite](/docs/testnet/network-topology#layer-3---satellite))** Writer and observer nodes consumption layer.
+		- **Layer 3 ([Satellite](/docs/network-topology#layer-3---satellite))** Writer and observer nodes consumption layer.
 
 ![LACChain EOSIO Topology](/img/diagrams/topologia-nodos-2.png)
 

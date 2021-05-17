@@ -45,7 +45,7 @@ const siteConfig = {
         // {href: 'https://medium.com/@latam_link', label: 'News', position: 'right'},
         {href: 'https://dashboard.latamlink.io/', label: 'Network Dashboard', position: 'right'},
         {href: 'http://explorer.latamlink.io/', label: 'Block Explorer', position: 'right'},
-        {to: 'docs/testnet/eosio', label: 'Documentation', position: 'right'},
+        {to: 'docs/eosio', label: 'Documentation', position: 'right'},
         {href: 'https://es.latamlink.io/', label: 'Español',position: 'right',},
         {to: 'search'},
       ]

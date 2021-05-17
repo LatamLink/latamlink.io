@@ -17,7 +17,7 @@ In the LACChain EOSIO network, there are several types of accounts. See the guid
 
 ## 2. Acquire RAM
 
-Once the account is had in the LACChain EOSIO Testnet, for the contract, we will need to have resources to deploy the contract in this case RAM. For this consult about the [management of resources in the network](../testnet/resource-usage).
+Once the account is had in the LACChain EOSIO Testnet, for the contract, we will need to have resources to deploy the contract in this case RAM. For this consult about the [management of resources in the network](../resource-usage).
 
 To extract the account information and verify how many kilobytes of RAM the account has available, it can perform by executing the following command which can point to the "end-point" of any of the network partners, you can see the list of partners [here](./partners).
 

@@ -4,19 +4,19 @@ module.exports = {
       type: 'category',
       label: 'About LACChain EOSIO',
       items: [
-        'testnet/eosio',
-        'testnet/consensus-mechanism',
-        'testnet/accounts-permissions',
-        'testnet/traceability',
-        'testnet/resource-usage',
-        'testnet/network-topology',
-        'testnet/entity-node-info',
-        'testnet/monitoring',
-        'testnet/performance',
-        'testnet/digital-identity',
-        'testnet/privacy',
-        'testnet/interoperability',
-        'testnet/roadmap'
+        'eosio',
+        'consensus-mechanism',
+        'accounts-permissions',
+        'traceability',
+        'resource-usage',
+        'network-topology',
+        'entity-node-info',
+        'monitoring',
+        'performance',
+        'digital-identity',
+        'privacy',
+        'interoperability',
+        'roadmap'
       ],
     },
     {
@@ -59,6 +59,6 @@ module.exports = {
         'resources/important-functions',
         'resources/eosio-networks'
       ],
-    },
+    }
   ],  
 };
