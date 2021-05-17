@@ -66,5 +66,5 @@ Additionally, we will explore Blockchain Analytics tools and Data Science.
 Please see page on [entity and node information](./entity-node-info).
 
 :::note Work in Progress
-We are still working on this aspect of the documentation, if you want to improve the content you can learn [how to contribute](../guides/contribute). See the [Project Roadmap](./roadmap).
+We are still working on this aspect of the documentation, if you want to improve the content you can learn [how to contribute](./guides/contribute). See the [Project Roadmap](./roadmap).
 :::

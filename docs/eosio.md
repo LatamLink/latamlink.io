@@ -4,7 +4,7 @@ title: LACChain EOSIO Testnet
 sidebar_label: EOSIO Protocol
 ---
 
-**EOSIO** is an open-source software that enables users to launch highly configurable blockchain networks on which developers and entrepreneurs can run highly performant blockchain applications. [EOSIO](https://eos.io) was created in 2018 and is maintained by [Block One](https://block.one).  The first public network launched on EOSIO is called **EOS**, also referred as "mainnet". EOS is however just one of multiple public blockchain networks currently using EOSIO. Take a look at the following [EOSIO network list](../resources/eosio-networks). There are also multiple private networks currently using EOSIO.
+**EOSIO** is an open-source software that enables users to launch highly configurable blockchain networks on which developers and entrepreneurs can run highly performant blockchain applications. [EOSIO](https://eos.io) was created in 2018 and is maintained by [Block One](https://block.one).  The first public network launched on EOSIO is called **EOS**, also referred as "mainnet". EOS is however just one of multiple public blockchain networks currently using EOSIO. Take a look at the following [EOSIO network list](./resources/eosio-networks). There are also multiple private networks currently using EOSIO.
 
 Some innovative features of EOSIO include:
 
