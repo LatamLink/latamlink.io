@@ -23,7 +23,7 @@ As of May 2021
 | Boot nodes enabled                                                                                                      |   | ✓ | ✓ | ✓ | done |
 | Smart-contract based permissioning                                                                                      |   | ✓ | ✓ | ✓ | done |
 | App for managing permissioning                                                                                          |   | ✓ | ✓ | ✓ | done |
-| Privacy leveraged as native                                                                                             |   | ✓ | ✓ | ✓ |      |
+| Privacy leveraged as native                                                                                             |   | ✓ | ✓ | ✓ | in progress |
 | Dashboard for nodes                                                                                                     |   | ✓ | ✓ | ✓ | done |
 | Transaction explorer                                                                                                    |   | ✓ | ✓ | ✓ | done |
 | Dashboard of entities running nodes                                                                                     |   | ✓ | ✓ | ✓ | done |
