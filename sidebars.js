@@ -21,7 +21,7 @@ module.exports = {
     },
     {
       type: 'category',
-      label: 'Guides & How-Tos',
+      label: 'Guides and How-Tos',
       items: [
         'guides/create-user-account',
         'guides/create-contract-account',
