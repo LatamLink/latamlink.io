@@ -1,7 +1,7 @@
 ---
 id: node-installation
 title: Installing LACChain EOSIO Nodes
-sidebar_label: Installing Nodes
+sidebar_label: How to Install a Node
 ---
 
 `Nodeos` is the core software of an EOSIO blockchain. It is a deamon that performs all the functions of a blockchain node, such as synchronization with other nodes through the `p2p protocol`, provides an` HTTP API` for the client software and optionally `signs blocks` if configured with the account of a validator.
@@ -10,8 +10,7 @@ sidebar_label: Installing Nodes
 
 When planning a server installation, you have several options to select from. Often times, the selection is determined by the existing habits and preferences of the system administrator.
 
-Consult our guide on how to configure the [development environment](./development-environment) to be able to work on the LACChain EOSIO network.
-
+Consult our guide on how to configure the [development environment](./development-environment) to be able to work on the LACChain EOSIO network. In cases where you need more information about the configuration of nodes in EOSIO networks in general, find out [here](https://guias.eoscostarica.io/docs/tutoriales/instalacion-de-nodos/).
 
 ## Testnet Information  
 
