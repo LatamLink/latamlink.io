@@ -4,6 +4,14 @@ title: Installing LACChain EOSIO Nodes
 sidebar_label: How to Install a Node
 ---
 
+`Nodeos` is the core software of an EOSIO blockchain. It is a deamon that performs all the functions of a blockchain node, such as synchronization with other nodes through the `p2p protocol`, provides an` HTTP API` for the client software and optionally `signs blocks` if configured with the account of a validator.
+
+`Nodeos` is available in source code and binary packages in the [GitHub repository](https://github.com/EOSIO/eos/releases). The supported platforms are Ubuntu 16.04 and 18.04, RHEL7 and MacOS.
+
+When planning a server installation, you have several options to select from. Often times, the selection is determined by the existing habits and preferences of the system administrator.
+
+Consult our guide on how to configure the [development environment](./development-environment) to be able to work on the LACChain EOSIO network. In cases where you need more information about the configuration of nodes in EOSIO networks in general, find out [here](https://guias.eoscostarica.io/docs/tutoriales/instalacion-de-nodos/).
+
 ## Testnet Information  
 
 <table>
@@ -27,7 +35,9 @@ sidebar_label: How to Install a Node
 </tr>
 </table>
 
-See our [GitHub repository](https://github.com/lacchain/eosio-network) for more information about nodes in LACChain EOSIO.
+See our [repository on GitHub](https://github.com/lacchain/eosio-network) for more information about nodes in LACChain EOSIO. If you want to install and configure nodes from the command line, consult the [README.md](https://github.com/lacchain/eosio-network/blob/master/README.md) of our repository on GitHub, before then make sure you have installed the [development environment](./development-environment) for EOSIO.
+
+Before starting, it is important that you know some [infrastructure considerations](./infrastructure-considerations) about the nodes in EOSIO that can be useful to expand your knowledge of the network operation.
 
 ## 1. Create an account
 
