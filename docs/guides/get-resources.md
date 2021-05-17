@@ -1,7 +1,7 @@
 ---
 id: get-resources
-title: How to obtain resources in the network?
-sidebar_label: Obtaining Resources
+title: How to obtain network resources
+sidebar_label: How to Obtain Resources
 ---
 
 In the LACChain EOSIO network, users do not have CPU and NET resources, these are deducted from the account of the writer node (partner) when co-signing a transaction. They only have the same RAM that is necessary to [deploy contracts on the network](./deploy-smart-contract).

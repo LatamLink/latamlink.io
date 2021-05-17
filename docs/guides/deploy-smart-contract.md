@@ -1,7 +1,7 @@
 ---
 id: deploy-smart-contract
-title: Deploy Smart Contract
-sidebar_label: Deploy Smart Contract
+title: How to Deploy a Smart Contract
+sidebar_label: How to Deploy a Contract
 ---
 
 Below we explain with examples how to create, compile and deploy a “Hello World” contract to upload it to the LACChain EOSIO network. For this example, we are relying on resources posted by [Block.one to share with the community](http://developers.eos.io/).
@@ -10,7 +10,7 @@ Below we explain with examples how to create, compile and deploy a “Hello Worl
 
 In the LACChain EOSIO network, there are several types of accounts. See the guide to create an account according to your user role:
 
-- [Final user](./create-user-account)
+- [End User](./create-user-account)
 - [App or contract](./create-contract-account)
 - [Non-partner](./create-entity-account)
 - [Partner](./create-entity-account)

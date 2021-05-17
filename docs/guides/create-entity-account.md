@@ -1,7 +1,7 @@
 ---
 id: create-entity-account
 title: Registering Entity Accounts 
-sidebar_label: Partner Entity Accounts
+sidebar_label: How to Register as an Entity
 ---
 
 As public blockchain networks, LACChain Test Networks are open to any entity, not only in Latin America and the Caribbean but across the globe. As permissioned networks, entities must be authenticated and commit to comply with policies, and law in order to participate. 
@@ -50,7 +50,6 @@ The partners in the LACChain EOSIO network are entities that may also be part of
 Each partner has the autonomy to manage its share of network resources to it's clients and affiliates on the network. 
 
 :::note Work in Progress
-We are still working on this aspect of the network. Please refer to the [Project Roadmap](../roadmap).
+We are still working on this aspect of the documentation, if you want to improve the content you can learn [how to contribute](./contribute). See the [Project Roadmap](../testnet/roadmap).
 :::
-
 

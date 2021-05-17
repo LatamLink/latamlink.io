@@ -1,7 +1,7 @@
 ---
 id: node-installation
 title: Installing LACChain EOSIO Nodes
-sidebar_label: Installing Nodes
+sidebar_label: How to Install a Node
 ---
 
 ## Testnet Information  

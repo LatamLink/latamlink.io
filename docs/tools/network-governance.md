@@ -4,6 +4,13 @@ title: Network Governance Tool
 sidebar_label: Network Governance
 ---
 
+## EOSIO Privileged Account
+The `eosio` account  represents the permitting committee that represents the highest authority of the network. This account has unlimited access to CPU, NET, and RAM resources.
+
+You can create specific permissions for each privileged action and also you can use a multi-signature contract (or "multisig") with variable parameters that will require the consent of the majority of the actors in the table.
+
+## System Contracts
+
 LACChain EOSIO permissioning contracts are implemented as [System Contracts](https://developers.eos.io/manuals/eosio.contracts/latest/index). These contracts have access to [privileged functions](../resources/important-functions) that encapsulate the base functionality for the LACChain governance framework.
 
 [LACChain EOSOIO Systems Contracts](https://github.com/LatamLink/eosio.contracts/tree/master/contracts/lacchain.system)

@@ -6,14 +6,20 @@ sidebar_label: Resource Usage
 
 LACChain does not and will not have transaction fees. However, to regulate network usage to its technical limits and avoid denial of service attacks, it is necessary to establish a mechanism for requesting and allocating network resources.
 
-## Type of Resources
-The accounts will be able to use the following resources in the network:
+## Video on LACChain EOSIO Resources (Spanish)
 
-| **[RAM](/docs/resource-usage#ram)** | **[CPU](/docs/resource-usage#cpu)** | **[NET](/docs/resource-usage#net)** |
-:--------------:|:--------------:|:--------------:| 
-|Memory to store status|Processing time|Bandwidth to transmit information|
-|It is measured in bytes|Measured in microseconds|It is measured in bytes| 
-|It is a limited resource|CPU and NET will be fully replenished when account is not using network for 24 hours|CPU and NET will be fully replenished when account is not using network for 24 hours|
+In this video Matias Romeo explains how network resources are distributed on LACChain EOSIO network.
+
+<iframe width="100%" height="350px" src="https://www.youtube.com/embed/q-4LNfv4XtQ?start=3375" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen mark="crwd-mark"></iframe>
+
+## Type of Resources
+Accounts are able to use the following network resource types:
+
+| **[RAM](/docs/testnet/resource-usage#ram)** | **[CPU](/docs/testnet/resource-usage#cpu)** | **[NET](/docs/testnet/resource-usage#net)** |
+|:--------------:|:--------------:|:--------------:| 
+|Memory to store state | Processing time | Bandwidth to transmit data|
+| Measured in bytes | Measured in microseconds | Measured in bytes| 
+|It is a limited resource currently set at 32GB | Fully replenished when account is not using CPU for 24 hours | Fully replenished when account is not using NET for 24 hours |
 
 ### RAM
 In an EOSIO network, RAM is the memory storage space where the blockchain stores data, it is measured in kilobytes (KiB). If your contract needs to store data in a blockchain table, like in a database, then it can store it in the blockchain's RAM.

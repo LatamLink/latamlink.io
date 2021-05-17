@@ -1,14 +1,14 @@
 ---
 id: traceability
-title: Authorization and Traceability  
-sidebar_label: Authorization and Traceability  
+title: Permissions and Traceability  
+sidebar_label: Permissions and Visibility
 ---
 
-## Permisions and traceability in EOSIO
+## EOSIO Native Features
 
 In EOSIO no action is anonymous, all transactions are linked to an account, for example if you want to call the action of a contract, the call will be accompanied by an origin account that consumes that action of the smart contract.
 
-As we saw in the accounts and permissions section, EOSIO has a native system to define authorizations that satisfy permissions that can be defined for an account on the network.
+As we saw in the [accounts and authorizations](accounts-permissions) section, EOSIO has a native system to define authorizations that satisfy permissions that can be defined for an account on the network.
 
 ## Permisioning Committee
 

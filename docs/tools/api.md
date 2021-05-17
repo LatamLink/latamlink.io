@@ -1,10 +1,8 @@
 ---
 id: api
 title: Application Programming Interface
-sidebar_label: APIs
+sidebar_label: API Endpoints
 ---
-
-
 
 The term API is an abbreviation of "Application Programming Interface", which allows for the interaction of applications with the network using the HTTP protocol.
 
