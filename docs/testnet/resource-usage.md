@@ -6,6 +6,12 @@ sidebar_label: Resource Usage
 
 LACChain does not and will not have transaction fees. However, to regulate network usage to its technical limits and avoid denial of service attacks, it is necessary to establish a mechanism for requesting and allocating network resources.
 
+## Video on LACChain EOSIO Resources (Spanish)
+
+In this video Matias Romeo explains how network resources are distributed on LACChain EOSIO network.
+
+<iframe width="100%" height="350px" src="https://www.youtube.com/embed/q-4LNfv4XtQ?start=3375" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen mark="crwd-mark"></iframe>
+
 ## Type of Resources
 The accounts will be able to use the following resources in the network:
 
