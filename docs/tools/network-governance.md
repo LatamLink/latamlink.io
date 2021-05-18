@@ -22,11 +22,30 @@ This tool is to manage the permitting and the governance of LACChain EOSIO throu
 
 Some of the available functions are:
 
-### Validator node registration
+### Validator Node Registration
 
-### Active validator node changes
+![Validator node registration](/img/tutorials/networkGovernance/add-nodes-validator.png)
 
-### Resources assignment to accounts
+### Entity Registration
+
+![Entity registration](/img/tutorials/networkGovernance/registry-entities.png)
+
+### Delete Network Group
+
+![Delete network group](/img/tutorials/networkGovernance/delete-network-group.png)
+
+### Active Node Changes
+
+![Active node changes](/img/tutorials/networkGovernance/change-active-nodes.png)
+
+### Allocation of Resources to Accounts
+
+![Allocation of resources to accounts](/img/tutorials/networkGovernance/allocation-resources-accounts.png)
+
+### Remover Entidad
+
+![Remover entidad](/img/tutorials/networkGovernance/remove-entity.png)
+
 
 ### Account Blacklisting
 Accounts can be added to a blacklist that must be implemented by all validator nodes to effectively block access to an account.
