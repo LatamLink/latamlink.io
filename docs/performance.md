@@ -61,5 +61,5 @@ In order to:
 -  Use the quantum keys to sign the transactions issued by writer nodes, so that be verified by validators nodes
 
 :::note Work in Progress
-We are still working on this aspect of the documentation, if you want to improve the content you can learn [how to contribute](../guides/contribute). See the [Project Roadmap](./roadmap).
+We are still working on this aspect of the documentation, if you want to improve the content you can learn [how to contribute](./guides/contribute). See the [Project Roadmap](./roadmap).
 :::

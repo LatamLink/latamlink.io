@@ -27,8 +27,8 @@ You can see a list of [partners on LACChain EOSIO](./partners).
 
 For an entity to be permissioned to run a writer node, it is required to follow the following steps:
 
-1. Read, understand and agree with the [Terms and Conditions for Writer Nodes for LACChain Test Networks](../testnet/writer-nodes-terms-conditions) that includes the Privacy Policy, and the Forbidden Use Cases as annexes. 
-2. Fill the [Node Agreement](../testnet/node-agreement) and send it signed to info@lacchain.net (as a PDF).
+1. Read, understand and agree with the [Terms and Conditions for Writer Nodes for LACChain Test Networks](../writer-nodes-terms-conditions) that includes the Privacy Policy, and the Forbidden Use Cases as annexes. 
+2. Fill the [Node Agreement](../node-agreement) and send it signed to info@lacchain.net (as a PDF).
 3. Follow the [instructions](./node-installation) to deploy a writer node, and send us the node you get at the end of the process to info@lacchain.net to permission your node.
 
 Non-Partner entities may register new accounts on the network and allow  transactions to enter the network by co-signing the transactions with it writer node private key.
@@ -40,8 +40,8 @@ Each writer node has the autonomy to manage it's share of network resources acco
 For an entity to be permissioned to run a validator node, it is required to follow the following steps:
 
 1. Become a partner of the LACChain Alliance.
-2. Read, understand and agree with the [Terms and Conditions for Writer Nodes for LACChain Test Networks](../testnet/validator-nodes-terms-conditions) that includes the Privacy Policy, and the Forbidden Use Cases as annexes. 
-3. Fill the [Node Agreement](../testnet/node-agreement) and send it signed to info@lacchain.net (as a PDF).
+2. Read, understand and agree with the [Terms and Conditions for Writer Nodes for LACChain Test Networks](../validator-nodes-terms-conditions) that includes the Privacy Policy, and the Forbidden Use Cases as annexes. 
+3. Fill the [Node Agreement](../node-agreement) and send it signed to info@lacchain.net (as a PDF).
 4. Follow the [instructions](./node-installation) to deploy a validator node, and send us the node you get at the end of the process to info@lacchain.net to permission your node.
 
 
@@ -50,6 +50,6 @@ The partners in the LACChain EOSIO network are entities that may also be part of
 Each partner has the autonomy to manage its share of network resources to it's clients and affiliates on the network. 
 
 :::note Work in Progress
-We are still working on this aspect of the documentation, if you want to improve the content you can learn [how to contribute](./contribute). See the [Project Roadmap](../testnet/roadmap).
+We are still working on this aspect of the documentation, if you want to improve the content you can learn [how to contribute](./contribute). See the [Project Roadmap](../roadmap).
 :::
 

@@ -28,5 +28,5 @@ To see the list of partners that are part of the network go [here](./partners).
  Please refer to the following article [obtain resources](get-resources)
 
 :::note Work in Progress
-We are still working on this aspect of the documentation, if you want to improve the content you can learn [how to contribute](./contribute). See the [Project Roadmap](../testnet/roadmap).
+We are still working on this aspect of the documentation, if you want to improve the content you can learn [how to contribute](./contribute). See the [Project Roadmap](../roadmap).
 :::
