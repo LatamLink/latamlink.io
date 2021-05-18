@@ -6,11 +6,11 @@ sidebar_label: How to Install a Node
 
 `Nodeos` is the core software of an EOSIO blockchain. It is a deamon that performs all the functions of a blockchain node, such as synchronization with other nodes through the `p2p protocol`, provides an` HTTP API` for the client software and optionally `signs blocks` if configured with the account of a validator.
 
-`Nodeos` is available in source code and binary packages in the [GitHub repository](https://github.com/EOSIO/eos/releases). The supported platforms are Ubuntu 16.04 and 18.04, RHEL7 and MacOS.
+`Nodeos` is available in source code and binary packages in the [EOSIO GitHub repository](https://github.com/EOSIO/eos/releases). The supported platforms are Ubuntu 16.04 and 18.04, RHEL7 and MacOS.
 
 When planning a server installation, you have several options to select from. Often times, the selection is determined by the existing habits and preferences of the system administrator.
 
-Consult our guide on how to configure the [development environment](./development-environment) to be able to work on the LACChain EOSIO network. In cases where you need more information about the configuration of nodes in EOSIO networks in general, find out [here](https://guias.eoscostarica.io/docs/tutoriales/instalacion-de-nodos/).
+ You may also find more useful information about [how to install and configure nodeos](https://guide.eoscostarica.io/docs/tutorials/node-installation) in EOS Costa Rica's developer guides. Consult our guide on how to configure the [development environment](./development-environment) to be able to work on the LACChain EOSIO network.
 
 ## Testnet Information  
 
