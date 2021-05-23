@@ -343,7 +343,7 @@ const ToolsSection = () => {
           </Grid>
           <Grid item xs={12} sm={12} md={4}>
             <CustomCard 
-              href="https://dashboard.latamlink.io"
+              href="https://lacchain.eosio.online"
               img="images/latamlink_Monitor_1014.svg"
               title="Network Monitor"
               body="A network monitor service that allows for tracebility of network activity."

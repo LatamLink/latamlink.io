@@ -12,7 +12,7 @@ The permitting committee reserves the discretionary right to remove a validator 
 
 A native LACChain EOSIO network monitor has been developed as a tool for developers and users for the launch of Pro Testnet. The monitor will incorporate "on-chain" and "off-chain" metrics
 
-The network monitor is available at the following link: ** https://dashboard.latamlink.io**
+The network monitor is available at the following link: ** https://lacchain.eosio.online**
 
 The network monitor is completely open source and you can see the project in the following [**GitHub repository**](https://github.com/eoscostarica/eosio-dashboard)
 
@@ -26,7 +26,7 @@ This CPU speed metric uses the CPU time consumed by calculating the Mersenne pri
 
 The `cpu` action is executed during the production shift of each block producer and records the contract execution times using the `cpu_usage_us` field included in all network transactions.
 
-[** See validator nodes CPU metrics **](https://dashboard.latamlink.io/node-performance)
+[** See validator nodes CPU metrics **](https://lacchain.eosio.online/node-performance)
 
 ### RAM Benchmark
 This metric consists of quickly writing and reading to a RAM table and in a very similar way to the CPU metric it tries to measure the performance of the resources offered by the different validator nodes.

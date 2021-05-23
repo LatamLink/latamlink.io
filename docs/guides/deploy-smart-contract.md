@@ -121,7 +121,7 @@ By this point in the execution, we already have our smart contract deployed in L
 
 ## 6. Contract Verification
 
-For this we go to the ([LACChain EOSIO Dashboard](https://dashboard.latamlink.io/accounts)), we can verify that the account is the owner of a contract that exposes the action `hello` and that it contains the information ABI in which the actions within the contract and associated components are specified in a JSON structure.
+For this we go to the ([LACChain EOSIO Dashboard](https://lacchain.eosio.online/accounts)), we can verify that the account is the owner of a contract that exposes the action `hello` and that it contains the information ABI in which the actions within the contract and associated components are specified in a JSON structure.
 
 Once the contract is ready, we can execute an action on the contract, it will receive as input the phrase **LACChain EOSIO** and it will be obtained as output **hello LACChain EOSIO**. For this we must execute the following command:
 

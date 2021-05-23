@@ -18,7 +18,7 @@ LACChain EOSIO permissioning contracts are implemented as [System Contracts](htt
 ## Graphic Interface for Permisioning Committee
 This tool is to manage the permitting and the governance of LACChain EOSIO through Smart Contract.
 
-[GUI tool to facilitate network management by the permitting committee](https://dashboard.latamlink.io/management)
+[GUI tool to facilitate network management by the permitting committee](https://lacchain.eosio.online/management)
 
 Some of the available functions are:
 
