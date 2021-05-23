@@ -21,7 +21,7 @@ Here are some examples of HTTP RPC endpoints
   - Observer Node (read only) : [https://observer.eosio.cr](https://latamlink.eosio.cr/v1/chain/get_info)
   - Writer Node (no middleware) : [https://writer.eosio.cr](https://latamlink.eosio.cr/v1/chain/get_info) 
 
-The complete list of endpoints is available at the following link: [LACChain EOSIO Endpoints](https://dashboard.latamlink.io/endpoints)
+The complete list of endpoints is available at the following link: [LACChain EOSIO Endpoints](https://lacchain.eosio.online/endpoints)
 
 ### State History Plugin Endpoints 
 Observers can enable nodeos `State_history_plugin` which is useful for capturing historical data on the state of the blockchain. The plugin receives blockchain data from other connected nodes and stores the data in files. The plugin exposes an endpoint where it listens using web sockets for applications to connect and query the blockchain data based on the plugin options specified when starting nodeos.
